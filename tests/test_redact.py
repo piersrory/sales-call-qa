@@ -8,6 +8,28 @@ def test_name_and_date_of_birth_are_replaced():
     assert "1985" not in redacted
 
 
+def test_spoken_dates_of_birth_are_replaced():
+    # Each of these is how a customer or agent said it in data/calls
+    for spoken in [
+        "Born the fourteenth of March, 1987.",
+        "It's the 14th of March, 1993.",
+        "Born March 14th, 1986.",
+        "March the fourteenth, 1961.",
+        "Fourteenth of March, 1984.",
+        "The fourteenth of March, nineteen fifty-one.",
+        "That's the twenty-third of May, two thousand and one.",
+        "It's 14/3/87.",
+    ]:
+        redacted = redact(spoken)
+        assert "<DATE_OF_BIRTH>" in redacted, spoken
+        assert not any(word in redacted for word in ("March", "May", "14", "fourteenth")), redacted
+
+
+def test_a_month_or_year_on_its_own_is_left_alone():
+    text = "I finished the physio in August, and gave up smoking in 1994."
+    assert redact(text) == text
+
+
 def test_product_facts_are_left_alone():
     text = (
         "Only accidental death is covered in the first 12 months. "
