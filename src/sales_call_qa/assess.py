@@ -1,11 +1,25 @@
-from sales_call_qa.schemas import Call
+from sales_call_qa.schemas import Call, Assessment
 from sales_call_qa.generate_calls import REPO_ROOT
 from sales_call_qa.redact import redact
 from sales_call_qa.rubric import RUBRIC, Criterion
 from sales_call_qa.markets import Market, PRODUCTS
+import asyncio
+import logging
+import anthropic
+import pydantic
+
+from sales_call_qa.generate_calls import (
+    DEFAULT_MODEL,
+    MAX_ATTEMPTS,
+    REPO_ROOT,
+    fallback_options,
+)
+from dotenv import load_dotenv
+
+log = logging.getLogger(__name__)
 
 
-PROMPT = """
+SYSTEM_PROMPT = """
 You are an experienced customer service assessor. 
 Your job is to assess transcripts from agent and customer calls.
 Judge only from the transcript, and quote its exact words
@@ -49,23 +63,71 @@ def build_prompt(call: Call) -> str:
     return f"""Market: {call.market}
 Product: {product.name} ({product.currency})
 
-Product facts: 
+Product facts:
 {format_facts(call)}
 
-Criteria to assess: 
+Criteria to assess:
 {format_criteria(call)}
 
 <transcript>
 {redacted_transcript(call)}
-<transcript>"""
+</transcript>"""
+
+
+async def assess_call(client: anthropic.AsyncAnthropic, call: Call, model: str):
+    """Ask Claude to assess one call. Returns None if it can't produce an assessment."""
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        try:
+            response = await client.beta.messages.parse(
+                model=model,
+                max_tokens=8000,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": build_prompt(call)}],
+                output_format=Assessment,
+                output_config={"effort": "medium"},
+                **fallback_options(model),
+            )
+        except pydantic.ValidationError:
+            log.warning(
+                "%s: attempt %d returned cut-off JSON, retrying", call.call_id, attempt
+            )
+            continue
+        except anthropic.APIStatusError as e:
+            if e.status_code != 429 and e.status_code < 500:
+                raise  # a bad request or key won't fix itself, so stop the whole run
+            log.warning(
+                "%s: API error %s after the SDK's retries, skipping",
+                call.call_id,
+                e.status_code,
+            )
+            return None
+        except anthropic.APIConnectionError:
+            log.warning(
+                "%s: network error after the SDK's retries, skipping", call.call_id
+            )
+            return None
+
+        if response.stop_reason == "refusal":
+            log.warning(
+                "%s: Claude declined to assess this call, skipping", call.call_id
+            )
+            return None
+        assessment = response.parsed_output
+        if response.stop_reason == "max_tokens" or assessment is None:
+            log.warning("%s: attempt %d was cut off, retrying", call.call_id, attempt)
+            continue
+        return response
+    log.error("%s: no usable assessment after %d attempts", call.call_id, MAX_ATTEMPTS)
+    return None
+
+
+async def main():
+    load_dotenv(REPO_ROOT / ".env")
+    async with anthropic.AsyncAnthropic(max_retries=5) as client:
+        response = await assess_call(client, load_call("call-001"), DEFAULT_MODEL)
+        for v in response.parsed_output.verdicts:
+            print(v.verdict, v.criterion, v.timestamp, v.evidence[:60])
 
 
 if __name__ == "__main__":
-    call = load_call("call-001")
-    print(call.market, len(call.turns))
-    print(redacted_transcript(call))
-    for market in Market:
-        print(market, [c.id for c in applicable_criteria(market)])
-    print(format_facts(call))
-    print(format_criteria(call))
-    print(build_prompt(load_call("call-010")))
+    asyncio.run(main())
