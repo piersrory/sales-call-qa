@@ -1,0 +1,1873 @@
+{
+  "message": {
+    "timestamp": 1793456356917,
+    "type": "end-of-call-report",
+    "analysis": {},
+    "artifact": {
+      "messages": [
+        {
+          "role": "system",
+          "message": "You are Sales Call QA, a realistic prospect for sales-call practice and quality assurance. Stay in character as a potential customer throughout the call. Be professional, natural, and concise. Do not coach the caller during the roleplay. Ask realistic follow-up questions, raise occasional reasonable objections, and avoid volunteering information the caller has not earned through good discovery. Adapt your interest level to the caller's clarity, listening, and relevance. Never claim access to company systems, pricing databases, calendars, or customer records. If the caller explicitly ends the exercise, asks to stop, or the conversation has clearly concluded, briefly close the conversation and use the end-call tool.",
+          "time": 1793456284330,
+          "secondsFromStart": 0
+        },
+        {
+          "role": "bot",
+          "message": "Hi, this is Alex. Who am I speaking with?",
+          "time": 1793456285525,
+          "endTime": 1793456286785,
+          "secondsFromStart": 0.78,
+          "duration": 1260,
+          "source": "",
+          "assistantName": "Sales Call QA",
+          "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+        },
+        {
+          "role": "user",
+          "message": "Hi, this is Sam.",
+          "time": 1793456289390,
+          "endTime": 1793456290230,
+          "secondsFromStart": 4.645,
+          "duration": 840,
+          "metadata": {
+            "wordLevelConfidence": [
+              {
+                "word": "H",
+                "start": 4.62,
+                "end": 4.68,
+                "confidence": 0.997,
+                "punctuated_word": "H",
+                "language": "en"
+              },
+              {
+                "word": "i,",
+                "start": 4.74,
+                "end": 4.8,
+                "confidence": 0.997,
+                "punctuated_word": "i,",
+                "language": "en"
+              },
+              {
+                "word": "this",
+                "start": 4.8,
+                "end": 4.86,
+                "confidence": 1,
+                "punctuated_word": "this",
+                "language": "en"
+              },
+              {
+                "word": "is",
+                "start": 4.92,
+                "end": 4.98,
+                "confidence": 1,
+                "punctuated_word": "is",
+                "language": "en"
+              },
+              {
+                "word": "Pi",
+                "start": 5.22,
+                "end": 5.28,
+                "confidence": 0.569,
+                "punctuated_word": "Pi",
+                "language": "en"
+              },
+              {
+                "word": "ers.",
+                "start": 5.4,
+                "end": 5.46,
+                "confidence": 0.864,
+                "punctuated_word": "ers.",
+                "language": "en"
+              }
+            ]
+          },
+          "confidence": 0.9045,
+          "confidenceSource": "derived"
+        },
+        {
+          "role": "bot",
+          "message": "Hi, Sam. Thanks for taking my call. I work with companies to help improve their customer engagement through personalized marketing automation. Can I ask, how are you currently managing your customer outreach and marketing campaigns?",
+          "time": 1793456292665,
+          "endTime": 1793456303105,
+          "secondsFromStart": 7.92,
+          "duration": 9600,
+          "source": "",
+          "assistantName": "Sales Call QA",
+          "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+        },
+        {
+          "role": "user",
+          "message": "That's a good question.",
+          "time": 1793456307990,
+          "endTime": 1793456308770,
+          "secondsFromStart": 23.245,
+          "duration": 780,
+          "metadata": {
+            "wordLevelConfidence": [
+              {
+                "word": "That",
+                "start": 23.22,
+                "end": 23.28,
+                "confidence": 0.884,
+                "punctuated_word": "That",
+                "language": "en"
+              },
+              {
+                "word": "'s",
+                "start": 23.4,
+                "end": 23.46,
+                "confidence": 0.999,
+                "punctuated_word": "'s",
+                "language": "en"
+              },
+              {
+                "word": "a",
+                "start": 23.52,
+                "end": 23.58,
+                "confidence": 1,
+                "punctuated_word": "a",
+                "language": "en"
+              },
+              {
+                "word": "go",
+                "start": 23.58,
+                "end": 23.64,
+                "confidence": 1,
+                "punctuated_word": "go",
+                "language": "en"
+              },
+              {
+                "word": "od",
+                "start": 23.64,
+                "end": 23.7,
+                "confidence": 1,
+                "punctuated_word": "od",
+                "language": "en"
+              },
+              {
+                "word": "qu",
+                "start": 23.76,
+                "end": 23.82,
+                "confidence": 1,
+                "punctuated_word": "qu",
+                "language": "en"
+              },
+              {
+                "word": "es",
+                "start": 23.82,
+                "end": 23.88,
+                "confidence": 1,
+                "punctuated_word": "es",
+                "language": "en"
+              },
+              {
+                "word": "tion.",
+                "start": 23.94,
+                "end": 24,
+                "confidence": 0.997,
+                "punctuated_word": "tion.",
+                "language": "en"
+              }
+            ]
+          },
+          "confidence": 0.985,
+          "confidenceSource": "derived"
+        },
+        {
+          "role": "bot",
+          "message": "Thanks, Sam.",
+          "time": 1793456310425,
+          "endTime": 1793456311145,
+          "secondsFromStart": 25.68,
+          "duration": 720,
+          "source": "",
+          "assistantName": "Sales Call QA",
+          "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+        },
+        {
+          "role": "user",
+          "message": "We have several different ways of managing\u2014",
+          "time": 1793456310630,
+          "endTime": 1793456313810,
+          "secondsFromStart": 25.885,
+          "duration": 3180,
+          "metadata": {
+            "wordLevelConfidence": [
+              {
+                "word": "We",
+                "start": 25.86,
+                "end": 25.92,
+                "confidence": 0.998,
+                "punctuated_word": "We",
+                "language": "en"
+              },
+              {
+                "word": "have",
+                "start": 26.16,
+                "end": 26.22,
+                "confidence": 1,
+                "punctuated_word": "have",
+                "language": "en"
+              },
+              {
+                "word": "several",
+                "start": 26.58,
+                "end": 26.64,
+                "confidence": 0.991,
+                "punctuated_word": "several",
+                "language": "en"
+              },
+              {
+                "word": "different",
+                "start": 26.94,
+                "end": 27,
+                "confidence": 0.998,
+                "punctuated_word": "different",
+                "language": "en"
+              },
+              {
+                "word": "w",
+                "start": 27.24,
+                "end": 27.3,
+                "confidence": 1,
+                "punctuated_word": "w",
+                "language": "en"
+              },
+              {
+                "word": "ays",
+                "start": 27.36,
+                "end": 27.42,
+                "confidence": 1,
+                "punctuated_word": "ays",
+                "language": "en"
+              },
+              {
+                "word": "of",
+                "start": 27.48,
+                "end": 27.54,
+                "confidence": 1,
+                "punctuated_word": "of",
+                "language": "en"
+              },
+              {
+                "word": "man",
+                "start": 27.78,
+                "end": 27.84,
+                "confidence": 1,
+                "punctuated_word": "man",
+                "language": "en"
+              },
+              {
+                "word": "ag",
+                "start": 27.96,
+                "end": 28.02,
+                "confidence": 1,
+                "punctuated_word": "ag",
+                "language": "en"
+              },
+              {
+                "word": "ing",
+                "start": 28.32,
+                "end": 28.38,
+                "confidence": 0.88,
+                "punctuated_word": "ing",
+                "language": "en"
+              },
+              {
+                "word": "\u2014",
+                "start": 28.98,
+                "end": 29.04,
+                "confidence": 0.935,
+                "punctuated_word": "\u2014",
+                "language": "en"
+              }
+            ]
+          },
+          "confidence": 0.9820000000000001,
+          "confidenceSource": "derived"
+        },
+        {
+          "role": "bot",
+          "message": "I appreciate you sharing that. Could you tell me a bit more about the different ways you're managing your customer outreach? For example, are you using specific software platforms, or is it more manual?",
+          "time": 1793456315345,
+          "endTime": 1793456323625,
+          "secondsFromStart": 30.6,
+          "duration": 7560,
+          "source": "",
+          "assistantName": "Sales Call QA",
+          "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+        },
+        {
+          "role": "user",
+          "message": "It's specific software, and we're trying to. Use AI to automate our systems.",
+          "time": 1793456328390,
+          "endTime": 1793456333850,
+          "secondsFromStart": 43.645,
+          "duration": 4920,
+          "metadata": {
+            "wordLevelConfidence": [
+              {
+                "word": "It",
+                "start": 43.62,
+                "end": 43.68,
+                "confidence": 0.999,
+                "punctuated_word": "It",
+                "language": "en"
+              },
+              {
+                "word": "'s",
+                "start": 43.74,
+                "end": 43.8,
+                "confidence": 0.999,
+                "punctuated_word": "'s",
+                "language": "en"
+              },
+              {
+                "word": "speci",
+                "start": 43.86,
+                "end": 43.92,
+                "confidence": 0.99,
+                "punctuated_word": "speci",
+                "language": "en"
+              },
+              {
+                "word": "fic",
+                "start": 43.98,
+                "end": 44.04,
+                "confidence": 1,
+                "punctuated_word": "fic",
+                "language": "en"
+              },
+              {
+                "word": "soft",
+                "start": 44.52,
+                "end": 44.58,
+                "confidence": 0.995,
+                "punctuated_word": "soft",
+                "language": "en"
+              },
+              {
+                "word": "war",
+                "start": 44.82,
+                "end": 44.88,
+                "confidence": 0.561,
+                "punctuated_word": "war",
+                "language": "en"
+              },
+              {
+                "word": "e,",
+                "start": 45.3,
+                "end": 45.36,
+                "confidence": 0.967,
+                "punctuated_word": "e,",
+                "language": "en"
+              },
+              {
+                "word": "and",
+                "start": 45.36,
+                "end": 45.42,
+                "confidence": 1,
+                "punctuated_word": "and",
+                "language": "en"
+              },
+              {
+                "word": "we",
+                "start": 45.48,
+                "end": 45.54,
+                "confidence": 1,
+                "punctuated_word": "we",
+                "language": "en"
+              },
+              {
+                "word": "'",
+                "start": 45.6,
+                "end": 45.66,
+                "confidence": 1,
+                "punctuated_word": "'",
+                "language": "en"
+              },
+              {
+                "word": "re",
+                "start": 45.66,
+                "end": 45.72,
+                "confidence": 1,
+                "punctuated_word": "re",
+                "language": "en"
+              },
+              {
+                "word": "tr",
+                "start": 45.72,
+                "end": 45.78,
+                "confidence": 1,
+                "punctuated_word": "tr",
+                "language": "en"
+              },
+              {
+                "word": "y",
+                "start": 45.78,
+                "end": 45.84,
+                "confidence": 1,
+                "punctuated_word": "y",
+                "language": "en"
+              },
+              {
+                "word": "ing",
+                "start": 45.84,
+                "end": 45.9,
+                "confidence": 1,
+                "punctuated_word": "ing",
+                "language": "en"
+              },
+              {
+                "word": "to",
+                "start": 45.96,
+                "end": 46.02,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "language": "en"
+              },
+              {
+                "word": ".",
+                "start": 46.62,
+                "end": 46.68,
+                "confidence": 0.5,
+                "punctuated_word": ".",
+                "language": "en"
+              },
+              {
+                "word": "U",
+                "start": 47.22,
+                "end": 47.28,
+                "confidence": 0.998,
+                "punctuated_word": "U",
+                "language": "en"
+              },
+              {
+                "word": "se",
+                "start": 47.34,
+                "end": 47.4,
+                "confidence": 1,
+                "punctuated_word": "se",
+                "language": "en"
+              },
+              {
+                "word": "A",
+                "start": 47.64,
+                "end": 47.7,
+                "confidence": 1,
+                "punctuated_word": "A",
+                "language": "en"
+              },
+              {
+                "word": "I",
+                "start": 47.82,
+                "end": 47.88,
+                "confidence": 0.999,
+                "punctuated_word": "I",
+                "language": "en"
+              },
+              {
+                "word": "to",
+                "start": 48,
+                "end": 48.06,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "language": "en"
+              },
+              {
+                "word": "autom",
+                "start": 48.3,
+                "end": 48.36,
+                "confidence": 0.998,
+                "punctuated_word": "autom",
+                "language": "en"
+              },
+              {
+                "word": "ate",
+                "start": 48.54,
+                "end": 48.6,
+                "confidence": 1,
+                "punctuated_word": "ate",
+                "language": "en"
+              },
+              {
+                "word": "o",
+                "start": 48.72,
+                "end": 48.78,
+                "confidence": 1,
+                "punctuated_word": "o",
+                "language": "en"
+              },
+              {
+                "word": "ur",
+                "start": 48.84,
+                "end": 48.9,
+                "confidence": 1,
+                "punctuated_word": "ur",
+                "language": "en"
+              },
+              {
+                "word": "system",
+                "start": 49.02,
+                "end": 49.08,
+                "confidence": 0.913,
+                "punctuated_word": "system",
+                "language": "en"
+              },
+              {
+                "word": "s.",
+                "start": 49.08,
+                "end": 49.08,
+                "confidence": 0.998,
+                "punctuated_word": "s.",
+                "language": "en"
+              }
+            ]
+          },
+          "confidence": 0.9381875,
+          "confidenceSource": "derived"
+        },
+        {
+          "role": "bot",
+          "message": "That sounds like a smart move. Are you currently facing any challenges with your existing software or AI automation efforts that you'd like to improve?",
+          "time": 1793456335565,
+          "endTime": 1793456341745,
+          "secondsFromStart": 50.82,
+          "duration": 6180,
+          "source": "",
+          "assistantName": "Sales Call QA",
+          "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+        },
+        {
+          "role": "user",
+          "message": "Sorry, I have to go now. Please end the call.",
+          "time": 1793456345010,
+          "endTime": 1793456346810,
+          "secondsFromStart": 60.265,
+          "duration": 1080,
+          "metadata": {
+            "wordLevelConfidence": [
+              {
+                "word": "Sor",
+                "start": 60.24,
+                "end": 60.3,
+                "confidence": 1,
+                "punctuated_word": "Sor",
+                "language": "en"
+              },
+              {
+                "word": "ry,",
+                "start": 60.36,
+                "end": 60.42,
+                "confidence": 0.991,
+                "punctuated_word": "ry,",
+                "language": "en"
+              },
+              {
+                "word": "I",
+                "start": 60.48,
+                "end": 60.54,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "language": "en"
+              },
+              {
+                "word": "have",
+                "start": 60.6,
+                "end": 60.66,
+                "confidence": 1,
+                "punctuated_word": "have",
+                "language": "en"
+              },
+              {
+                "word": "to",
+                "start": 60.66,
+                "end": 60.72,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "language": "en"
+              },
+              {
+                "word": "go",
+                "start": 60.78,
+                "end": 60.84,
+                "confidence": 0.999,
+                "punctuated_word": "go",
+                "language": "en"
+              },
+              {
+                "word": "now",
+                "start": 60.9,
+                "end": 60.96,
+                "confidence": 1,
+                "punctuated_word": "now",
+                "language": "en"
+              },
+              {
+                "word": ".",
+                "start": 60.96,
+                "end": 60.96,
+                "confidence": 0.896,
+                "punctuated_word": ".",
+                "language": "en"
+              },
+              {
+                "word": "P",
+                "start": 61.68,
+                "end": 61.74,
+                "confidence": 0.986,
+                "punctuated_word": "P",
+                "language": "en"
+              },
+              {
+                "word": "le",
+                "start": 61.74,
+                "end": 61.8,
+                "confidence": 1,
+                "punctuated_word": "le",
+                "language": "en"
+              },
+              {
+                "word": "ase",
+                "start": 61.8,
+                "end": 61.86,
+                "confidence": 0.999,
+                "punctuated_word": "ase",
+                "language": "en"
+              },
+              {
+                "word": "end",
+                "start": 61.98,
+                "end": 62.04,
+                "confidence": 0.999,
+                "punctuated_word": "end",
+                "language": "en"
+              },
+              {
+                "word": "the",
+                "start": 62.04,
+                "end": 62.04,
+                "confidence": 1,
+                "punctuated_word": "the",
+                "language": "en"
+              },
+              {
+                "word": "call",
+                "start": 62.04,
+                "end": 62.04,
+                "confidence": 0.724,
+                "punctuated_word": "call",
+                "language": "en"
+              },
+              {
+                "word": ".",
+                "start": 62.04,
+                "end": 62.04,
+                "confidence": 0.9,
+                "punctuated_word": ".",
+                "language": "en"
+              }
+            ]
+          },
+          "confidence": 0.9440000000000001,
+          "confidenceSource": "derived"
+        },
+        {
+          "toolCalls": [
+            {
+              "id": "call_SIX2mZY52Sh6J52yAEM0UvhH",
+              "type": "function",
+              "function": {
+                "name": "end_sales_qa_call",
+                "arguments": "{}"
+              }
+            }
+          ],
+          "role": "tool_calls",
+          "message": "",
+          "time": 1793456351221,
+          "secondsFromStart": 66.476
+        },
+        {
+          "role": "tool_call_result",
+          "time": 1793456352951,
+          "secondsFromStart": 68.206,
+          "name": "end_sales_qa_call",
+          "result": "Success.",
+          "toolCallId": "call_SIX2mZY52Sh6J52yAEM0UvhH"
+        }
+      ],
+      "messagesOpenAIFormatted": [
+        {
+          "role": "system",
+          "content": "You are Sales Call QA, a realistic prospect for sales-call practice and quality assurance. Stay in character as a potential customer throughout the call. Be professional, natural, and concise. Do not coach the caller during the roleplay. Ask realistic follow-up questions, raise occasional reasonable objections, and avoid volunteering information the caller has not earned through good discovery. Adapt your interest level to the caller's clarity, listening, and relevance. Never claim access to company systems, pricing databases, calendars, or customer records. If the caller explicitly ends the exercise, asks to stop, or the conversation has clearly concluded, briefly close the conversation and use the end-call tool."
+        },
+        {
+          "role": "assistant",
+          "content": "Hi, this is Alex. Who am I speaking with?"
+        },
+        {
+          "role": "user",
+          "content": "Hi, this is Sam."
+        },
+        {
+          "role": "assistant",
+          "content": "Hi, Sam. Thanks for taking my call. I work with companies to help improve their customer engagement through personalized marketing automation. Can I ask, how are you currently managing your customer outreach and marketing campaigns?"
+        },
+        {
+          "role": "user",
+          "content": "That's a good question."
+        },
+        {
+          "role": "assistant",
+          "content": "Thanks, Sam."
+        },
+        {
+          "role": "user",
+          "content": "We have several different ways of managing\u2014"
+        },
+        {
+          "role": "assistant",
+          "content": "I appreciate you sharing that. Could you tell me a bit more about the different ways you're managing your customer outreach? For example, are you using specific software platforms, or is it more manual?"
+        },
+        {
+          "role": "user",
+          "content": "It's specific software, and we're trying to. Use AI to automate our systems."
+        },
+        {
+          "role": "assistant",
+          "content": "That sounds like a smart move. Are you currently facing any challenges with your existing software or AI automation efforts that you'd like to improve?"
+        },
+        {
+          "role": "user",
+          "content": "Sorry, I have to go now. Please end the call."
+        },
+        {
+          "role": "assistant",
+          "tool_calls": [
+            {
+              "id": "call_SIX2mZY52Sh6J52yAEM0UvhH",
+              "type": "function",
+              "function": {
+                "name": "end_sales_qa_call",
+                "arguments": "{}"
+              }
+            }
+          ]
+        },
+        {
+          "role": "tool",
+          "tool_call_id": "call_SIX2mZY52Sh6J52yAEM0UvhH",
+          "content": "Success."
+        }
+      ],
+      "transcript": "AI: Hi, this is Alex. Who am I speaking with?\nUser: Hi, this is Sam.\nAI: Hi, Sam. Thanks for taking my call. I work with companies to help improve their customer engagement through personalized marketing automation. Can I ask, how are you currently managing your customer outreach and marketing campaigns?\nUser: That's a good question.\nAI: Thanks, Sam.\nUser: We have several different ways of managing\u2014\nAI: I appreciate you sharing that. Could you tell me a bit more about the different ways you're managing your customer outreach? For example, are you using specific software platforms, or is it more manual?\nUser: It's specific software, and we're trying to. Use AI to automate our systems.\nAI: That sounds like a smart move. Are you currently facing any challenges with your existing software or AI automation efforts that you'd like to improve?\nUser: Sorry, I have to go now. Please end the call.\n",
+      "recordingUrl": "https://example.com/recordingUrl",
+      "stereoRecordingUrl": "https://example.com/stereoRecordingUrl",
+      "logUrl": "https://example.com/logUrl",
+      "recording": {
+        "stereoUrl": "https://example.com/stereoUrl",
+        "mono": {
+          "combinedUrl": "https://example.com/combinedUrl",
+          "assistantUrl": "https://example.com/assistantUrl",
+          "customerUrl": "https://example.com/customerUrl"
+        }
+      },
+      "nodes": [],
+      "assistantActivations": [
+        {
+          "assistantName": "Sales Call QA",
+          "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5",
+          "assistantVersion": "v2"
+        }
+      ],
+      "variables": {
+        "now": "Oct 31, 2026, 2:18 PM UTC",
+        "currentDateTime": "Saturday, October 31, 2026 at 2:18 PM UTC",
+        "date": "Oct 31, 2026 UTC",
+        "time": "2:18 PM UTC",
+        "year": "2026",
+        "month": "October",
+        "day": "31",
+        "transport": {
+          "conversationType": "voice",
+          "provider": "daily",
+          "videoRecordingEnabled": false,
+          "assistantVideoEnabled": false,
+          "roomDeleteOnUserLeaveEnabled": true,
+          "callUrl": "https://example.com/callUrl"
+        },
+        "call": {
+          "id": "01a19253-2214-7000-aa95-3f3c8742f308",
+          "type": "webCall",
+          "status": "queued",
+          "createdAt": "2026-10-31T14:18:04.180Z",
+          "transport": {
+            "conversationType": "voice",
+            "provider": "daily",
+            "videoRecordingEnabled": false,
+            "assistantVideoEnabled": false,
+            "roomDeleteOnUserLeaveEnabled": true,
+            "callUrl": "https://example.com/callUrl"
+          }
+        }
+      },
+      "variableValues": {
+        "now": "Oct 31, 2026, 2:18 PM UTC",
+        "currentDateTime": "Saturday, October 31, 2026 at 2:18 PM UTC",
+        "date": "Oct 31, 2026 UTC",
+        "time": "2:18 PM UTC",
+        "year": "2026",
+        "month": "October",
+        "day": "31",
+        "transport": {
+          "conversationType": "voice",
+          "provider": "daily",
+          "videoRecordingEnabled": false,
+          "assistantVideoEnabled": false,
+          "roomDeleteOnUserLeaveEnabled": true,
+          "callUrl": "https://example.com/callUrl"
+        },
+        "call": {
+          "id": "01a19253-2214-7000-aa95-3f3c8742f308",
+          "type": "webCall",
+          "status": "queued",
+          "createdAt": "2026-10-31T14:18:04.180Z",
+          "transport": {
+            "conversationType": "voice",
+            "provider": "daily",
+            "videoRecordingEnabled": false,
+            "assistantVideoEnabled": false,
+            "roomDeleteOnUserLeaveEnabled": true,
+            "callUrl": "https://example.com/callUrl"
+          }
+        }
+      },
+      "performanceMetrics": {
+        "turnLatencies": [
+          {
+            "modelLatency": 652,
+            "voiceLatency": 408,
+            "transcriberLatency": 619,
+            "endpointingLatency": 603,
+            "turnLatency": 2327
+          },
+          {
+            "modelLatency": 618,
+            "voiceLatency": 449,
+            "transcriberLatency": 188,
+            "endpointingLatency": 1,
+            "turnLatency": 1280
+          },
+          {
+            "modelLatency": 691,
+            "voiceLatency": 372,
+            "transcriberLatency": 577,
+            "endpointingLatency": 603,
+            "turnLatency": 2277
+          },
+          {
+            "modelLatency": 593,
+            "voiceLatency": 447,
+            "transcriberLatency": 307,
+            "endpointingLatency": 1,
+            "turnLatency": 1379
+          },
+          {
+            "modelLatency": 0,
+            "voiceLatency": 0,
+            "transcriberLatency": 225,
+            "endpointingLatency": 3,
+            "turnLatency": 1013
+          }
+        ],
+        "modelLatencyAverage": 510.8,
+        "voiceLatencyAverage": 335.2,
+        "transcriberLatencyAverage": 383.2,
+        "endpointingLatencyAverage": 242.2,
+        "turnLatencyAverage": 1655.2,
+        "numAssistantInterrupted": 1,
+        "fromTransportLatencyAverage": 20,
+        "toTransportLatencyAverage": 49
+      },
+      "scorecards": {},
+      "transfers": [],
+      "presignedLogUrl": "https://example.com/presignedLogUrl",
+      "presignedMonoUrl": "https://example.com/presignedMonoUrl",
+      "presignedStereoUrl": "https://example.com/presignedStereoUrl",
+      "presignedAssistantUrl": "https://example.com/presignedAssistantUrl",
+      "presignedCustomerUrl": "https://example.com/presignedCustomerUrl",
+      "presignedUrlsExpiresAt": "2026-10-31T14:49:16.910Z"
+    },
+    "startedAt": "2026-10-31T14:18:04.745Z",
+    "endedAt": "2026-10-31T14:19:12.961Z",
+    "endedReason": "assistant-ended-call",
+    "cost": 0.0758,
+    "costBreakdown": {
+      "stt": 0.0047,
+      "llm": 0.0011,
+      "tts": 0.0132,
+      "vapi": 0.0568,
+      "chat": 0,
+      "transport": 0,
+      "total": 0.0758,
+      "llmPromptTokens": 1991,
+      "llmCompletionTokens": 181,
+      "llmCachedPromptTokens": 0,
+      "ttsCharacters": 878,
+      "voicemailDetectionCost": 0,
+      "knowledgeBaseCost": 0,
+      "analysisCostBreakdown": {
+        "summary": 0,
+        "summaryPromptTokens": 0,
+        "summaryCompletionTokens": 0,
+        "summaryCachedPromptTokens": 0,
+        "structuredData": 0,
+        "structuredDataPromptTokens": 0,
+        "structuredDataCompletionTokens": 0,
+        "structuredDataCachedPromptTokens": 0,
+        "successEvaluation": 0,
+        "successEvaluationPromptTokens": 0,
+        "successEvaluationCompletionTokens": 0,
+        "successEvaluationCachedPromptTokens": 0,
+        "structuredOutput": 0,
+        "structuredOutputPromptTokens": 0,
+        "structuredOutputCompletionTokens": 0,
+        "structuredOutputCachedPromptTokens": 0
+      }
+    },
+    "costs": [
+      {
+        "type": "transcriber",
+        "transcriber": {
+          "provider": "soniox",
+          "model": "stt-rt-v5"
+        },
+        "minutes": 1.1029666666666667,
+        "cost": 0.0047153
+      },
+      {
+        "type": "model",
+        "model": {
+          "provider": "openai",
+          "model": "gpt-4.1-mini"
+        },
+        "promptTokens": 1991,
+        "completionTokens": 181,
+        "cachedPromptTokens": 0,
+        "reasoningTokens": 0,
+        "cost": 0.001086
+      },
+      {
+        "type": "voice",
+        "voice": {
+          "provider": "vapi",
+          "voiceId": "Elliot",
+          "model": "vapi-v2"
+        },
+        "characters": 878,
+        "cost": 0.01317
+      },
+      {
+        "type": "vapi",
+        "subType": "normal",
+        "minutes": 1.1369,
+        "cost": 0.056845
+      },
+      {
+        "type": "knowledge-base",
+        "model": {
+          "provider": "google",
+          "model": "gemini-3.1-flash-lite"
+        },
+        "promptTokens": 0,
+        "completionTokens": 0,
+        "cost": 0
+      }
+    ],
+    "durationMs": 68216,
+    "durationSeconds": 68.216,
+    "durationMinutes": 1.1369,
+    "summary": "",
+    "transcript": "AI: Hi, this is Alex. Who am I speaking with?\nUser: Hi, this is Sam.\nAI: Hi, Sam. Thanks for taking my call. I work with companies to help improve their customer engagement through personalized marketing automation. Can I ask, how are you currently managing your customer outreach and marketing campaigns?\nUser: That's a good question.\nAI: Thanks, Sam.\nUser: We have several different ways of managing\u2014\nAI: I appreciate you sharing that. Could you tell me a bit more about the different ways you're managing your customer outreach? For example, are you using specific software platforms, or is it more manual?\nUser: It's specific software, and we're trying to. Use AI to automate our systems.\nAI: That sounds like a smart move. Are you currently facing any challenges with your existing software or AI automation efforts that you'd like to improve?\nUser: Sorry, I have to go now. Please end the call.\n",
+    "messages": [
+      {
+        "role": "system",
+        "message": "You are Sales Call QA, a realistic prospect for sales-call practice and quality assurance. Stay in character as a potential customer throughout the call. Be professional, natural, and concise. Do not coach the caller during the roleplay. Ask realistic follow-up questions, raise occasional reasonable objections, and avoid volunteering information the caller has not earned through good discovery. Adapt your interest level to the caller's clarity, listening, and relevance. Never claim access to company systems, pricing databases, calendars, or customer records. If the caller explicitly ends the exercise, asks to stop, or the conversation has clearly concluded, briefly close the conversation and use the end-call tool.",
+        "time": 1793456284330,
+        "secondsFromStart": 0
+      },
+      {
+        "role": "bot",
+        "message": "Hi, this is Alex. Who am I speaking with?",
+        "time": 1793456285525,
+        "endTime": 1793456286785,
+        "secondsFromStart": 0.78,
+        "duration": 1260,
+        "source": "",
+        "assistantName": "Sales Call QA",
+        "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+      },
+      {
+        "role": "user",
+        "message": "Hi, this is Sam.",
+        "time": 1793456289390,
+        "endTime": 1793456290230,
+        "secondsFromStart": 4.645,
+        "duration": 840,
+        "metadata": {
+          "wordLevelConfidence": [
+            {
+              "word": "H",
+              "start": 4.62,
+              "end": 4.68,
+              "confidence": 0.997,
+              "punctuated_word": "H",
+              "language": "en"
+            },
+            {
+              "word": "i,",
+              "start": 4.74,
+              "end": 4.8,
+              "confidence": 0.997,
+              "punctuated_word": "i,",
+              "language": "en"
+            },
+            {
+              "word": "this",
+              "start": 4.8,
+              "end": 4.86,
+              "confidence": 1,
+              "punctuated_word": "this",
+              "language": "en"
+            },
+            {
+              "word": "is",
+              "start": 4.92,
+              "end": 4.98,
+              "confidence": 1,
+              "punctuated_word": "is",
+              "language": "en"
+            },
+            {
+              "word": "Pi",
+              "start": 5.22,
+              "end": 5.28,
+              "confidence": 0.569,
+              "punctuated_word": "Pi",
+              "language": "en"
+            },
+            {
+              "word": "ers.",
+              "start": 5.4,
+              "end": 5.46,
+              "confidence": 0.864,
+              "punctuated_word": "ers.",
+              "language": "en"
+            }
+          ]
+        },
+        "confidence": 0.9045,
+        "confidenceSource": "derived"
+      },
+      {
+        "role": "bot",
+        "message": "Hi, Sam. Thanks for taking my call. I work with companies to help improve their customer engagement through personalized marketing automation. Can I ask, how are you currently managing your customer outreach and marketing campaigns?",
+        "time": 1793456292665,
+        "endTime": 1793456303105,
+        "secondsFromStart": 7.92,
+        "duration": 9600,
+        "source": "",
+        "assistantName": "Sales Call QA",
+        "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+      },
+      {
+        "role": "user",
+        "message": "That's a good question.",
+        "time": 1793456307990,
+        "endTime": 1793456308770,
+        "secondsFromStart": 23.245,
+        "duration": 780,
+        "metadata": {
+          "wordLevelConfidence": [
+            {
+              "word": "That",
+              "start": 23.22,
+              "end": 23.28,
+              "confidence": 0.884,
+              "punctuated_word": "That",
+              "language": "en"
+            },
+            {
+              "word": "'s",
+              "start": 23.4,
+              "end": 23.46,
+              "confidence": 0.999,
+              "punctuated_word": "'s",
+              "language": "en"
+            },
+            {
+              "word": "a",
+              "start": 23.52,
+              "end": 23.58,
+              "confidence": 1,
+              "punctuated_word": "a",
+              "language": "en"
+            },
+            {
+              "word": "go",
+              "start": 23.58,
+              "end": 23.64,
+              "confidence": 1,
+              "punctuated_word": "go",
+              "language": "en"
+            },
+            {
+              "word": "od",
+              "start": 23.64,
+              "end": 23.7,
+              "confidence": 1,
+              "punctuated_word": "od",
+              "language": "en"
+            },
+            {
+              "word": "qu",
+              "start": 23.76,
+              "end": 23.82,
+              "confidence": 1,
+              "punctuated_word": "qu",
+              "language": "en"
+            },
+            {
+              "word": "es",
+              "start": 23.82,
+              "end": 23.88,
+              "confidence": 1,
+              "punctuated_word": "es",
+              "language": "en"
+            },
+            {
+              "word": "tion.",
+              "start": 23.94,
+              "end": 24,
+              "confidence": 0.997,
+              "punctuated_word": "tion.",
+              "language": "en"
+            }
+          ]
+        },
+        "confidence": 0.985,
+        "confidenceSource": "derived"
+      },
+      {
+        "role": "bot",
+        "message": "Thanks, Sam.",
+        "time": 1793456310425,
+        "endTime": 1793456311145,
+        "secondsFromStart": 25.68,
+        "duration": 720,
+        "source": "",
+        "assistantName": "Sales Call QA",
+        "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+      },
+      {
+        "role": "user",
+        "message": "We have several different ways of managing\u2014",
+        "time": 1793456310630,
+        "endTime": 1793456313810,
+        "secondsFromStart": 25.885,
+        "duration": 3180,
+        "metadata": {
+          "wordLevelConfidence": [
+            {
+              "word": "We",
+              "start": 25.86,
+              "end": 25.92,
+              "confidence": 0.998,
+              "punctuated_word": "We",
+              "language": "en"
+            },
+            {
+              "word": "have",
+              "start": 26.16,
+              "end": 26.22,
+              "confidence": 1,
+              "punctuated_word": "have",
+              "language": "en"
+            },
+            {
+              "word": "several",
+              "start": 26.58,
+              "end": 26.64,
+              "confidence": 0.991,
+              "punctuated_word": "several",
+              "language": "en"
+            },
+            {
+              "word": "different",
+              "start": 26.94,
+              "end": 27,
+              "confidence": 0.998,
+              "punctuated_word": "different",
+              "language": "en"
+            },
+            {
+              "word": "w",
+              "start": 27.24,
+              "end": 27.3,
+              "confidence": 1,
+              "punctuated_word": "w",
+              "language": "en"
+            },
+            {
+              "word": "ays",
+              "start": 27.36,
+              "end": 27.42,
+              "confidence": 1,
+              "punctuated_word": "ays",
+              "language": "en"
+            },
+            {
+              "word": "of",
+              "start": 27.48,
+              "end": 27.54,
+              "confidence": 1,
+              "punctuated_word": "of",
+              "language": "en"
+            },
+            {
+              "word": "man",
+              "start": 27.78,
+              "end": 27.84,
+              "confidence": 1,
+              "punctuated_word": "man",
+              "language": "en"
+            },
+            {
+              "word": "ag",
+              "start": 27.96,
+              "end": 28.02,
+              "confidence": 1,
+              "punctuated_word": "ag",
+              "language": "en"
+            },
+            {
+              "word": "ing",
+              "start": 28.32,
+              "end": 28.38,
+              "confidence": 0.88,
+              "punctuated_word": "ing",
+              "language": "en"
+            },
+            {
+              "word": "\u2014",
+              "start": 28.98,
+              "end": 29.04,
+              "confidence": 0.935,
+              "punctuated_word": "\u2014",
+              "language": "en"
+            }
+          ]
+        },
+        "confidence": 0.9820000000000001,
+        "confidenceSource": "derived"
+      },
+      {
+        "role": "bot",
+        "message": "I appreciate you sharing that. Could you tell me a bit more about the different ways you're managing your customer outreach? For example, are you using specific software platforms, or is it more manual?",
+        "time": 1793456315345,
+        "endTime": 1793456323625,
+        "secondsFromStart": 30.6,
+        "duration": 7560,
+        "source": "",
+        "assistantName": "Sales Call QA",
+        "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+      },
+      {
+        "role": "user",
+        "message": "It's specific software, and we're trying to. Use AI to automate our systems.",
+        "time": 1793456328390,
+        "endTime": 1793456333850,
+        "secondsFromStart": 43.645,
+        "duration": 4920,
+        "metadata": {
+          "wordLevelConfidence": [
+            {
+              "word": "It",
+              "start": 43.62,
+              "end": 43.68,
+              "confidence": 0.999,
+              "punctuated_word": "It",
+              "language": "en"
+            },
+            {
+              "word": "'s",
+              "start": 43.74,
+              "end": 43.8,
+              "confidence": 0.999,
+              "punctuated_word": "'s",
+              "language": "en"
+            },
+            {
+              "word": "speci",
+              "start": 43.86,
+              "end": 43.92,
+              "confidence": 0.99,
+              "punctuated_word": "speci",
+              "language": "en"
+            },
+            {
+              "word": "fic",
+              "start": 43.98,
+              "end": 44.04,
+              "confidence": 1,
+              "punctuated_word": "fic",
+              "language": "en"
+            },
+            {
+              "word": "soft",
+              "start": 44.52,
+              "end": 44.58,
+              "confidence": 0.995,
+              "punctuated_word": "soft",
+              "language": "en"
+            },
+            {
+              "word": "war",
+              "start": 44.82,
+              "end": 44.88,
+              "confidence": 0.561,
+              "punctuated_word": "war",
+              "language": "en"
+            },
+            {
+              "word": "e,",
+              "start": 45.3,
+              "end": 45.36,
+              "confidence": 0.967,
+              "punctuated_word": "e,",
+              "language": "en"
+            },
+            {
+              "word": "and",
+              "start": 45.36,
+              "end": 45.42,
+              "confidence": 1,
+              "punctuated_word": "and",
+              "language": "en"
+            },
+            {
+              "word": "we",
+              "start": 45.48,
+              "end": 45.54,
+              "confidence": 1,
+              "punctuated_word": "we",
+              "language": "en"
+            },
+            {
+              "word": "'",
+              "start": 45.6,
+              "end": 45.66,
+              "confidence": 1,
+              "punctuated_word": "'",
+              "language": "en"
+            },
+            {
+              "word": "re",
+              "start": 45.66,
+              "end": 45.72,
+              "confidence": 1,
+              "punctuated_word": "re",
+              "language": "en"
+            },
+            {
+              "word": "tr",
+              "start": 45.72,
+              "end": 45.78,
+              "confidence": 1,
+              "punctuated_word": "tr",
+              "language": "en"
+            },
+            {
+              "word": "y",
+              "start": 45.78,
+              "end": 45.84,
+              "confidence": 1,
+              "punctuated_word": "y",
+              "language": "en"
+            },
+            {
+              "word": "ing",
+              "start": 45.84,
+              "end": 45.9,
+              "confidence": 1,
+              "punctuated_word": "ing",
+              "language": "en"
+            },
+            {
+              "word": "to",
+              "start": 45.96,
+              "end": 46.02,
+              "confidence": 1,
+              "punctuated_word": "to",
+              "language": "en"
+            },
+            {
+              "word": ".",
+              "start": 46.62,
+              "end": 46.68,
+              "confidence": 0.5,
+              "punctuated_word": ".",
+              "language": "en"
+            },
+            {
+              "word": "U",
+              "start": 47.22,
+              "end": 47.28,
+              "confidence": 0.998,
+              "punctuated_word": "U",
+              "language": "en"
+            },
+            {
+              "word": "se",
+              "start": 47.34,
+              "end": 47.4,
+              "confidence": 1,
+              "punctuated_word": "se",
+              "language": "en"
+            },
+            {
+              "word": "A",
+              "start": 47.64,
+              "end": 47.7,
+              "confidence": 1,
+              "punctuated_word": "A",
+              "language": "en"
+            },
+            {
+              "word": "I",
+              "start": 47.82,
+              "end": 47.88,
+              "confidence": 0.999,
+              "punctuated_word": "I",
+              "language": "en"
+            },
+            {
+              "word": "to",
+              "start": 48,
+              "end": 48.06,
+              "confidence": 1,
+              "punctuated_word": "to",
+              "language": "en"
+            },
+            {
+              "word": "autom",
+              "start": 48.3,
+              "end": 48.36,
+              "confidence": 0.998,
+              "punctuated_word": "autom",
+              "language": "en"
+            },
+            {
+              "word": "ate",
+              "start": 48.54,
+              "end": 48.6,
+              "confidence": 1,
+              "punctuated_word": "ate",
+              "language": "en"
+            },
+            {
+              "word": "o",
+              "start": 48.72,
+              "end": 48.78,
+              "confidence": 1,
+              "punctuated_word": "o",
+              "language": "en"
+            },
+            {
+              "word": "ur",
+              "start": 48.84,
+              "end": 48.9,
+              "confidence": 1,
+              "punctuated_word": "ur",
+              "language": "en"
+            },
+            {
+              "word": "system",
+              "start": 49.02,
+              "end": 49.08,
+              "confidence": 0.913,
+              "punctuated_word": "system",
+              "language": "en"
+            },
+            {
+              "word": "s.",
+              "start": 49.08,
+              "end": 49.08,
+              "confidence": 0.998,
+              "punctuated_word": "s.",
+              "language": "en"
+            }
+          ]
+        },
+        "confidence": 0.9381875,
+        "confidenceSource": "derived"
+      },
+      {
+        "role": "bot",
+        "message": "That sounds like a smart move. Are you currently facing any challenges with your existing software or AI automation efforts that you'd like to improve?",
+        "time": 1793456335565,
+        "endTime": 1793456341745,
+        "secondsFromStart": 50.82,
+        "duration": 6180,
+        "source": "",
+        "assistantName": "Sales Call QA",
+        "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5"
+      },
+      {
+        "role": "user",
+        "message": "Sorry, I have to go now. Please end the call.",
+        "time": 1793456345010,
+        "endTime": 1793456346810,
+        "secondsFromStart": 60.265,
+        "duration": 1080,
+        "metadata": {
+          "wordLevelConfidence": [
+            {
+              "word": "Sor",
+              "start": 60.24,
+              "end": 60.3,
+              "confidence": 1,
+              "punctuated_word": "Sor",
+              "language": "en"
+            },
+            {
+              "word": "ry,",
+              "start": 60.36,
+              "end": 60.42,
+              "confidence": 0.991,
+              "punctuated_word": "ry,",
+              "language": "en"
+            },
+            {
+              "word": "I",
+              "start": 60.48,
+              "end": 60.54,
+              "confidence": 1,
+              "punctuated_word": "I",
+              "language": "en"
+            },
+            {
+              "word": "have",
+              "start": 60.6,
+              "end": 60.66,
+              "confidence": 1,
+              "punctuated_word": "have",
+              "language": "en"
+            },
+            {
+              "word": "to",
+              "start": 60.66,
+              "end": 60.72,
+              "confidence": 1,
+              "punctuated_word": "to",
+              "language": "en"
+            },
+            {
+              "word": "go",
+              "start": 60.78,
+              "end": 60.84,
+              "confidence": 0.999,
+              "punctuated_word": "go",
+              "language": "en"
+            },
+            {
+              "word": "now",
+              "start": 60.9,
+              "end": 60.96,
+              "confidence": 1,
+              "punctuated_word": "now",
+              "language": "en"
+            },
+            {
+              "word": ".",
+              "start": 60.96,
+              "end": 60.96,
+              "confidence": 0.896,
+              "punctuated_word": ".",
+              "language": "en"
+            },
+            {
+              "word": "P",
+              "start": 61.68,
+              "end": 61.74,
+              "confidence": 0.986,
+              "punctuated_word": "P",
+              "language": "en"
+            },
+            {
+              "word": "le",
+              "start": 61.74,
+              "end": 61.8,
+              "confidence": 1,
+              "punctuated_word": "le",
+              "language": "en"
+            },
+            {
+              "word": "ase",
+              "start": 61.8,
+              "end": 61.86,
+              "confidence": 0.999,
+              "punctuated_word": "ase",
+              "language": "en"
+            },
+            {
+              "word": "end",
+              "start": 61.98,
+              "end": 62.04,
+              "confidence": 0.999,
+              "punctuated_word": "end",
+              "language": "en"
+            },
+            {
+              "word": "the",
+              "start": 62.04,
+              "end": 62.04,
+              "confidence": 1,
+              "punctuated_word": "the",
+              "language": "en"
+            },
+            {
+              "word": "call",
+              "start": 62.04,
+              "end": 62.04,
+              "confidence": 0.724,
+              "punctuated_word": "call",
+              "language": "en"
+            },
+            {
+              "word": ".",
+              "start": 62.04,
+              "end": 62.04,
+              "confidence": 0.9,
+              "punctuated_word": ".",
+              "language": "en"
+            }
+          ]
+        },
+        "confidence": 0.9440000000000001,
+        "confidenceSource": "derived"
+      },
+      {
+        "toolCalls": [
+          {
+            "id": "call_SIX2mZY52Sh6J52yAEM0UvhH",
+            "type": "function",
+            "function": {
+              "name": "end_sales_qa_call",
+              "arguments": "{}"
+            }
+          }
+        ],
+        "role": "tool_calls",
+        "message": "",
+        "time": 1793456351221,
+        "secondsFromStart": 66.476
+      },
+      {
+        "role": "tool_call_result",
+        "time": 1793456352951,
+        "secondsFromStart": 68.206,
+        "name": "end_sales_qa_call",
+        "result": "Success.",
+        "toolCallId": "call_SIX2mZY52Sh6J52yAEM0UvhH"
+      }
+    ],
+    "recordingUrl": "https://example.com/recordingUrl",
+    "stereoRecordingUrl": "https://example.com/stereoRecordingUrl",
+    "call": {
+      "id": "01a19253-2214-7000-aa95-3f3c8742f308",
+      "orgId": "00000000-0000-0000-0000-000000000000",
+      "createdAt": "2026-10-31T14:18:04.180Z",
+      "updatedAt": "2026-10-31T14:18:04.180Z",
+      "type": "webCall",
+      "cost": 0,
+      "monitor": {
+        "listenUrl": "https://example.com/listenUrl",
+        "controlUrl": "https://example.com/controlUrl"
+      },
+      "transport": {
+        "conversationType": "voice",
+        "provider": "daily",
+        "videoRecordingEnabled": false,
+        "assistantVideoEnabled": false,
+        "roomDeleteOnUserLeaveEnabled": true,
+        "callUrl": "https://example.com/callUrl"
+      },
+      "webCallUrl": "https://example.com/webCallUrl",
+      "status": "queued",
+      "assistantId": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5",
+      "assistantVersion": "v2",
+      "assistantOverrides": {
+        "name": "Sales Call QA",
+        "model": {
+          "model": "gpt-4.1-mini",
+          "toolIds": [
+            "471e6945-bc75-40b8-81c5-1359b0f351ca"
+          ],
+          "messages": [
+            {
+              "role": "system",
+              "content": "You are Sales Call QA, a realistic prospect for sales-call practice and quality assurance. Stay in character as a potential customer throughout the call. Be professional, natural, and concise. Do not coach the caller during the roleplay. Ask realistic follow-up questions, raise occasional reasonable objections, and avoid volunteering information the caller has not earned through good discovery. Adapt your interest level to the caller's clarity, listening, and relevance. Never claim access to company systems, pricing databases, calendars, or customer records. If the caller explicitly ends the exercise, asks to stop, or the conversation has clearly concluded, briefly close the conversation and use the end-call tool."
+            }
+          ],
+          "provider": "openai"
+        },
+        "voice": {
+          "version": "2",
+          "voiceId": "Elliot",
+          "language": "auto",
+          "provider": "vapi"
+        },
+        "server": {
+          "url": "https://example.com/url",
+          "credentialId": "62e8b51f-7a92-4f15-997a-e647ab4923b1",
+          "timeoutSeconds": 20
+        },
+        "transcriber": {
+          "model": "stt-rt-v5",
+          "provider": "soniox",
+          "fallbackPlan": {
+            "autoFallback": {
+              "enabled": true
+            }
+          }
+        },
+        "analysisPlan": {
+          "summaryPlan": {
+            "enabled": false
+          },
+          "successEvaluationPlan": {
+            "enabled": false
+          }
+        },
+        "firstMessage": "Hi, this is Alex. Who am I speaking with?",
+        "clientMessages": [
+          "transcript",
+          "hang",
+          "metadata",
+          "tool-calls",
+          "tool-calls-result",
+          "tool.completed",
+          "transfer-update",
+          "user-interrupted",
+          "status-update",
+          "assistant.started"
+        ],
+        "compliancePlan": {
+          "pciEnabled": false,
+          "zdrEnabled": false,
+          "hipaaEnabled": false
+        },
+        "serverMessages": [
+          "end-of-call-report"
+        ],
+        "variableValues": {},
+        "firstMessageMode": "assistant-speaks-first"
+      }
+    },
+    "assistant": {
+      "id": "0b09f0c0-b0f7-4afa-a2a5-7d960b056fd5",
+      "orgId": "00000000-0000-0000-0000-000000000000",
+      "name": "Sales Call QA",
+      "voice": {
+        "version": "2",
+        "voiceId": "Elliot",
+        "language": "auto",
+        "provider": "vapi"
+      },
+      "createdAt": "2026-10-31T13:52:07.126Z",
+      "updatedAt": "2026-10-31T13:52:22.241Z",
+      "model": {
+        "model": "gpt-4.1-mini",
+        "toolIds": [
+          "471e6945-bc75-40b8-81c5-1359b0f351ca"
+        ],
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are Sales Call QA, a realistic prospect for sales-call practice and quality assurance. Stay in character as a potential customer throughout the call. Be professional, natural, and concise. Do not coach the caller during the roleplay. Ask realistic follow-up questions, raise occasional reasonable objections, and avoid volunteering information the caller has not earned through good discovery. Adapt your interest level to the caller's clarity, listening, and relevance. Never claim access to company systems, pricing databases, calendars, or customer records. If the caller explicitly ends the exercise, asks to stop, or the conversation has clearly concluded, briefly close the conversation and use the end-call tool."
+          }
+        ],
+        "provider": "openai",
+        "tools": [
+          {
+            "id": "471e6945-bc75-40b8-81c5-1359b0f351ca",
+            "createdAt": "2026-10-31T13:52:14.232Z",
+            "updatedAt": "2026-10-31T13:52:14.232Z",
+            "type": "endCall",
+            "function": {
+              "name": "end_sales_qa_call",
+              "strict": true,
+              "parameters": {
+                "type": "object",
+                "required": [],
+                "properties": {}
+              },
+              "description": "End the call after the caller ends the exercise, asks to stop, or the conversation has clearly concluded."
+            },
+            "orgId": "00000000-0000-0000-0000-000000000000",
+            "latestVersion": "v1"
+          }
+        ]
+      },
+      "firstMessage": "Hi, this is Alex. Who am I speaking with?",
+      "transcriber": {
+        "model": "stt-rt-v5",
+        "provider": "soniox",
+        "languages": [],
+        "fallbackPlan": {
+          "autoFallback": {
+            "enabled": true
+          }
+        }
+      },
+      "clientMessages": [
+        "transcript",
+        "hang",
+        "metadata",
+        "tool-calls",
+        "tool-calls-result",
+        "tool.completed",
+        "transfer-update",
+        "user-interrupted",
+        "status-update",
+        "assistant.started"
+      ],
+      "serverMessages": [
+        "end-of-call-report"
+      ],
+      "firstMessageMode": "assistant-speaks-first",
+      "analysisPlan": {
+        "summaryPlan": {
+          "enabled": false
+        },
+        "successEvaluationPlan": {
+          "enabled": false
+        }
+      },
+      "server": {
+        "url": "https://example.com/url",
+        "timeoutSeconds": 20,
+        "credentialId": "62e8b51f-7a92-4f15-997a-e647ab4923b1"
+      },
+      "compliancePlan": {
+        "hipaaEnabled": false,
+        "pciEnabled": false,
+        "zdrEnabled": false
+      },
+      "latestVersion": "v2"
+    },
+    "assistantVersion": "v2"
+  }
+}
