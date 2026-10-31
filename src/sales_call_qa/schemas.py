@@ -45,3 +45,15 @@ class Call(BaseModel):
 
     def transcript(self) -> str:
         return "\n".join(f"[{t.timestamp}] {t.speaker}: {t.text}" for t in self.turns)
+
+
+class ItemVerdict(BaseModel):
+    criterion: str  # rubric item id, e.g. "recording_disclosure"
+    verdict: Verdict  # pass, fail or n/a
+    evidence: str  # exact words from the transcript
+    timestamp: str  # mm:ss of the evidence
+    reason: str  # one sentence
+
+
+class Assessment(BaseModel):
+    verdicts: list[ItemVerdict]
