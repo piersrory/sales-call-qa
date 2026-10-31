@@ -1,0 +1,236 @@
+{
+  "call_id": "call-015",
+  "market": "CA",
+  "agent_id": "CA-02",
+  "agent_name": "Chloé",
+  "customer_name": "Sophia Bouchard",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-23T18:40:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, this is Chloé calling from Acme Life, returning a call-back request about our term life insurance. Before we go any further, I should let you know this call is recorded for quality and training purposes. Am I speaking with Sophia?"
+    },
+    {
+      "timestamp": "00:14",
+      "speaker": "Customer",
+      "text": "Yeah, that's me. I filled out the form after seeing your ad online. I'll be honest, I'm not big on sales calls, so I'd appreciate it if we keep this straightforward."
+    },
+    {
+      "timestamp": "00:25",
+      "speaker": "Agent",
+      "text": "Absolutely, that's fair. Before I pull up anything about your request, can I just confirm your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:33",
+      "speaker": "Customer",
+      "text": "Sophia Marie Bouchard. Born March 14th, 1987."
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Agent",
+      "text": "Thank you, Sophia, that matches what we have. So, to make sure anything I talk about actually fits you, can you tell me a bit about your situation and what got you thinking about life insurance?"
+    },
+    {
+      "timestamp": "00:52",
+      "speaker": "Customer",
+      "text": "I'm a self-employed electrician, so there's no group benefits, nothing through an employer. My partner and I just bought a house in Laval last year, and we've got a little one who's three. If something happened to me, the mortgage would be a real problem."
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Agent",
+      "text": "That makes sense. Roughly how much is left on the mortgage, and how many years until it's paid off?"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Customer",
+      "text": "About four hundred and twenty thousand, and we've got around twenty-two years left on the amortization."
+    },
+    {
+      "timestamp": "01:25",
+      "speaker": "Agent",
+      "text": "And does your partner earn an income as well, or is the household mostly relying on you?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "She works part-time, but I bring in most of it. Why does that matter?"
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Agent",
+      "text": "It helps me figure out whether just covering the mortgage is enough, or whether you'd want some extra for day-to-day living costs and childcare if your income stopped. Some people only want the debt covered, others want a cushion on top."
+    },
+    {
+      "timestamp": "01:50",
+      "speaker": "Customer",
+      "text": "Okay. I'd want the house paid off and a bit extra so she's not scrambling. But I don't want to pay for some gold-plated thing I don't need."
+    },
+    {
+      "timestamp": "01:59",
+      "speaker": "Agent",
+      "text": "Understood. So here's how Acme Term Life works. You can choose coverage anywhere from fifty thousand up to seven hundred and fifty thousand dollars. You pick a term of either ten or twenty years, and the premium is fixed for that whole term, so it doesn't go up. Given your mortgage and your youngster, a twenty-year term at around five hundred thousand might be a reasonable fit, but it's entirely your call."
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Customer",
+      "text": "Twenty years doesn't cover the whole mortgage though, I've got twenty-two left."
+    },
+    {
+      "timestamp": "02:27",
+      "speaker": "Agent",
+      "text": "Good catch. Twenty years is the longest term this product offers. By then the remaining balance would be fairly small, and the extra coverage above the mortgage would help offset that. But if you'd rather look elsewhere for a longer term, that's a completely legitimate choice."
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Customer",
+      "text": "Hm. Okay. Do I have to go get bloodwork done or anything? I don't have time to take a day off for a nurse visit."
+    },
+    {
+      "timestamp": "02:49",
+      "speaker": "Agent",
+      "text": "No medical exam. Acceptance is based on a few health questions that I'd ask you over the phone. Your answers determine whether you're accepted."
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Customer",
+      "text": "And if I outlive the twenty years, do I get anything back? Because some of these policies, people tell me it's like an investment."
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Agent",
+      "text": "No, and I want to be clear about that. This policy has no cash value. It's pure protection: if you pass away during the term, your beneficiary receives the coverage amount. If you outlive the term, the coverage ends and there's no payout or savings component."
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Customer",
+      "text": "Alright, at least you're not dressing it up. What would five hundred thousand over twenty years actually cost me?"
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Agent",
+      "text": "I'll need to go through the health questions first to give you an accurate number. Would you like to do that now, or would you prefer some time to think about it first?"
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Customer",
+      "text": "Let's do the questions. I'm not committing to anything though."
+    },
+    {
+      "timestamp": "03:40",
+      "speaker": "Agent",
+      "text": "Of course, no commitment. First: do you currently use any tobacco or nicotine products, or have you in the last twelve months?"
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Customer",
+      "text": "No. Quit about six years ago."
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Agent",
+      "text": "Thanks. In the past five years, have you been diagnosed with or treated for heart disease, cancer, stroke, or diabetes?"
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Customer",
+      "text": "No, none of that."
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Agent",
+      "text": "Are you currently waiting on any medical tests, or have you been advised to have any surgery that hasn't happened yet?"
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Customer",
+      "text": "No. I had my knee scoped two years ago but that's done and dusted."
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Agent",
+      "text": "That's fine, thanks for mentioning it. Last one: in the past five years, have you been hospitalized overnight for anything other than that procedure?"
+    },
+    {
+      "timestamp": "04:23",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "04:27",
+      "speaker": "Agent",
+      "text": "Based on your answers, you're accepted. For five hundred thousand dollars of coverage over a twenty-year term, your premium would be sixty-five dollars a month, fixed for the full twenty years."
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Customer",
+      "text": "Sixty-five. That's less than I figured, honestly. What's the catch? What if I sign up and then my accountant tells me it's a dumb idea?"
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "Agent",
+      "text": "There's a thirty-day free-look period. If you change your mind for any reason within thirty days, you can cancel and get a full refund of what you've paid. And there's no rush today either. If you'd like to talk it over with your partner or your accountant first, I'm happy to send the details and you can call back whenever suits you."
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Customer",
+      "text": "No, I've been putting this off for a year. My partner's been on me about it. I think I'll just do it."
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Agent",
+      "text": "Okay. Before I set anything up, let me summarize so you know exactly what you're agreeing to. Acme Term Life, five hundred thousand dollars of coverage, twenty-year term, sixty-five dollars a month, fixed for the term. No cash value, so nothing is paid out if you outlive the term. And you have thirty days to cancel for a full refund. Do you want to go ahead with this policy?"
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Customer",
+      "text": "Yes, I want to go ahead."
+    },
+    {
+      "timestamp": "05:40",
+      "speaker": "Agent",
+      "text": "Great. Who would you like to name as the beneficiary?"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Customer",
+      "text": "My partner, Émilie Gagnon."
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Agent",
+      "text": "Got it, Émilie Gagnon. For the monthly payment, would you prefer a pre-authorized debit from your bank account or a credit card?"
+    },
+    {
+      "timestamp": "05:56",
+      "speaker": "Customer",
+      "text": "Bank account. I'll give you the void cheque info."
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Agent",
+      "text": "Perfect, go ahead whenever you're ready with the transit, institution and account numbers."
+    },
+    {
+      "timestamp": "06:07",
+      "speaker": "Customer",
+      "text": "Transit is 30112, institution 815, account number 4471093."
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Agent",
+      "text": "Thank you. I've read that back as transit 30112, institution 815, account 4471093. That's all set up. You'll get your policy documents by email within the next couple of business days, and the thirty-day free-look starts from when you receive them. Any other questions for me?"
+    },
+    {
+      "timestamp": "06:38",
+      "speaker": "Customer",
+      "text": "No, that covers it. Thanks for not giving me the hard sell."
+    },
+    {
+      "timestamp": "06:43",
+      "speaker": "Agent",
+      "text": "My pleasure, Sophia. Take care, and say hi to the little one."
+    }
+  ]
+}

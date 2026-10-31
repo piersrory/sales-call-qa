@@ -1,0 +1,216 @@
+{
+  "call_id": "call-007",
+  "market": "CA",
+  "agent_id": "CA-01",
+  "agent_name": "Ethan",
+  "customer_name": "Ava MacDonald",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-09T14:03:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hi, this is Ethan calling from Acme Life. I'm returning a call-back request about our term life coverage. Am I speaking with Ava?"
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Customer",
+      "text": "Yes, that's me. I filled out the form on your ad the other night. I've got maybe ten minutes before I need to get back to the shop, so if we can keep it quick, that'd be great."
+    },
+    {
+      "timestamp": "00:16",
+      "speaker": "Agent",
+      "text": "Absolutely, I'll keep it moving. Before we get into any details, could you confirm your full name and date of birth for me?"
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Customer",
+      "text": "Ava Louise MacDonald, March 14th, 1988."
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Agent",
+      "text": "Thanks, Ava, that matches what I have. So, Acme Term Life is straightforward life insurance. You pick a coverage amount and a term, and if you pass away during that term, your beneficiaries get a tax-free lump sum. Before I suggest anything, can I ask what got you thinking about coverage?"
+    },
+    {
+      "timestamp": "00:44",
+      "speaker": "Customer",
+      "text": "Honestly? I just signed a new five-year lease on a bigger space for my bakery, and I've got a line of credit tied to it. Plus my partner and I have a four-year-old. If something happened to me, I don't want them stuck with all of it."
+    },
+    {
+      "timestamp": "01:00",
+      "speaker": "Agent",
+      "text": "That makes total sense. Roughly how much are we talking between the line of credit and anything else you'd want covered, like the mortgage or childcare?"
+    },
+    {
+      "timestamp": "01:09",
+      "speaker": "Customer",
+      "text": "The line of credit's about eighty thousand. Mortgage is around two hundred and forty, but my partner's on that too and has some coverage through work. I'd mostly want the business debt gone and a cushion for our daughter."
+    },
+    {
+      "timestamp": "01:24",
+      "speaker": "Agent",
+      "text": "Okay. And are you thinking short term, just while the business debt's there, or longer, say until your daughter's grown?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "Longer, I guess. Until she's out of school, at least. Can you just tell me what it costs? I don't need the whole sales pitch."
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Agent",
+      "text": "Fair enough. We offer coverage anywhere from fifty thousand up to seven hundred and fifty thousand dollars, on either a ten- or twenty-year term. Given your daughter's age, a twenty-year term would take her to about twenty-four. Something like two hundred and fifty thousand would clear the line of credit and leave a decent cushion. I'll need to ask a few quick health questions to get you an actual price, though. There's no medical exam."
+    },
+    {
+      "timestamp": "01:59",
+      "speaker": "Customer",
+      "text": "No needles? Good, I don't have time for that. Go ahead."
+    },
+    {
+      "timestamp": "02:04",
+      "speaker": "Agent",
+      "text": "In the last twelve months, have you used any tobacco or nicotine products, including vaping?"
+    },
+    {
+      "timestamp": "02:09",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:11",
+      "speaker": "Agent",
+      "text": "Have you ever been diagnosed with or treated for heart disease, cancer, stroke, or diabetes?"
+    },
+    {
+      "timestamp": "02:17",
+      "speaker": "Customer",
+      "text": "No, none of those."
+    },
+    {
+      "timestamp": "02:19",
+      "speaker": "Agent",
+      "text": "Are you currently taking any prescription medication, or waiting on any tests or results?"
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Customer",
+      "text": "Just an inhaler now and then for mild asthma. That's it."
+    },
+    {
+      "timestamp": "02:29",
+      "speaker": "Agent",
+      "text": "Thanks. Mild asthma that's well controlled usually isn't a problem. Last one: have you been hospitalized overnight in the past five years?"
+    },
+    {
+      "timestamp": "02:36",
+      "speaker": "Customer",
+      "text": "Only when I had my daughter."
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Agent",
+      "text": "That's fine. Based on those answers, two hundred and fifty thousand dollars over twenty years comes out to twenty-two dollars a month. That premium is fixed for the whole twenty years, so it won't go up."
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Customer",
+      "text": "Twenty-two bucks. Okay, that's less than I figured. What's the catch? Do I get anything back if I outlive it?"
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Agent",
+      "text": "No, and I want to be upfront about that. This policy has no cash value. It's pure protection. If the term ends and you're still here, which is what we hope, the coverage just ends and there's no payout or refund of premiums."
+    },
+    {
+      "timestamp": "03:11",
+      "speaker": "Customer",
+      "text": "Hm. My accountant keeps going on about whole life policies that build up value. Should I be doing that instead?"
+    },
+    {
+      "timestamp": "03:18",
+      "speaker": "Agent",
+      "text": "Those exist, but they cost a lot more each month. For what you've described, covering the debt and your daughter while she's dependent, term usually fits well. But if you'd like to run it by your accountant first, that's completely fine. I can send you the quote and you can call back whenever suits you."
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Customer",
+      "text": "No, I'd rather just get it done. I'll never find time to call back. But what if I change my mind next week?"
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Agent",
+      "text": "You've got a thirty-day free-look period. If you decide within thirty days that it's not for you, you can cancel and get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Customer",
+      "text": "Okay, that helps. Should it be twenty years, or would ten be cheaper?"
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Agent",
+      "text": "Ten would be a bit cheaper monthly, but it would end when your daughter's around fourteen, and getting new coverage at that point would be priced at your age then. Since you said you want her covered until she's out of school, twenty years lines up better. It's your call, though."
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Customer",
+      "text": "Twenty. Let's do twenty. Who gets the money, do I name someone now?"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Agent",
+      "text": "Yes, we'll set up a beneficiary. Who would you like to name?"
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Customer",
+      "text": "My partner, Jordan Pelletier."
+    },
+    {
+      "timestamp": "04:25",
+      "speaker": "Agent",
+      "text": "Got it, Jordan Pelletier as primary beneficiary. Before I finalize anything, let me summarize so we're on the same page. This is Acme Term Life, two hundred and fifty thousand dollars of coverage for a twenty-year term, at twenty-two dollars a month, fixed for the full term. There's no cash value, and you have thirty days to cancel for a full refund. Would you like to go ahead with that?"
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Customer",
+      "text": "Yes, I want to go ahead."
+    },
+    {
+      "timestamp": "04:50",
+      "speaker": "Agent",
+      "text": "Great. For the monthly payment, would you prefer a pre-authorized debit from a chequing account or a credit card?"
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Customer",
+      "text": "Chequing's fine. I'll have to grab the void cheque info from my phone. Hang on."
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Customer",
+      "text": "Okay. Transit 04512, institution 004, account 6627183."
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Agent",
+      "text": "Thanks, I've got that entered. Your first payment of twenty-two dollars will come out on the date the policy starts, and you'll get your policy documents by email within a couple of business days. The thirty days starts from when you receive them."
+    },
+    {
+      "timestamp": "05:48",
+      "speaker": "Customer",
+      "text": "Perfect. Is that everything? I really need to get back."
+    },
+    {
+      "timestamp": "05:52",
+      "speaker": "Agent",
+      "text": "That's everything. Have a look over the documents when you get a chance, and call us if anything looks off. Thanks for your time, Ava, and good luck with the new space."
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Customer",
+      "text": "Thanks, Ethan. Bye."
+    }
+  ]
+}

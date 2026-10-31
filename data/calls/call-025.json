@@ -1,0 +1,236 @@
+{
+  "call_id": "call-025",
+  "market": "AU",
+  "agent_id": "AU-01",
+  "agent_name": "Mia",
+  "customer_name": "Chloe Patel",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-16T03:04:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good morning, you're through to Acme Life, my name's Mia. Just so you know, this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Oh, hello dear. I saw your advertisement in the paper, the one about life cover with no doctor's visit. I thought I'd better ring before I lost the page."
+    },
+    {
+      "timestamp": "00:19",
+      "speaker": "Agent",
+      "text": "No worries at all, I'm glad you called. Before we talk about anything to do with you or a quote, could I please get your full name and your date of birth?"
+    },
+    {
+      "timestamp": "00:27",
+      "speaker": "Customer",
+      "text": "Yes, it's Chloe Patel. Chloe Anjali Patel. And my birthday is the fourteenth of March, 1951."
+    },
+    {
+      "timestamp": "00:36",
+      "speaker": "Agent",
+      "text": "Thank you, Chloe, that's all confirmed. So tell me a bit about what's got you thinking about life cover at the moment?"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Customer",
+      "text": "Well, my husband Raj passed away two months ago. It was very sudden. And when it came to the funeral and everything, I just didn't know where any of the money was, he always did all that. I don't want my daughter going through the same mess when it's my turn."
+    },
+    {
+      "timestamp": "01:02",
+      "speaker": "Agent",
+      "text": "Oh Chloe, I'm so sorry about Raj. Two months is no time at all. Please take this as slowly as you like, there's no rush on my end whatsoever."
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Customer",
+      "text": "Thank you, love. Everyone keeps saying that. I'm alright, mostly. I just get a bit foggy with numbers these days."
+    },
+    {
+      "timestamp": "01:20",
+      "speaker": "Agent",
+      "text": "That's completely understandable. I'll keep things simple and check in as we go. Can I ask, is your daughter the main person you'd want this to help? And do you have any debts, like a mortgage, still to cover?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "Yes, Priya, she lives in Geelong. The house is paid off, thank goodness. It's really just the funeral and leaving her a little something so she's not out of pocket."
+    },
+    {
+      "timestamp": "01:42",
+      "speaker": "Agent",
+      "text": "Okay, that helps. And roughly what are you comfortable spending each month? Are you on the pension, or do you have other income?"
+    },
+    {
+      "timestamp": "01:50",
+      "speaker": "Customer",
+      "text": "The pension, and Raj had a bit of super that's come to me. I could probably manage... oh, I don't know. Maybe up to a hundred dollars a month? Is that a lot? I'm not sure what's normal."
+    },
+    {
+      "timestamp": "02:04",
+      "speaker": "Agent",
+      "text": "There's no right or wrong answer, it's about what feels comfortable for you. Our cover goes anywhere from fifty thousand up to one million dollars. Based on what you've told me, funeral costs and something for Priya, I'd recommend you go for a hundred thousand dollars of cover. That's what I'd put you on."
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Customer",
+      "text": "A hundred thousand. And that's... how much a month did you say?"
+    },
+    {
+      "timestamp": "02:27",
+      "speaker": "Agent",
+      "text": "I haven't given you the price yet, so you've not missed anything. First I'll need to ask a few health questions. There's no medical exam, but whether we can accept you depends on your answers. Is that alright?"
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Customer",
+      "text": "Yes, go on."
+    },
+    {
+      "timestamp": "02:41",
+      "speaker": "Agent",
+      "text": "In the last five years, have you been diagnosed with or treated for cancer, heart disease, stroke or any lung condition?"
+    },
+    {
+      "timestamp": "02:49",
+      "speaker": "Customer",
+      "text": "No. I take a tablet for my blood pressure, but that's all. The doctor says I'm fit as a fiddle for my age."
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Agent",
+      "text": "Thanks. And are you currently waiting on any tests or specialist appointments?"
+    },
+    {
+      "timestamp": "03:02",
+      "speaker": "Customer",
+      "text": "No, nothing like that."
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Agent",
+      "text": "Lovely. Based on those answers, for a hundred thousand dollars of cover, the premium would be eighty-four dollars a month."
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Customer",
+      "text": "Eighty-four. So that's for the whole year? Or is it... sorry, I've got myself muddled again. Is it eighty-four a year?"
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Agent",
+      "text": "That's alright, let's slow right down. It's eighty-four dollars every month. Would it help to write it down? Eighty-four dollars a month."
+    },
+    {
+      "timestamp": "03:32",
+      "speaker": "Customer",
+      "text": "Hang on, let me get a pen. Eighty... four... a month. Righto. And that stays the same?"
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Agent",
+      "text": "Good question, and this one's important. No, it doesn't stay the same. The premiums are what we call stepped, which means they go up each year as you get older. So next year it will be more than eighty-four dollars, and it'll keep going up each year after that."
+    },
+    {
+      "timestamp": "03:57",
+      "speaker": "Customer",
+      "text": "Oh. So it gets dearer every year. Raj would've known what to make of that."
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Agent",
+      "text": "Can I just check I've explained it clearly? In your own words, what happens to the price over time?"
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Customer",
+      "text": "It starts at eighty-four a month and then every year it goes up a bit because I'm older."
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Agent",
+      "text": "Exactly right. There's one more thing you need to know. For the first twelve months, only accidental death is covered. So if you passed away from an illness in that first year, the policy wouldn't pay out. After twelve months, you'd have the full cover."
+    },
+    {
+      "timestamp": "04:32",
+      "speaker": "Customer",
+      "text": "So if I had a fall, say, in the first year, that would count. But if I got sick it wouldn't?"
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Agent",
+      "text": "That's right, in the first twelve months it's only accidents. After that, illness is covered too."
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Customer",
+      "text": "I see. It's a lot to take in. I'm sorry, I'm not usually this slow."
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Agent",
+      "text": "You're not slow at all, Chloe, you've been through a great deal. Honestly, there's no pressure to decide today. If you'd like, I can ring you back another day, or we could do a call with Priya on the line so she can hear it all too. Would either of those help?"
+    },
+    {
+      "timestamp": "05:07",
+      "speaker": "Customer",
+      "text": "That's kind of you. I did talk to Priya about it on the weekend, actually, she's the one who said I should ring. She said as long as I understood it and it wasn't more than a hundred, I should go ahead."
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Agent",
+      "text": "That's good that you've talked it over with her. It's still entirely your choice, and you can take more time if you want it. Also, if you do go ahead, there's a thirty-day cooling-off period. If you change your mind within thirty days, you can cancel and get a full refund."
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Customer",
+      "text": "Oh, that makes me feel better. So I could show Priya the papers and if she says it's wrong I can still get my money back?"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Agent",
+      "text": "Yes, within thirty days, a full refund. Would you like to go ahead now, or would you prefer some time?"
+    },
+    {
+      "timestamp": "05:51",
+      "speaker": "Customer",
+      "text": "I think I'd like to go ahead. I've been putting things off since Raj went and I'd like one thing sorted."
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Agent",
+      "text": "Of course. Before I set it up, let me go over everything once more. It's Acme Life Cover for one hundred thousand dollars. The premium is eighty-four dollars a month to start, and it's stepped, so it goes up each year as you get older. For the first twelve months, only accidental death is covered, and after that you're fully covered. There's no medical exam, it's based on the health answers you gave me. And you've got a thirty-day cooling-off period with a full refund. Does all that make sense?"
+    },
+    {
+      "timestamp": "06:31",
+      "speaker": "Customer",
+      "text": "Yes. A hundred thousand, eighty-four a month, goes up every year, only accidents the first year, and thirty days to change my mind."
+    },
+    {
+      "timestamp": "06:41",
+      "speaker": "Agent",
+      "text": "That's spot on. So, are you happy to take out this policy at eighty-four dollars a month?"
+    },
+    {
+      "timestamp": "06:47",
+      "speaker": "Customer",
+      "text": "Yes, I am. Yes, please go ahead."
+    },
+    {
+      "timestamp": "06:51",
+      "speaker": "Agent",
+      "text": "Wonderful. I'll set that up for you now. You'll get all the documents in the post within a week, so you can go through them with Priya. If you've got any questions at all, just ring us back."
+    },
+    {
+      "timestamp": "07:03",
+      "speaker": "Customer",
+      "text": "Thank you, Mia. You've been very patient with me."
+    },
+    {
+      "timestamp": "07:07",
+      "speaker": "Agent",
+      "text": "It's been my pleasure, Chloe. Take care of yourself, and again, I'm very sorry about Raj."
+    }
+  ]
+}

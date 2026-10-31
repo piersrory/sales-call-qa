@@ -1,0 +1,176 @@
+{
+  "call_id": "call-035",
+  "market": "CA",
+  "agent_id": "CA-01",
+  "agent_name": "Ethan",
+  "customer_name": "Olivia Roy",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-20T18:15:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, thanks for calling Acme Life, this is Ethan speaking. Just so you know, this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Hi Ethan. I saw your ad for term life with no medical exam. I've got maybe ten minutes between meetings, so if we can keep this quick, that'd be great."
+    },
+    {
+      "timestamp": "00:18",
+      "speaker": "Agent",
+      "text": "Absolutely, I'll keep it efficient. Before we get into any details or a quote, can I get your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:25",
+      "speaker": "Customer",
+      "text": "Olivia Roy. March 14th, 1986."
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Agent",
+      "text": "Thanks, Olivia. That's Olivia Roy, born March 14th, 1986. Is that right?"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Customer",
+      "text": "Yep, that's me."
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Agent",
+      "text": "Great. So I can point you to the right amount of cover, could you tell me a bit about your situation and what's prompting you to look at life insurance?"
+    },
+    {
+      "timestamp": "00:47",
+      "speaker": "Customer",
+      "text": "Can't you just give me a price? Okay, fine. Short version: I run a small bakery, I've got two kids, eight and eleven, and a mortgage. My partner works part-time. If something happened to me, I don't want them losing the house."
+    },
+    {
+      "timestamp": "01:05",
+      "speaker": "Agent",
+      "text": "That's really helpful, thank you. Roughly how much is left on the mortgage, and do you have any life cover already, through the business or anywhere else?"
+    },
+    {
+      "timestamp": "01:14",
+      "speaker": "Customer",
+      "text": "About $380,000 left on the mortgage. No other coverage. I keep meaning to sort it out, which is why I'm calling."
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Agent",
+      "text": "Understood. And how long until the mortgage is paid off, roughly?"
+    },
+    {
+      "timestamp": "01:28",
+      "speaker": "Customer",
+      "text": "Around nineteen years."
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Agent",
+      "text": "Okay. Here's a quick overview of how Acme Term Life works. You can choose cover anywhere from $50,000 up to $750,000. Terms are either 10 or 20 years, and your premium stays fixed for the whole term. There's no medical exam; acceptance depends on a few health questions. A couple of things to be aware of: it's pure protection, so there's no cash value and nothing paid back if you outlive the term. And you get a 30-day free-look period, so if you change your mind within 30 days you get a full refund."
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Customer",
+      "text": "Okay. So what would you suggest?"
+    },
+    {
+      "timestamp": "02:09",
+      "speaker": "Agent",
+      "text": "Given the mortgage at about $380,000, nineteen years to go, and two kids, a 20-year term lines up well with the mortgage. In terms of amount, something like $500,000 would clear the mortgage and leave a cushion for your partner and the kids. That said, it's your call. You could go closer to the mortgage balance if you'd rather keep the cost down."
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Customer",
+      "text": "$500,000 for 20 years sounds about right. What's that going to cost me?"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Agent",
+      "text": "I'll need to run through the health questions first, since that determines acceptance and the price. There are just a few. Have you smoked or used any nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:45",
+      "speaker": "Customer",
+      "text": "No, never smoked."
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Agent",
+      "text": "In the past five years, have you been diagnosed with or treated for heart disease, cancer, stroke or diabetes?"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Agent",
+      "text": "Are you currently waiting on any medical tests or results, or have you been hospitalized in the last two years?"
+    },
+    {
+      "timestamp": "03:04",
+      "speaker": "Customer",
+      "text": "No, nothing like that. Just the odd sinus infection."
+    },
+    {
+      "timestamp": "03:09",
+      "speaker": "Agent",
+      "text": "That's fine, that doesn't affect anything. Based on your answers, you're eligible, and for $500,000 over a 20-year term your premium would be $80 a month, fixed for the full 20 years."
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Customer",
+      "text": "Eighty a month. Hmm. Is that the best you can do? I was kind of hoping for less."
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Agent",
+      "text": "That's the rate for that amount and term. If you wanted to bring it down, a lower amount, say closer to the $380,000 mortgage, or a 10-year term would cost less. Though a 10-year term would end well before the mortgage is paid off. Would you like me to quote any of those?"
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Customer",
+      "text": "No, the 20 years matters to me. I just like to ask. Okay, let's just do it. Where do I sign?"
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Agent",
+      "text": "No rush at all on my end. If you'd prefer to talk it over with your partner first, I can email you the quote and you can come back to it whenever suits you."
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Customer",
+      "text": "No, we already talked about it last week. I'd rather just get it done today while I'm thinking about it."
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Agent",
+      "text": "Sounds good. Let me just summarize before we finalize. This is Acme Term Life, $500,000 of coverage over a 20-year term, at $80 a month, and that premium is fixed for the full 20 years. There's no cash value, so if you outlive the term nothing is paid out. You have a 30-day free-look period with a full refund if you change your mind. Do you want to go ahead with this policy?"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Customer",
+      "text": "Yes, I want to go ahead."
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Agent",
+      "text": "Perfect. I'll take your banking details for the monthly payment, then send your policy documents by email, which will include the details on the free-look period. Shall we do the payment details now?"
+    },
+    {
+      "timestamp": "04:41",
+      "speaker": "Customer",
+      "text": "Yes, go ahead. Quickly, though, I've got a supplier calling at quarter past."
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Agent",
+      "text": "Understood, it'll only take a couple of minutes. Thanks for your patience, Olivia."
+    }
+  ]
+}

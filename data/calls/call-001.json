@@ -1,0 +1,221 @@
+{
+  "call_id": "call-001",
+  "market": "AU",
+  "agent_id": "AU-02",
+  "agent_name": "Jack",
+  "customer_name": "Liam O'Brien",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-28T23:52:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, thanks for calling Acme Life, you're speaking with Jack. Before we go any further, just letting you know this call is recorded for quality and training purposes. Who have I got on the line today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Yeah, g'day Jack. It's Liam. I saw your ad on Facebook for the life cover and thought I'd ring up and see what it's actually about. I'll warn you now, I'm not big on sales pitches."
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Agent",
+      "text": "No worries at all, Liam, I appreciate you being upfront. I'll keep it straight. Before I look at anything specific for you, can I just confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Customer",
+      "text": "Liam Patrick O'Brien. Born the fourteenth of March, 1987."
+    },
+    {
+      "timestamp": "00:42",
+      "speaker": "Agent",
+      "text": "Thanks, Liam Patrick O'Brien, fourteenth of March 1987. That's all confirmed. Before we get into numbers, can I ask a bit about your situation and what's got you thinking about life cover?"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Customer",
+      "text": "I'm a sparky, self-employed, so if I'm not working, nothing's coming in. Got a partner, two kids, six and three, and a mortgage in Ipswich. My mate's dad passed last year with nothing in place and it made a right mess for the family. Got me thinking."
+    },
+    {
+      "timestamp": "01:15",
+      "speaker": "Agent",
+      "text": "Sorry to hear about your mate's dad, that's tough. Roughly how much is left on the mortgage, and is your partner working at the moment?"
+    },
+    {
+      "timestamp": "01:24",
+      "speaker": "Customer",
+      "text": "About three-eighty left on the loan. She works part-time at a pharmacy, three days a week. Not enough to cover the house on her own, that's for sure."
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Agent",
+      "text": "Righto. And do you have any cover through super at the moment, or anything else in place?"
+    },
+    {
+      "timestamp": "01:43",
+      "speaker": "Customer",
+      "text": "Honestly no idea what's in my super. I've got a self-managed sort of mess going with an industry fund, I haven't looked at it in years."
+    },
+    {
+      "timestamp": "01:53",
+      "speaker": "Agent",
+      "text": "That's pretty common. Worth checking at some point, because there may be some default cover in there. Before I go any further, I should say that anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs, so you'll want to think about whether it suits you, and have a read of the Product Disclosure Statement."
+    },
+    {
+      "timestamp": "02:13",
+      "speaker": "Customer",
+      "text": "Yeah, fair enough. So what are we talking about then?"
+    },
+    {
+      "timestamp": "02:17",
+      "speaker": "Agent",
+      "text": "Acme Life Cover pays a lump sum to your family if you pass away. You can choose anywhere from $50,000 up to $1,000,000. With three-eighty on the mortgage and two young kids, a lot of people in a similar spot look at around $500,000, so the loan's cleared and there's a buffer. But it's your call on the amount."
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Customer",
+      "text": "Right. And what's the catch? There's always a catch. Do I have to go get poked and prodded by a doctor?"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Agent",
+      "text": "No medical exam. I'd ask you a handful of health questions over the phone and acceptance is based on your answers. The main thing to be aware of is that for the first 12 months, it only covers accidental death. After the first year, it covers death from any cause."
+    },
+    {
+      "timestamp": "03:02",
+      "speaker": "Customer",
+      "text": "So if I got sick and died in the first year, the family gets nothing?"
+    },
+    {
+      "timestamp": "03:07",
+      "speaker": "Agent",
+      "text": "That's right, in the first 12 months it's accidental death only. Given you're on tools and around live wiring, the accidental side is still relevant, but I don't want you thinking you're covered for illness straight away, because you're not."
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Customer",
+      "text": "Okay, at least you're telling me straight. What's it gonna cost for the five hundred grand?"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Agent",
+      "text": "I'll just need to run through those health questions first. Do you smoke or have you smoked in the last twelve months?"
+    },
+    {
+      "timestamp": "03:33",
+      "speaker": "Customer",
+      "text": "No. Gave up about six years ago."
+    },
+    {
+      "timestamp": "03:37",
+      "speaker": "Agent",
+      "text": "Good on you. Have you been diagnosed with, or had treatment for, any heart condition, cancer, diabetes or stroke?"
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Customer",
+      "text": "No, none of that. Bad knee from footy but that's it."
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Agent",
+      "text": "That's fine, that won't affect this. And are you currently waiting on any tests or specialist appointments?"
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Customer",
+      "text": "Nope."
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Agent",
+      "text": "Great. Based on that, for $500,000 of cover, your premium comes out at $55 a month."
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Customer",
+      "text": "Fifty-five. And that's the price, or is that some intro rate that jumps in a year?"
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Agent",
+      "text": "No, that's the price. Fifty-five a month, locked in, it won't move on you. So you know exactly what's coming out each month."
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Customer",
+      "text": "Hm. Alright. And if I sign up and then my partner reckons it's a dud idea?"
+    },
+    {
+      "timestamp": "04:27",
+      "speaker": "Agent",
+      "text": "You've got a 30-day cooling-off period. If you change your mind within 30 days, you cancel and get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "04:36",
+      "speaker": "Customer",
+      "text": "Okay. I'm not gonna lie, I was half expecting you to tell me the offer ends tonight or something."
+    },
+    {
+      "timestamp": "04:42",
+      "speaker": "Agent",
+      "text": "Ha, no. There's no rush from my end. If you want to talk it over with your partner or check your super first, I'm happy to email the quote and the PDS and you can ring back whenever suits."
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Customer",
+      "text": "Nah, I've been putting this off for a year. We talked about it last week anyway, she wants something in place. Let's just do it."
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Agent",
+      "text": "No problem. Before I set it up, let me just run back over it so we're both clear. It's Acme Life Cover for Liam Patrick O'Brien, $500,000 lump sum paid on death. For the first 12 months it covers accidental death only, then death from any cause after that. The premium is $55 a month, and you've got a 30-day cooling-off period with a full refund if you change your mind. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Customer",
+      "text": "Yep. Yes, go ahead."
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Agent",
+      "text": "Lovely. Who would you like as the beneficiary?"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Customer",
+      "text": "My partner, Rachel Anne Doyle."
+    },
+    {
+      "timestamp": "05:41",
+      "speaker": "Agent",
+      "text": "Got it. And for the payments, would you like a direct debit from a bank account or a card?"
+    },
+    {
+      "timestamp": "05:47",
+      "speaker": "Customer",
+      "text": "Direct debit's fine. Hang on, I'll grab the details off the app."
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Customer",
+      "text": "Right, BSB 064-118, account 1048 3392."
+    },
+    {
+      "timestamp": "06:29",
+      "speaker": "Agent",
+      "text": "Thanks, BSB 064-118, account 1048 3392. First payment of $55 will come out on the 1st, and your policy documents and PDS will be emailed through today. Anything else you'd like to ask before we wrap up?"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Customer",
+      "text": "No, that's me. Cheers, Jack, that was less painful than I expected."
+    },
+    {
+      "timestamp": "06:49",
+      "speaker": "Agent",
+      "text": "Glad to hear it, Liam. Have a good arvo, and keep an eye out for that email."
+    }
+  ]
+}

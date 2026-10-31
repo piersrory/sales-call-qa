@@ -1,0 +1,191 @@
+{
+  "call_id": "call-032",
+  "market": "NZ",
+  "agent_id": "NZ-03",
+  "agent_name": "Ravi",
+  "customer_name": "Mereana Ngata",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-24T03:15:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, thanks for calling Acme Life, you're speaking with Ravi. Just so you know, this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Oh, kia ora. Um, I saw your ad. On the telly. About the life cover. I wanted to... sorry, I wanted to ask about it."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "No worries at all, happy to help. Before we go into any details or a quote, can I please get your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Customer",
+      "text": "Sorry, you said... my name and what?"
+    },
+    {
+      "timestamp": "00:33",
+      "speaker": "Agent",
+      "text": "Your full name and your date of birth, please."
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Customer",
+      "text": "Right. Mereana Ngata. And I was born the fourteenth of March, 1968."
+    },
+    {
+      "timestamp": "00:47",
+      "speaker": "Agent",
+      "text": "Thanks, Mereana, that's all confirmed. So Acme Life Cover pays a lump sum to your family if you pass away. You can choose cover anywhere from fifty thousand up to a million dollars. For most people your age, I'd recommend around three hundred thousand. That's a solid amount and it's where most of our customers land."
+    },
+    {
+      "timestamp": "01:08",
+      "speaker": "Customer",
+      "text": "Three hundred... sorry, can you say that again? I had a stroke last year and I... things don't always stick the first time."
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Agent",
+      "text": "Sure. Cover goes from fifty thousand to a million, and I'd suggest three hundred thousand dollars. Now, the premiums are stepped, which means they go up each year as you get older. There's also a terminal illness benefit, so if you're diagnosed with less than twelve months to live, the cover pays out early. And you get a thirty-day free-look period, so if you change your mind in the first thirty days you get a full refund."
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Customer",
+      "text": "Okay. Stepped. So it... it goes up?"
+    },
+    {
+      "timestamp": "01:45",
+      "speaker": "Agent",
+      "text": "That's right, it goes up each year as you get older. Now, one important thing given what you mentioned. Pre-existing medical conditions aren't covered for the first two years. So anything related to your stroke wouldn't be covered for the first two years of the policy. After that, it would be."
+    },
+    {
+      "timestamp": "02:03",
+      "speaker": "Customer",
+      "text": "Sorry, the stroke... it's not covered? At all?"
+    },
+    {
+      "timestamp": "02:08",
+      "speaker": "Agent",
+      "text": "Not for the first two years. Pre-existing conditions are excluded for the first two years, then they're covered after that. So, at three hundred thousand dollars of cover, your premium comes out at one hundred and thirteen dollars a month."
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Customer",
+      "text": "A hundred and... thirty?"
+    },
+    {
+      "timestamp": "02:25",
+      "speaker": "Agent",
+      "text": "One hundred and thirteen dollars a month. And remember that's the starting amount, it'll go up each year because the premiums are stepped."
+    },
+    {
+      "timestamp": "02:34",
+      "speaker": "Customer",
+      "text": "One-one-three. Okay. I'm just writing it down. My hand's a bit slow."
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Agent",
+      "text": "No problem. So that's three hundred thousand cover, one hundred and thirteen a month, terminal illness benefit included, thirty-day free look, and the two-year exclusion on pre-existing conditions."
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Customer",
+      "text": "Hmm. Is three hundred... is that enough? I don't really know what I need."
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Agent",
+      "text": "Three hundred is a good middle ground, it's what I'd go with. You can go higher or lower anywhere between fifty thousand and a million, but the price would change."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Customer",
+      "text": "Right. And if I... if I don't like it, I can stop it?"
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Agent",
+      "text": "Yes, within the first thirty days you can cancel and get a full refund of what you've paid."
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Customer",
+      "text": "Thirty days. Okay. I'm not sure. I don't want to rush into it."
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Agent",
+      "text": "That's completely fine. There's no pressure from me, the quote isn't going anywhere. You're welcome to have a think, talk to whānau, and call us back whenever suits. Or if you'd like to go ahead today, we can do that too. Entirely up to you."
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Customer",
+      "text": "Okay. Let me think a sec."
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Customer",
+      "text": "I think... I think I want to do it. My moko, I want something there for them. And I can stop it in thirty days if it's wrong."
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Agent",
+      "text": "Sure. Before I set it up, let me run through it. You're taking out Acme Life Cover for three hundred thousand dollars. The premium is one hundred and thirteen dollars a month to start, and it's stepped, so it'll increase each year as you get older. It includes the terminal illness benefit, which pays out early if you have less than twelve months to live. Pre-existing conditions, including your stroke, aren't covered for the first two years. And you have a thirty-day free-look period with a full refund. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Customer",
+      "text": "Sorry, there was a lot there. Three hundred thousand, hundred and thirteen a month... and the stroke's not covered for two years."
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Agent",
+      "text": "That's right. So, would you like to go ahead?"
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Customer",
+      "text": "Yes. Yes, I'd like to go ahead."
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Agent",
+      "text": "Great. I'll get that set up now. Can I take your bank account details for the monthly direct debit?"
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Customer",
+      "text": "Um, yes. Hang on, I'll get my card. It's with Kiwibank."
+    },
+    {
+      "timestamp": "05:40",
+      "speaker": "Customer",
+      "text": "Okay, the account is 38-9012-0345678-00."
+    },
+    {
+      "timestamp": "05:52",
+      "speaker": "Agent",
+      "text": "Thanks, that's 38-9012-0345678-00 with Kiwibank. The first payment of one hundred and thirteen dollars will come out on the first of next month. Your policy documents will be posted and emailed to you within five working days, and your thirty-day free look starts from when you receive them."
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "Customer",
+      "text": "Okay. Posted, good. I'll get my daughter to read it with me."
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Agent",
+      "text": "Perfect. Your policy's all set up, Mereana. Thanks for choosing Acme Life, and have a lovely day."
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Customer",
+      "text": "Thank you, Ravi. Ka kite."
+    }
+  ]
+}

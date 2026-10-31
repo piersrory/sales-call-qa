@@ -1,0 +1,191 @@
+{
+  "call_id": "call-031",
+  "market": "CA",
+  "agent_id": "CA-02",
+  "agent_name": "Chloé",
+  "customer_name": "Liam Tremblay",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-21T20:32:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hi, thanks for calling Acme Life, you're speaking with Chloé. Just so you know, this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:11",
+      "speaker": "Customer",
+      "text": "Oh, hello. Yes. I saw your ad, on the TV, about the... the life insurance. The one with no doctor."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "Perfect, that'd be Acme Term Life. Before we get into anything, can I get your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Customer",
+      "text": "Sorry, my name and... what was the second part?"
+    },
+    {
+      "timestamp": "00:33",
+      "speaker": "Agent",
+      "text": "Your date of birth."
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Customer",
+      "text": "Right. Liam Tremblay. Liam Joseph Tremblay. And it's... March the fourteenth, 1961."
+    },
+    {
+      "timestamp": "00:46",
+      "speaker": "Agent",
+      "text": "Great, thanks, Mr. Tremblay, that's all confirmed. So tell me a bit about your situation. What's got you looking at life insurance right now?"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Customer",
+      "text": "Well, I had a stroke. Last year, in the fall. I'm doing better now, but my words, they get mixed up sometimes, and I forget things people tell me. My wife, Denise, she worries. If something happens again, I don't want her stuck with the house payments."
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Agent",
+      "text": "Okay, that makes sense. And how much is left on the mortgage, roughly? Any other debts or anyone else who depends on you?"
+    },
+    {
+      "timestamp": "01:25",
+      "speaker": "Customer",
+      "text": "The mortgage... about a hundred and eighty thousand, I think. Denise would know better. No kids at home anymore. Our daughter's grown, she lives in Sherbrooke."
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Agent",
+      "text": "Got it. And are you still working, or retired?"
+    },
+    {
+      "timestamp": "01:43",
+      "speaker": "Customer",
+      "text": "Not working since the stroke. I get a disability pension. Denise still works part-time."
+    },
+    {
+      "timestamp": "01:52",
+      "speaker": "Agent",
+      "text": "Okay. So based on that, I'd be looking at something that covers the mortgage, so somewhere around $200,000. Coverage goes anywhere from $50,000 up to $750,000, there's no medical exam, acceptance is based on a few health questions, you pick a 10- or 20-year term, premiums are fixed for the whole term, and there's no cash value, it's pure protection. Given the mortgage, a 20-year term at around $200,000 would probably be the best fit."
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Customer",
+      "text": "Sorry, sorry. Can you say that again? That was a lot. The... the years part?"
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Agent",
+      "text": "Sure, terms are 10 or 20 years, premium's fixed for the term, no cash value, coverage $50,000 to $750,000. I'd suggest 20 years at $200,000 to line up with the mortgage. So the next step would be the health questions, and those determine whether you're accepted and what your premium comes out to."
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Customer",
+      "text": "Okay. Twenty years. And what does no cash value mean? Is that... I don't get money back?"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Agent",
+      "text": "Right, it's not a savings product. If you stop paying or the term ends, there's no payout to you. It pays your beneficiary if you pass away during the term. Now, the health questions. First one: in the last five years, have you been diagnosed with or treated for heart disease, stroke, cancer—"
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Customer",
+      "text": "Wait. Wait. The stroke, I told you. Does that mean I can't get it?"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "Agent",
+      "text": "Not necessarily, it's one of the questions that goes into the assessment. I can't tell you the outcome until we go through them all, and then the premium is based on your answers. So, yes to stroke. Have you been hospitalized in the last two years apart from that?"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Customer",
+      "text": "Hospitalized. Um. Just for the stroke. And then the rehab place, for a few weeks. Is that the same thing?"
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Agent",
+      "text": "I'll note it as related to the stroke. Next one, are you currently taking any prescribed medications?"
+    },
+    {
+      "timestamp": "03:42",
+      "speaker": "Customer",
+      "text": "Yes, a few. Blood thinner, and one for blood pressure, and... I don't remember the names. Denise has the list on the fridge."
+    },
+    {
+      "timestamp": "03:53",
+      "speaker": "Agent",
+      "text": "No problem, we'd just need those names before anything's finalized. Okay, so once we have the meds and the remaining answers, I can give you an actual premium and you'd know if you're accepted. And just so you know, if you do go ahead, there's a 30-day free-look period, so if you change your mind within 30 days, you get a full refund."
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Customer",
+      "text": "Thirty days. Sorry, what happens in the thirty days?"
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Agent",
+      "text": "You can cancel within 30 days and get all your money back. So, did you want to keep going with the rest of the questions now, or—"
+    },
+    {
+      "timestamp": "04:25",
+      "speaker": "Customer",
+      "text": "I... I think my head is getting a bit full. There was the years, and the cash part, and the thirty days. I'm not sure I'd remember it all to tell Denise."
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Agent",
+      "text": "Sure. So the main points again: up to $750,000 in coverage, no exam, 10 or 20 years, fixed premium, no cash value, 30-day free look with a full refund. For you I'd go 20 years, $200,000."
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Customer",
+      "text": "Okay. Yes. I think... I don't want to decide this today. I want to sit with Denise, and maybe our daughter, and go through it properly. And find the medication names."
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Agent",
+      "text": "That's completely fine, there's no rush at all. Take whatever time you need. Would you like me to email you a summary of the product, or would you rather just call back when you're ready?"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Customer",
+      "text": "Email, yes. Denise reads the emails. Is it the one you have? Or do I give it to you?"
+    },
+    {
+      "timestamp": "05:22",
+      "speaker": "Agent",
+      "text": "I'll need it from you, please."
+    },
+    {
+      "timestamp": "05:25",
+      "speaker": "Customer",
+      "text": "It's d.tremblay61, at... videotron dot ca. That's Denise's."
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Agent",
+      "text": "Got it, d.tremblay61 at videotron dot ca. I'll send the product summary over today. Whenever you and Denise are ready, just call the same number and anyone here can pick it up from where we left off."
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Customer",
+      "text": "Okay. Thank you, Chloé. Sorry I was slow."
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Agent",
+      "text": "Not at all. Thanks for calling, Mr. Tremblay, have a good afternoon."
+    },
+    {
+      "timestamp": "05:54",
+      "speaker": "Customer",
+      "text": "You too. Bye now."
+    }
+  ]
+}

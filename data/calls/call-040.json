@@ -1,0 +1,231 @@
+{
+  "call_id": "call-040",
+  "market": "NZ",
+  "agent_id": "NZ-01",
+  "agent_name": "Aroha",
+  "customer_name": "Oliver Brown",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-27T21:47:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, this is Aroha calling from Acme Life. Just letting you know this call is recorded for quality and training purposes. Am I speaking with Oliver?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Yes... yes, that's me. Sorry, who did you say?"
+    },
+    {
+      "timestamp": "00:13",
+      "speaker": "Agent",
+      "text": "No worries at all. It's Aroha, from Acme Life. You filled in a form after seeing our life cover advert and asked us to give you a call back."
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Customer",
+      "text": "Oh, right. The life insurance. Yes, I did that last week, I think. My memory's not what it was."
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Agent",
+      "text": "That's all good. Before we go any further, could I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Customer",
+      "text": "Oliver James Brown. And it's the... fourteenth of March, nineteen sixty-one."
+    },
+    {
+      "timestamp": "00:46",
+      "speaker": "Agent",
+      "text": "Thanks, Oliver, that matches what we have. Can I ask a bit about your situation and what got you thinking about life cover?"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Customer",
+      "text": "Well, I had a stroke back in... it would be August. So about eight months ago. I'm getting better, but it gave me a fright. My wife, Margaret, she'd be on her own with the mortgage if something happened."
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Agent",
+      "text": "I'm really sorry to hear that, Oliver. That sounds like a big year. So the main reason is to look after Margaret and the mortgage. Roughly how much is left on the mortgage?"
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Customer",
+      "text": "Sorry, could you say that again? I lost the end of it."
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Agent",
+      "text": "Of course. I'll go a bit slower. How much do you still owe on the house?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "About a hundred and eighty thousand. Bit less, maybe."
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Agent",
+      "text": "Thanks. And are you working at the moment, or is anyone else depending on your income?"
+    },
+    {
+      "timestamp": "01:42",
+      "speaker": "Customer",
+      "text": "I'm not back at work yet. Margaret works part-time. The kids are grown up, they've left home."
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Agent",
+      "text": "Okay. Based on that, cover of around two hundred thousand dollars would clear the mortgage with a bit left over. Our cover can be anywhere from fifty thousand up to one million, so we can adjust that. Does two hundred thousand sound about right to you?"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Customer",
+      "text": "Two hundred thousand... yes, I think so. That would cover the house."
+    },
+    {
+      "timestamp": "02:13",
+      "speaker": "Agent",
+      "text": "There's something important I need to explain, and I'll take it slowly. Because you've had a stroke, that's what we call a pre-existing condition. Anything related to a pre-existing condition isn't covered for the first two years of the policy. Does that make sense?"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Customer",
+      "text": "Sorry, so... if I had another stroke, it wouldn't pay?"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Agent",
+      "text": "In the first two years, that's right. If something related to your stroke happened in that time, the policy wouldn't pay out for it. After two years, it would be covered. Can you tell me in your own words what that means for you?"
+    },
+    {
+      "timestamp": "02:49",
+      "speaker": "Customer",
+      "text": "So for two years the stroke thing isn't covered. After that it is."
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Agent",
+      "text": "Exactly right. The policy also has a terminal illness benefit, which means if you were diagnosed with less than twelve months to live, it pays out early, so the money's there when you need it."
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Customer",
+      "text": "Right. And how much would it cost? We're a bit tight at the moment, with me not working."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Agent",
+      "text": "For two hundred thousand dollars of cover, your premium today would be about seventy-two dollars a month. I do need to mention that the premiums are stepped, which means they go up each year as you get older. So it'll be more next year, and more again after that."
+    },
+    {
+      "timestamp": "03:31",
+      "speaker": "Customer",
+      "text": "Seventy... sorry, how much?"
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Agent",
+      "text": "Seventy-two dollars a month to start with. And it goes up each year as you get older."
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "Goes up every year. Hmm. I'd want to talk to Margaret about that. I'm not good with numbers since the stroke."
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Agent",
+      "text": "I understand. The thing is, Oliver, that seventy-two dollar rate is only something I can hold for you on this call. If we leave it and start again later, I can't promise you'll get the same price. A lot of people in your position find it's easier just to get it in place now."
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Customer",
+      "text": "Oh. I didn't know that. I just... I don't like deciding things quickly any more. I get muddled."
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Agent",
+      "text": "And you also have a thirty-day free-look period, so if you sign up today and change your mind within thirty days, you get a full refund. So really there's not much to think over, you can sort it now and talk to Margaret afterwards."
+    },
+    {
+      "timestamp": "04:30",
+      "speaker": "Customer",
+      "text": "Thirty days... sorry, can you say that bit again?"
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Agent",
+      "text": "Sure, I'll slow down. If you take out the policy, you have thirty days to look it over. If you decide you don't want it during that time, you cancel and get all your money back."
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Customer",
+      "text": "Right. Thirty days, all the money back. I think I follow."
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Agent",
+      "text": "Just so I know it's clear, can you tell me back the main points we've covered?"
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Customer",
+      "text": "Two hundred thousand. The stroke isn't covered for two years. It's... seventy-something a month, and it goes up. And I can get my money back in thirty days."
+    },
+    {
+      "timestamp": "05:10",
+      "speaker": "Agent",
+      "text": "That's spot on. You've done really well there. I can hear it's a lot to take in, though. Would it help if I called back when Margaret's with you, or one of your kids, so someone you trust can hear it too?"
+    },
+    {
+      "timestamp": "05:23",
+      "speaker": "Customer",
+      "text": "Yes. I think that would be better. Margaret handles the bills now. I don't want to say yes and then get it wrong."
+    },
+    {
+      "timestamp": "05:32",
+      "speaker": "Agent",
+      "text": "That's completely fine. When's a good time for both of you?"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Customer",
+      "text": "She's home Thursday afternoons. After two o'clock?"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Agent",
+      "text": "Lovely. I'll call this Thursday at half past two. I'll also email you a written summary of what we've talked about, the cover amount, the two-year wait for pre-existing conditions, the stepped premiums and the thirty-day free look, so you can both read it beforehand. Is the email we have on file still right?"
+    },
+    {
+      "timestamp": "05:59",
+      "speaker": "Customer",
+      "text": "Should be. Oliver dot brown, at xtra. Sorry, what day did you say?"
+    },
+    {
+      "timestamp": "06:05",
+      "speaker": "Agent",
+      "text": "Thursday, at half past two. I'll put that in the email as well, so it's written down for you."
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Customer",
+      "text": "Good. Thursday, half two. Thank you, Aroha. You've been very patient."
+    },
+    {
+      "timestamp": "06:18",
+      "speaker": "Agent",
+      "text": "My pleasure, Oliver. Take care of yourself, and I'll talk to you and Margaret on Thursday. Ka kite."
+    },
+    {
+      "timestamp": "06:25",
+      "speaker": "Customer",
+      "text": "Bye now."
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "call_id": "call-003",
+  "market": "CA",
+  "agent_id": "CA-02",
+  "agent_name": "Chloé",
+  "customer_name": "Olivia Roy",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-12T17:35:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, thanks for calling Acme Life, this is Chloé speaking. Just so you know, this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Hi. I saw your ad online for term life with no medical exam. I want to know what the catch is before anyone tries to sell me anything."
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Agent",
+      "text": "Fair enough, I'm happy to walk you through it. Before I go into any details or a quote, can I confirm your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:31",
+      "speaker": "Customer",
+      "text": "Olivia Roy. March 14th, 1986."
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Agent",
+      "text": "Thank you, Olivia. I have that as Olivia Roy, born March 14th, 1986. Is that right?"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Customer",
+      "text": "That's right."
+    },
+    {
+      "timestamp": "00:46",
+      "speaker": "Agent",
+      "text": "Great. So, Acme Term Life is a term policy. You pick a 10- or 20-year term, and your premium is fixed for the whole term, so it won't go up partway through. There's no medical exam. Instead, acceptance is based on a few health questions."
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "Customer",
+      "text": "Okay. And what happens at the end of the term? Do I get anything back?"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Agent",
+      "text": "No. This policy has no cash value, so there's no payout if the term ends and you're still around. It's pure protection: it pays out if you pass away during the term."
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Customer",
+      "text": "Right. At least you're straight about that. How much coverage are we talking?"
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "Agent",
+      "text": "Coverage goes from fifty thousand up to seven hundred and fifty thousand dollars. Honestly, for someone your age, I'd go with five hundred thousand on a 20-year term. That's what most people in your bracket end up choosing, and it's a really solid amount."
+    },
+    {
+      "timestamp": "01:42",
+      "speaker": "Customer",
+      "text": "Five hundred thousand? That seems like a lot. You don't even know what I do or what I owe."
+    },
+    {
+      "timestamp": "01:49",
+      "speaker": "Agent",
+      "text": "It's a nice round number that covers most things people worry about, like a mortgage or family expenses. Five hundred on a 20-year term is the sweet spot. Let me get you a price on that."
+    },
+    {
+      "timestamp": "02:01",
+      "speaker": "Customer",
+      "text": "Fine, but just a price. I'm not committing to anything."
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Agent",
+      "text": "Of course. I just need to ask you a few health questions first. In the past five years, have you been diagnosed with or treated for heart disease, cancer, or stroke?"
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:17",
+      "speaker": "Agent",
+      "text": "Have you used any tobacco or nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Customer",
+      "text": "No, I quit about four years ago."
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Agent",
+      "text": "Good for you. Are you currently taking any prescription medication for diabetes or high blood pressure?"
+    },
+    {
+      "timestamp": "02:33",
+      "speaker": "Customer",
+      "text": "No. I'm pretty healthy. I'm on my feet all day, I'm an electrician. Self-employed."
+    },
+    {
+      "timestamp": "02:40",
+      "speaker": "Agent",
+      "text": "Perfect. Based on those answers, you qualify. For five hundred thousand dollars of coverage over 20 years, your premium would be ninety-two dollars a month, fixed for the full 20 years."
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Customer",
+      "text": "Ninety-two a month. Hmm. Okay, I want to think about it, maybe compare a couple of other companies. Can you email me the quote?"
+    },
+    {
+      "timestamp": "03:03",
+      "speaker": "Agent",
+      "text": "I could, but to be honest, this rate is only available while we're on this call. If you hang up and call back, it gets re-quoted and it probably won't be ninety-two. People who wait usually end up paying more."
+    },
+    {
+      "timestamp": "03:16",
+      "speaker": "Customer",
+      "text": "Really? That sounds like a sales line. Why would the price change in a day?"
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Agent",
+      "text": "It's just how the pricing works on our end. The ninety-two is locked in today if we do it now. Thinking it over doesn't really change much, you already know what it is and what it costs."
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Customer",
+      "text": "I don't love being rushed. What if I sign up and then change my mind next week?"
+    },
+    {
+      "timestamp": "03:40",
+      "speaker": "Agent",
+      "text": "You have a 30-day free-look period. If you cancel within 30 days, you get a full refund. So there's no downside to locking it in now."
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Customer",
+      "text": "Thirty days, full refund, no strings?"
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Agent",
+      "text": "That's right, a full refund within the 30 days."
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Customer",
+      "text": "Okay. I'd rather have something in place than nothing. My guys are on job sites all the time and you never know. Let's do it."
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Agent",
+      "text": "Great. Before I complete this, let me summarise. This is Acme Term Life, five hundred thousand dollars of coverage on a 20-year term. Your premium is ninety-two dollars a month, fixed for the full term. There's no cash value, and you have a 30-day free-look period with a full refund. Do you want to go ahead with this policy?"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Customer",
+      "text": "Yes, I want to go ahead."
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Agent",
+      "text": "Thank you, Olivia. I'll take your payment details now, and your policy documents will be emailed to you within a couple of business days."
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Customer",
+      "text": "Fine. Let's get it done."
+    }
+  ]
+}

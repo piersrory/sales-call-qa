@@ -1,0 +1,161 @@
+{
+  "call_id": "call-021",
+  "market": "AU",
+  "agent_id": "AU-03",
+  "agent_name": "Priya",
+  "customer_name": "Sarah Nguyen",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-29T03:57:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hi, is that Sarah? It's Priya calling from Acme Life. You asked for a call back about our life cover. Just so you know, this call is recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "00:11",
+      "speaker": "Customer",
+      "text": "Oh, yes, hello. I filled in that little form after the ad on the telly. I wasn't sure anyone would actually ring."
+    },
+    {
+      "timestamp": "00:19",
+      "speaker": "Agent",
+      "text": "Lovely, thanks for that. Before we go any further, could I please confirm your full name and your date of birth?"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Customer",
+      "text": "Sarah... Sarah Thi Nguyen. The fourteenth of March, nineteen fifty-one. Sorry, my husband usually did all this sort of thing."
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Agent",
+      "text": "Thanks, Sarah, that all matches up. Before I talk you through anything, can I ask a bit about your situation and what made you look into life cover?"
+    },
+    {
+      "timestamp": "00:47",
+      "speaker": "Customer",
+      "text": "Well, my husband, Tuan, he passed away two months ago. It was very sudden. And the funeral, I had to pay for all of it, and I didn't know what anything cost. I don't want the children to have to go through that for me. I don't want to leave them with a mess."
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Agent",
+      "text": "I'm sorry to hear that. So it sounds like you mainly want something to cover funeral costs and maybe leave a bit for the kids. Do you have any existing life insurance, or any cover through super?"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Customer",
+      "text": "I don't think so. Tuan had something through his work years ago, I think, but I couldn't find the papers. My daughter's looking. I'm not very good with all the forms."
+    },
+    {
+      "timestamp": "01:29",
+      "speaker": "Agent",
+      "text": "No worries. And do you have any debts at the moment, like a mortgage or a loan?"
+    },
+    {
+      "timestamp": "01:34",
+      "speaker": "Customer",
+      "text": "No, no, the house is paid off. It's just the bills now. I'm on the pension."
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Agent",
+      "text": "Okay, thanks. Just so you're aware, anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs, so you'll need to think about whether it's right for you. So, Acme Life Cover lets you choose a cover amount anywhere from fifty thousand up to one million dollars. There's no medical exam. You answer a few health questions, and that decides whether we can accept you. In the first twelve months only accidental death is covered, so if you passed away from an illness in that first year, it wouldn't pay out. After twelve months the full cover applies as set out in the policy document. The premiums are stepped, which means they go up each year as you get older."
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Customer",
+      "text": "Sorry, so... it covers me, but not for the first year? Is that what you said? I'm a bit lost already."
+    },
+    {
+      "timestamp": "02:33",
+      "speaker": "Agent",
+      "text": "Accidental death is covered from day one, and illness is covered from the thirteenth month. For funeral costs people often look at the lower end, so fifty or a hundred thousand. This is an indicative quote based on your age. Fifty thousand would be around one hundred and sixty-four dollars a month, and a hundred thousand would be about three hundred and nineteen dollars a month. That's this year's premium, and it goes up each year at renewal."
+    },
+    {
+      "timestamp": "03:04",
+      "speaker": "Customer",
+      "text": "One hundred and sixty... a month? Or is that a year? Sorry. Tuan did all the numbers. I've written down sixty-four here. Is that right?"
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Agent",
+      "text": "It's one sixty-four a month for the fifty thousand, and three nineteen a month for the hundred thousand. Because it's stepped, next year it'll be higher, and the year after that higher again, because it rises with your age. There's also a thirty-day cooling-off period, so if you take it out and change your mind within thirty days, you get a full refund."
+    },
+    {
+      "timestamp": "03:39",
+      "speaker": "Customer",
+      "text": "Higher by how much? I have to be careful now, it's only me on the pension. And I keep forgetting things lately. The doctor says it's the grief. I put the kettle on and walk away from it."
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Agent",
+      "text": "The exact increase depends on your age each year, and it's shown on your renewal notice. Would you like me to run through the health questions now, so we can see if you'd be accepted? There's only a handful. The first one is: in the last five years, have you been diagnosed with or treated for heart disease, stroke or cancer?"
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Customer",
+      "text": "Oh. Um. I take the blood pressure tablets. Is that... is that the heart? I don't know. Sorry, dear, can we go back? Was it a hundred and sixty for the fifty, or fifty for the hundred? I've got it all mixed up on my paper."
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Agent",
+      "text": "It's one sixty-four a month for fifty thousand of cover, and three nineteen a month for a hundred thousand. The health question is asking whether you've had a diagnosis of, or treatment for, heart disease, stroke or cancer specifically, so it's whatever your doctor has told you. Then the next question is about any hospital admissions in the last—"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Customer",
+      "text": "I think I should stop. I don't think I can take it all in today. Two months ago I wouldn't even be on the phone for this. Tuan always did it."
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Agent",
+      "text": "That's completely fine, there's no rush at all. You can take your time and decide whenever you're ready, or not at all. I can send you the product disclosure statement and today's quote so you've got everything in writing. Would email be okay?"
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Customer",
+      "text": "I don't really do the email. My daughter, Linh, she does all that. Could it come in the post?"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Agent",
+      "text": "Of course, I can post it out. Can I confirm your postal address?"
+    },
+    {
+      "timestamp": "05:23",
+      "speaker": "Customer",
+      "text": "It's twenty-seven Wattle Grove, Bankstown. New South Wales. Two-two-zero-zero."
+    },
+    {
+      "timestamp": "05:32",
+      "speaker": "Agent",
+      "text": "Twenty-seven Wattle Grove, Bankstown, New South Wales, two-two-zero-zero. Perfect. The documents explain the cover amounts, the twelve months of accidental death only cover, how the stepped premiums work, and the thirty-day cooling-off period. If you or Linh have any questions after reading them, you can call us any time."
+    },
+    {
+      "timestamp": "05:52",
+      "speaker": "Customer",
+      "text": "Thank you. I'll sit down with Linh when she comes on the weekend and we'll look at it together. I don't want to decide anything today."
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Agent",
+      "text": "That sounds like a good idea. The pack should reach you in about five to seven business days. Is there anything else I can help with today?"
+    },
+    {
+      "timestamp": "06:09",
+      "speaker": "Customer",
+      "text": "No, that's all, love. Thank you for ringing. You've been kind."
+    },
+    {
+      "timestamp": "06:14",
+      "speaker": "Agent",
+      "text": "You're welcome, Sarah. Take care of yourself, and thanks for your time. Bye now."
+    },
+    {
+      "timestamp": "06:19",
+      "speaker": "Customer",
+      "text": "Bye bye."
+    }
+  ]
+}

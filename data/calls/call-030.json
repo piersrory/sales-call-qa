@@ -1,0 +1,206 @@
+{
+  "call_id": "call-030",
+  "market": "UK",
+  "agent_id": "UK-02",
+  "agent_name": "Amelia",
+  "customer_name": "Callum Reid",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-22T10:02:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, you're through to Acme Life Cover, my name's Amelia. Before we go any further, I need to let you know this call is recorded for training and quality purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Hello, yes. I saw your advert, on the telly I think it was. About life cover. I filled in the form for a call back but then I thought I'd just ring."
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Agent",
+      "text": "That's no problem at all, thanks for calling. Before we talk about any details or a quote, could I take your full name, please?"
+    },
+    {
+      "timestamp": "00:31",
+      "speaker": "Customer",
+      "text": "Callum Reid. Callum James Reid."
+    },
+    {
+      "timestamp": "00:36",
+      "speaker": "Agent",
+      "text": "Thank you, Mr Reid. And could you confirm your date of birth for me?"
+    },
+    {
+      "timestamp": "00:41",
+      "speaker": "Customer",
+      "text": "Sorry, could you say that again? I didn't quite catch it."
+    },
+    {
+      "timestamp": "00:44",
+      "speaker": "Agent",
+      "text": "Of course. Your date of birth, please."
+    },
+    {
+      "timestamp": "00:48",
+      "speaker": "Customer",
+      "text": "Right. The fourteenth of March, nineteen sixty-eight."
+    },
+    {
+      "timestamp": "00:54",
+      "speaker": "Agent",
+      "text": "Lovely, that matches what we have from your form. Thank you. So, can I ask what's made you start looking into life cover at the moment?"
+    },
+    {
+      "timestamp": "01:03",
+      "speaker": "Customer",
+      "text": "Well, I had a stroke. Back in the spring. I'm doing a lot better now but it gave me a fright, and my wife, Moira, she'd be left with the mortgage. I just want her to be all right. Sorry, I lose my thread a bit these days. Things take a bit longer to sink in."
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Agent",
+      "text": "Please don't apologise, Mr Reid, and I'm sorry to hear you've been through that. There's absolutely no rush on this call. I'll take things slowly, and if anything isn't clear, just stop me and I'll go over it again. Is that all right?"
+    },
+    {
+      "timestamp": "01:35",
+      "speaker": "Customer",
+      "text": "Yes. Yes, that would help. Thank you."
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Agent",
+      "text": "Could you tell me roughly how much is left on the mortgage, and whether there's anyone else who depends on you, like children?"
+    },
+    {
+      "timestamp": "01:47",
+      "speaker": "Customer",
+      "text": "About a hundred and twenty thousand left. Our daughter's grown up, she's in Glasgow. So it's really just Moira. And I'd like a bit extra for her, for the funeral and that."
+    },
+    {
+      "timestamp": "02:01",
+      "speaker": "Agent",
+      "text": "That makes sense. And in terms of budget, what sort of monthly amount would feel comfortable for you both?"
+    },
+    {
+      "timestamp": "02:08",
+      "speaker": "Customer",
+      "text": "I'm on reduced hours now, so not too much. Fifty pounds maybe? Is that daft?"
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Agent",
+      "text": "Not daft at all. Our cover goes from twenty-five thousand pounds up to five hundred thousand pounds. Based on clearing the mortgage with a bit left over for Moira, something around one hundred and fifty thousand pounds would fit what you've described. There's no medical exam, but I do need to ask you a few health questions, and whether we can offer cover depends on your answers. Shall I go through those now?"
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Customer",
+      "text": "Sorry, one hundred and what? Could you repeat the amount?"
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Agent",
+      "text": "Of course. One hundred and fifty thousand pounds. That would pay off the hundred and twenty thousand left on the mortgage and leave about thirty thousand for Moira."
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Customer",
+      "text": "Right. Yes, that sounds about right. Go on then, the questions."
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Agent",
+      "text": "Thank you. I'll go one at a time. Do you smoke, or have you smoked in the last twelve months? And apart from the stroke, have you been diagnosed with heart disease, cancer or diabetes?"
+    },
+    {
+      "timestamp": "03:09",
+      "speaker": "Customer",
+      "text": "No, I gave up smoking years ago. And no, none of those. Just the blood pressure tablets since the stroke."
+    },
+    {
+      "timestamp": "03:18",
+      "speaker": "Agent",
+      "text": "Thank you. I've put all of that in, including the stroke and the blood pressure medication, and I'm pleased to say we can offer you one hundred and fifty thousand pounds of cover at fifty pounds a month. That premium is fixed for the whole length of the policy, so it won't go up."
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Customer",
+      "text": "And if, God forbid, I had another stroke next month, Moira would get the money?"
+    },
+    {
+      "timestamp": "03:43",
+      "speaker": "Agent",
+      "text": "Yes, you'd be fully covered from the day the policy starts, so Moira would receive the hundred and fifty thousand."
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Customer",
+      "text": "Oh, that's a weight off. Sorry, can you just say the price again? I want to write it down."
+    },
+    {
+      "timestamp": "03:57",
+      "speaker": "Agent",
+      "text": "Of course, take your time. Fifty pounds a month. Five, zero. And that stays the same for the length of the policy."
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Customer",
+      "text": "Fifty pounds. Fixed. Okay, I've got it written."
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Agent",
+      "text": "Mr Reid, I want to make sure you feel comfortable with all this. Would it help to have Moira or your daughter with you? I'm very happy to arrange a call back at a time that suits, so you can go through it together. There's no pressure to decide today."
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Customer",
+      "text": "That's kind. But Moira and I talked it over last night. She said if it's around fifty pounds, go ahead. I'd rather get it sorted, it's been on my mind."
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Agent",
+      "text": "That's absolutely fine. Before we go ahead, can I just check: in your own words, what do you understand you're getting?"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Customer",
+      "text": "Life cover, a hundred and fifty thousand for Moira if I die, and I pay fifty pounds a month, and it doesn't go up."
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Agent",
+      "text": "That's exactly right. I'll also mention that you have a thirty-day cooling-off period. If you or Moira change your minds within thirty days, you can cancel and get a full refund. Would you like me to repeat that bit?"
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Customer",
+      "text": "No, I got that. Thirty days, money back. Good."
+    },
+    {
+      "timestamp": "05:17",
+      "speaker": "Agent",
+      "text": "Lovely. So to summarise: Acme Life Cover, one hundred and fifty thousand pounds of cover, a fixed premium of fifty pounds a month, with Moira able to claim on it. Are you happy for me to go ahead and set that up for you today?"
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Customer",
+      "text": "Yes. Yes, please go ahead."
+    },
+    {
+      "timestamp": "05:35",
+      "speaker": "Agent",
+      "text": "Thank you, Mr Reid. I'll take the bank details for the direct debit in a moment, and you'll get all your documents in the post and by email, so you and Moira can read through them together. If anything's unclear when they arrive, just give us a ring."
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Customer",
+      "text": "Thank you, Amelia. You've been very patient with me."
+    },
+    {
+      "timestamp": "05:55",
+      "speaker": "Agent",
+      "text": "It's my pleasure. Let's get those details sorted, nice and slowly."
+    }
+  ]
+}

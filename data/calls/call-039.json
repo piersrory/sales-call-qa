@@ -1,0 +1,186 @@
+{
+  "call_id": "call-039",
+  "market": "CA",
+  "agent_id": "CA-03",
+  "agent_name": "Arjun",
+  "customer_name": "Liam Tremblay",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-18T20:35:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, thanks for calling Acme Life. My name's Arjun. Before we get going, I'll just let you know that this call is recorded for quality and training purposes. Who am I speaking with today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Hi Arjun, it's Liam. Liam Tremblay. I saw your ad for the term life, the no-medical-exam one, and figured I'd call."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "Great, thanks, Liam. Before we look at anything specific to you, I need to confirm a couple of details. Can I get your full name as it would appear on a policy, and your date of birth?"
+    },
+    {
+      "timestamp": "00:31",
+      "speaker": "Customer",
+      "text": "Sure. Liam Joseph Tremblay. Birthday's March 14th, 1970."
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Agent",
+      "text": "Perfect, thank you, Mr. Tremblay. That's all confirmed. So, what's got you thinking about life insurance at the moment?"
+    },
+    {
+      "timestamp": "00:46",
+      "speaker": "Customer",
+      "text": "Honestly? I went for a check-up last month and my doctor told me I've got high blood pressure. Nothing dramatic, she put me on medication, but it kind of rattled me. Made me think about my wife and what happens if something goes sideways."
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "Agent",
+      "text": "That's completely understandable. A diagnosis like that makes a lot of people stop and think. Can I ask a bit more about your situation so I'm not just guessing at what you need? Who would you want the coverage to look after?"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Customer",
+      "text": "Mainly my wife, Nicole. Our kids are grown, both out of the house. But we've still got about eleven years left on the mortgage, and she'd struggle to carry it on her own."
+    },
+    {
+      "timestamp": "01:30",
+      "speaker": "Agent",
+      "text": "Okay. Roughly what's left on the mortgage, if you don't mind me asking? And do you have any coverage now, through work or otherwise?"
+    },
+    {
+      "timestamp": "01:38",
+      "speaker": "Customer",
+      "text": "About two hundred and sixty thousand left. I've got group life through work, but it's only one times salary, and if I left or got laid off it'd be gone."
+    },
+    {
+      "timestamp": "01:50",
+      "speaker": "Agent",
+      "text": "That's a really common gap. Group coverage is helpful, but it's tied to the job. So it sounds like the main goal is making sure the mortgage could be paid off and Nicole could stay in the house. Is that fair?"
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Customer",
+      "text": "Yeah, that's exactly it."
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Agent",
+      "text": "Okay, let me tell you how Acme Term Life works and you can see if it fits. Coverage can be anywhere from fifty thousand up to seven hundred and fifty thousand dollars. You pick a term of either ten or twenty years, and your premium is fixed for the whole term, so it won't go up partway through."
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Customer",
+      "text": "Ten or twenty. Hm. The mortgage is eleven years, so ten's a bit short."
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Agent",
+      "text": "Right, that's a good catch. Based on what you've told me, I'd lean toward a twenty-year term, with an amount around the mortgage balance, maybe a bit more for a cushion, say in the two-seventy-five to three hundred thousand range. That way the term doesn't run out before the mortgage does. But it's your call on the amount."
+    },
+    {
+      "timestamp": "02:48",
+      "speaker": "Customer",
+      "text": "Okay. And the ad said no medical exam. With my blood pressure, does that mean I'd just get approved?"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Agent",
+      "text": "I want to be straight with you on that. There's no medical exam, so no blood tests or nurse visits, but acceptance does depend on answers to a few health questions. Your blood pressure would be relevant to those, so I can't tell you yes or no until we actually go through them, and the price would also depend on your answers."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Customer",
+      "text": "So you can't give me a number right now?"
+    },
+    {
+      "timestamp": "03:18",
+      "speaker": "Agent",
+      "text": "Not an accurate one, no. I'd rather not throw out a figure and have it change once the health questions are done. If you want, we can go through them now. It only takes a few minutes, and there's no obligation to buy once you see the quote."
+    },
+    {
+      "timestamp": "03:32",
+      "speaker": "Customer",
+      "text": "Hm. What happens to the money if I make it through the twenty years? Do I get anything back?"
+    },
+    {
+      "timestamp": "03:39",
+      "speaker": "Agent",
+      "text": "No, it's pure term coverage, so there's no cash value. It's there to pay out if you pass away during the term. If you outlive it, the coverage simply ends. That's part of why term is usually more affordable than permanent insurance."
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Customer",
+      "text": "Right. That makes sense, I guess. It just feels like a lot to decide on one phone call."
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Agent",
+      "text": "That's fair. One thing that might help: if you did take out a policy, there's a thirty-day free-look period. If you change your mind within those thirty days, you get a full refund. But that's not a reason to rush. It's just there so you're not locked in."
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Customer",
+      "text": "That's good to know. To be honest though, I'd like to talk it over with Nicole first. She handles most of our budget. And I want to see how the medication's working before I start answering health questions. My doctor's rechecking me in a few weeks."
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Agent",
+      "text": "That sounds really sensible. Talking it through with Nicole is a good idea, especially since she's the one the coverage is for. Would it help if I sent you a summary of what we talked about, the coverage range, the term options and so on, so you've both got it in front of you?"
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Customer",
+      "text": "Yeah, that'd be helpful. Email's fine. Same one I put in the form on your website, I think."
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Agent",
+      "text": "I've got an address ending in sympatico.ca here. Is that still the best one?"
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Customer",
+      "text": "That's the one."
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Agent",
+      "text": "Great, I'll send that over today. There's no deadline on any of this. Whenever you and Nicole are ready, just give us a call back, and we can do the health questions then and get you an actual quote."
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Customer",
+      "text": "And you're not going to call me every other day, are you?"
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Agent",
+      "text": "No, not at all. I'll just send the email, and the ball's in your court. If you'd prefer a single follow-up call down the road, I can note that, but only if you want one."
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Customer",
+      "text": "No, I'll call you. I appreciate you not pushing. Last outfit I talked to tried to sign me up in five minutes."
+    },
+    {
+      "timestamp": "05:39",
+      "speaker": "Agent",
+      "text": "Happy to help, Liam. It's a big decision, and it should fit your situation. Is there anything else you want to ask while I've got you?"
+    },
+    {
+      "timestamp": "05:47",
+      "speaker": "Customer",
+      "text": "No, I think that covers it. Thanks, Arjun."
+    },
+    {
+      "timestamp": "05:51",
+      "speaker": "Agent",
+      "text": "You're welcome. Good luck with the follow-up appointment, and say hi to Nicole. Take care."
+    }
+  ]
+}

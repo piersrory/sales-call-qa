@@ -1,0 +1,211 @@
+{
+  "call_id": "call-033",
+  "market": "AU",
+  "agent_id": "AU-01",
+  "agent_name": "Mia",
+  "customer_name": "Sarah Nguyen",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-04T00:25:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good morning, thanks for calling Acme Life, you're speaking with Mia. Just so you know, this call is recorded for quality and training purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Hi Mia. I saw your ad online for life cover and filled in the form, but then I thought I'd just ring instead. I wanted to get a rough idea of what it'd cost."
+    },
+    {
+      "timestamp": "00:20",
+      "speaker": "Agent",
+      "text": "No worries at all, happy to help. Before we go into any details or pricing, can I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Customer",
+      "text": "Sure, it's Sarah Nguyen, and my date of birth is the 14th of March, 1993."
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Agent",
+      "text": "Thanks, Sarah, that matches what came through on the form. So can I ask what's got you thinking about life cover at the moment?"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Customer",
+      "text": "We've just bought our first place, my partner and I, in Penrith. Settlement was a couple of weeks ago. So now there's this massive mortgage and it suddenly hit me, if something happened to me, he'd be stuck with it."
+    },
+    {
+      "timestamp": "00:58",
+      "speaker": "Agent",
+      "text": "Congratulations on the new place! That's a really common reason people look at cover. Roughly how much is the mortgage, if you don't mind me asking?"
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Customer",
+      "text": "About four hundred and sixty thousand. We both work full time, but we'd struggle on one income."
+    },
+    {
+      "timestamp": "01:14",
+      "speaker": "Agent",
+      "text": "Got it. And do you have any kids, or anyone else who relies on your income?"
+    },
+    {
+      "timestamp": "01:19",
+      "speaker": "Customer",
+      "text": "Not yet. Maybe in a few years. It's just us and the dog for now."
+    },
+    {
+      "timestamp": "01:25",
+      "speaker": "Agent",
+      "text": "Lovely. And do you have any existing life cover, say through your super?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "I think there's something in my super but honestly I've never looked. I assumed it wouldn't be much."
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Agent",
+      "text": "That's pretty typical, the default cover in super is often fairly modest. So for you, with a mortgage of around four sixty, I'd go for $500,000. That clears the loan and leaves a bit of a buffer for your partner. That's what I'd do in your shoes."
+    },
+    {
+      "timestamp": "01:55",
+      "speaker": "Customer",
+      "text": "Okay. Is that overkill though? I don't want to be paying for more than I need."
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Agent",
+      "text": "I'd stick with the five hundred. Going lower would leave your partner short on the mortgage, and the difference in price isn't huge. Cover can go anywhere from $50,000 up to a million, but five hundred suits you best."
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Customer",
+      "text": "Right. Do I need a medical or blood tests or anything? I really hate needles."
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Agent",
+      "text": "No medical exam at all. I just ask you a few health questions and that determines whether we can accept you. Would you like to go through those now?"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Customer",
+      "text": "Yeah, go on."
+    },
+    {
+      "timestamp": "02:32",
+      "speaker": "Agent",
+      "text": "Have you smoked or used any nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:36",
+      "speaker": "Customer",
+      "text": "No, never."
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Agent",
+      "text": "Have you ever been diagnosed with or treated for cancer, heart disease, stroke or diabetes?"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Customer",
+      "text": "No. I had my appendix out when I was a teenager, that's about it."
+    },
+    {
+      "timestamp": "02:50",
+      "speaker": "Agent",
+      "text": "That's fine, that doesn't affect anything. And are you currently waiting on any tests or specialist referrals?"
+    },
+    {
+      "timestamp": "02:56",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Agent",
+      "text": "Great, based on that you're eligible. For $500,000 of cover the premium comes to $35 a month."
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Customer",
+      "text": "Thirty-five. Okay, that's less than I expected. Does that stay the same?"
+    },
+    {
+      "timestamp": "03:11",
+      "speaker": "Agent",
+      "text": "Good question. No, the premiums are stepped, so they go up each year as you get older. Thirty-five is what you'd pay this year, and it'll rise gradually from there."
+    },
+    {
+      "timestamp": "03:22",
+      "speaker": "Customer",
+      "text": "Hmm. And when does it actually start? Like, if I got sick next month, would he get the payout?"
+    },
+    {
+      "timestamp": "03:29",
+      "speaker": "Agent",
+      "text": "Yes, once the policy's in place you're covered from day one, whether it's an illness or an accident. So the mortgage would be looked after straight away."
+    },
+    {
+      "timestamp": "03:39",
+      "speaker": "Customer",
+      "text": "Okay, that's reassuring. I'm just a bit unsure whether I should talk to my partner first. It's a big thing to sign up to on the spot."
+    },
+    {
+      "timestamp": "03:48",
+      "speaker": "Agent",
+      "text": "Totally understandable, there's no rush at all. The quote isn't going anywhere, so if you'd rather chat with him and call back, that's completely fine. It's your call."
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Customer",
+      "text": "What happens if I sign up and then change my mind?"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Agent",
+      "text": "There's a 30-day cooling-off period. If you cancel within those 30 days, you get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Customer",
+      "text": "Okay. Honestly, we already talked about getting something when we signed the loan papers, he just left it to me to sort out. I think I'll just do it."
+    },
+    {
+      "timestamp": "04:20",
+      "speaker": "Agent",
+      "text": "Sure. Before we finalise anything, let me run through it so you're clear. It's Acme Life Cover for $500,000, paid out if you pass away. There's no medical exam, it's based on the health answers you've just given me. The premium is $35 a month to start, and it's stepped, so it goes up each year as you get older. And you've got 30 days to cool off with a full refund. Are you happy to go ahead with that?"
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Customer",
+      "text": "Yes, I'm happy to go ahead."
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Agent",
+      "text": "Wonderful. I'll take your payment details now, and your policy documents will be emailed to you within the next day. Is the email on your form still the best one?"
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Customer",
+      "text": "Yep, that's the one."
+    },
+    {
+      "timestamp": "05:01",
+      "speaker": "Agent",
+      "text": "Perfect. Let's get that set up, and congrats again on the new home, Sarah."
+    },
+    {
+      "timestamp": "05:07",
+      "speaker": "Customer",
+      "text": "Thanks, Mia. That was easier than I thought."
+    }
+  ]
+}

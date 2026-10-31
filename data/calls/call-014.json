@@ -1,0 +1,236 @@
+{
+  "call_id": "call-014",
+  "market": "UK",
+  "agent_id": "UK-03",
+  "agent_name": "Hassan",
+  "customer_name": "Callum Reid",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-24T13:09:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hello, is that Callum? It's Hassan calling from Acme Life Cover. You filled in a callback request on our website yesterday. Before we go any further, I should let you know this call is recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "00:14",
+      "speaker": "Customer",
+      "text": "Yeah, that's me. I did fill something in. I'll be honest, I'm on a job at half four so I haven't got all day, and I'm not keen on being sold to."
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Agent",
+      "text": "Fair enough, I'll keep it straightforward. I've got your form up here. It says you're 38, non-smoker, and you were looking at about £250,000 of cover over 25 years. I've already run an indicative quote off that, and it comes out at £43 a month."
+    },
+    {
+      "timestamp": "00:41",
+      "speaker": "Customer",
+      "text": "Right. That's quicker than I expected. What's that actually based on, though? You don't know anything about me yet."
+    },
+    {
+      "timestamp": "00:49",
+      "speaker": "Agent",
+      "text": "It's only based on what's on the form at the moment, so let me ask a few things to make sure it actually suits you. What made you start looking at life cover?"
+    },
+    {
+      "timestamp": "00:58",
+      "speaker": "Customer",
+      "text": "I'm self-employed, sparky. No death-in-service, nothing like that. My partner Jodie works part-time, we've got two kids, seven and four, and a mortgage. If I go, the money just stops."
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Agent",
+      "text": "That makes sense. Being self-employed, there's no employer scheme behind you. Roughly how much is left on the mortgage, and how long's the term?"
+    },
+    {
+      "timestamp": "01:20",
+      "speaker": "Customer",
+      "text": "About £190,000, twenty-four years left on it."
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Agent",
+      "text": "And apart from the mortgage, would you want something left over for Jodie and the kids? Living costs, childcare, that kind of thing?"
+    },
+    {
+      "timestamp": "01:34",
+      "speaker": "Customer",
+      "text": "Ideally, yeah. That's why I put two-fifty. Clears the house with a bit of a cushion. Do you have any other cover already?"
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Agent",
+      "text": "That's my question to you, really. Have you got any existing life policies, or anything through a trade body?"
+    },
+    {
+      "timestamp": "01:47",
+      "speaker": "Customer",
+      "text": "Nothing. I had something years ago through a bank but I cancelled it."
+    },
+    {
+      "timestamp": "01:53",
+      "speaker": "Agent",
+      "text": "Okay. With a £190,000 mortgage over 24 years and a young family, £250,000 over 25 years looks sensible. It covers the mortgage term with a bit spare. Our cover goes from £25,000 up to £500,000, so you could go higher or lower, but from what you've said that sits about right."
+    },
+    {
+      "timestamp": "02:12",
+      "speaker": "Customer",
+      "text": "Okay. Here's my question then. Do I have to go and see a doctor? Because I'm not taking a morning off for a medical."
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Agent",
+      "text": "No medical exam. Whether you're accepted depends on a few health questions I'd go through with you. That's all."
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Customer",
+      "text": "And what's the catch? There's always a catch with these no-medical ones."
+    },
+    {
+      "timestamp": "02:33",
+      "speaker": "Agent",
+      "text": "The main thing to know is that for the first 12 months, the policy only covers accidental death. If you died from an illness in that first year, it wouldn't pay out. After 12 months you're covered as normal."
+    },
+    {
+      "timestamp": "02:47",
+      "speaker": "Customer",
+      "text": "Hm. So if I got diagnosed with something next spring and didn't make it, Jodie gets nothing."
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Agent",
+      "text": "If it was death from illness within the first 12 months, then no, it wouldn't pay out. An accident in that time would be covered. I'd rather you knew that now than found out later."
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Customer",
+      "text": "Appreciate that. Given what I do, accident's probably the bigger risk anyway, if I'm honest. Does the £43 go up? I've heard about premiums creeping up every year."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Agent",
+      "text": "No, the premium is fixed for the whole length of the policy. If you take it at £43 a month, it stays £43 a month for the full 25 years."
+    },
+    {
+      "timestamp": "03:24",
+      "speaker": "Customer",
+      "text": "And if I sign up and then change my mind? Say Jodie looks at it and thinks it's daft."
+    },
+    {
+      "timestamp": "03:31",
+      "speaker": "Agent",
+      "text": "There's a 30-day cooling-off period. If you cancel within that, you get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "03:39",
+      "speaker": "Customer",
+      "text": "Right. I'm not going to get a call every day this week if I don't do it now, am I?"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Agent",
+      "text": "No. The quote's there if you want it. If you'd rather talk it over with Jodie or look elsewhere, that's completely fine. You can ring back whenever suits you."
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Customer",
+      "text": "Okay. Let's do the health questions and see if I even get accepted. Then I'll decide."
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Agent",
+      "text": "Sure. In the last five years, have you been diagnosed with or treated for cancer, heart disease, a stroke, or diabetes?"
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Agent",
+      "text": "Are you currently waiting on any tests, referrals or results from a doctor?"
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Customer",
+      "text": "No. Bad back now and again, but that's the job."
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Agent",
+      "text": "That's fine, it doesn't affect these questions. And have you used any tobacco or nicotine products in the last 12 months?"
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Customer",
+      "text": "No, packed it in about six years ago."
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Agent",
+      "text": "Thanks. Based on those answers you're accepted, and the price stays at £43 a month."
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Customer",
+      "text": "Alright. I've thought about it enough, if I'm honest. Jodie's been on at me for a year to sort this. Let's go."
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Agent",
+      "text": "Okay. Before I set it up, here's a quick summary. It's Acme Life Cover for £250,000 over 25 years, at a fixed £43 a month for the whole term. No medical exam. Only accidental death is covered in the first 12 months, then full cover after that. You've got a 30-day cooling-off period with a full refund if you change your mind. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Customer",
+      "text": "Yes, I'm happy to go ahead."
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Agent",
+      "text": "Great. I'll take the direct debit details now. Which date in the month works best for the payment?"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Customer",
+      "text": "The first. That's when most of my invoices land."
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Agent",
+      "text": "The first it is. Can you give me the account name, sort code and account number?"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Customer",
+      "text": "Callum J Reid, sort code 40-12-76, account 51839204."
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Agent",
+      "text": "Thanks, that's all set up. Your policy documents will be emailed to the address on the form within the next couple of days, and the 30-day cooling-off starts from when you receive them."
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Customer",
+      "text": "Good. I'll show Jodie tonight."
+    },
+    {
+      "timestamp": "06:05",
+      "speaker": "Agent",
+      "text": "Perfect. If either of you have questions once you've read through it, just ring us. Anything else I can help with?"
+    },
+    {
+      "timestamp": "06:12",
+      "speaker": "Customer",
+      "text": "No, that's it. Cheers, Hassan. That was less painful than I expected."
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Agent",
+      "text": "Glad to hear it. Thanks, Callum. Good luck with the job this afternoon."
+    }
+  ]
+}

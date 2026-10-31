@@ -1,0 +1,211 @@
+{
+  "call_id": "call-013",
+  "market": "AU",
+  "agent_id": "AU-01",
+  "agent_name": "Mia",
+  "customer_name": "Josh Taylor",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-16T05:30:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good morning, thanks for calling Acme Life, you're speaking with Mia. Just so you know, this call is recorded for quality and training purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Morning, Mia. I saw your ad in the paper on the weekend, the life cover one. Thought I'd ring and find out a bit more."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "Lovely, happy to help with that. Before we get into any of your details or a quote, can I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Customer",
+      "text": "Sure. It's Joshua Taylor, Josh is fine. Date of birth is the fourteenth of March, 1959."
+    },
+    {
+      "timestamp": "00:39",
+      "speaker": "Agent",
+      "text": "Thanks, Josh, that's all confirmed. So, can you tell me a bit about yourself and what's got you thinking about life cover?"
+    },
+    {
+      "timestamp": "00:47",
+      "speaker": "Customer",
+      "text": "Well, I've just retired, taught primary school for thirty-odd years. The house is paid off, my super's ticking along. But I've got four grandkids now and I'd like to leave them a little something. Help with uni or a first car, that sort of thing."
+    },
+    {
+      "timestamp": "01:05",
+      "speaker": "Agent",
+      "text": "Congratulations on the retirement, that's a big milestone. And that's a really lovely reason. Is there a partner or anyone else who relies on you financially at the moment?"
+    },
+    {
+      "timestamp": "01:15",
+      "speaker": "Customer",
+      "text": "My wife, Carol, but she's got her own super and she's still working part-time. So it's really more about the grandkids than anyone depending on me."
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Agent",
+      "text": "Got it. And do you have any existing life insurance, maybe through your super?"
+    },
+    {
+      "timestamp": "01:32",
+      "speaker": "Customer",
+      "text": "I did through my teachers' super fund, but I think it dropped off or reduced when I retired. Honestly I'm not a hundred percent sure."
+    },
+    {
+      "timestamp": "01:42",
+      "speaker": "Agent",
+      "text": "That's pretty common. It'd be worth checking with your fund at some point. Do you have a rough figure in mind for what you'd like to leave the grandkids?"
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Customer",
+      "text": "I was thinking maybe twenty-five thousand each? So a hundred thousand all up. Is that silly?"
+    },
+    {
+      "timestamp": "01:59",
+      "speaker": "Agent",
+      "text": "Not silly at all. Let me explain how the cover works first. With Acme Life Cover you can choose anywhere from fifty thousand up to a million dollars. There's no medical exam, it's just a few health questions, and acceptance depends on your answers."
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Customer",
+      "text": "No medical? That's good, I'm not keen on being poked and prodded."
+    },
+    {
+      "timestamp": "02:21",
+      "speaker": "Agent",
+      "text": "Most people feel the same. There are a couple of important things to know, though. In the first twelve months, only accidental death is covered. So if you passed away from an illness in that first year, it wouldn't pay out. After twelve months, you're covered more broadly."
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Customer",
+      "text": "Right. So the first year is basically accidents only."
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Agent",
+      "text": "That's right. The other thing is the premiums are stepped, which means they go up each year as you get older. So what you pay at sixty-six will be more next year, and more again the year after."
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Customer",
+      "text": "Hmm. That's the bit that worries me a bit. I'm on a fixed income now."
+    },
+    {
+      "timestamp": "03:01",
+      "speaker": "Agent",
+      "text": "That's a fair concern. Based on what you've told me, I'd recommend going with the hundred thousand. It lines up with your twenty-five thousand per grandchild, and it keeps the premium more manageable than going higher. I wouldn't go for more than that, given Carol's got her own super and nobody's relying on your income."
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Customer",
+      "text": "Okay. And what would that actually cost me?"
+    },
+    {
+      "timestamp": "03:24",
+      "speaker": "Agent",
+      "text": "I'd need to run through the health questions to give you an exact figure. Would you like to do that now? It only takes a few minutes."
+    },
+    {
+      "timestamp": "03:31",
+      "speaker": "Customer",
+      "text": "Go on then, let's see."
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Agent",
+      "text": "Great. In the last five years, have you been diagnosed with or treated for heart disease, stroke, or cancer?"
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "No, none of those. I'm on tablets for blood pressure, that's about it."
+    },
+    {
+      "timestamp": "03:46",
+      "speaker": "Agent",
+      "text": "Thanks. Is your blood pressure well controlled on the medication?"
+    },
+    {
+      "timestamp": "03:50",
+      "speaker": "Customer",
+      "text": "Yep, GP's happy with it. Checked it last month."
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Agent",
+      "text": "Good. And have you smoked any tobacco in the last twelve months?"
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Customer",
+      "text": "Gave up in my thirties."
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Agent",
+      "text": "Perfect. Based on those answers, for a hundred thousand dollars of cover your starting premium would be around a hundred and twelve dollars a month. Just keep in mind that's this year's price, and it'll increase each year with age."
+    },
+    {
+      "timestamp": "04:17",
+      "speaker": "Customer",
+      "text": "A hundred and twelve a month. So that's over thirteen hundred a year, and going up from there. Gee. I hadn't really thought about how that adds up over time."
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Agent",
+      "text": "It's definitely worth thinking about. Some people find that if they put the same money into savings for the grandkids, that suits them better. Others prefer knowing the lump sum is there no matter what. There's no right or wrong answer."
+    },
+    {
+      "timestamp": "04:42",
+      "speaker": "Customer",
+      "text": "Yeah. I think I'd like to talk it over with Carol before I sign up to anything. And maybe check what's still in my super, like you said."
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Agent",
+      "text": "That sounds really sensible. There's no rush at all. And just so you know for later, if you did take it out, there's a thirty-day cooling-off period where you can cancel and get a full refund."
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Customer",
+      "text": "That's good to know. Can you send me something in writing so I can show her?"
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Agent",
+      "text": "Of course. I'll email you the product information along with today's quote. What's the best email address for you?"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Customer",
+      "text": "It's josh.taylor59 at bigpond dot com."
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Agent",
+      "text": "Thanks, Josh, that's josh.taylor59 at bigpond dot com. You'll have that within the hour. Whenever you and Carol have had a chance to look through it, just give us a call back on the number in the email."
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Customer",
+      "text": "Will do. Thanks for not giving me the hard sell, Mia."
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Agent",
+      "text": "My pleasure. Enjoy the retirement, and say hi to the grandkids. Have a lovely day."
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Customer",
+      "text": "You too. Bye now."
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "call_id": "call-038",
+  "market": "UK",
+  "agent_id": "UK-03",
+  "agent_name": "Hassan",
+  "customer_name": "James Walker",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-04T14:46:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, you're through to Acme Life, Hassan speaking. Just so you know, this call is recorded for training and quality purposes. How can I help?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Yeah, hi. I saw your advert online for life cover, the no medical one. Thought I'd ring and see what it's actually about before I get bombarded with emails."
+    },
+    {
+      "timestamp": "00:19",
+      "speaker": "Agent",
+      "text": "Fair enough, I'll keep it straightforward. Before I look at anything personal or give you a quote, can I take your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:27",
+      "speaker": "Customer",
+      "text": "James Walker. Fourteenth of March, 1984."
+    },
+    {
+      "timestamp": "00:33",
+      "speaker": "Agent",
+      "text": "Thanks, James. And just to confirm, that's James Walker, born the fourteenth of March 1984?"
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Customer",
+      "text": "That's it."
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Agent",
+      "text": "Lovely. So before I suggest anything, can you tell me a bit about your situation and what's made you look at cover now?"
+    },
+    {
+      "timestamp": "00:48",
+      "speaker": "Customer",
+      "text": "I'm a self-employed sparky. No sick pay, no death-in-service, nothing like that. Got a partner and two kids, eight and five. We've got about a hundred and twenty grand left on the mortgage. If something happened to me, they'd be stuck."
+    },
+    {
+      "timestamp": "01:04",
+      "speaker": "Agent",
+      "text": "That makes sense. Being self-employed, you don't get the employer cover a lot of people rely on. How long's left on the mortgage?"
+    },
+    {
+      "timestamp": "01:11",
+      "speaker": "Customer",
+      "text": "Twenty years, roughly."
+    },
+    {
+      "timestamp": "01:14",
+      "speaker": "Agent",
+      "text": "And would you want the cover just to clear the mortgage, or a bit on top for the family to live on?"
+    },
+    {
+      "timestamp": "01:20",
+      "speaker": "Customer",
+      "text": "Bit on top would be good, but I'm not paying a fortune. What's the range anyway?"
+    },
+    {
+      "timestamp": "01:25",
+      "speaker": "Agent",
+      "text": "Cover goes from £25,000 up to £500,000. Based on what you've said, something around £150,000 over twenty years would clear the mortgage and leave roughly thirty thousand spare. But it's your call, we can go higher or lower."
+    },
+    {
+      "timestamp": "01:40",
+      "speaker": "Customer",
+      "text": "Right. And what's the catch with no medical? There's always a catch."
+    },
+    {
+      "timestamp": "01:45",
+      "speaker": "Agent",
+      "text": "There's no medical exam, but there are a few health questions, and whether we can accept you depends on your answers. The other thing to be aware of is that in the first twelve months, only accidental death is covered. After that first year, you're covered for death from any cause, subject to the policy terms."
+    },
+    {
+      "timestamp": "02:03",
+      "speaker": "Customer",
+      "text": "So if I got ill and died in the first year, she'd get nothing?"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Agent",
+      "text": "For death that isn't accidental in the first twelve months, that's right, it wouldn't pay out. An accident at work or on the road, for example, would be covered from the start."
+    },
+    {
+      "timestamp": "02:17",
+      "speaker": "Customer",
+      "text": "Hm. At least you're upfront about it. Go on then, what are the questions?"
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Agent",
+      "text": "Do you smoke or have you used any nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:26",
+      "speaker": "Customer",
+      "text": "No. Packed in about six years ago."
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Agent",
+      "text": "Have you been diagnosed with or treated for cancer, heart conditions, stroke or diabetes?"
+    },
+    {
+      "timestamp": "02:36",
+      "speaker": "Customer",
+      "text": "No, none of that."
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Agent",
+      "text": "And are you currently waiting on any tests, referrals or results from a doctor?"
+    },
+    {
+      "timestamp": "02:43",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:45",
+      "speaker": "Agent",
+      "text": "Thanks. Based on those answers, for £150,000 over twenty years, the premium comes out at £18 a month."
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Customer",
+      "text": "Eighteen quid. And that's going to creep up every year, is it? That's what got me with my van insurance."
+    },
+    {
+      "timestamp": "03:00",
+      "speaker": "Agent",
+      "text": "No, the premium's fixed for the whole length of the policy. So it stays at £18 a month for the full twenty years."
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Customer",
+      "text": "And if I sign up and my partner says I've been daft, I'm locked in?"
+    },
+    {
+      "timestamp": "03:13",
+      "speaker": "Agent",
+      "text": "You've got a thirty-day cooling-off period. If you cancel within that, you get a full refund. And honestly, there's no rush today either. If you'd rather talk it over with her first and ring back, that's absolutely fine."
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Customer",
+      "text": "No, it's alright, we've talked about it enough already. Just been putting it off."
+    },
+    {
+      "timestamp": "03:32",
+      "speaker": "Agent",
+      "text": "Okay. So, do you want to go ahead with it?"
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Customer",
+      "text": "I guess so."
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Agent",
+      "text": "Great, I'll get that set up for you now. Can I take the sort code and account number for the direct debit?"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Customer",
+      "text": "Sort code's 20-45-17, account number 53918842."
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Agent",
+      "text": "Thanks. And is that account in your name only, and are you able to authorise debits from it?"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Customer",
+      "text": "Yeah, it's my business account, just me."
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Agent",
+      "text": "Perfect. What date of the month suits you for the payment?"
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Customer",
+      "text": "First of the month. That's when my invoices are usually settled."
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Agent",
+      "text": "No problem, the first it is. That's all done, James. Your policy documents will come through by email within the next day or so, and the direct debit guarantee will be in there too."
+    },
+    {
+      "timestamp": "04:27",
+      "speaker": "Customer",
+      "text": "Right. Better not be followed by fifty sales calls."
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Agent",
+      "text": "It won't be, I promise. If you've got any questions once you've read through the documents, just give us a ring. Anything else I can help with today?"
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Customer",
+      "text": "No, that's it. Cheers, Hassan."
+    },
+    {
+      "timestamp": "04:42",
+      "speaker": "Agent",
+      "text": "Thanks, James. Take care, bye now."
+    }
+  ]
+}

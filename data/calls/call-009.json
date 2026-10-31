@@ -1,0 +1,216 @@
+{
+  "call_id": "call-009",
+  "market": "AU",
+  "agent_id": "AU-01",
+  "agent_name": "Mia",
+  "customer_name": "Chloe Patel",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-22T00:52:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good morning, you're through to Acme Life, my name's Mia. Just so you know, this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Hi, yeah, um, I saw your ad on Facebook for life cover and I filled in the form for a call back, so I'm just returning the call, I think."
+    },
+    {
+      "timestamp": "00:17",
+      "speaker": "Agent",
+      "text": "Lovely, thanks for calling back. Before we go into anything, can I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:23",
+      "speaker": "Customer",
+      "text": "Chloe Patel. Fourteenth of March, 1987."
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Agent",
+      "text": "Thanks Chloe, that matches what I've got here. So tell me a bit about yourself and what's got you thinking about life cover."
+    },
+    {
+      "timestamp": "00:36",
+      "speaker": "Customer",
+      "text": "Well, it's a bit of a weird time to be honest. I got made redundant two weeks ago, so things are pretty rough. I've got my daughter, she's six, and it's just me. Money's really tight right now, like, I'm counting every dollar. But that's sort of why I started thinking about it, if something happened to me, she'd have nothing."
+    },
+    {
+      "timestamp": "00:58",
+      "speaker": "Agent",
+      "text": "Okay, so single parent, one daughter aged six, and you want something in place for her. Do you have any existing life cover, maybe through super?"
+    },
+    {
+      "timestamp": "01:07",
+      "speaker": "Customer",
+      "text": "I honestly don't know. I think there was something through my old job's super but I haven't looked. I've had so much going on, I can barely keep track of the bills."
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Agent",
+      "text": "No worries. Any mortgage or major debts?"
+    },
+    {
+      "timestamp": "01:21",
+      "speaker": "Customer",
+      "text": "I rent. There's a car loan, about twelve thousand left on it. And a credit card I've been leaning on a bit since, you know, since the job."
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Agent",
+      "text": "Got it. Before I go through the product, I do need to let you know that anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs, so you should think about whether it's right for you. Okay, so Acme Life Cover pays a lump sum if you pass away. You can choose a cover amount anywhere from fifty thousand up to one million dollars. There's no medical exam, it's just a few health questions, and that decides whether you're accepted."
+    },
+    {
+      "timestamp": "01:58",
+      "speaker": "Customer",
+      "text": "Okay. Sorry, a lump sum to who, my daughter?"
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Agent",
+      "text": "To whoever you nominate as beneficiary, or your estate. A couple of important things: in the first twelve months, only accidental death is covered. After that, you're covered for death from any cause. And the premiums are stepped, which means they go up each year as you get older."
+    },
+    {
+      "timestamp": "02:19",
+      "speaker": "Customer",
+      "text": "Right... they go up. Okay. Sorry, my head's all over the place at the moment, I've been on the phone to Centrelink all morning."
+    },
+    {
+      "timestamp": "02:27",
+      "speaker": "Agent",
+      "text": "Sure. So, let's run through the health questions and then I can give you a quote. Have you smoked any tobacco in the last twelve months?"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Agent",
+      "text": "Have you ever been diagnosed with cancer, heart disease, stroke or diabetes?"
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Customer",
+      "text": "No, none of those."
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Agent",
+      "text": "In the last five years, have you been advised by a doctor to have any tests or treatment that are still outstanding?"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Customer",
+      "text": "Um, no. I've been a bit stressed, not sleeping, but nothing like that."
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Agent",
+      "text": "Okay, and do you take part in any hazardous activities, like motor racing or skydiving?"
+    },
+    {
+      "timestamp": "03:02",
+      "speaker": "Customer",
+      "text": "Ha, no. I can barely afford petrol."
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Agent",
+      "text": "Great, so based on those answers you'd be accepted. Now cover amount, a lot of people with young kids look at around two hundred and fifty thousand. At that level, your premium would be fifty-four dollars a month to start."
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Customer",
+      "text": "Fifty-four a month. Hmm. That's... I mean, that's a fair bit for me right now. I've only got my last pay and a bit of leave money and that's got to stretch until I find something."
+    },
+    {
+      "timestamp": "03:32",
+      "speaker": "Agent",
+      "text": "You can go lower, the minimum is fifty thousand, which would bring the premium down, or higher if you want more. Two fifty is a common choice for parents."
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "I just keep thinking if something happened, fifty thousand wouldn't really last her. But I don't know if I can do fifty-four. I don't really get how the going up thing works either."
+    },
+    {
+      "timestamp": "03:52",
+      "speaker": "Agent",
+      "text": "So with stepped premiums, the price is recalculated each year based on your age, so it increases each year. The fifty-four is what you'd pay now. It's completely your decision, there's no pressure to do anything today, the quote's here if you want to think about it."
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Customer",
+      "text": "Yeah... no, I think I just want it sorted. It's one less thing to worry about. If I wait I'll just forget about it with everything else."
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Agent",
+      "text": "Okay. Also worth knowing, there's a thirty-day cooling-off period, so if you change your mind within thirty days you can cancel and get a full refund."
+    },
+    {
+      "timestamp": "04:24",
+      "speaker": "Customer",
+      "text": "Oh, okay. That helps a bit."
+    },
+    {
+      "timestamp": "04:27",
+      "speaker": "Agent",
+      "text": "Right, so let me summarise. Acme Life Cover, two hundred and fifty thousand dollars, paid as a lump sum on your death. For the first twelve months, only accidental death is covered, after that it's death from any cause. Your premium is fifty-four dollars a month, and it's stepped, so it'll go up each year as you get older. You've got a thirty-day cooling-off period with a full refund. Would you like to go ahead with that?"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Customer",
+      "text": "Um... yes. Yes, I'll go ahead."
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Agent",
+      "text": "Great. And who would you like as the beneficiary?"
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Customer",
+      "text": "My daughter, Aanya Patel. Or, well, I guess my sister would have to look after it for her. Priya Patel."
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Agent",
+      "text": "I'll note your sister Priya as beneficiary for now, and you'll get a form with your documents to update or add a trust arrangement. Now for payment, is that going to be a debit card or bank account?"
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Customer",
+      "text": "Bank account, I suppose. Can it come out after the fifteenth? That's when my leave payout's meant to land."
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Agent",
+      "text": "Yes, I'll set the first debit for the sixteenth. Can you read me the BSB and account number?"
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Customer",
+      "text": "BSB is 062-415, account 1083 7726."
+    },
+    {
+      "timestamp": "05:41",
+      "speaker": "Agent",
+      "text": "Thanks, that's all set up. Your policy documents will be emailed through today, including the Product Disclosure Statement, and your thirty-day cooling-off starts from when you receive them. Anything else I can help with?"
+    },
+    {
+      "timestamp": "05:53",
+      "speaker": "Customer",
+      "text": "No, I think that's it. Thanks."
+    },
+    {
+      "timestamp": "05:56",
+      "speaker": "Agent",
+      "text": "Thanks Chloe, have a lovely day."
+    }
+  ]
+}

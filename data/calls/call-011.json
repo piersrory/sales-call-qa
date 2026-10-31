@@ -1,0 +1,206 @@
+{
+  "call_id": "call-011",
+  "market": "CA",
+  "agent_id": "CA-03",
+  "agent_name": "Arjun",
+  "customer_name": "Ava MacDonald",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-18T19:06:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, thanks for calling Acme Life. My name is Arjun. Before we go any further, I should let you know this call is recorded for quality and training purposes. Who am I speaking with today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Hello. Yes, this is Ava. I saw your advert, the one about life insurance with no medical. I wrote the number down."
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Agent",
+      "text": "Lovely, thanks Ava. Before we talk about any details or a quote, I just need to confirm who I'm speaking with. Could you give me your full name and your date of birth, please?"
+    },
+    {
+      "timestamp": "00:33",
+      "speaker": "Customer",
+      "text": "Sorry, could you say that again? I'm a little slow these days. I had a stroke in the spring and sometimes things go by me."
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Agent",
+      "text": "Of course, no problem at all, and I'm sorry to hear about the stroke. There's no rush. I just need two things: your full name, and your date of birth."
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Customer",
+      "text": "Okay. Ava Louise MacDonald. And my birthday is the ninth of March, 1966."
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Agent",
+      "text": "Thank you, Ava Louise MacDonald, born March 9th, 1966. That's all confirmed. Now, I'll go slowly, and please stop me any time you'd like me to repeat something. Is that alright?"
+    },
+    {
+      "timestamp": "01:18",
+      "speaker": "Customer",
+      "text": "Yes, thank you. That helps. My daughter usually does these things with me but she's at work."
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Agent",
+      "text": "That's completely understandable. If at any point you'd rather have your daughter on the line, or have me call back when she's home, I'm happy to do that. Would you like to carry on for now, or would you prefer a call back?"
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Customer",
+      "text": "I'll carry on for now. I just want to understand what it is first."
+    },
+    {
+      "timestamp": "01:45",
+      "speaker": "Agent",
+      "text": "Sure. Acme Term Life pays a lump sum to the people you choose if you pass away during the term of the policy. You can pick coverage anywhere from fifty thousand to seven hundred and fifty thousand dollars. There's no medical exam. Instead, I ask you a few health questions, and acceptance depends on your answers."
+    },
+    {
+      "timestamp": "02:06",
+      "speaker": "Customer",
+      "text": "Sorry, the lump sum, that's to my family? And what's the term again?"
+    },
+    {
+      "timestamp": "02:13",
+      "speaker": "Agent",
+      "text": "Yes, the money goes to whoever you name, like your daughter. The term is how long the policy lasts. You choose either ten years or twenty years. And your monthly payment stays the same for the whole term; it won't go up."
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Customer",
+      "text": "Ten or twenty. And it stays the same. Okay. Is it like a savings thing? Do I get money back at the end?"
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Agent",
+      "text": "Good question. No, it's not a savings plan. The policy has no cash value, so if you're still with us at the end of the term, nothing is paid out and there's no money back. It's purely protection while the policy is in place. Does that make sense so far?"
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Customer",
+      "text": "I think so. Protection only, nothing back at the end. Can you tell me how much I'd need?"
+    },
+    {
+      "timestamp": "02:59",
+      "speaker": "Agent",
+      "text": "For most people around your age, I'd recommend two hundred and fifty thousand dollars over twenty years. That's what I'd go with for you. Let me run through the health questions and I can give you a price on that."
+    },
+    {
+      "timestamp": "03:10",
+      "speaker": "Customer",
+      "text": "Two hundred and fifty thousand. Alright, if that's what people usually get."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Agent",
+      "text": "Okay. I'll read each question slowly, and if you need one repeated, just say. First: in the last two years, have you been diagnosed with or treated for cancer?"
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Customer",
+      "text": "No, not cancer."
+    },
+    {
+      "timestamp": "03:29",
+      "speaker": "Agent",
+      "text": "Second: are you currently in hospital, or waiting for a surgery?"
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Customer",
+      "text": "Could you repeat that one?"
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Agent",
+      "text": "Of course. Are you in hospital right now, or are you on a waiting list for an operation?"
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Customer",
+      "text": "No. I'm home now. I just go to physiotherapy twice a week."
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Agent",
+      "text": "Thank you. And the last one: have you had a stroke or heart attack? You've mentioned the stroke this spring, so I'll record that as yes, and that you're in recovery with physiotherapy. Is that right?"
+    },
+    {
+      "timestamp": "04:04",
+      "speaker": "Customer",
+      "text": "Yes, that's right. April."
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Agent",
+      "text": "Thanks, Ava. I've put that through, and based on your answers you've been accepted. For two hundred and fifty thousand dollars of coverage over twenty years, the price is ninety-six dollars a month, fixed for the full twenty years."
+    },
+    {
+      "timestamp": "04:24",
+      "speaker": "Customer",
+      "text": "Ninety-six dollars. Sorry, was that a month or a year?"
+    },
+    {
+      "timestamp": "04:29",
+      "speaker": "Agent",
+      "text": "A month. Ninety-six dollars every month, and it won't change for twenty years. Would it help if I explained it back a different way, or would you like some time to think, or to talk it over with your daughter first? There's no deadline on this quote from my side."
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Customer",
+      "text": "Hmm. That's a fair bit. I'm on a pension now. What if I sign up and then I change my mind?"
+    },
+    {
+      "timestamp": "04:54",
+      "speaker": "Agent",
+      "text": "There's a thirty-day free-look period. If within thirty days you or your daughter look it over and decide it's not right, you can cancel and you'll get a full refund of anything you've paid. But please don't feel you need to decide today. I can call back tomorrow evening when your daughter's home if you'd prefer."
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Customer",
+      "text": "No, I think I'd like to do it. I've been worrying about leaving her with the funeral and everything. And she can look at the papers, and if it's wrong I have the thirty days."
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Agent",
+      "text": "That's right. Before we go ahead, let me make sure you're clear on everything. Can you tell me in your own words what you understand you're buying?"
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Customer",
+      "text": "Life insurance. If I die in the next twenty years, my daughter gets the money. And there's no money back at the end."
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Agent",
+      "text": "Exactly right. So, to summarize: Acme Term Life, two hundred and fifty thousand dollars of coverage, a twenty-year term, ninety-six dollars a month, fixed for the whole term. No cash value, and a thirty-day free-look with a full refund if you cancel. Would you like to go ahead with that?"
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Customer",
+      "text": "Yes. Yes, I'd like to go ahead."
+    },
+    {
+      "timestamp": "06:05",
+      "speaker": "Agent",
+      "text": "Thank you, Ava. I'll set that up now. You'll get your policy documents by mail within the next week, and your thirty days start from when you receive them. I'd suggest going through them with your daughter. Is there anything you'd like me to repeat before we finish?"
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Customer",
+      "text": "No, I think I've got it. I'll write down ninety-six a month and thirty days. Thank you for being patient with me."
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Agent",
+      "text": "It was my pleasure, Ava. If you or your daughter have any questions, just call this number and ask for me, Arjun. Take care of yourself."
+    }
+  ]
+}

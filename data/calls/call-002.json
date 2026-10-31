@@ -1,0 +1,206 @@
+{
+  "call_id": "call-002",
+  "market": "UK",
+  "agent_id": "UK-01",
+  "agent_name": "Oliver",
+  "customer_name": "Mohammed Ali",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-04T09:14:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, this is Oliver calling from Acme Life Cover. I'm returning a call back request about our life cover. Before we go any further, I should let you know this call is recorded for training and quality purposes. Is that okay?"
+    },
+    {
+      "timestamp": "00:14",
+      "speaker": "Customer",
+      "text": "Hello, yes. Sorry, you said Acme? And it's recorded? That's fine."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "That's right, Acme Life Cover, and yes, it's recorded. I've got your request here, Mr Ali. You put in some details online. You're 61, a non-smoker, living in Leicester, and you were looking at around £60,000 of cover. Is that still roughly what you had in mind?"
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Customer",
+      "text": "Yes, I think so. My daughter helped me fill it in. I had a stroke in the spring, you see, so I'm a bit slow with things now. Sometimes I need things said twice."
+    },
+    {
+      "timestamp": "00:52",
+      "speaker": "Agent",
+      "text": "I'm sorry to hear that, and thank you for telling me. That's absolutely fine. I'll go slowly, and please stop me any time you want something repeated. There's no rush at all on this call."
+    },
+    {
+      "timestamp": "01:05",
+      "speaker": "Customer",
+      "text": "Thank you. That helps."
+    },
+    {
+      "timestamp": "01:09",
+      "speaker": "Agent",
+      "text": "Before I suggest anything, could you tell me a little about why you're looking at life cover, and who you'd want it to help?"
+    },
+    {
+      "timestamp": "01:18",
+      "speaker": "Customer",
+      "text": "It's my wife, Samira. After the stroke I started thinking, if something happens to me, I don't want her left with the funeral and the bills. We've a small amount left on the mortgage, about thirty thousand. And I want something for the funeral too."
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Agent",
+      "text": "That makes a lot of sense. So it's mainly the remaining mortgage, around £30,000, plus funeral costs and perhaps a bit of breathing room for Samira. Are you still working at the moment, or retired?"
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Customer",
+      "text": "Retired now. Since the stroke. I have my pension, and Samira works part time at the school."
+    },
+    {
+      "timestamp": "02:01",
+      "speaker": "Agent",
+      "text": "Thank you. And is the monthly cost important to you? Is there a figure you'd be comfortable with each month?"
+    },
+    {
+      "timestamp": "02:09",
+      "speaker": "Customer",
+      "text": "I'd like to keep it under thirty pounds if I can. Money's a bit tighter now."
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Agent",
+      "text": "Understood. Let me explain how the cover works, and I'll do it in small pieces. First, you can choose cover anywhere from £25,000 up to £500,000. Second, there's no medical exam. Instead, I'll ask you a few health questions, and whether we can accept you depends on those answers. Does that make sense so far?"
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Customer",
+      "text": "Sorry, could you say the bit about the questions again?"
+    },
+    {
+      "timestamp": "02:41",
+      "speaker": "Agent",
+      "text": "Of course. There's no doctor's appointment and no medical test. I just ask you a few questions about your health over the phone. Based on your answers, we either accept you or we don't. Because of your stroke, I can't promise acceptance before we go through them."
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Customer",
+      "text": "Right. Questions on the phone, no doctor. Okay, I've got that."
+    },
+    {
+      "timestamp": "03:03",
+      "speaker": "Agent",
+      "text": "Now the next part is really important, so I'll go slowly. In the first 12 months of the policy, only accidental death is covered. So if you died from an illness in that first year, including another stroke, the policy wouldn't pay out. After 12 months, you're covered for death from illness as well. Could you tell me in your own words what that means for you?"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Customer",
+      "text": "So... the first year, only if it's an accident. Like a car crash. Not if I'm ill. After a year, it covers everything... well, illness too."
+    },
+    {
+      "timestamp": "03:39",
+      "speaker": "Agent",
+      "text": "That's exactly right. The other things to know are that the premium is fixed, so it won't go up for the whole length of the policy. And you get 30 days to change your mind after it starts, with a full refund if you cancel in that time."
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Customer",
+      "text": "Fixed price, and thirty days to cancel. Good."
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Agent",
+      "text": "Mr Ali, as there's quite a lot here, would you like me to call back another day when your daughter or Samira could be on the call with you? I'm very happy to do that, and there's no pressure to decide today."
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Customer",
+      "text": "That's kind. But my daughter and I talked it all through last week. She told me about the first year rule as well. I'd like to go ahead today if the price is right."
+    },
+    {
+      "timestamp": "04:24",
+      "speaker": "Agent",
+      "text": "That's fine, and if you change your mind at any point, just say. Shall we do the health questions? First, apart from the stroke this year, have you been diagnosed with any heart condition, cancer, or kidney disease in the last five years?"
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Customer",
+      "text": "Sorry, heart, cancer and what?"
+    },
+    {
+      "timestamp": "04:43",
+      "speaker": "Agent",
+      "text": "Kidney disease. So heart condition, cancer, or kidney disease, in the last five years."
+    },
+    {
+      "timestamp": "04:50",
+      "speaker": "Customer",
+      "text": "No, none of those. Just high blood pressure, which I take tablets for."
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Agent",
+      "text": "Thank you. And are you currently in hospital or waiting for any tests or operations?"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Customer",
+      "text": "No. I finished the physio in August. Just check-ups with my GP now."
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Agent",
+      "text": "Thank you, that's all I need. Based on those answers, we can accept you. Looking at the mortgage of about £30,000 plus funeral costs, I'd suggest £50,000 of cover, which comes to £28 a month. That's within the under thirty pounds you mentioned. How does that sound?"
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Customer",
+      "text": "Fifty thousand for twenty-eight pounds. Can you say it once more so I'm sure?"
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Agent",
+      "text": "Of course. £50,000 of cover, for £28 a month."
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Customer",
+      "text": "Yes. I think that's right for us. Let me just think a moment."
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Agent",
+      "text": "Take all the time you need."
+    },
+    {
+      "timestamp": "06:01",
+      "speaker": "Customer",
+      "text": "Okay. I'm happy with that."
+    },
+    {
+      "timestamp": "06:05",
+      "speaker": "Agent",
+      "text": "Lovely. Before I set it up, let me summarise. Acme Life Cover for £50,000. The premium is £28 a month, fixed for the whole length of the policy. In the first 12 months, only accidental death is covered. After that, death from illness is covered too. And you have 30 days to cancel with a full refund. Would you like to go ahead with that?"
+    },
+    {
+      "timestamp": "06:30",
+      "speaker": "Customer",
+      "text": "Yes. Yes, I'd like to go ahead."
+    },
+    {
+      "timestamp": "06:34",
+      "speaker": "Agent",
+      "text": "Thank you, Mr Ali. I'll send all of that in writing too, so you and your daughter can read it through together. Is there anything you'd like me to go over again?"
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Customer",
+      "text": "No, I think I understood it all. Thank you for being patient with me."
+    },
+    {
+      "timestamp": "06:50",
+      "speaker": "Agent",
+      "text": "It's been a pleasure. If you have any questions when the documents arrive, just call us. Take care, and best wishes to Samira."
+    }
+  ]
+}

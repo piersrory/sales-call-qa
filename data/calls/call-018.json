@@ -1,0 +1,196 @@
+{
+  "call_id": "call-018",
+  "market": "UK",
+  "agent_id": "UK-03",
+  "agent_name": "Hassan",
+  "customer_name": "Mohammed Ali",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-25T15:50:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, you're through to Acme Life, my name's Hassan. Before we go any further, I should let you know this call is recorded for training and quality purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Hi, yeah, I filled in the form on your website after seeing one of your adverts, and it said someone would ring me back. I think it was about life cover."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "Brilliant, thanks for getting in touch. So I can pull up your enquiry, could I just take your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Customer",
+      "text": "Mohammed Ali. Date of birth is the 14th of March, 1993."
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Agent",
+      "text": "Thank you, Mohammed. That matches what I've got here. And just to double-check, the postcode on the enquiry is LS8 4QT?"
+    },
+    {
+      "timestamp": "00:42",
+      "speaker": "Customer",
+      "text": "That's right, yeah."
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Agent",
+      "text": "Lovely. So before I start talking about quotes, I'd like to understand a bit about you and what's prompted you to look at cover. What's going on at the moment?"
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Customer",
+      "text": "So, me and my wife have just bought our first house. We completed about three weeks ago. The mortgage adviser mentioned life insurance and I sort of brushed it off at the time, but it's been on my mind since."
+    },
+    {
+      "timestamp": "01:09",
+      "speaker": "Agent",
+      "text": "Congratulations on the house. That's a really common time for people to think about it. Can I ask roughly how much the mortgage is for, and over what term?"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Customer",
+      "text": "It's about a hundred and ninety-five thousand, over twenty-five years."
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Agent",
+      "text": "And is it mainly about making sure the mortgage would be cleared for your wife if something happened to you, or are there other things you'd want covered as well, like children or other debts?"
+    },
+    {
+      "timestamp": "01:34",
+      "speaker": "Customer",
+      "text": "No kids yet, maybe in a couple of years. It's mainly the mortgage, really. I'm the main earner, so if I wasn't around she'd struggle to keep up the payments on her own."
+    },
+    {
+      "timestamp": "01:46",
+      "speaker": "Agent",
+      "text": "That makes sense. And do you have any cover already, maybe a death-in-service benefit through work?"
+    },
+    {
+      "timestamp": "01:53",
+      "speaker": "Customer",
+      "text": "I don't think so. I'm on a fixed-term contract at the moment, so I don't get much in the way of benefits."
+    },
+    {
+      "timestamp": "02:01",
+      "speaker": "Agent",
+      "text": "Okay, thanks. Based on that, I'd suggest looking at around two hundred thousand pounds of cover over a twenty-five-year term, so it lines up with the mortgage with a little headroom. Our cover goes anywhere from twenty-five thousand up to five hundred thousand, so we can adjust if you'd prefer something different."
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Customer",
+      "text": "Two hundred sounds about right. Do I need to have a medical or anything? I really don't fancy going to see a doctor for this."
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Agent",
+      "text": "No, there's no medical exam. It's just a few health and lifestyle questions over the phone, and that decides whether we can accept you. Shall I run through those now?"
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Customer",
+      "text": "Go on then."
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Agent",
+      "text": "Do you smoke or have you used any nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Customer",
+      "text": "No, never smoked."
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Agent",
+      "text": "Have you been diagnosed with or treated for any heart condition, cancer, diabetes or stroke?"
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Customer",
+      "text": "No. I had asthma as a kid but nothing since I was about twelve."
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Agent",
+      "text": "That's fine, thanks for mentioning it. And are you currently waiting on any tests or referrals?"
+    },
+    {
+      "timestamp": "03:04",
+      "speaker": "Customer",
+      "text": "No, nothing."
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Agent",
+      "text": "Great. So on that basis, for two hundred thousand pounds of cover over twenty-five years, the premium comes out at eighteen pounds a month. That premium is fixed for the whole length of the policy, so it won't creep up as you get older."
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Customer",
+      "text": "Eighteen a month. That's less than I thought, to be honest. Is there a catch? Like, when does it actually start covering me?"
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Agent",
+      "text": "No catch. Once the policy's set up you're fully covered from day one, so if anything happened, illness or accident, your wife would get the two hundred thousand straight away."
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "Right, okay. And what if I sign up and then change my mind? Money's a bit tight after the move."
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Agent",
+      "text": "Completely understandable. You've got a thirty-day cooling-off period, so if you decide it's not for you within that time you can cancel and get a full refund. And there's no pressure today either. If you want to talk it over with your wife first, I'm happy to email the quote and you can ring back whenever suits."
+    },
+    {
+      "timestamp": "04:07",
+      "speaker": "Customer",
+      "text": "Hmm. I did kind of tell her I'd sort it this week. Let me think a sec."
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Agent",
+      "text": "Take your time."
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Customer",
+      "text": "No, I think I'm happy. Eighteen quid's manageable and it's one less thing to worry about. Let's go ahead."
+    },
+    {
+      "timestamp": "04:29",
+      "speaker": "Agent",
+      "text": "Okay. Before I set it up, let me just summarise so you're clear on what you're agreeing to. This is Acme Life Cover for you, Mohammed Ali, with a cover amount of two hundred thousand pounds over a twenty-five-year term. The premium is eighteen pounds a month, fixed for the full term, and you've got thirty days to cancel for a full refund. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Customer",
+      "text": "Yes, I'm happy to go ahead."
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Agent",
+      "text": "Thank you. I'll take your bank details for the direct debit next, and then you'll get your policy documents by email within the next day or so. Is the email on your enquiry still the best one to use?"
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Customer",
+      "text": "Yeah, m.ali93 at outlook dot com."
+    },
+    {
+      "timestamp": "05:11",
+      "speaker": "Agent",
+      "text": "Perfect, that's the one I've got. Right, let's get the direct debit sorted."
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "call_id": "call-004",
+  "market": "NZ",
+  "agent_id": "NZ-01",
+  "agent_name": "Aroha",
+  "customer_name": "Oliver Brown",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-13T02:49:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, you're speaking with Aroha from Acme Life Cover. Just so you know, this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Hi Aroha. I saw one of your ads online and filled in the form asking for a call back. I'm after some life insurance, I think."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "No worries at all, thanks for getting in touch. Before we go any further, could I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Customer",
+      "text": "Yep, it's Oliver James Brown, and my birthday is the 14th of March, 1993."
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Agent",
+      "text": "Lovely, thanks Oliver, that matches what we've got. So tell me a bit about what's got you thinking about life cover at the moment?"
+    },
+    {
+      "timestamp": "00:46",
+      "speaker": "Customer",
+      "text": "We've just bought our first home, me and my partner, out in Hamilton. Settled about three weeks ago. The bank sort of mentioned we should look at insurance, and it got me thinking, if something happened to me she'd be stuck with the whole mortgage."
+    },
+    {
+      "timestamp": "01:03",
+      "speaker": "Agent",
+      "text": "Congratulations on the new place, that's a big milestone. Can I ask roughly how much the mortgage is, and whether you've got any kids or anyone else relying on your income?"
+    },
+    {
+      "timestamp": "01:13",
+      "speaker": "Customer",
+      "text": "It's about four hundred and twenty grand. No kids yet, maybe in a couple of years. It's just the two of us, and we both work, but we need both incomes to cover the repayments."
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "Agent",
+      "text": "That makes sense. And do you have any existing life cover, maybe through work or KiwiSaver?"
+    },
+    {
+      "timestamp": "01:34",
+      "speaker": "Customer",
+      "text": "Not that I know of. I don't think my work offers anything like that."
+    },
+    {
+      "timestamp": "01:40",
+      "speaker": "Agent",
+      "text": "Okay. And just generally, how's your health? Any ongoing medical conditions or anything you've seen a doctor about recently?"
+    },
+    {
+      "timestamp": "01:48",
+      "speaker": "Customer",
+      "text": "I've got mild asthma, had it since I was a kid. Use an inhaler now and then. Otherwise pretty healthy, I play social footy on weekends."
+    },
+    {
+      "timestamp": "01:59",
+      "speaker": "Agent",
+      "text": "Thanks for being upfront about that. I'll come back to the asthma in a sec, because it's relevant. So, based on what you've told me, the main goal is making sure your partner could clear the mortgage if anything happened to you. Our cover ranges from fifty thousand up to a million dollars, so I'd suggest looking at around four hundred and fifty thousand. That would cover the mortgage with a bit of a buffer for other costs."
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Customer",
+      "text": "Right. What would that cost me though? Money's a bit tight with the new mortgage."
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Agent",
+      "text": "For four hundred and fifty thousand at your age, it comes to thirty-five dollars a month. One thing to be aware of is that the premiums are stepped, which means they go up each year as you get older. So thirty-five is where it starts, but it won't stay at that amount."
+    },
+    {
+      "timestamp": "02:47",
+      "speaker": "Customer",
+      "text": "Hmm, how much does it go up by?"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Agent",
+      "text": "It depends on your age each year at renewal, so I can't give you an exact figure today, but you'll be told the new premium before each renewal. In your thirties the increases tend to be fairly gradual, and they get steeper later in life."
+    },
+    {
+      "timestamp": "03:06",
+      "speaker": "Customer",
+      "text": "Okay. And you said the asthma was relevant?"
+    },
+    {
+      "timestamp": "03:10",
+      "speaker": "Agent",
+      "text": "Yes. Any pre-existing medical conditions aren't covered for the first two years of the policy. So if you were to pass away from something related to your asthma in that first two years, that claim wouldn't be paid. After two years, that exclusion no longer applies."
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Customer",
+      "text": "Right. I mean, it's pretty mild, so I'm not too worried. But good to know."
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Agent",
+      "text": "Absolutely. There's also a terminal illness benefit, so if you were diagnosed with an illness and given less than twelve months to live, the cover pays out early rather than your partner having to wait."
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Customer",
+      "text": "Oh, that's actually decent. Would that be the full amount?"
+    },
+    {
+      "timestamp": "03:51",
+      "speaker": "Agent",
+      "text": "Yes, the benefit is paid out early in that situation, so the money is there when it's needed."
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Customer",
+      "text": "Okay. I sort of want to chat to my partner about it, but I also just want to get it sorted, you know?"
+    },
+    {
+      "timestamp": "04:06",
+      "speaker": "Agent",
+      "text": "Totally understandable. There's no rush at all from my end. If you'd like to talk it over with her first, I can send you the details and you can call back whenever suits. It's entirely up to you."
+    },
+    {
+      "timestamp": "04:18",
+      "speaker": "Customer",
+      "text": "Yeah, nah, she's the one who's been nagging me to sort it out, so I reckon she'll be happy."
+    },
+    {
+      "timestamp": "04:25",
+      "speaker": "Agent",
+      "text": "Fair enough! So, would you like to go ahead with it today?"
+    },
+    {
+      "timestamp": "04:30",
+      "speaker": "Customer",
+      "text": "Um... I guess so."
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Agent",
+      "text": "Great, I'll get that set up for you now. Can I just grab your bank account details for the direct debit?"
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Customer",
+      "text": "Uh, sure. It's ASB, 12-3095-0418772-00."
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Agent",
+      "text": "Thanks Oliver. And what day of the month works best for the payment?"
+    },
+    {
+      "timestamp": "04:57",
+      "speaker": "Customer",
+      "text": "The 20th, that's just after payday."
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Agent",
+      "text": "Perfect, the 20th it is. That's all done, your policy's active from today. You'll get your policy documents by email within the next day or so. Also, you've got a thirty-day free-look period, so if you change your mind for any reason in the first thirty days, you can cancel and get a full refund."
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Customer",
+      "text": "Oh good, that's reassuring. I'll go through the documents with my partner then."
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Agent",
+      "text": "Sounds like a good plan. If either of you have any questions, just give us a call. Anything else I can help with today?"
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Customer",
+      "text": "No, I think that's it. Thanks Aroha."
+    },
+    {
+      "timestamp": "05:38",
+      "speaker": "Agent",
+      "text": "No worries, Oliver. Enjoy the new home, and have a great rest of your day. Ka kite."
+    }
+  ]
+}

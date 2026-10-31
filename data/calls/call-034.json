@@ -1,0 +1,211 @@
+{
+  "call_id": "call-034",
+  "market": "UK",
+  "agent_id": "UK-03",
+  "agent_name": "Hassan",
+  "customer_name": "Callum Reid",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-09T12:38:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, you're through to Acme Life, my name's Hassan. Before we go any further, I should let you know this call is recorded for quality and training purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Oh, hello. Yes, I saw your advert in the paper, the life cover one. I thought I'd ring and, well, find out a bit more."
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Agent",
+      "text": "Of course, happy to help. So I can look at anything specific to you, could I take your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Customer",
+      "text": "It's Callum Reid. Callum James Reid. Born the fourteenth of March, nineteen fifty-one."
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Agent",
+      "text": "Thank you, Mr Reid. That's Callum James Reid, fourteenth of March 1951. That's all confirmed. Before I tell you anything about the product, could you tell me a bit about what made you think about life cover?"
+    },
+    {
+      "timestamp": "00:54",
+      "speaker": "Customer",
+      "text": "Well... my wife, Margaret, she passed away. Two months ago now. And the funeral, it all cost a fair bit, and I sat there thinking I don't want my daughter having to sort all that out for me. I don't want to leave her with bills."
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Agent",
+      "text": "I'm very sorry to hear about Margaret, Mr Reid. Two months is no time at all. Please take this at whatever pace suits you, there's no rush on my side."
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Customer",
+      "text": "Thank you. It's been... it's been hard. Margaret always did the paperwork, you see. I'm not very good with all the figures. I get a bit muddled."
+    },
+    {
+      "timestamp": "01:34",
+      "speaker": "Agent",
+      "text": "That's completely understandable. I'll keep things simple and I'll check with you as we go. Can I ask, is your main aim to cover things like funeral costs, or is there anything else, like a mortgage or debts, you'd want it to pay off?"
+    },
+    {
+      "timestamp": "01:48",
+      "speaker": "Customer",
+      "text": "No, no mortgage, the house is paid for. It's really just the funeral and so Sarah, that's my daughter, isn't out of pocket. Maybe a little bit left over for her."
+    },
+    {
+      "timestamp": "02:00",
+      "speaker": "Agent",
+      "text": "Thank you, that helps. And are you comfortable with your monthly budget at the moment? I don't want to suggest anything that would be a stretch."
+    },
+    {
+      "timestamp": "02:08",
+      "speaker": "Customer",
+      "text": "I've got my pension. It's not a lot, but I manage. Things are a bit tighter now with just the one pension coming in, if I'm honest."
+    },
+    {
+      "timestamp": "02:18",
+      "speaker": "Agent",
+      "text": "That's really useful to know, and it's important. Let me explain the basics of the policy. You choose how much cover you want, anywhere from twenty-five thousand pounds up to five hundred thousand pounds. For funeral costs and a bit left over, people often look towards the lower end of that."
+    },
+    {
+      "timestamp": "02:36",
+      "speaker": "Customer",
+      "text": "Twenty-five thousand... and up to five hundred? Sorry, is that what I'd pay?"
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Agent",
+      "text": "No, that's a good question to ask. That's the amount that would be paid out to your family. What you'd pay is a much smaller monthly amount, called the premium. Does that make sense so far?"
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Customer",
+      "text": "So the big number is what Sarah gets, and I pay a small bit every month."
+    },
+    {
+      "timestamp": "03:00",
+      "speaker": "Agent",
+      "text": "Exactly right. There are a couple of other important points. There's no medical exam, you'd just answer a few health questions and acceptance depends on those. And the monthly premium is fixed, so it stays the same for the whole length of the policy."
+    },
+    {
+      "timestamp": "03:16",
+      "speaker": "Customer",
+      "text": "That's good, I wouldn't want it going up on me."
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Agent",
+      "text": "One thing I really want to make sure you're clear on: in the first twelve months, the policy only pays out for accidental death. So if you were to pass away from an illness in that first year, it wouldn't pay out. After the twelve months, you're covered more fully."
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Customer",
+      "text": "Oh. So for the first year... if I was ill... sorry, say that again?"
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Agent",
+      "text": "Of course. For the first twelve months, it only pays out if someone dies because of an accident. If it's because of an illness in that first year, there'd be no payout. Could you tell me in your own words what that means for you, just so I know I've explained it properly?"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Customer",
+      "text": "So if I had a fall or something, it'd pay. But if it was my heart, say, in the first year, it wouldn't. And after a year it would."
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Agent",
+      "text": "That's spot on, Mr Reid. Thank you."
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Customer",
+      "text": "Right. And how much would it be, then, every month? For the twenty-five thousand?"
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Agent",
+      "text": "I can work out an exact figure, but that would mean going through the health questions with you. We can do that now, or another time if you'd prefer. There's no pressure either way."
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Customer",
+      "text": "Hmm. I don't know. My head's a bit all over the place today, to be honest. I had all the numbers written down and now I've lost track of which was which."
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Agent",
+      "text": "That's absolutely fine. It's a lot to take in, especially with everything you're going through. Would it help to have Sarah with you when we talk about it? I'd be very happy to call back at a time when she can be there too."
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Customer",
+      "text": "Do you know, I think it would. She's better with this sort of thing than me. Margaret and her were the clever ones."
+    },
+    {
+      "timestamp": "05:06",
+      "speaker": "Agent",
+      "text": "That sounds like a really sensible idea. I can also send you some written information in the post so you can both read it at your own pace. Would that be helpful?"
+    },
+    {
+      "timestamp": "05:16",
+      "speaker": "Customer",
+      "text": "Yes, the post would be better. I'm not one for emails."
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Agent",
+      "text": "No problem. And just so you know, even if you did decide to go ahead at some point, there's a thirty-day cooling-off period, so you could change your mind within thirty days and get a full refund. But please don't feel you need to decide anything today."
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Customer",
+      "text": "Thirty days. Right. I'll put that in the letter... well, you'll put it in the letter, won't you?"
+    },
+    {
+      "timestamp": "05:42",
+      "speaker": "Agent",
+      "text": "Yes, it'll all be written down in what we send you. Shall I arrange a call back, or would you rather ring us when you and Sarah are ready?"
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Customer",
+      "text": "I think I'll leave it for now and talk to Sarah first. She's coming over on Sunday. I'll ring you back if we decide to go ahead. I don't want to sign up to anything today."
+    },
+    {
+      "timestamp": "06:02",
+      "speaker": "Agent",
+      "text": "That's completely fine, Mr Reid. Take all the time you need. Can I just confirm the address for the information pack?"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "Customer",
+      "text": "Yes, it's 22 Larchfield Road, Kilmarnock, KA3 7PN."
+    },
+    {
+      "timestamp": "06:18",
+      "speaker": "Agent",
+      "text": "Thank you, that's 22 Larchfield Road, Kilmarnock, KA3 7PN. It should arrive in the next few days. Is there anything else you'd like me to go over again before we finish?"
+    },
+    {
+      "timestamp": "06:30",
+      "speaker": "Customer",
+      "text": "No, I think that's enough for my old brain today. You've been very patient, thank you."
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Agent",
+      "text": "Not at all, it's been a pleasure talking to you. Again, I'm very sorry for your loss. Look after yourself, and give us a ring whenever you're ready."
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Customer",
+      "text": "I will. Thank you, Hassan. Cheerio."
+    }
+  ]
+}

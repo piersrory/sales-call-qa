@@ -1,0 +1,226 @@
+{
+  "call_id": "call-027",
+  "market": "CA",
+  "agent_id": "CA-03",
+  "agent_name": "Arjun",
+  "customer_name": "Emma Wong",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-13T20:28:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hi there, this is Arjun calling from Acme Life. I'm returning a call-back request about our term life insurance. Just so you know, this call is recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Oh, hi. Yes, I filled out that form on your website a couple of days ago."
+    },
+    {
+      "timestamp": "00:17",
+      "speaker": "Agent",
+      "text": "Perfect. I've got it up here. So it's Emma Wong, you're fifty-four, non-smoker, living in Mississauga, and you were looking at around a hundred and fifty thousand dollars of cover. The online estimate came out at about thirty-three dollars a month for a ten-year term. Does that all still sound right?"
+    },
+    {
+      "timestamp": "00:34",
+      "speaker": "Customer",
+      "text": "Yes, that's what I put in. I wasn't sure if that number was real or just a teaser."
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Agent",
+      "text": "Fair question. It's a genuine estimate based on what you entered, but the final price does depend on a few health questions. Before we get into that, can I ask what got you thinking about life insurance right now?"
+    },
+    {
+      "timestamp": "00:52",
+      "speaker": "Customer",
+      "text": "Well, honestly, I went to my doctor last month and found out I have high blood pressure. It kind of shook me. My husband and I still have about ten years left on the mortgage, and I just started worrying about what happens if something happens to me."
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Agent",
+      "text": "That makes complete sense, and a lot of people come to us after a moment like that. Do you have anyone else depending on your income, kids at home, anything like that?"
+    },
+    {
+      "timestamp": "01:19",
+      "speaker": "Customer",
+      "text": "Our daughter's at university, so we're helping with tuition for another two years. Our son's finished school and working. Mainly it's the mortgage and my husband. My income covers about half the household bills."
+    },
+    {
+      "timestamp": "01:33",
+      "speaker": "Agent",
+      "text": "Okay. And roughly how much is left on the mortgage?"
+    },
+    {
+      "timestamp": "01:37",
+      "speaker": "Customer",
+      "text": "About a hundred and twenty thousand, give or take."
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Agent",
+      "text": "And do you have any coverage already, maybe through work?"
+    },
+    {
+      "timestamp": "01:45",
+      "speaker": "Customer",
+      "text": "There's a small group plan through my employer, I think it's one times my salary, but if I leave the job it goes away, so I don't want to rely on it."
+    },
+    {
+      "timestamp": "01:55",
+      "speaker": "Agent",
+      "text": "Good thinking. Based on what you've told me, the hundred and fifty thousand over ten years lines up quite well. It would cover the remaining mortgage with some left over for your husband and your daughter's tuition, and the term matches the time left on the mortgage. We do offer anywhere from fifty thousand up to seven hundred and fifty thousand, and terms of either ten or twenty years, so we can adjust if you'd like."
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Customer",
+      "text": "I did wonder about twenty years. Is that a lot more?"
+    },
+    {
+      "timestamp": "02:25",
+      "speaker": "Agent",
+      "text": "It would be more per month, since it covers you for longer and into your seventies. Whichever term you pick, the premium is fixed for the whole term, so it won't go up partway through. Given your main concern is the mortgage over the next ten years, ten years seems the better fit, but it's your call."
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Customer",
+      "text": "No, ten makes sense. Now, the blood pressure. Is that going to be a problem? I saw something about no medical exam."
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Agent",
+      "text": "Right, there's no medical exam. No needles, no nurse visit. Instead there are a few health questions, and acceptance depends on your answers. I can't promise the outcome before we go through them, but we can do them now and you'll know where you stand. Is that okay?"
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Customer",
+      "text": "Sure, go ahead."
+    },
+    {
+      "timestamp": "03:10",
+      "speaker": "Agent",
+      "text": "In the past five years, have you been diagnosed with or treated for heart disease, stroke, cancer, or kidney disease?"
+    },
+    {
+      "timestamp": "03:18",
+      "speaker": "Customer",
+      "text": "No, none of those."
+    },
+    {
+      "timestamp": "03:20",
+      "speaker": "Agent",
+      "text": "Have you been diagnosed with high blood pressure, and if so, is it being treated?"
+    },
+    {
+      "timestamp": "03:25",
+      "speaker": "Customer",
+      "text": "Yes, diagnosed last month. My doctor put me on a low-dose medication, and I'm going back in six weeks to check it."
+    },
+    {
+      "timestamp": "03:33",
+      "speaker": "Agent",
+      "text": "Thanks. And are you currently waiting on any tests, referrals to a specialist, or results?"
+    },
+    {
+      "timestamp": "03:39",
+      "speaker": "Customer",
+      "text": "Just the follow-up with my family doctor. No specialist."
+    },
+    {
+      "timestamp": "03:44",
+      "speaker": "Agent",
+      "text": "Last one. In the past twelve months, have you used any tobacco or nicotine products?"
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Customer",
+      "text": "No, never smoked."
+    },
+    {
+      "timestamp": "03:52",
+      "speaker": "Agent",
+      "text": "Okay, I've entered those. Give me a second. Alright, you've been accepted, and the premium stays at thirty-three dollars a month for a hundred and fifty thousand over ten years. Treated high blood pressure with no other conditions didn't change the price here."
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Customer",
+      "text": "Oh, that's a relief. I was expecting worse. Can I ask, if I keep paying for ten years and nothing happens, do I get anything back?"
+    },
+    {
+      "timestamp": "04:19",
+      "speaker": "Agent",
+      "text": "No, and I want to be clear about that. It's pure term insurance, so there's no cash value and no money back at the end. That's partly why it's affordable. It pays the benefit to your beneficiary if you pass away during the term."
+    },
+    {
+      "timestamp": "04:35",
+      "speaker": "Customer",
+      "text": "Hmm. I see. My sister has a policy that builds up money, I think."
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Agent",
+      "text": "That sounds like permanent insurance, which works differently and usually costs a lot more each month. If you'd like to think it over or compare, that's absolutely fine. The quote isn't going anywhere today, and you're welcome to talk it over with your husband first."
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Customer",
+      "text": "No, I think this is what I actually need. I just want the mortgage looked after. What if I sign up and then change my mind?"
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Agent",
+      "text": "You'd have a thirty-day free-look period. If you cancel within thirty days of receiving the policy, you get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Customer",
+      "text": "Okay, that makes me feel better. Let's do it."
+    },
+    {
+      "timestamp": "05:17",
+      "speaker": "Agent",
+      "text": "Great. Before I finalize it, let me summarize. This is Acme Term Life, a hundred and fifty thousand dollars of coverage for a ten-year term, at thirty-three dollars a month, fixed for the full ten years. There's no cash value, and you have thirty days to cancel for a full refund. Would you like to go ahead with that?"
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Customer",
+      "text": "Yes, I'd like to go ahead."
+    },
+    {
+      "timestamp": "05:40",
+      "speaker": "Agent",
+      "text": "Wonderful. Who would you like to name as your beneficiary?"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Customer",
+      "text": "My husband, David Wong."
+    },
+    {
+      "timestamp": "05:47",
+      "speaker": "Agent",
+      "text": "Got it. For payment, we can set up a monthly pre-authorized debit from your chequing account or put it on a credit card. Which do you prefer?"
+    },
+    {
+      "timestamp": "05:56",
+      "speaker": "Customer",
+      "text": "Pre-authorized debit from chequing is fine."
+    },
+    {
+      "timestamp": "06:00",
+      "speaker": "Agent",
+      "text": "Perfect. I'll send you a secure link by email to enter your banking details, and your policy documents will follow within a couple of business days. The thirty days starts once you receive them."
+    },
+    {
+      "timestamp": "06:13",
+      "speaker": "Customer",
+      "text": "Great. Thank you, Arjun, you've been really helpful."
+    },
+    {
+      "timestamp": "06:17",
+      "speaker": "Agent",
+      "text": "My pleasure, Emma. Good luck with the follow-up appointment, and call us any time if you have questions. Have a great day."
+    }
+  ]
+}

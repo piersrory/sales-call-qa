@@ -1,0 +1,216 @@
+{
+  "call_id": "call-012",
+  "market": "NZ",
+  "agent_id": "NZ-01",
+  "agent_name": "Aroha",
+  "customer_name": "Jack Wilson",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-25T21:23:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, you're through to Acme Life, this is Aroha speaking. Just letting you know this call is recorded for quality and training purposes. How can I help you today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Morning, Aroha. I saw your advert in the paper over the weekend, the life cover one, and I thought I'd ring and find out a bit more."
+    },
+    {
+      "timestamp": "00:17",
+      "speaker": "Agent",
+      "text": "Lovely, thanks for calling. Before we go any further, could I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:23",
+      "speaker": "Customer",
+      "text": "Yes, it's Jack Wilson. John Wilson officially, but everyone calls me Jack. Date of birth is the fourteenth of March, 1959."
+    },
+    {
+      "timestamp": "00:32",
+      "speaker": "Agent",
+      "text": "Thanks, Jack. I've got you as John Wilson, fourteenth of March 1959. That all matches. So tell me a bit about yourself, what's got you thinking about life cover?"
+    },
+    {
+      "timestamp": "00:43",
+      "speaker": "Customer",
+      "text": "Well, I've just retired. Taught at the local intermediate for thirty-odd years. The house is paid off, the wife and I are comfortable enough, but we've got four grandkids now and I'd like to leave them something. A bit of a head start, you know. University fees or a first car or whatever."
+    },
+    {
+      "timestamp": "01:02",
+      "speaker": "Agent",
+      "text": "That's a really lovely reason. Can I ask, do you have any other cover at the moment, or any debts you'd want it to clear?"
+    },
+    {
+      "timestamp": "01:09",
+      "speaker": "Customer",
+      "text": "No debts, thank goodness. I had some cover through the teachers' scheme, but that stopped when I finished up. So nothing now."
+    },
+    {
+      "timestamp": "01:18",
+      "speaker": "Agent",
+      "text": "Okay. And how's your health generally? Anything you see the doctor about regularly?"
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Customer",
+      "text": "I'm on tablets for blood pressure, have been for about five years. Otherwise I'm pretty fit. I walk the dog every morning and play a bit of bowls."
+    },
+    {
+      "timestamp": "01:33",
+      "speaker": "Agent",
+      "text": "Good on you. I do need to be upfront about the blood pressure. With Acme Life Cover, pre-existing medical conditions aren't covered for the first two years of the policy. So if something related to that came up in the first two years, it wouldn't be covered. After two years, it would be."
+    },
+    {
+      "timestamp": "01:51",
+      "speaker": "Customer",
+      "text": "Right. Well, I'm hoping I'll be around a fair bit longer than two years, so I suppose that's fair enough."
+    },
+    {
+      "timestamp": "01:58",
+      "speaker": "Agent",
+      "text": "Ha, let's hope so! Did you have an amount in mind for the grandkids?"
+    },
+    {
+      "timestamp": "02:03",
+      "speaker": "Customer",
+      "text": "I was thinking something like a hundred and fifty thousand. That'd give each of them a decent chunk. Is that the sort of thing you do?"
+    },
+    {
+      "timestamp": "02:11",
+      "speaker": "Agent",
+      "text": "Absolutely. Our cover goes anywhere from fifty thousand up to a million dollars, so a hundred and fifty thousand sits comfortably in there. Based on what you've told me, about wanting to leave a lump sum for the grandchildren with no debts to cover, I'd say a hundred and fifty thousand sounds like a sensible fit. Let me run a quote for you."
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Customer",
+      "text": "Go on then."
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Agent",
+      "text": "Okay, for a hundred and fifty thousand dollars of cover, your premium would be eighty-five dollars a month."
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Customer",
+      "text": "Eighty-five. Hmm. And does that stay the same?"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Agent",
+      "text": "Good question. No, the premiums are stepped, which means they go up each year as you get older. So eighty-five dollars is what you'd start on, and it would increase each year from there."
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Customer",
+      "text": "Right, so it'll creep up. I'm on a fixed income now, so I'd have to keep an eye on that."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Agent",
+      "text": "Of course. There's one more feature worth knowing about. There's a terminal illness benefit, so if you were diagnosed with less than twelve months to live, the cover would pay out early rather than waiting."
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Customer",
+      "text": "Oh, that's useful. Then I could see the grandkids get it myself, I suppose."
+    },
+    {
+      "timestamp": "03:34",
+      "speaker": "Agent",
+      "text": "Exactly, a lot of people like that."
+    },
+    {
+      "timestamp": "03:38",
+      "speaker": "Customer",
+      "text": "Look, it all sounds pretty good. But I'd like to have a chat with Margaret, my wife, before I sign up to anything. Maybe sleep on it and give you a ring back later in the week?"
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Agent",
+      "text": "I understand, Jack. The thing is, that eighty-five dollar rate I've pulled up is a special rate that's only available on this call. If you ring back later in the week, I can't promise you'll get the same price. Honestly, there's not much to think over, it does exactly what you said you wanted."
+    },
+    {
+      "timestamp": "04:07",
+      "speaker": "Customer",
+      "text": "Really? It'd change that quickly?"
+    },
+    {
+      "timestamp": "04:11",
+      "speaker": "Agent",
+      "text": "It can, yeah. I'd hate for you to miss out when we've got it sorted right here. And Margaret's going to love that you've looked after the grandkids."
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Customer",
+      "text": "Hmm. I don't usually like being rushed on these things."
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Agent",
+      "text": "I hear you. Just remember there's a thirty-day free-look period, so if you and Margaret talk it over and decide it's not for you, you can cancel within thirty days and get a full refund. So you're not locked in."
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Customer",
+      "text": "Thirty days, full refund? Every cent?"
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Agent",
+      "text": "Every cent, as long as you cancel within the thirty days."
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Customer",
+      "text": "Well... all right. I suppose that gives me time to talk it through with her. Let's do it."
+    },
+    {
+      "timestamp": "04:56",
+      "speaker": "Agent",
+      "text": "Great. Before I finalise anything, let me just summarise so we're both clear. You're taking out Acme Life Cover for a hundred and fifty thousand dollars. Your premium starts at eighty-five dollars a month and it's stepped, so it'll go up each year as you get older. Pre-existing conditions, including your blood pressure, aren't covered for the first two years. There's a terminal illness benefit that pays out early if you have less than twelve months to live. And you've got a thirty-day free-look period with a full refund. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "05:32",
+      "speaker": "Customer",
+      "text": "Yes, I'm happy to go ahead."
+    },
+    {
+      "timestamp": "05:36",
+      "speaker": "Agent",
+      "text": "Wonderful. I'll set up the monthly payment now. Do you want it to come out of the same account your super goes into?"
+    },
+    {
+      "timestamp": "05:44",
+      "speaker": "Customer",
+      "text": "Yes, that's the one. The ASB account."
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Agent",
+      "text": "That's all set up, Jack. Your policy documents will be emailed to you within the next day or so, and a hard copy will come in the post. Your thirty days start from when you receive them."
+    },
+    {
+      "timestamp": "06:32",
+      "speaker": "Customer",
+      "text": "Righto. I'll show Margaret when they come."
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Agent",
+      "text": "Perfect. Anything else I can help with today?"
+    },
+    {
+      "timestamp": "06:40",
+      "speaker": "Customer",
+      "text": "No, I think that's me. Thanks, Aroha."
+    },
+    {
+      "timestamp": "06:44",
+      "speaker": "Agent",
+      "text": "Thanks so much, Jack. Enjoy your retirement, and give the dog a pat from me. Ka kite."
+    }
+  ]
+}

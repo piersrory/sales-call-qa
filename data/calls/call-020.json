@@ -1,0 +1,206 @@
+{
+  "call_id": "call-020",
+  "market": "NZ",
+  "agent_id": "NZ-03",
+  "agent_name": "Ravi",
+  "customer_name": "Jack Wilson",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-02T23:52:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, thanks for calling Acme Life, you're speaking with Ravi. Just so you know before we go any further, this call is recorded for quality and training purposes. Who have I got on the line?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Yeah, gidday. Jack here. I saw your ad on Facebook for life cover, figured I'd ring and see what the catch is."
+    },
+    {
+      "timestamp": "00:20",
+      "speaker": "Agent",
+      "text": "Ha, fair enough, Jack. Happy to walk you through it. Before I look at anything specific for you, can I just confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Customer",
+      "text": "Jack Robert Wilson. Fourteenth of March, 1984."
+    },
+    {
+      "timestamp": "00:36",
+      "speaker": "Agent",
+      "text": "Thanks Jack, that's Jack Robert Wilson, born 14 March 1984. All good. So, what's got you thinking about life cover at the moment?"
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Customer",
+      "text": "I'm self-employed, sparky. Got my own van, my own gear. Missus works part-time, we've got two kids, eight and eleven. If I fell off a ladder tomorrow there's no work insurance or anything coming through, it's just me."
+    },
+    {
+      "timestamp": "01:02",
+      "speaker": "Agent",
+      "text": "Right, so you're the main earner and there's no employer scheme sitting behind you. Have you got a mortgage or any big debts you'd want cleared?"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Customer",
+      "text": "Mortgage is about four-twenty left. Bit on the van, maybe fifteen grand. That's about it."
+    },
+    {
+      "timestamp": "01:18",
+      "speaker": "Agent",
+      "text": "And any existing life cover at all, through KiwiSaver or a bank policy?"
+    },
+    {
+      "timestamp": "01:24",
+      "speaker": "Customer",
+      "text": "Nah. Nothing. That's sort of why I'm ringing."
+    },
+    {
+      "timestamp": "01:29",
+      "speaker": "Agent",
+      "text": "Okay. And what would you want the payout to do, mainly? Clear the mortgage, or leave something extra for the family on top?"
+    },
+    {
+      "timestamp": "01:37",
+      "speaker": "Customer",
+      "text": "Clear the house, mainly. Then a bit of a buffer so she's not scrambling. I don't want to be paying through the nose though."
+    },
+    {
+      "timestamp": "01:46",
+      "speaker": "Agent",
+      "text": "Understood. Any health stuff I should know about? Smoker, ongoing conditions, anything you're on medication for?"
+    },
+    {
+      "timestamp": "01:53",
+      "speaker": "Customer",
+      "text": "Don't smoke. I'm on blood pressure tablets, have been for about three years. Doc says it's under control."
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Agent",
+      "text": "Good to know, thanks. So with Acme Life Cover you can pick anything from fifty thousand up to a million dollars. Based on the mortgage, the van and a buffer for the family, I'd suggest looking at around five hundred thousand. That clears the four-twenty, the van, and leaves roughly sixty-odd thousand for your partner and the kids."
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Customer",
+      "text": "Right. And the blood pressure, is that gonna be a problem? Because that's the sort of thing these outfits use to wriggle out of paying."
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Agent",
+      "text": "No, you're fine there. Something like blood pressure that's already managed is covered from day one, so you don't need to worry about that."
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Customer",
+      "text": "Huh. Okay. What's that gonna cost me then, the five hundred?"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Agent",
+      "text": "For you, at forty, non-smoker, five hundred thousand cover comes out at fifty-eight dollars a month."
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Customer",
+      "text": "And that stays at fifty-eight?"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Agent",
+      "text": "No, I'll be straight with you on that. The premiums are stepped, so they go up each year as you get older. Fifty-eight is what you'd pay now, and it'll rise a bit each year at renewal."
+    },
+    {
+      "timestamp": "03:07",
+      "speaker": "Customer",
+      "text": "Right. At least you said it. What else does it do, apart from pay out if I cark it?"
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Agent",
+      "text": "There's a terminal illness benefit as well. If you were diagnosed with less than twelve months to live, the payout comes early, so you'd have it while you're still here to sort things out with the family."
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Customer",
+      "text": "Yeah, that's decent. Look, it sounds alright, but I'd want to talk to the missus and maybe sleep on it. I'll give you a bell back later in the week."
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Agent",
+      "text": "I hear you, Jack, but honestly I'd hate for you to miss out. That fifty-eight dollar rate is one I can only hold on this call. If you ring back later in the week it'll go through as a fresh quote and it won't be the same number."
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Customer",
+      "text": "Why would it change in a few days? I'm not getting older by Friday."
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Agent",
+      "text": "It's just how the pricing works on these offers, it's tied to today. And to be honest, talking it over usually just ends up with people putting it off and the family's still sitting there with no cover. You've already told me exactly what you need."
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Customer",
+      "text": "Hmm. I don't love being rushed, mate."
+    },
+    {
+      "timestamp": "04:13",
+      "speaker": "Agent",
+      "text": "Totally get that. And just so you know, there's a thirty-day free-look period. If you and your partner go through it and decide it's not for you, you cancel within thirty days and get a full refund. So you're not locked in."
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Customer",
+      "text": "Full refund, no fees, nothing?"
+    },
+    {
+      "timestamp": "04:29",
+      "speaker": "Agent",
+      "text": "Full refund within the thirty days, yep."
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Customer",
+      "text": "Alright. Go on then, let's do it."
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Agent",
+      "text": "Great. Before I finalise, let me run through it so we're both clear. It's Acme Life Cover for Jack Robert Wilson, five hundred thousand dollars of cover. It pays out on death, and early if you're diagnosed with a terminal illness with less than twelve months to live. The premium is fifty-eight dollars a month to start, and it's stepped, so it goes up each year with your age. You've got a thirty-day free-look period with a full refund. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Customer",
+      "text": "Yeah. Yes, go ahead."
+    },
+    {
+      "timestamp": "05:08",
+      "speaker": "Agent",
+      "text": "Perfect. I'll get the direct debit set up next. Do you want it coming out on a particular day of the month?"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Customer",
+      "text": "The twentieth. That's after most of my invoices get paid."
+    },
+    {
+      "timestamp": "05:20",
+      "speaker": "Agent",
+      "text": "Twentieth it is. You'll get the policy documents by email within the next day or so, and the thirty days starts from when you receive them. Have a read through with your partner."
+    },
+    {
+      "timestamp": "05:31",
+      "speaker": "Customer",
+      "text": "Will do. Cheers, Ravi."
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Agent",
+      "text": "Cheers Jack, thanks for your time. Take care on those ladders."
+    }
+  ]
+}

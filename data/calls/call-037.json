@@ -1,0 +1,206 @@
+{
+  "call_id": "call-037",
+  "market": "AU",
+  "agent_id": "AU-02",
+  "agent_name": "Jack",
+  "customer_name": "Chloe Patel",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-28T00:42:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hi, is that Chloe? It's Jack calling from Acme Life. You filled in a call-back request on our website last night about our life cover."
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Customer",
+      "text": "Yes, that's me. Look, I've got about ten minutes before I need to be back on the shop floor, so can we keep it quick?"
+    },
+    {
+      "timestamp": "00:13",
+      "speaker": "Agent",
+      "text": "Absolutely, I'll keep it tight. So I've got your form here. You've put down that you're 38, non-smoker, and you were after a quote for around $500,000 of cover. I've already run that through and it comes out at $62.40 a month to start with."
+    },
+    {
+      "timestamp": "00:28",
+      "speaker": "Customer",
+      "text": "Right, okay. Sixty-two a month. That's not too bad. Is that it then, can I just lock that in?"
+    },
+    {
+      "timestamp": "00:34",
+      "speaker": "Agent",
+      "text": "We can definitely look at that, but before I suggest whether $500,000 is the right figure, can I ask a few quick questions about your situation? What's prompting you to look at cover now?"
+    },
+    {
+      "timestamp": "00:44",
+      "speaker": "Customer",
+      "text": "Honestly, I run a small florist in Brunswick, I've got a business loan, and my partner and I just bought a place. My accountant keeps nagging me that if something happened to me, everything falls apart."
+    },
+    {
+      "timestamp": "01:00",
+      "speaker": "Agent",
+      "text": "That makes sense. Roughly how much is the mortgage, and is the business loan in your name personally?"
+    },
+    {
+      "timestamp": "01:06",
+      "speaker": "Customer",
+      "text": "Mortgage is about $410,000. Business loan's around $60,000, and yeah, I'm the guarantor on it."
+    },
+    {
+      "timestamp": "01:14",
+      "speaker": "Agent",
+      "text": "And any kids or anyone else relying on your income?"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Customer",
+      "text": "One little one, she's three. Can we speed this up a bit though? What do I actually get?"
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Agent",
+      "text": "Sure. So Acme Life Cover pays a lump sum if you pass away. You can pick anywhere from $50,000 up to $1,000,000. Given the mortgage and the loan you've mentioned, $500,000 would roughly cover those debts, though it wouldn't leave a lot extra for your daughter. Some people in a similar spot look a bit higher. I should say that's general information only, it doesn't take into account your full personal circumstances or finances, so you'd want to weigh it up against your own situation."
+    },
+    {
+      "timestamp": "01:52",
+      "speaker": "Customer",
+      "text": "Okay. And do I need to go and get blood tests or anything? Because I genuinely don't have time for that."
+    },
+    {
+      "timestamp": "01:58",
+      "speaker": "Agent",
+      "text": "No medical exam. It's just a handful of health questions, and whether you're accepted depends on your answers to those."
+    },
+    {
+      "timestamp": "02:06",
+      "speaker": "Customer",
+      "text": "Good. So if I sign up today I'm covered from today?"
+    },
+    {
+      "timestamp": "02:10",
+      "speaker": "Agent",
+      "text": "This is an important one. In the first 12 months, only accidental death is covered. So if you passed away from an illness in that first year, the policy wouldn't pay out. After the 12 months, you're covered for death from any cause, subject to the policy terms."
+    },
+    {
+      "timestamp": "02:27",
+      "speaker": "Customer",
+      "text": "Hm. So for a whole year it's basically just accident cover."
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Agent",
+      "text": "For death, yes, that's right. Accidental death only for the first 12 months."
+    },
+    {
+      "timestamp": "02:36",
+      "speaker": "Customer",
+      "text": "And the sixty-two dollars, that stays the same?"
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Agent",
+      "text": "No, and I want to be upfront about that. The premiums are stepped, so they go up each year as you get older. $62.40 a month is what you'd pay now at 38, but it'll increase at each renewal."
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Customer",
+      "text": "By how much?"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Agent",
+      "text": "It depends on your age each year, so it's a gradual increase rather than a set amount. I can email you the policy documents, which include the premium details, so you can see how it's worked out."
+    },
+    {
+      "timestamp": "03:07",
+      "speaker": "Customer",
+      "text": "Right. That's the bit that worries me. I'm trying to budget the business for the next few years and I don't love something that creeps up."
+    },
+    {
+      "timestamp": "03:16",
+      "speaker": "Agent",
+      "text": "That's a fair concern. It's worth thinking about what you'd be comfortable paying down the track, not just now."
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Customer",
+      "text": "And if I sign up and then change my mind?"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Agent",
+      "text": "There's a 30-day cooling-off period. If you cancel within that time, you get a full refund of what you've paid."
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Customer",
+      "text": "Okay. Look, part of me wants to just say yes so it's done. But my accountant also said something about cover through my super, and I haven't even checked that."
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Agent",
+      "text": "That's definitely worth checking. A lot of people have some cover in their super and don't realise it. It'd make sense to know what you've already got before deciding on an amount."
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Customer",
+      "text": "So you're not going to tell me the price goes up if I don't sign today?"
+    },
+    {
+      "timestamp": "04:02",
+      "speaker": "Agent",
+      "text": "No, nothing like that. The quote's based on your age and answers, so take the time you need. There's no pressure to decide on this call."
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Customer",
+      "text": "Great. Then I think I'll hold off. I want to look at the super thing and talk to my partner about whether it should be more than five hundred."
+    },
+    {
+      "timestamp": "04:21",
+      "speaker": "Agent",
+      "text": "Completely understandable. Would you like me to email the quote and the policy documents to the address on your form?"
+    },
+    {
+      "timestamp": "04:27",
+      "speaker": "Customer",
+      "text": "Yes, the Gmail one. That's fine."
+    },
+    {
+      "timestamp": "04:30",
+      "speaker": "Agent",
+      "text": "Done, that'll be with you shortly. It'll have the $500,000 quote at $62.40 a month, plus the details on the stepped premiums and the 12-month accidental death period. If you'd like a different amount quoted, say $700,000, just reply or give us a call."
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Customer",
+      "text": "Okay. Do you need to call me back or will I just get in touch?"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "Agent",
+      "text": "Whatever suits you. I'm happy to leave it with you, or I can give you a ring in a week or two if that's easier."
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Customer",
+      "text": "Let me get in touch. I'll be honest, my weeks are chaos."
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Agent",
+      "text": "No worries at all. You've got my name, Jack, and the number's in the email. Good luck with the shop today."
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Customer",
+      "text": "Thanks, Jack. Appreciate you not pushing. Bye."
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Agent",
+      "text": "Cheers, Chloe. Bye now."
+    }
+  ]
+}

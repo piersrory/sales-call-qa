@@ -1,0 +1,201 @@
+{
+  "call_id": "call-026",
+  "market": "UK",
+  "agent_id": "UK-01",
+  "agent_name": "Oliver",
+  "customer_name": "Emily Shah",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-15T10:42:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hello, is that Emily? It's Oliver calling from Acme Life Cover. You filled in a form on our website asking for a call back about life cover."
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Customer",
+      "text": "Oh, yes, hello. I did, after I saw your advert in the paper last week. I wasn't sure anyone would actually ring."
+    },
+    {
+      "timestamp": "00:14",
+      "speaker": "Agent",
+      "text": "Well, here I am! I've got your form in front of me. It says you're sixty-six, living in Leicester, non-smoker, and you were interested in somewhere around twenty-five to thirty thousand pounds of cover. Is now still a good time?"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Customer",
+      "text": "Yes, that's fine. I've just made a cup of tea, so go ahead."
+    },
+    {
+      "timestamp": "00:30",
+      "speaker": "Agent",
+      "text": "Lovely. Before I talk about any quotes, can I ask a bit about you and what's made you think about cover? It helps me work out whether this is even the right thing for you."
+    },
+    {
+      "timestamp": "00:40",
+      "speaker": "Customer",
+      "text": "Of course. I retired from teaching in July, primary school, thirty-odd years. My husband passed away a few years ago, and I've got three grandchildren now. I'd just like to leave them a little something, you know, towards university or a first car or whatever they need."
+    },
+    {
+      "timestamp": "01:00",
+      "speaker": "Agent",
+      "text": "That's a lovely reason. Do you have any other life cover at the moment, maybe through work or an old policy?"
+    },
+    {
+      "timestamp": "01:07",
+      "speaker": "Customer",
+      "text": "There was something through the teachers' scheme, but I think that's stopped now I've retired. I've got my pension and a bit of savings, but I don't really want to touch the savings, they're for me if I need care later on."
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Agent",
+      "text": "That makes sense. And is there a mortgage or any debts you'd want the cover to pay off, or is it really just a gift for the grandchildren?"
+    },
+    {
+      "timestamp": "01:30",
+      "speaker": "Customer",
+      "text": "No mortgage, thank goodness. It's just for the grandchildren."
+    },
+    {
+      "timestamp": "01:35",
+      "speaker": "Agent",
+      "text": "Right. And budget-wise, have you got a figure in mind for what you'd be comfortable paying each month?"
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Customer",
+      "text": "I don't want anything too much. Maybe fifteen, twenty pounds at the very most. I'm on a fixed income now."
+    },
+    {
+      "timestamp": "01:49",
+      "speaker": "Agent",
+      "text": "Understood. So, based on what you've told me, the Acme Life Cover plan could suit you. You can choose cover anywhere from twenty-five thousand up to five hundred thousand pounds, but given your budget and what you want it for, the lower end sounds about right. From your form details, I've got a quote here of fifteen pounds a month for twenty-five thousand pounds of cover."
+    },
+    {
+      "timestamp": "02:12",
+      "speaker": "Customer",
+      "text": "Fifteen pounds. That's within what I said. But at my age, don't you need a medical? I really don't fancy being poked and prodded."
+    },
+    {
+      "timestamp": "02:21",
+      "speaker": "Agent",
+      "text": "No medical exam at all. Instead there are a few health questions, and whether you're accepted depends on your answers to those. So I can't promise acceptance until we've gone through them, but there's no doctor's visit."
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Customer",
+      "text": "Right. And does the price go up as I get older? That happened with my car insurance every year."
+    },
+    {
+      "timestamp": "02:42",
+      "speaker": "Agent",
+      "text": "No, the premium is fixed for the whole length of the policy. If it starts at fifteen pounds a month, it stays at fifteen pounds a month."
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Customer",
+      "text": "That's reassuring. Is there a catch, though? There's always a catch."
+    },
+    {
+      "timestamp": "02:56",
+      "speaker": "Agent",
+      "text": "There's one important thing you need to know. In the first twelve months, only accidental death is covered. So if you died from an illness during that first year, the policy wouldn't pay out. After twelve months, you're covered in full."
+    },
+    {
+      "timestamp": "03:12",
+      "speaker": "Customer",
+      "text": "Hmm. So if I had a heart attack in the first year, the grandchildren wouldn't get anything?"
+    },
+    {
+      "timestamp": "03:18",
+      "speaker": "Agent",
+      "text": "That's right, not in the first twelve months, because that wouldn't count as accidental. It's worth thinking about whether that's acceptable to you."
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Customer",
+      "text": "I suppose I'm in reasonable health. I walk most days. I'm just a bit wary, I've never bought anything like this over the phone."
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Agent",
+      "text": "That's completely fair. There's no rush at all. If you'd rather think it over, talk to your family, I can send you the details and you can come back to us whenever you're ready. The price won't disappear tomorrow."
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Customer",
+      "text": "What happens if I sign up and then change my mind?"
+    },
+    {
+      "timestamp": "03:53",
+      "speaker": "Agent",
+      "text": "There's a thirty-day cooling-off period. If you cancel within thirty days, you get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Customer",
+      "text": "Well, that makes me feel better. Go on then, let's do the health questions and see."
+    },
+    {
+      "timestamp": "04:07",
+      "speaker": "Agent",
+      "text": "Of course. Have you been diagnosed with, or are you currently being treated for, any heart condition, cancer, stroke or diabetes?"
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Customer",
+      "text": "No, none of those. I take a tablet for my blood pressure, but it's well controlled."
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Agent",
+      "text": "Thank you. Mild, controlled blood pressure is fine for this plan. And in the last five years, have you been admitted to hospital overnight or been told you need further tests you're waiting on?"
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Customer",
+      "text": "No. Just my cataract done two years ago, and that was a day case."
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Agent",
+      "text": "That's fine. Based on those answers, you're accepted at the quoted price."
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Customer",
+      "text": "Oh, good."
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Agent",
+      "text": "So before we go any further, let me just summarise. It's Acme Life Cover, twenty-five thousand pounds of cover, at fifteen pounds a month, and that premium is fixed for the whole policy. In the first twelve months only accidental death is covered, and after that you're fully covered. There's no medical exam, and you've got thirty days to cancel for a full refund. Are you happy to go ahead with that?"
+    },
+    {
+      "timestamp": "05:14",
+      "speaker": "Customer",
+      "text": "Yes. Yes, I'd like to go ahead."
+    },
+    {
+      "timestamp": "05:17",
+      "speaker": "Agent",
+      "text": "Wonderful. I'll send your policy documents and a Direct Debit form out in the post and by email today. Have a good read through, and if anything doesn't look right, just give us a ring."
+    },
+    {
+      "timestamp": "05:29",
+      "speaker": "Customer",
+      "text": "I will. Thank you, Oliver, you've been very patient with me."
+    },
+    {
+      "timestamp": "05:34",
+      "speaker": "Agent",
+      "text": "Not at all, Emily. It's a lovely thing you're doing for the grandchildren. Enjoy your tea, and take care."
+    },
+    {
+      "timestamp": "05:40",
+      "speaker": "Customer",
+      "text": "You too. Bye now."
+    }
+  ]
+}

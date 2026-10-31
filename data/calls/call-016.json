@@ -1,0 +1,191 @@
+{
+  "call_id": "call-016",
+  "market": "NZ",
+  "agent_id": "NZ-03",
+  "agent_name": "Ravi",
+  "customer_name": "Jack Wilson",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-05T00:30:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, this is Ravi calling from Acme Life Cover. Am I speaking with Jack?"
+    },
+    {
+      "timestamp": "00:05",
+      "speaker": "Customer",
+      "text": "Yeah, that's me. I put in a request for a call back after seeing your ad online. I'm on my break though, so I've got maybe fifteen minutes."
+    },
+    {
+      "timestamp": "00:13",
+      "speaker": "Agent",
+      "text": "No worries at all, I'll keep it efficient. Just so you know, this call is recorded for quality and training purposes. Is that all right with you?"
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Customer",
+      "text": "Yeah, that's fine."
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Agent",
+      "text": "Great. Before we get into anything about you or a quote, I just need to confirm a couple of details. Can you give me your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:32",
+      "speaker": "Customer",
+      "text": "Jack Thomas Wilson, fourteenth of March, 1990."
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Agent",
+      "text": "Thanks Jack, that matches what we've got. So what got you thinking about life cover?"
+    },
+    {
+      "timestamp": "00:44",
+      "speaker": "Customer",
+      "text": "Honestly, I've got two little ones, three and one, and my partner's part-time at the moment. I work in a hospital, I see stuff every day, and it got me thinking, if something happened to me, they'd be stuck with the mortgage."
+    },
+    {
+      "timestamp": "01:00",
+      "speaker": "Agent",
+      "text": "That makes a lot of sense. Do you mind me asking roughly what's left on the mortgage, and whether you've got any cover already, say through work or KiwiSaver?"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Customer",
+      "text": "About four hundred and twenty thousand left. Nothing through work as far as I know. I'm a nurse, so the DHB, well Te Whatu Ora now, doesn't give us life cover."
+    },
+    {
+      "timestamp": "01:22",
+      "speaker": "Agent",
+      "text": "Okay. And apart from the mortgage, is there anything else you'd want it to cover? Childcare, day-to-day living costs for a few years, that sort of thing?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "Yeah, I suppose so. I hadn't really thought past the house to be honest."
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Agent",
+      "text": "That's pretty common. Our cover amounts go from fifty thousand up to a million dollars, so there's room to cover the mortgage plus a buffer. Some people with young kids land somewhere around five to six hundred thousand, but it really depends on what you'd want your partner to have. Can I ask about your health? Any ongoing conditions?"
+    },
+    {
+      "timestamp": "01:55",
+      "speaker": "Customer",
+      "text": "I've got asthma. It's pretty well controlled, I use a preventer. That's about it."
+    },
+    {
+      "timestamp": "02:02",
+      "speaker": "Agent",
+      "text": "Thanks for being upfront. I need to be clear on this one: pre-existing medical conditions aren't covered for the first two years of the policy. So if a claim arose from your asthma in that first two years, it wouldn't be paid. After two years, that exclusion falls away."
+    },
+    {
+      "timestamp": "02:18",
+      "speaker": "Customer",
+      "text": "Right. So anything else, like an accident, would be covered from the start?"
+    },
+    {
+      "timestamp": "02:23",
+      "speaker": "Agent",
+      "text": "Something unrelated to a pre-existing condition, yes, subject to the policy terms, which I'd send through to you in writing."
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Customer",
+      "text": "Okay. What sort of money are we talking?"
+    },
+    {
+      "timestamp": "02:34",
+      "speaker": "Agent",
+      "text": "For a non-smoker your age at five hundred thousand dollars of cover, the indicative premium is about $38 a month. One thing to know is the premiums are stepped, so they go up each year as you get older. It starts lower but it won't stay at $38."
+    },
+    {
+      "timestamp": "02:50",
+      "speaker": "Customer",
+      "text": "Hmm. How much do they go up by?"
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Agent",
+      "text": "It varies year to year based on your age, so I can't give you a fixed number, but each annual increase is set out in your renewal notice before it kicks in. I can include a projection in what I send you so you can see the general trend."
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Customer",
+      "text": "Yeah, that'd help. I don't want something that's cheap now and I can't afford in ten years."
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Agent",
+      "text": "Fair enough, that's exactly the right thing to weigh up. The other feature worth mentioning is the terminal illness benefit. If you're diagnosed with less than twelve months to live, the cover pays out early, so the family has the money when it's needed rather than after."
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Customer",
+      "text": "Okay, that's good to know. Working where I do, I've seen how much that matters."
+    },
+    {
+      "timestamp": "03:36",
+      "speaker": "Agent",
+      "text": "I can imagine. And if you did go ahead at some point, there's a thirty-day free-look period. If you change your mind within thirty days, you get a full refund."
+    },
+    {
+      "timestamp": "03:46",
+      "speaker": "Customer",
+      "text": "Right. Look, it all sounds reasonable, but I want to talk to my partner first. And I'd like to look at the yearly increases before I commit."
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Agent",
+      "text": "Absolutely, that's a sensible approach. There's no rush on my end. Would you like me to email the quote, the premium projection and the policy wording?"
+    },
+    {
+      "timestamp": "04:05",
+      "speaker": "Customer",
+      "text": "Yeah please. Can you send it to the email I put on the form?"
+    },
+    {
+      "timestamp": "04:10",
+      "speaker": "Agent",
+      "text": "Sure. I've got jack.wilson90 at gmail dot com. Is that still right?"
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Customer",
+      "text": "That's the one."
+    },
+    {
+      "timestamp": "04:18",
+      "speaker": "Agent",
+      "text": "Lovely. I'll send that through this afternoon. Have a read with your partner and if you've got questions, just call us or reply to the email. Would you like me to follow up, or would you rather get in touch when you're ready?"
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Customer",
+      "text": "I'll get in touch. Shifts are all over the place, so it's easier if I call."
+    },
+    {
+      "timestamp": "04:37",
+      "speaker": "Agent",
+      "text": "No problem at all. I'll note that on your file so nobody chases you. Anything else I can help with today?"
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Customer",
+      "text": "Nah, that's it. Thanks, Ravi, that was actually really clear."
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Agent",
+      "text": "Glad it helped, Jack. Enjoy the rest of your break, and good luck with the shift."
+    },
+    {
+      "timestamp": "04:54",
+      "speaker": "Customer",
+      "text": "Cheers, bye."
+    }
+  ]
+}

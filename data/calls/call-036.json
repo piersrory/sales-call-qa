@@ -1,0 +1,246 @@
+{
+  "call_id": "call-036",
+  "market": "NZ",
+  "agent_id": "NZ-02",
+  "agent_name": "Sam",
+  "customer_name": "Isla Taylor",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-22T20:05:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, this is Sam calling from Acme Life Cover. Am I speaking with Isla?"
+    },
+    {
+      "timestamp": "00:05",
+      "speaker": "Customer",
+      "text": "Yes... yes, this is Isla. I filled in the thing online, about the life cover. The advert on Facebook."
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Agent",
+      "text": "Lovely, thanks for that, Isla. Before we go any further, I just need to let you know this call is recorded for quality and training purposes. Is that all right with you?"
+    },
+    {
+      "timestamp": "00:22",
+      "speaker": "Customer",
+      "text": "Sorry, could you say that again? I didn't quite catch it."
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Agent",
+      "text": "Of course, no problem at all. I said this call is being recorded. That's just so we have a record of what we talk about. Is that okay?"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Customer",
+      "text": "Oh, recorded. Yes, that's fine."
+    },
+    {
+      "timestamp": "00:39",
+      "speaker": "Agent",
+      "text": "Thank you. And before I look at anything to do with your details, could I please get your full name and your date of birth?"
+    },
+    {
+      "timestamp": "00:47",
+      "speaker": "Customer",
+      "text": "Isla Margaret Taylor. And it's the... fourteenth of March, nineteen sixty-eight."
+    },
+    {
+      "timestamp": "00:58",
+      "speaker": "Agent",
+      "text": "Thanks, Isla. That matches what I have here, so that's all confirmed. Now, I'm happy to go at whatever pace suits you, and please stop me any time you'd like me to repeat something. Would you mind telling me a bit about your situation and what made you look into life cover?"
+    },
+    {
+      "timestamp": "01:15",
+      "speaker": "Customer",
+      "text": "Well, I had a stroke. About... eight months ago now. I'm doing much better, but my words still get muddled sometimes, and I lose track. I'm sorry if I'm slow."
+    },
+    {
+      "timestamp": "01:29",
+      "speaker": "Agent",
+      "text": "Please don't apologise, you're doing really well, and there's absolutely no rush. I'm sorry to hear about the stroke. What's got you thinking about cover now?"
+    },
+    {
+      "timestamp": "01:39",
+      "speaker": "Customer",
+      "text": "It gave me a fright, honestly. My husband, Rawiri, he's still paying off the mortgage on our place in Hamilton. If something happened to me I don't want him stuck. And my daughter's at uni."
+    },
+    {
+      "timestamp": "01:55",
+      "speaker": "Agent",
+      "text": "That makes a lot of sense. So the main thing is protecting Rawiri and the mortgage, and maybe helping your daughter. Roughly how much is left on the mortgage, if you don't mind me asking?"
+    },
+    {
+      "timestamp": "02:07",
+      "speaker": "Customer",
+      "text": "About... two hundred and eighty thousand, I think. Rawiri knows the exact number. He handles that side of things."
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Agent",
+      "text": "No worries, that gives me a good idea. Just so you know, Acme Life Cover can be anywhere from fifty thousand dollars up to one million dollars, so an amount around the mortgage would fit within that. Can I explain a couple of important things about how the cover works? I'll take it one bit at a time."
+    },
+    {
+      "timestamp": "02:33",
+      "speaker": "Customer",
+      "text": "Yes, please. Slowly, if you can."
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Agent",
+      "text": "Absolutely. The first thing, and this one's really important for you, is that any medical conditions you already have when you take out the cover aren't covered for the first two years. So because you've had a stroke, anything related to that wouldn't be covered for the first two years of the policy."
+    },
+    {
+      "timestamp": "02:56",
+      "speaker": "Customer",
+      "text": "Sorry, what was that? The stroke isn't covered?"
+    },
+    {
+      "timestamp": "03:00",
+      "speaker": "Agent",
+      "text": "That's okay, let me say it a different way. For the first two years after you start the policy, the stroke, and anything caused by it, wouldn't be covered. After those two years have passed, that limit no longer applies. Does that make sense?"
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Customer",
+      "text": "So... for two years, if it's the stroke, nothing gets paid. Is that right?"
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Agent",
+      "text": "Yes, that's exactly right. You've got it. Would you like to keep going, or would you like a moment?"
+    },
+    {
+      "timestamp": "03:27",
+      "speaker": "Customer",
+      "text": "Keep going. I'm all right."
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Agent",
+      "text": "Okay. The second thing is about the price. The premiums are what's called stepped. That means they go up every year as you get older. So what you pay in the first year will be less than what you pay later on."
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Customer",
+      "text": "It goes up. Every year?"
+    },
+    {
+      "timestamp": "03:48",
+      "speaker": "Agent",
+      "text": "Yes, every year, because the cost is based on your age, and as you get older it increases. It's worth thinking about whether that fits your budget over the longer term, not just this year."
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Customer",
+      "text": "Hmm. Money's a bit tight since I stopped working, to be honest. I'm only back part-time now."
+    },
+    {
+      "timestamp": "04:09",
+      "speaker": "Agent",
+      "text": "Thanks for telling me that, Isla. That's a really important thing to weigh up, and it's a good reason not to rush. There are also a couple of positives I should mention. There's a terminal illness benefit, which means if you were diagnosed with less than twelve months to live, the cover would pay out early, rather than waiting."
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Customer",
+      "text": "Sorry, can you say that last part again? Twelve months?"
+    },
+    {
+      "timestamp": "04:32",
+      "speaker": "Agent",
+      "text": "Sure. If a doctor says you have less than twelve months to live, the money can be paid out early, while you're still here. That's called the terminal illness benefit."
+    },
+    {
+      "timestamp": "04:44",
+      "speaker": "Customer",
+      "text": "Oh, okay. That's good to know."
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Agent",
+      "text": "And the last thing is, if you did take out a policy, you'd have thirty days to change your mind. If you cancel within those thirty days, you get a full refund. Can I just check how you're going with all of that? It's quite a lot of information."
+    },
+    {
+      "timestamp": "05:02",
+      "speaker": "Customer",
+      "text": "It is a lot. I'm getting a bit muddled, I think. The two years, and the price going up... I'd forget half of it by tonight."
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Agent",
+      "text": "That's completely understandable. Would it help if I went over the key points one more time, really briefly?"
+    },
+    {
+      "timestamp": "05:19",
+      "speaker": "Customer",
+      "text": "Yes, please."
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Agent",
+      "text": "Okay. One: cover can be from fifty thousand to one million dollars. Two: the stroke wouldn't be covered for the first two years. Three: the price goes up each year as you get older. Four: it can pay out early if you have less than twelve months to live. And five: you've got thirty days to cancel for a full refund."
+    },
+    {
+      "timestamp": "05:45",
+      "speaker": "Customer",
+      "text": "Okay. That's clearer. But I don't think I want to decide today. I'd like Rawiri to hear all this. He's better with the numbers."
+    },
+    {
+      "timestamp": "05:55",
+      "speaker": "Agent",
+      "text": "I think that's a really sensible idea, Isla. There's no pressure at all to decide today, and nothing changes if you take your time. Would you like me to call back at a time when Rawiri can be with you, so he can hear it too and ask any questions?"
+    },
+    {
+      "timestamp": "06:10",
+      "speaker": "Customer",
+      "text": "Yes, I'd like that. He's home in the evenings, after about six."
+    },
+    {
+      "timestamp": "06:16",
+      "speaker": "Agent",
+      "text": "No problem. Is there a particular evening that suits? And I can also email you a written summary of what we went through today, so you've got it in front of you and don't have to remember it all."
+    },
+    {
+      "timestamp": "06:28",
+      "speaker": "Customer",
+      "text": "Oh, that would help a lot. Thursday, maybe? Thursday evening."
+    },
+    {
+      "timestamp": "06:34",
+      "speaker": "Agent",
+      "text": "Thursday evening, after six. I'll pop that in. And the email, shall I send it to the address you put on the online form?"
+    },
+    {
+      "timestamp": "06:42",
+      "speaker": "Customer",
+      "text": "Yes, that one's right. Sorry, what day did we say?"
+    },
+    {
+      "timestamp": "06:46",
+      "speaker": "Agent",
+      "text": "No worries at all. We said Thursday evening, some time after six o'clock, when Rawiri is home. I'll put that in the email too so you have it written down."
+    },
+    {
+      "timestamp": "06:56",
+      "speaker": "Customer",
+      "text": "Thursday after six. Okay. Thank you, Sam. You've been very patient."
+    },
+    {
+      "timestamp": "07:02",
+      "speaker": "Agent",
+      "text": "It's my pleasure, Isla. And if you and Rawiri talk it over and decide it's not for you, that's completely fine too. Just let me know. Is there anything else I can help with today?"
+    },
+    {
+      "timestamp": "07:12",
+      "speaker": "Customer",
+      "text": "No, I think that's everything. Thank you."
+    },
+    {
+      "timestamp": "07:15",
+      "speaker": "Agent",
+      "text": "Thanks for your time, Isla. Take care, and I'll speak to you both on Thursday. Ka kite."
+    }
+  ]
+}

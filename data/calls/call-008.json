@@ -1,0 +1,171 @@
+{
+  "call_id": "call-008",
+  "market": "NZ",
+  "agent_id": "NZ-02",
+  "agent_name": "Sam",
+  "customer_name": "Wiremu Parata",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-27T03:03:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, you're through to Acme Life, Sam speaking. Just before we get going, I need to let you know this call is recorded for quality and training purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:10",
+      "speaker": "Customer",
+      "text": "Kia ora Sam. Yeah, I saw your ad on the telly the other night about life cover and thought I'd give you a ring. Bit of a step for me, to be honest."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Agent",
+      "text": "No worries at all, glad you called. Before we talk about you or any quotes, can I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Customer",
+      "text": "Sure. Wiremu James Parata, born the fourteenth of March, 1971."
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Agent",
+      "text": "Thanks Wiremu, that's all confirmed. So tell me a bit about yourself and what's got you thinking about life cover now?"
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Customer",
+      "text": "Well, I'm fifty-four, married, got two kids. One's at uni in Dunedin and the youngest is still at home. We've still got a bit left on the mortgage, about a hundred and twenty grand. And to be honest, I went to the GP a couple of months back and found out I've got high blood pressure. Gave me a bit of a fright."
+    },
+    {
+      "timestamp": "01:08",
+      "speaker": "Agent",
+      "text": "That's understandable, that sort of news does make you think. Are you on any treatment for it?"
+    },
+    {
+      "timestamp": "01:14",
+      "speaker": "Customer",
+      "text": "Yeah, tablets once a day. Doctor reckons it's under control now, but it got me thinking, if something happened to me, I don't want my wife stuck with the mortgage."
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Agent",
+      "text": "Makes sense. Is the main goal to clear the mortgage, or are you also thinking about something extra for the family, like living costs or the kids' study?"
+    },
+    {
+      "timestamp": "01:35",
+      "speaker": "Customer",
+      "text": "Mostly the mortgage, but a bit extra would be good. Something to tide them over. I don't want to be paying a fortune, though. Money's a bit tight with the uni fees."
+    },
+    {
+      "timestamp": "01:47",
+      "speaker": "Agent",
+      "text": "Fair enough. Do you have any other life cover, maybe through work or KiwiSaver?"
+    },
+    {
+      "timestamp": "01:53",
+      "speaker": "Customer",
+      "text": "Nah, nothing. I'm self-employed, I do a bit of building work, so no work cover."
+    },
+    {
+      "timestamp": "02:01",
+      "speaker": "Agent",
+      "text": "Okay, thanks for that. Based on what you've told me, a cover amount of around one hundred and fifty thousand dollars would clear the mortgage and leave about thirty thousand for the family. Our cover goes anywhere from fifty thousand up to a million, so we can adjust that if you'd like more or less. At your age, a hundred and fifty thousand would come to thirty-five dollars a month."
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Customer",
+      "text": "Thirty-five a month. That's not too bad. Is that what I'd pay forever?"
+    },
+    {
+      "timestamp": "02:30",
+      "speaker": "Agent",
+      "text": "Good question, and no, it isn't. The premiums are stepped, which means they go up each year as you get older. So thirty-five dollars is your starting premium, and it will increase every year at renewal."
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Customer",
+      "text": "Right. Okay, good to know. Now, what about the blood pressure? Does that muck things up?"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Agent",
+      "text": "I want to be really clear on this one. Because your high blood pressure was diagnosed before the cover would start, it counts as a pre-existing condition. Pre-existing medical conditions aren't covered for the first two years of the policy. So if you passed away in the first two years from something related to your blood pressure, that claim wouldn't be paid. After two years, it would be covered."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Customer",
+      "text": "Hmm. So for two years I'm paying for something that might not pay out."
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Agent",
+      "text": "For anything related to the blood pressure, yes, during those first two years. Other things, like an accident on a building site or an unrelated illness, would be covered from the start. I'd rather you know that now than find out later."
+    },
+    {
+      "timestamp": "03:35",
+      "speaker": "Customer",
+      "text": "Yeah, I appreciate that. Bit of a downer, but I suppose it's fair. Anything else I should know?"
+    },
+    {
+      "timestamp": "03:42",
+      "speaker": "Agent",
+      "text": "There's a terminal illness benefit. If you're diagnosed with less than twelve months to live, the cover pays out early, so you and your whānau can use the money while you're still here. And there's a thirty-day free-look period, so if you change your mind within thirty days, you can cancel and get a full refund."
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Customer",
+      "text": "Thirty days, eh. That's handy. I'm just not sure if I should talk to my wife first."
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Agent",
+      "text": "That's completely up to you, Wiremu. There's no rush on my end. I can email you the quote and you can have a kōrero with her and call back whenever suits. The price won't change just because you take a few days."
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Customer",
+      "text": "Nah, actually, we talked about it last night before I rang. She's the one who told me to call. She just wanted to make sure it covered the mortgage."
+    },
+    {
+      "timestamp": "04:32",
+      "speaker": "Agent",
+      "text": "Well, a hundred and fifty thousand would do that with some left over. Would you like to stick with that amount, or have a look at something different?"
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Customer",
+      "text": "No, a hundred and fifty's good. Let's do it."
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Agent",
+      "text": "Great. Before I set it up, let me just run through everything so you're sure. It's Acme Life Cover for one hundred and fifty thousand dollars, starting at thirty-five dollars a month. The premium is stepped, so it goes up each year as you get older. Your high blood pressure, and any other pre-existing conditions, aren't covered for the first two years. There's a terminal illness benefit if you have less than twelve months to live, and you've got thirty days to cancel for a full refund. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Customer",
+      "text": "Yes, I'm happy to go ahead."
+    },
+    {
+      "timestamp": "05:22",
+      "speaker": "Agent",
+      "text": "Thanks, Wiremu. I'll get the policy set up now. You'll get your policy documents by email within the next day or so, and your thirty days start from when you receive them. Have a good read and give us a call if anything doesn't look right."
+    },
+    {
+      "timestamp": "05:37",
+      "speaker": "Customer",
+      "text": "Sweet as. Thanks for being straight with me about the blood pressure bit, Sam."
+    },
+    {
+      "timestamp": "05:43",
+      "speaker": "Agent",
+      "text": "No worries at all. Thanks for calling, Wiremu, and all the best with the health. Ka kite."
+    },
+    {
+      "timestamp": "05:49",
+      "speaker": "Customer",
+      "text": "Ka kite, cheers."
+    }
+  ]
+}

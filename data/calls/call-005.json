@@ -1,0 +1,231 @@
+{
+  "call_id": "call-005",
+  "market": "AU",
+  "agent_id": "AU-03",
+  "agent_name": "Priya",
+  "customer_name": "Josh Taylor",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-20T05:18:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Hi, this is Priya calling from Acme Life. I'm returning a call-back request that came through our website. Is this Josh?"
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Customer",
+      "text": "Yeah, that's me. Look, I've only got about ten minutes before I'm back on the tools, so if we can keep it quick, that'd be great."
+    },
+    {
+      "timestamp": "00:14",
+      "speaker": "Agent",
+      "text": "No worries at all, I'll keep it tight. Before we start, just so you know, this call is recorded for quality and training purposes."
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Customer",
+      "text": "Yep, that's fine."
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Agent",
+      "text": "Thanks. Before we get into any details or a quote, I need to confirm who I'm speaking with. Can I get your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:31",
+      "speaker": "Customer",
+      "text": "Joshua Michael Taylor, fourteenth of March, 1987."
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Agent",
+      "text": "Lovely, that matches what we have. Thanks, Josh. So tell me a bit about what's going on for you and why you're looking at life cover."
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Customer",
+      "text": "I run a small plumbing business, just me and two apprentices. Married, two kids, five and eight. We refinanced the house last year and the mortgage is sitting around five-fifty. My missus keeps saying if something happened to me she'd be stuffed, so here I am."
+    },
+    {
+      "timestamp": "01:03",
+      "speaker": "Agent",
+      "text": "That makes total sense. Does your wife work at the moment, and do you have any cover already, maybe through your super?"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Customer",
+      "text": "She's part-time, does the books for the business too. Super, I honestly don't know. Probably something small. I haven't looked at it in years."
+    },
+    {
+      "timestamp": "01:19",
+      "speaker": "Agent",
+      "text": "Okay. And any other big debts, like business loans or a ute on finance?"
+    },
+    {
+      "timestamp": "01:24",
+      "speaker": "Customer",
+      "text": "Ute's on finance, about forty grand left. That's about it. Can we skip to the number? What's this going to cost me?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Agent",
+      "text": "Sure, I'll get there quickly. Based on what you've told me, with the mortgage around $550,000, the ute, and two young kids, I'd recommend you go with $750,000 of cover. That clears the debts and leaves your wife a buffer while the kids are still at school."
+    },
+    {
+      "timestamp": "01:48",
+      "speaker": "Customer",
+      "text": "Seven-fifty. Right. Is that overkill? I was thinking maybe half a mil."
+    },
+    {
+      "timestamp": "01:54",
+      "speaker": "Agent",
+      "text": "Half a million wouldn't quite cover the mortgage and the ute on its own, so I'd steer you towards the $750,000. You can choose anywhere from $50,000 up to $1,000,000 though, so it's your call."
+    },
+    {
+      "timestamp": "02:06",
+      "speaker": "Customer",
+      "text": "Fair enough. Do I need to go see a doctor or anything? I don't have time for blood tests."
+    },
+    {
+      "timestamp": "02:12",
+      "speaker": "Agent",
+      "text": "No medical exam at all. Acceptance just depends on a few health questions I can run through now. It'll take a couple of minutes."
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Customer",
+      "text": "Go on then."
+    },
+    {
+      "timestamp": "02:22",
+      "speaker": "Agent",
+      "text": "In the last five years, have you been diagnosed with or treated for heart disease, stroke, cancer or diabetes?"
+    },
+    {
+      "timestamp": "02:29",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Agent",
+      "text": "Have you smoked or used any nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Customer",
+      "text": "Gave up about three years ago. So no."
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Agent",
+      "text": "Good on you. Are you currently waiting on any tests, or have you been advised to have any treatment or surgery you haven't had yet?"
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Customer",
+      "text": "Nope. Had a dodgy knee a while back but that's sorted."
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Agent",
+      "text": "That's fine, that doesn't affect this. Last one: do you take part in any hazardous activities, like motor racing, skydiving or underwater diving?"
+    },
+    {
+      "timestamp": "02:59",
+      "speaker": "Customer",
+      "text": "Mate, I barely have time for the footy. No."
+    },
+    {
+      "timestamp": "03:04",
+      "speaker": "Agent",
+      "text": "Ha, fair enough. Okay, you're accepted. For $750,000 of cover, your premium starts at $78 a month."
+    },
+    {
+      "timestamp": "03:12",
+      "speaker": "Customer",
+      "text": "Seventy-eight. That's not bad. Is that locked in?"
+    },
+    {
+      "timestamp": "03:16",
+      "speaker": "Agent",
+      "text": "No, and that's important to know. The premiums are stepped, which means they go up each year as you get older. So $78 is what you'd pay now, and it'll increase at each renewal."
+    },
+    {
+      "timestamp": "03:28",
+      "speaker": "Customer",
+      "text": "Hmm. By how much?"
+    },
+    {
+      "timestamp": "03:31",
+      "speaker": "Agent",
+      "text": "It depends on your age at each renewal, and you'll get a notice each year showing the new amount before it applies. The key thing is it doesn't stay flat."
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "Right. Anything else I should know? Like, any catches?"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Agent",
+      "text": "Yes, one big one. In the first 12 months, only accidental death is covered. So if you passed away from an illness in that first year, it wouldn't pay out. After 12 months, you're covered for death from any cause, subject to the policy terms."
+    },
+    {
+      "timestamp": "04:01",
+      "speaker": "Customer",
+      "text": "So if I get hit by a truck tomorrow, the family's fine, but if I get sick in the first year, no good."
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Agent",
+      "text": "Exactly right. Given you're working on sites and driving all day, I'd still recommend getting it started rather than waiting, because that 12-month period only starts once the policy's in place. But there's no pressure. If you want to talk it over with your wife first, I can send you the details and you can come back to us whenever suits."
+    },
+    {
+      "timestamp": "04:26",
+      "speaker": "Customer",
+      "text": "Nah, she's the one who told me to sort it. I just don't want to be stuck with it if I find something better."
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Agent",
+      "text": "You wouldn't be. There's a 30-day cooling-off period. If you change your mind within 30 days, you can cancel and get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "04:43",
+      "speaker": "Customer",
+      "text": "Okay, that's fair. Let's do it."
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Agent",
+      "text": "Great. Before I lock it in, let me just summarise so we're on the same page. It's Acme Life Cover for $750,000. Your premium is $78 a month to start, and it's stepped, so it'll go up each year as you get older. For the first 12 months only accidental death is covered, and after that it's death from any cause. And you've got a 30-day cooling-off period with a full refund. Are you happy to go ahead on that basis?"
+    },
+    {
+      "timestamp": "05:12",
+      "speaker": "Customer",
+      "text": "Yes, I'm happy to go ahead."
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Agent",
+      "text": "Perfect. I'll take you through to our secure payment line to set up the monthly direct debit, and your policy documents will be emailed to you within the hour. Is the email still josh@taylorplumbing.com.au?"
+    },
+    {
+      "timestamp": "05:27",
+      "speaker": "Customer",
+      "text": "That's the one."
+    },
+    {
+      "timestamp": "05:29",
+      "speaker": "Agent",
+      "text": "Lovely. Have a read of the documents when you get a chance, and if anything doesn't look right, just give us a call. Transferring you now. Thanks, Josh."
+    },
+    {
+      "timestamp": "05:38",
+      "speaker": "Customer",
+      "text": "Cheers, Priya. Appreciate you keeping it quick."
+    }
+  ]
+}

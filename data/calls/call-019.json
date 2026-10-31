@@ -1,0 +1,246 @@
+{
+  "call_id": "call-019",
+  "market": "CA",
+  "agent_id": "CA-01",
+  "agent_name": "Ethan",
+  "customer_name": "Olivia Roy",
+  "product": "Acme Term Life",
+  "started_at": "2026-10-16T15:39:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, thanks for calling Acme Life, this is Ethan. How can I help you today?"
+    },
+    {
+      "timestamp": "00:05",
+      "speaker": "Customer",
+      "text": "Hi. I saw your ad for term life with no medical exam. I want to know what it actually costs. I don't need a big sales pitch."
+    },
+    {
+      "timestamp": "00:13",
+      "speaker": "Agent",
+      "text": "Fair enough, I'll keep it straightforward. Before we get into any details or numbers, can I confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:21",
+      "speaker": "Customer",
+      "text": "Olivia Roy. March 14th, 1987."
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Agent",
+      "text": "Thanks, Olivia. That's Olivia Roy, born March 14th, 1987. Got it. So we're talking about Acme Term Life. It's a simple policy. You pick an amount of coverage and a term, and if you pass away during that term, your beneficiaries get the payout."
+    },
+    {
+      "timestamp": "00:41",
+      "speaker": "Customer",
+      "text": "Okay. And what's the catch?"
+    },
+    {
+      "timestamp": "00:45",
+      "speaker": "Agent",
+      "text": "No real catch, but I'd rather understand your situation before I suggest anything. What's got you looking into life insurance right now?"
+    },
+    {
+      "timestamp": "00:53",
+      "speaker": "Customer",
+      "text": "I'm self-employed. I'm an electrician, so no group benefits through an employer. I've got a mortgage, and my partner and I have a six-year-old. If something happened to me, I don't want them stuck."
+    },
+    {
+      "timestamp": "01:08",
+      "speaker": "Agent",
+      "text": "That makes sense. Roughly how much is left on the mortgage, and how long until it's paid off?"
+    },
+    {
+      "timestamp": "01:14",
+      "speaker": "Customer",
+      "text": "About three hundred and eighty thousand. Nineteen years left on the amortization."
+    },
+    {
+      "timestamp": "01:20",
+      "speaker": "Agent",
+      "text": "And does your partner work, or is the household mostly on your income?"
+    },
+    {
+      "timestamp": "01:25",
+      "speaker": "Customer",
+      "text": "She works part-time. I bring in most of it."
+    },
+    {
+      "timestamp": "01:29",
+      "speaker": "Agent",
+      "text": "Okay. So you'd want enough to clear the mortgage, plus something to help with living costs while your kid's growing up. The policy goes from $50,000 up to $750,000. With your numbers, something around $500,000 on a 20-year term would cover the mortgage and leave a cushion. A 20-year term would also take your daughter into her mid-twenties."
+    },
+    {
+      "timestamp": "01:52",
+      "speaker": "Customer",
+      "text": "Son. But yeah. What about a 10-year term? That'd be cheaper, right?"
+    },
+    {
+      "timestamp": "01:57",
+      "speaker": "Agent",
+      "text": "Sorry, son. Yes, the 10-year would be cheaper per month. The trade-off is that the cover would end with about nine years still left on your mortgage. If you wanted cover after that, you'd be applying again at 47, and the rates would be higher. It's your call, though. I can quote both."
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Customer",
+      "text": "Quote the twenty for now. And you said no medical exam. So how do you decide if I qualify?"
+    },
+    {
+      "timestamp": "02:21",
+      "speaker": "Agent",
+      "text": "There are a few health questions, and acceptance depends on your answers. No needles, no nurse visit. Can I run through them now?"
+    },
+    {
+      "timestamp": "02:29",
+      "speaker": "Customer",
+      "text": "Go ahead."
+    },
+    {
+      "timestamp": "02:31",
+      "speaker": "Agent",
+      "text": "Have you used tobacco or nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:37",
+      "speaker": "Agent",
+      "text": "In the past five years, have you been diagnosed with or treated for cancer, heart disease, stroke or diabetes?"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Agent",
+      "text": "Are you currently taking any prescription medication, or waiting on any tests or results?"
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Customer",
+      "text": "Nothing. I had a shoulder thing from work a couple of years ago, but that's done. Physio, that's it."
+    },
+    {
+      "timestamp": "02:59",
+      "speaker": "Agent",
+      "text": "That's fine, that doesn't affect these questions. Based on your answers, you're eligible, and $500,000 over 20 years comes to $87 a month."
+    },
+    {
+      "timestamp": "03:10",
+      "speaker": "Customer",
+      "text": "Eighty-seven. Does that go up after a few years? I've been burned by that kind of thing before."
+    },
+    {
+      "timestamp": "03:16",
+      "speaker": "Agent",
+      "text": "No. The premium is fixed for the whole term. It's $87 in year one and $87 in year twenty."
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Customer",
+      "text": "And if I make it to the end, do I get anything back? A buddy of mine has a policy that builds up money."
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Agent",
+      "text": "No, and I'll be upfront about that. This policy has no cash value. It's pure protection. That's a big part of why it costs less than the kind of policy your buddy has."
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "Hm. So if I sign up and change my mind next week, then what?"
+    },
+    {
+      "timestamp": "03:46",
+      "speaker": "Agent",
+      "text": "You have a 30-day free-look period. If you cancel within 30 days, you get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "03:54",
+      "speaker": "Customer",
+      "text": "Okay. I don't love deciding stuff on the phone, honestly."
+    },
+    {
+      "timestamp": "03:59",
+      "speaker": "Agent",
+      "text": "That's completely fine. There's no deadline on my end. The quote is based on your age and answers, so you can take some time, talk it over with your partner, and call back whenever you're ready. Or we can set it up today if you'd prefer. Whatever works for you."
+    },
+    {
+      "timestamp": "04:15",
+      "speaker": "Customer",
+      "text": "No, I've thought about this for months. I just hate the selling part. Is $500,000 really the right number, or are you just picking a big one?"
+    },
+    {
+      "timestamp": "04:24",
+      "speaker": "Agent",
+      "text": "It's based on what you told me. About $380,000 clears the mortgage, and the rest gives your partner some breathing room for a few years. If you'd rather go lower, say $400,000, the premium would come down. I'm happy to quote that."
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Customer",
+      "text": "No, the cushion matters. She'd need it."
+    },
+    {
+      "timestamp": "04:43",
+      "speaker": "Agent",
+      "text": "Okay. So, do you want to go ahead with it?"
+    },
+    {
+      "timestamp": "04:47",
+      "speaker": "Customer",
+      "text": "I guess so."
+    },
+    {
+      "timestamp": "04:49",
+      "speaker": "Agent",
+      "text": "Great, I'll get that set up now. Who would you like as the beneficiary?"
+    },
+    {
+      "timestamp": "04:54",
+      "speaker": "Customer",
+      "text": "My partner, Danielle Morin."
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Agent",
+      "text": "Danielle Morin, got it. And for payment, would you like monthly pre-authorized debit from your chequing account?"
+    },
+    {
+      "timestamp": "05:05",
+      "speaker": "Customer",
+      "text": "Yeah, chequing is fine."
+    },
+    {
+      "timestamp": "05:08",
+      "speaker": "Agent",
+      "text": "Perfect. I'll text you a secure link to enter your banking details, so you don't have to read them out over the phone. Once that's in, the policy is active, and your documents will arrive by email within a day or two."
+    },
+    {
+      "timestamp": "05:21",
+      "speaker": "Customer",
+      "text": "Okay. Got the text."
+    },
+    {
+      "timestamp": "05:40",
+      "speaker": "Agent",
+      "text": "I can see it's gone through on my end. You're all set, Olivia. Any other questions?"
+    },
+    {
+      "timestamp": "05:46",
+      "speaker": "Customer",
+      "text": "No, that's it. Thanks for not being pushy, I suppose."
+    },
+    {
+      "timestamp": "05:50",
+      "speaker": "Agent",
+      "text": "Ha, I'll take it. Have a good rest of your day, Olivia."
+    }
+  ]
+}

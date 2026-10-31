@@ -1,0 +1,211 @@
+{
+  "call_id": "call-006",
+  "market": "UK",
+  "agent_id": "UK-01",
+  "agent_name": "Oliver",
+  "customer_name": "Sophie Clarke",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-12T13:21:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, this is Oliver calling from Acme Life Cover. I'm returning a call-back request about our life cover. Am I speaking with Sophie?"
+    },
+    {
+      "timestamp": "00:07",
+      "speaker": "Customer",
+      "text": "Yes, that's me. I filled in the little form after seeing your advert in the paper. I wasn't sure anyone would actually ring."
+    },
+    {
+      "timestamp": "00:14",
+      "speaker": "Agent",
+      "text": "Well, here I am! Before we go any further, could I just take your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:20",
+      "speaker": "Customer",
+      "text": "Sophie Margaret Clarke, and it's the 14th of March, 1959."
+    },
+    {
+      "timestamp": "00:27",
+      "speaker": "Agent",
+      "text": "Lovely, thank you, Mrs Clarke, that matches what we have. So, can I ask what got you thinking about life cover?"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Customer",
+      "text": "I've just retired, I taught primary for thirty-odd years, and I've got three grandchildren now. My pension covers me fine, but I'd like to leave them a little something. Help with university, or a deposit on a flat one day."
+    },
+    {
+      "timestamp": "00:52",
+      "speaker": "Agent",
+      "text": "That's a lovely reason. Do you have any existing life insurance, perhaps through your teaching pension or an old mortgage policy?"
+    },
+    {
+      "timestamp": "01:01",
+      "speaker": "Customer",
+      "text": "There was something with the mortgage, but that ended when we paid it off. The teachers' pension has a death benefit, but I think that mostly goes to my husband, Graham."
+    },
+    {
+      "timestamp": "01:13",
+      "speaker": "Agent",
+      "text": "Understood. And roughly what sort of sum did you have in mind for the grandchildren?"
+    },
+    {
+      "timestamp": "01:19",
+      "speaker": "Customer",
+      "text": "I honestly don't know. Ten thousand each, perhaps? So thirty thousand? Is that silly?"
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Agent",
+      "text": "Not at all. Our cover starts at twenty-five thousand pounds and goes up to five hundred thousand, so thirty thousand sits comfortably within that. I'll explain how it works. There's no medical exam. Instead I'd ask you a few health questions, and acceptance depends on your answers."
+    },
+    {
+      "timestamp": "01:43",
+      "speaker": "Customer",
+      "text": "No medical? That sounds almost too easy. What's the catch?"
+    },
+    {
+      "timestamp": "01:48",
+      "speaker": "Agent",
+      "text": "Fair question. The main thing to know is that for the first twelve months, the policy only pays out for accidental death. So if you passed away from an illness in that first year, it wouldn't pay out. After twelve months you're covered as normal."
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Customer",
+      "text": "I see. So if I took it out and then, heaven forbid, something happened in the first year, the grandchildren would get nothing unless it was an accident."
+    },
+    {
+      "timestamp": "02:15",
+      "speaker": "Agent",
+      "text": "That's right, yes. It's important you're comfortable with that."
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Customer",
+      "text": "And the price? My friend had one where the payments kept going up every year, and she ended up cancelling it."
+    },
+    {
+      "timestamp": "02:28",
+      "speaker": "Agent",
+      "text": "With ours, the premium is fixed for the whole length of the policy. Whatever you're quoted at the start is what you pay throughout. It won't creep up as you get older."
+    },
+    {
+      "timestamp": "02:39",
+      "speaker": "Customer",
+      "text": "Well, that's better than hers, anyway. How much would it be?"
+    },
+    {
+      "timestamp": "02:44",
+      "speaker": "Agent",
+      "text": "That depends on the health questions, so shall we run through those? There are only a few."
+    },
+    {
+      "timestamp": "02:50",
+      "speaker": "Customer",
+      "text": "Go on then."
+    },
+    {
+      "timestamp": "02:52",
+      "speaker": "Agent",
+      "text": "Have you smoked or used any nicotine products in the last twelve months?"
+    },
+    {
+      "timestamp": "02:57",
+      "speaker": "Customer",
+      "text": "No, never smoked."
+    },
+    {
+      "timestamp": "03:00",
+      "speaker": "Agent",
+      "text": "In the last five years, have you been diagnosed with or treated for cancer, heart disease, stroke or diabetes?"
+    },
+    {
+      "timestamp": "03:08",
+      "speaker": "Customer",
+      "text": "No. I take a tablet for my blood pressure, but that's all. Does that count?"
+    },
+    {
+      "timestamp": "03:14",
+      "speaker": "Agent",
+      "text": "Well-controlled blood pressure on its own doesn't affect acceptance for this policy. And are you currently waiting on any tests or hospital referrals?"
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Customer",
+      "text": "No, nothing like that."
+    },
+    {
+      "timestamp": "03:26",
+      "speaker": "Agent",
+      "text": "Thank you. Based on that, for thirty thousand pounds of cover, your premium would be thirty-eight pounds forty a month, fixed for the life of the policy."
+    },
+    {
+      "timestamp": "03:37",
+      "speaker": "Customer",
+      "text": "Thirty-eight pounds a month. Hmm. That's more than I expected, to be honest. Over ten or fifteen years, that adds up."
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Agent",
+      "text": "It does, and that's worth thinking about carefully. Some people compare the total they'd pay against simply saving that money for the grandchildren. The difference is the cover pays the full amount from day one for accidents, and after the first year for any cause."
+    },
+    {
+      "timestamp": "04:05",
+      "speaker": "Customer",
+      "text": "Yes, I suppose so. I'd want to talk to Graham first. We do these things together, and he might say we'd be better putting it into the children's savings accounts."
+    },
+    {
+      "timestamp": "04:16",
+      "speaker": "Agent",
+      "text": "That makes complete sense. It's a big decision, and there's no rush at all. The quote is based on your answers today, so if you ring back, we'd just recheck the details."
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Customer",
+      "text": "And if we did go ahead and then changed our minds?"
+    },
+    {
+      "timestamp": "04:32",
+      "speaker": "Agent",
+      "text": "There's a thirty-day cooling-off period. If you cancel within thirty days, you get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Customer",
+      "text": "That's reassuring. But I'd still rather not sign up for something and then cancel it. I'll have a proper think."
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "Agent",
+      "text": "Of course. Would it help if I emailed a summary of what we've discussed, including the cover amount, the monthly price and the twelve-month accidental-death-only point, so you and Graham can look at it together?"
+    },
+    {
+      "timestamp": "04:59",
+      "speaker": "Customer",
+      "text": "Yes, that would be helpful. Is it the email from the form?"
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Agent",
+      "text": "Yes, the one ending in btinternet dot com. I'll send that over this afternoon. You can call us back whenever suits you, or not at all if you decide it's not for you."
+    },
+    {
+      "timestamp": "05:14",
+      "speaker": "Customer",
+      "text": "Thank you, Oliver. You've been very clear, I appreciate that."
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Agent",
+      "text": "My pleasure, Mrs Clarke. Enjoy your retirement, and I hope the grandchildren appreciate their thoughtful nan. Goodbye."
+    },
+    {
+      "timestamp": "05:24",
+      "speaker": "Customer",
+      "text": "Ha, we'll see! Goodbye."
+    }
+  ]
+}

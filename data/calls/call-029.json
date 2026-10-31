@@ -1,0 +1,226 @@
+{
+  "call_id": "call-029",
+  "market": "AU",
+  "agent_id": "AU-01",
+  "agent_name": "Mia",
+  "customer_name": "Josh Taylor",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-28T02:01:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good morning, thanks for calling Acme Life, you're speaking with Mia. Just before we get started, I need to let you know this call is recorded for quality and training purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:12",
+      "speaker": "Customer",
+      "text": "Yeah, g'day. I saw your ad online for the life cover, no medical exam thing. Thought I'd ring and see what it's actually about. I'll be honest, I'm not keen on being sold to."
+    },
+    {
+      "timestamp": "00:24",
+      "speaker": "Agent",
+      "text": "That's completely fair, and I'm happy to just walk you through it. You can take it from there. Before I look at anything specific for you, can I please confirm your full name and date of birth?"
+    },
+    {
+      "timestamp": "00:35",
+      "speaker": "Customer",
+      "text": "Joshua Taylor. Josh. Fourteenth of March, 1990."
+    },
+    {
+      "timestamp": "00:41",
+      "speaker": "Agent",
+      "text": "Thanks, Josh. That's Joshua Taylor, born the 14th of March 1990. Got it. Just so you know, anything I tell you today is general advice only. It doesn't take your personal objectives, financial situation or needs into account, so you'll want to weigh up whether it suits you."
+    },
+    {
+      "timestamp": "00:58",
+      "speaker": "Customer",
+      "text": "Righto. So what do you need to know?"
+    },
+    {
+      "timestamp": "01:02",
+      "speaker": "Agent",
+      "text": "Can I ask what's got you thinking about life cover, and a bit about your situation? Do you have a family or anyone relying on your income?"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Customer",
+      "text": "I'm a sparky, self-employed. Partner and two little ones, three and one. We've got a mortgage, about four-fifty left on it. If something happened to me there's no work cover or anything for her, you know? That's what's been nagging at me."
+    },
+    {
+      "timestamp": "01:28",
+      "speaker": "Agent",
+      "text": "That makes a lot of sense, especially being self-employed. Do you have any life cover at the moment, maybe through super?"
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Customer",
+      "text": "There's a bit in my super I think, but I haven't really looked. Probably not much."
+    },
+    {
+      "timestamp": "01:42",
+      "speaker": "Agent",
+      "text": "Okay, it might be worth checking that at some stage too. So Acme Life Cover pays a lump sum if you pass away. You can choose cover from $50,000 up to $1,000,000. There's no medical exam. Acceptance depends on your answers to a few health questions."
+    },
+    {
+      "timestamp": "02:00",
+      "speaker": "Customer",
+      "text": "Okay, so what's the catch? There's always a catch with these no-medical ones."
+    },
+    {
+      "timestamp": "02:05",
+      "speaker": "Agent",
+      "text": "The main thing to know is that for the first 12 months, only accidental death is covered. So if you passed away from an illness in that first year, it wouldn't pay out. After 12 months, you're covered more broadly."
+    },
+    {
+      "timestamp": "02:20",
+      "speaker": "Customer",
+      "text": "Hm. Right. And the price, does it stay the same?"
+    },
+    {
+      "timestamp": "02:24",
+      "speaker": "Agent",
+      "text": "No, the premiums are stepped. That means they go up each year as you get older. They start lower, but they'll increase over time."
+    },
+    {
+      "timestamp": "02:34",
+      "speaker": "Customer",
+      "text": "So it gets dearer every year. Good to know. What about my job, being on roofs and around live wires? Does that knock me out?"
+    },
+    {
+      "timestamp": "02:43",
+      "speaker": "Agent",
+      "text": "The questions are mainly about your health, so let's go through them and see where you land. Have you been diagnosed with heart disease, cancer, or diabetes, or been treated for any of those in the last five years?"
+    },
+    {
+      "timestamp": "02:55",
+      "speaker": "Customer",
+      "text": "No, none of that."
+    },
+    {
+      "timestamp": "02:58",
+      "speaker": "Agent",
+      "text": "Do you smoke or have you used nicotine in the last twelve months?"
+    },
+    {
+      "timestamp": "03:02",
+      "speaker": "Customer",
+      "text": "Gave up about three years ago."
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Agent",
+      "text": "Good on you. And are you currently awaiting any medical tests or results, or off work due to illness or injury?"
+    },
+    {
+      "timestamp": "03:12",
+      "speaker": "Customer",
+      "text": "Nope."
+    },
+    {
+      "timestamp": "03:15",
+      "speaker": "Agent",
+      "text": "Thanks. Based on those answers you'd be eligible. What sort of amount were you thinking? You mentioned around $450,000 left on the mortgage."
+    },
+    {
+      "timestamp": "03:25",
+      "speaker": "Customer",
+      "text": "Yeah, I'd want the house covered at least. What's four hundred grand cost? I'm not trying to spend a fortune."
+    },
+    {
+      "timestamp": "03:33",
+      "speaker": "Agent",
+      "text": "For $400,000 of cover at your age as a non-smoker, the premium would be $26 a month to start with. Keep in mind it'll go up each year because it's stepped."
+    },
+    {
+      "timestamp": "03:46",
+      "speaker": "Customer",
+      "text": "Twenty-six. That's less than I thought. How much more each year, roughly?"
+    },
+    {
+      "timestamp": "03:52",
+      "speaker": "Agent",
+      "text": "It depends on your age at each renewal, so I can't give you an exact figure for future years. But it will increase every year, and the increases tend to get bigger as you get older. You'll be told the new premium before each renewal."
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Customer",
+      "text": "Yeah, okay. And if I sign up and then my missus reckons it's a dud idea?"
+    },
+    {
+      "timestamp": "04:14",
+      "speaker": "Agent",
+      "text": "There's a 30-day cooling-off period. If you cancel within 30 days you get a full refund. And there's no pressure to decide today, either. You're welcome to talk it over with your partner and call back whenever suits."
+    },
+    {
+      "timestamp": "04:28",
+      "speaker": "Customer",
+      "text": "Appreciate that. Most of you lot are pushing for a yes before you hang up."
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Agent",
+      "text": "Not at all. It's a big decision, so take whatever time you need."
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Customer",
+      "text": "Hm. I dunno. I've been putting it off for ages anyway. Mortgage gets covered, she's not stuck."
+    },
+    {
+      "timestamp": "04:48",
+      "speaker": "Agent",
+      "text": "So would you like to go ahead with it today?"
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Customer",
+      "text": "Yeah... I guess so."
+    },
+    {
+      "timestamp": "04:55",
+      "speaker": "Agent",
+      "text": "Great, I'll get that set up for you now. Can I grab the bank account or card you'd like the payments to come from?"
+    },
+    {
+      "timestamp": "05:03",
+      "speaker": "Customer",
+      "text": "Card's fine. Give us a sec, it's in the ute."
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Customer",
+      "text": "Right, got it."
+    },
+    {
+      "timestamp": "05:33",
+      "speaker": "Agent",
+      "text": "Thanks. I'll transfer you to our secure payment line to enter the card number, so I won't hear it. Then come back to me."
+    },
+    {
+      "timestamp": "06:20",
+      "speaker": "Customer",
+      "text": "Done. It said it went through."
+    },
+    {
+      "timestamp": "06:24",
+      "speaker": "Agent",
+      "text": "Perfect, that's all processed, Josh. Your policy documents will be emailed through today. Is the email address you used on the website still the best one?"
+    },
+    {
+      "timestamp": "06:33",
+      "speaker": "Customer",
+      "text": "Yeah, that's the one."
+    },
+    {
+      "timestamp": "06:36",
+      "speaker": "Agent",
+      "text": "Lovely. You'll get everything shortly. Thanks for calling, and have a good rest of your day."
+    },
+    {
+      "timestamp": "06:42",
+      "speaker": "Customer",
+      "text": "Cheers, Mia. See ya."
+    }
+  ]
+}

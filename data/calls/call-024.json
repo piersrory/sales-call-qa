@@ -1,0 +1,186 @@
+{
+  "call_id": "call-024",
+  "market": "NZ",
+  "agent_id": "NZ-02",
+  "agent_name": "Sam",
+  "customer_name": "Oliver Brown",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-24T00:28:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, thanks for calling Acme, you're speaking with Sam. Just so you know, this call is recorded for quality and training purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Oh, hello. Yes. I saw your... the advert, on the telly. About life cover. I wanted to ask about it."
+    },
+    {
+      "timestamp": "00:18",
+      "speaker": "Agent",
+      "text": "No worries at all, happy to help with that. Before I go into any of your details or a quote, can I just confirm your full name and date of birth please?"
+    },
+    {
+      "timestamp": "00:26",
+      "speaker": "Customer",
+      "text": "Sorry, my name and...?"
+    },
+    {
+      "timestamp": "00:29",
+      "speaker": "Agent",
+      "text": "Your full name and your date of birth."
+    },
+    {
+      "timestamp": "00:32",
+      "speaker": "Customer",
+      "text": "Right. Oliver James Brown. And it's the... fourteenth of March, nineteen sixty-one."
+    },
+    {
+      "timestamp": "00:41",
+      "speaker": "Agent",
+      "text": "Thanks Oliver, that's all confirmed. So to make sure we look at the right thing for you, can you tell me a bit about your situation and why you're thinking about life cover?"
+    },
+    {
+      "timestamp": "00:50",
+      "speaker": "Customer",
+      "text": "Well. I had a stroke, about... eight months ago now. I'm doing better but my words still get muddled sometimes, and I lose track. My wife, Helen, she's worried. If something happened, I'd want her to be alright. With the mortgage and that."
+    },
+    {
+      "timestamp": "01:09",
+      "speaker": "Agent",
+      "text": "Sorry to hear about the stroke, glad you're on the mend. How much is left on the mortgage, roughly, and is there anyone else who depends on you financially?"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Customer",
+      "text": "About... two hundred and forty thousand, I think. The kids are grown up. It's just Helen and me."
+    },
+    {
+      "timestamp": "01:27",
+      "speaker": "Agent",
+      "text": "Great, that helps. And are you still working at the moment, or retired?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "I stopped working after the stroke. Helen still works part-time."
+    },
+    {
+      "timestamp": "01:38",
+      "speaker": "Agent",
+      "text": "Okay, thanks. So based on that, something around the mortgage amount makes sense. Acme Life Cover lets you choose a cover amount anywhere from fifty thousand up to one million dollars, so two hundred and fifty thousand would clear the mortgage with a bit left over. Premiums are stepped, which means they go up each year as you get older. There's also a terminal illness benefit, so if you were diagnosed with less than twelve months to live, it pays out early. Now the important one for you: pre-existing medical conditions aren't covered for the first two years, so anything related to the stroke wouldn't be covered in that period."
+    },
+    {
+      "timestamp": "02:14",
+      "speaker": "Customer",
+      "text": "Sorry, can you say that again? The bit about... the steps?"
+    },
+    {
+      "timestamp": "02:19",
+      "speaker": "Agent",
+      "text": "Sure, stepped premiums, so the price goes up every year as you get older. And the stroke counts as a pre-existing condition, so it isn't covered for the first two years. For a two hundred and fifty thousand dollar cover amount at your age, the starting premium would be around one hundred and eighty-six dollars a month, and that would increase each year."
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Customer",
+      "text": "One hundred and... eighty?"
+    },
+    {
+      "timestamp": "02:41",
+      "speaker": "Agent",
+      "text": "One eighty-six a month to start. Then it steps up each year. You also get a thirty-day free-look period, so if you take it out and change your mind within thirty days, you get a full refund."
+    },
+    {
+      "timestamp": "02:54",
+      "speaker": "Customer",
+      "text": "I'm sorry, it's a lot at once. My head gets... it gets foggy. So if I, if I died from the stroke, Helen wouldn't get it?"
+    },
+    {
+      "timestamp": "03:05",
+      "speaker": "Agent",
+      "text": "Not in the first two years, no, because that's linked to the pre-existing condition. After two years it would be covered. Anything unrelated to the stroke, like an accident, would be covered from the start, subject to the policy terms."
+    },
+    {
+      "timestamp": "03:19",
+      "speaker": "Customer",
+      "text": "Two years. Right. And the price goes up."
+    },
+    {
+      "timestamp": "03:23",
+      "speaker": "Agent",
+      "text": "That's it, each year. If you wanted, we could also look at a lower cover amount, say one fifty thousand, which would bring the starting premium down to about one hundred and twelve a month. Or we could go up to three hundred thousand if you wanted extra for Helen beyond the mortgage, that'd be roughly two twenty-three a month to start."
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "Hang on. Which one was the... the hundred and twelve?"
+    },
+    {
+      "timestamp": "03:45",
+      "speaker": "Agent",
+      "text": "That's one hundred and fifty thousand of cover. Two fifty is one eighty-six, three hundred is two twenty-three. All monthly, all stepped. And the terminal illness benefit and the free-look apply whichever one you pick."
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Customer",
+      "text": "Mm. I wrote down... I've got one eighty-six here. I think. Sorry, I don't think I'm keeping up very well."
+    },
+    {
+      "timestamp": "04:08",
+      "speaker": "Agent",
+      "text": "That's fine. So the main things are the cover amount, the stepped premium, the two-year wait on the stroke, and the thirty-day free-look. If you're happy with two fifty, I can take you through the application questions now, it takes about fifteen minutes."
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Customer",
+      "text": "Fifteen minutes. Hmm. I don't know. I think I'd like Helen to hear all this. She's better with the numbers than me now."
+    },
+    {
+      "timestamp": "04:33",
+      "speaker": "Agent",
+      "text": "Of course, that's completely up to you. There's no rush on our side, the cover's available whenever you're ready."
+    },
+    {
+      "timestamp": "04:40",
+      "speaker": "Customer",
+      "text": "Could you, um, could you send me something? In writing?"
+    },
+    {
+      "timestamp": "04:45",
+      "speaker": "Agent",
+      "text": "Yes, I can email you a summary of the quote and the policy document. What's the best email address for you?"
+    },
+    {
+      "timestamp": "04:51",
+      "speaker": "Customer",
+      "text": "It's oliver dot brown sixty-one at xtra dot co dot nz."
+    },
+    {
+      "timestamp": "05:00",
+      "speaker": "Agent",
+      "text": "Lovely, I'll send the quotes for one fifty, two fifty and three hundred thousand through today, along with the policy wording. You and Helen can go through it together and give us a call back on the same number whenever suits."
+    },
+    {
+      "timestamp": "05:13",
+      "speaker": "Customer",
+      "text": "Okay. Yes. I think that's best. I won't decide today."
+    },
+    {
+      "timestamp": "05:18",
+      "speaker": "Agent",
+      "text": "No problem at all, Oliver. Is there anything else I can help with today?"
+    },
+    {
+      "timestamp": "05:22",
+      "speaker": "Customer",
+      "text": "No, I don't think so. Thank you, Sam."
+    },
+    {
+      "timestamp": "05:26",
+      "speaker": "Agent",
+      "text": "Thanks for calling, Oliver. Take care and all the best with your recovery. Ka kite."
+    }
+  ]
+}

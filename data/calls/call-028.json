@@ -1,0 +1,196 @@
+{
+  "call_id": "call-028",
+  "market": "NZ",
+  "agent_id": "NZ-01",
+  "agent_name": "Aroha",
+  "customer_name": "Charlotte Smith",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-05T22:17:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Kia ora, you're through to Acme Life, my name's Aroha. Just letting you know this call is recorded for quality and training purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:09",
+      "speaker": "Customer",
+      "text": "Hi Aroha. Yeah, I saw your ad on Facebook for life cover and thought I'd ring before I forget again. I've only got about ten minutes though, I'm between deliveries."
+    },
+    {
+      "timestamp": "00:19",
+      "speaker": "Agent",
+      "text": "No worries at all, I'll keep it moving. Before we get into anything, can I grab your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:25",
+      "speaker": "Customer",
+      "text": "Charlotte Anne Smith. Fourteenth of March, 1987."
+    },
+    {
+      "timestamp": "00:31",
+      "speaker": "Agent",
+      "text": "Thanks Charlotte, so that's Charlotte Anne Smith, born 14 March 1987. Is that right?"
+    },
+    {
+      "timestamp": "00:36",
+      "speaker": "Customer",
+      "text": "Yep, that's me."
+    },
+    {
+      "timestamp": "00:38",
+      "speaker": "Agent",
+      "text": "Lovely. So I can point you towards the right level of cover, can I ask a bit about your situation? What's got you thinking about life cover now?"
+    },
+    {
+      "timestamp": "00:46",
+      "speaker": "Customer",
+      "text": "I run a small catering business out of Petone. Me and one part-timer. I've got a mortgage, two kids, eight and five, and my partner works part-time. If something happened to me, the business income just stops. That's what keeps me up at night."
+    },
+    {
+      "timestamp": "01:03",
+      "speaker": "Agent",
+      "text": "That makes total sense. Roughly how much is left on the mortgage, and are there any business loans you'd want covered as well?"
+    },
+    {
+      "timestamp": "01:10",
+      "speaker": "Customer",
+      "text": "Mortgage is about three-eighty. There's a van loan, maybe twenty grand. Can we just skip to the price bit?"
+    },
+    {
+      "timestamp": "01:17",
+      "speaker": "Agent",
+      "text": "Nearly there, I promise. Do you have any existing life cover, through KiwiSaver or anywhere else?"
+    },
+    {
+      "timestamp": "01:23",
+      "speaker": "Customer",
+      "text": "No, nothing. That's the problem."
+    },
+    {
+      "timestamp": "01:26",
+      "speaker": "Agent",
+      "text": "Okay. And any health conditions you've seen a doctor about or are on medication for?"
+    },
+    {
+      "timestamp": "01:31",
+      "speaker": "Customer",
+      "text": "I've got mild asthma, use an inhaler now and then. That's it."
+    },
+    {
+      "timestamp": "01:36",
+      "speaker": "Agent",
+      "text": "Thanks for that. So based on the mortgage, the van loan, and giving your partner some breathing room with the kids, I'd suggest looking at five hundred thousand dollars of cover. Our cover goes anywhere from fifty thousand up to a million, but five hundred clears your debts and leaves about a hundred thousand for the family."
+    },
+    {
+      "timestamp": "01:55",
+      "speaker": "Customer",
+      "text": "Five hundred sounds about right. What's it cost?"
+    },
+    {
+      "timestamp": "01:59",
+      "speaker": "Agent",
+      "text": "For you at that level, it's sixty dollars a month. A couple of things you need to know though. The premiums are stepped, so they go up each year as you get older. Sixty is what you'd pay now, not forever."
+    },
+    {
+      "timestamp": "02:13",
+      "speaker": "Customer",
+      "text": "Right. How much does it go up by?"
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Agent",
+      "text": "It depends on your age each year at renewal, and you'd get your new premium sent through before it changes, so there's no surprise. The other important one is pre-existing medical conditions. Anything you already have, like the asthma, isn't covered for the first two years of the policy."
+    },
+    {
+      "timestamp": "02:33",
+      "speaker": "Customer",
+      "text": "So if something asthma-related happened in the first two years, you wouldn't pay?"
+    },
+    {
+      "timestamp": "02:38",
+      "speaker": "Agent",
+      "text": "That's right, a claim relating to a pre-existing condition wouldn't be covered in the first two years. After that it's covered like anything else."
+    },
+    {
+      "timestamp": "02:47",
+      "speaker": "Customer",
+      "text": "Okay. Fair enough, I suppose."
+    },
+    {
+      "timestamp": "02:50",
+      "speaker": "Agent",
+      "text": "There's also a terminal illness benefit. If you're diagnosed and you've got less than twelve months to live, the cover pays out early, so the family's not waiting."
+    },
+    {
+      "timestamp": "03:00",
+      "speaker": "Customer",
+      "text": "That's good. Look, it sounds fine, but I'd like to talk it over with my partner tonight. Can you email me the details and I'll call back?"
+    },
+    {
+      "timestamp": "03:09",
+      "speaker": "Agent",
+      "text": "I can, but honestly, the sixty dollars is a rate I can only hold on this call. If you ring back it gets requoted and it's very likely to come in higher. Most people in your spot just lock it in now."
+    },
+    {
+      "timestamp": "03:21",
+      "speaker": "Customer",
+      "text": "Really? It changes that fast?"
+    },
+    {
+      "timestamp": "03:24",
+      "speaker": "Agent",
+      "text": "It's really a today thing. And you said yourself you've been putting it off. Your partner's going to be relieved it's sorted, not upset you did it."
+    },
+    {
+      "timestamp": "03:33",
+      "speaker": "Customer",
+      "text": "Hmm. I don't love being rushed, but I don't have time to do this again either."
+    },
+    {
+      "timestamp": "03:39",
+      "speaker": "Agent",
+      "text": "And you do have a thirty-day free-look period. If you and your partner talk it through and decide it's not right, you cancel within thirty days and get a full refund."
+    },
+    {
+      "timestamp": "03:49",
+      "speaker": "Customer",
+      "text": "Full refund, no catch?"
+    },
+    {
+      "timestamp": "03:52",
+      "speaker": "Agent",
+      "text": "Full refund, within the thirty days."
+    },
+    {
+      "timestamp": "03:55",
+      "speaker": "Customer",
+      "text": "Okay. Fine, let's do it."
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Agent",
+      "text": "Great. Let me just summarise before I set it up. It's Acme Life Cover for Charlotte Anne Smith, five hundred thousand dollars of cover, at sixty dollars a month to start. Premiums are stepped, so they'll go up each year with your age. Pre-existing conditions, including your asthma, aren't covered for the first two years. There's a terminal illness benefit that pays out early if you've got less than twelve months to live, and you've got a thirty-day free-look with a full refund. Are you happy to go ahead with that?"
+    },
+    {
+      "timestamp": "04:29",
+      "speaker": "Customer",
+      "text": "Yes, go ahead."
+    },
+    {
+      "timestamp": "04:31",
+      "speaker": "Agent",
+      "text": "Thanks Charlotte. I'll take your bank details for the direct debit now, and your policy documents will be emailed to you within the hour."
+    },
+    {
+      "timestamp": "04:39",
+      "speaker": "Customer",
+      "text": "Sweet. Let's be quick, I've got a van to load."
+    },
+    {
+      "timestamp": "04:43",
+      "speaker": "Agent",
+      "text": "Won't take long at all. Ready when you are."
+    }
+  ]
+}

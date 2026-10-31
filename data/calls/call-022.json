@@ -1,0 +1,226 @@
+{
+  "call_id": "call-022",
+  "market": "UK",
+  "agent_id": "UK-02",
+  "agent_name": "Amelia",
+  "customer_name": "Emily Shah",
+  "product": "Acme Life Cover",
+  "started_at": "2026-10-06T10:11:00Z",
+  "turns": [
+    {
+      "timestamp": "00:00",
+      "speaker": "Agent",
+      "text": "Good afternoon, you're through to Acme Life, my name's Amelia. Before we go any further, I need to let you know this call is recorded for training and quality purposes. How can I help today?"
+    },
+    {
+      "timestamp": "00:11",
+      "speaker": "Customer",
+      "text": "Hi. I saw one of your adverts online for life cover, the no medical one. I just want some information, I'm not signing anything today."
+    },
+    {
+      "timestamp": "00:20",
+      "speaker": "Agent",
+      "text": "That's absolutely fine, no pressure at all. I can talk you through how it works and give you a quote if you'd like one. So I can look at anything specific to you, could I take your full name and date of birth, please?"
+    },
+    {
+      "timestamp": "00:32",
+      "speaker": "Customer",
+      "text": "Why do you need my date of birth? I've not agreed to anything."
+    },
+    {
+      "timestamp": "00:37",
+      "speaker": "Agent",
+      "text": "Fair question. Age is one of the main things that affects the price, and it also makes sure I'm dealing with the right person if we've got any details on file. You don't have to go ahead with anything."
+    },
+    {
+      "timestamp": "00:49",
+      "speaker": "Customer",
+      "text": "Right. Emily Shah. Fourteenth of March, 1987."
+    },
+    {
+      "timestamp": "00:55",
+      "speaker": "Agent",
+      "text": "Thank you, Emily. So that's Emily Shah, born 14th of March 1987. Is that correct?"
+    },
+    {
+      "timestamp": "01:01",
+      "speaker": "Customer",
+      "text": "Yes."
+    },
+    {
+      "timestamp": "01:03",
+      "speaker": "Agent",
+      "text": "Lovely. Before I talk about amounts, can I ask a bit about your situation? What's made you start looking at life cover?"
+    },
+    {
+      "timestamp": "01:12",
+      "speaker": "Customer",
+      "text": "I'm self-employed, I'm an electrician. If something happened to me there's no death-in-service or anything like you'd get with an employer. My partner and I have just bought a house."
+    },
+    {
+      "timestamp": "01:24",
+      "speaker": "Agent",
+      "text": "Congratulations on the house. Do you have any children or anyone else who depends on your income?"
+    },
+    {
+      "timestamp": "01:30",
+      "speaker": "Customer",
+      "text": "One little boy, he's four. And the mortgage is about two hundred and ten thousand."
+    },
+    {
+      "timestamp": "01:37",
+      "speaker": "Agent",
+      "text": "Thanks. And roughly how many years is left on the mortgage?"
+    },
+    {
+      "timestamp": "01:41",
+      "speaker": "Customer",
+      "text": "Twenty-five."
+    },
+    {
+      "timestamp": "01:43",
+      "speaker": "Agent",
+      "text": "And do you have any existing life cover at all, perhaps something tied to the mortgage?"
+    },
+    {
+      "timestamp": "01:49",
+      "speaker": "Customer",
+      "text": "No, nothing. That's why I'm looking. But I've had people ring me before and it's all smiles until you read the small print. So what's the catch with this one?"
+    },
+    {
+      "timestamp": "02:00",
+      "speaker": "Agent",
+      "text": "I'll be straight with you. The main thing to know is that in the first 12 months, the policy only pays out for accidental death. If you died from an illness in that first year, it wouldn't pay out. After the first 12 months you're covered more fully."
+    },
+    {
+      "timestamp": "02:16",
+      "speaker": "Customer",
+      "text": "Hm. So I'd be paying for a year for limited cover."
+    },
+    {
+      "timestamp": "02:21",
+      "speaker": "Agent",
+      "text": "Yes, in that first year the cover is limited to accidents. That's the trade-off for there being no medical exam. Acceptance is based on a few health questions instead."
+    },
+    {
+      "timestamp": "02:32",
+      "speaker": "Customer",
+      "text": "What sort of health questions?"
+    },
+    {
+      "timestamp": "02:35",
+      "speaker": "Agent",
+      "text": "Things like whether you smoke, any serious conditions you've been diagnosed with, that kind of thing. It's a short set of questions, no doctor's visit or blood tests."
+    },
+    {
+      "timestamp": "02:46",
+      "speaker": "Customer",
+      "text": "And the price, does it go up every year? My van insurance does that."
+    },
+    {
+      "timestamp": "02:51",
+      "speaker": "Agent",
+      "text": "No, the premium is fixed for the whole length of the policy. Whatever you're quoted at the start is what you pay right through to the end."
+    },
+    {
+      "timestamp": "03:00",
+      "speaker": "Customer",
+      "text": "How much cover can I actually get?"
+    },
+    {
+      "timestamp": "03:04",
+      "speaker": "Agent",
+      "text": "Anywhere from £25,000 up to £500,000. Given you've got a mortgage of about £210,000 over 25 years and a young son, a lot of people in your position would look at cover at least matching the mortgage, and some go a bit higher to leave something for the family's living costs. But it's entirely your call what feels right."
+    },
+    {
+      "timestamp": "03:24",
+      "speaker": "Customer",
+      "text": "Go on then, what would two hundred and fifty thousand over twenty-five years cost? Roughly."
+    },
+    {
+      "timestamp": "03:30",
+      "speaker": "Agent",
+      "text": "To give you an accurate figure I'd need to run through the health questions, as smoking status in particular makes a big difference. Would you be happy to do those now? It doesn't commit you to anything."
+    },
+    {
+      "timestamp": "03:41",
+      "speaker": "Customer",
+      "text": "Fine. Non-smoker. No health problems, apart from a dodgy knee."
+    },
+    {
+      "timestamp": "03:47",
+      "speaker": "Agent",
+      "text": "A knee issue on its own usually isn't something that affects this. Any diagnosed heart conditions, diabetes, cancer, or anything you're currently being treated for?"
+    },
+    {
+      "timestamp": "03:56",
+      "speaker": "Customer",
+      "text": "No."
+    },
+    {
+      "timestamp": "03:58",
+      "speaker": "Agent",
+      "text": "Thank you. Based on that, for £250,000 over 25 years as a non-smoker, the indicative premium comes out at £21.40 a month, fixed for the full term."
+    },
+    {
+      "timestamp": "04:12",
+      "speaker": "Customer",
+      "text": "That's less than I thought, actually. But I've had another quote from my mortgage broker and I want to compare them properly. I don't want to rush into it."
+    },
+    {
+      "timestamp": "04:22",
+      "speaker": "Agent",
+      "text": "That's completely sensible. It's worth comparing like for like, so do check whether the other policy has a similar first-year arrangement and whether their premiums are fixed or can change."
+    },
+    {
+      "timestamp": "04:34",
+      "speaker": "Customer",
+      "text": "And if I did go with you and then changed my mind?"
+    },
+    {
+      "timestamp": "04:38",
+      "speaker": "Agent",
+      "text": "There's a 30-day cooling-off period. If you cancel within that time, you get a full refund of anything you've paid."
+    },
+    {
+      "timestamp": "04:46",
+      "speaker": "Customer",
+      "text": "OK. I'm not going to decide today. I want to talk it through with my partner first."
+    },
+    {
+      "timestamp": "04:52",
+      "speaker": "Agent",
+      "text": "Of course. Would you like me to email over a written summary of the quote so you've got the details in front of you?"
+    },
+    {
+      "timestamp": "04:58",
+      "speaker": "Customer",
+      "text": "Yes, that's fine. Just email, though, I don't want people phoning me every other day."
+    },
+    {
+      "timestamp": "05:04",
+      "speaker": "Agent",
+      "text": "Understood, I'll note that you'd prefer not to be called. What's the best email address?"
+    },
+    {
+      "timestamp": "05:09",
+      "speaker": "Customer",
+      "text": "emily.shah.electrical@outlook.co.uk"
+    },
+    {
+      "timestamp": "05:15",
+      "speaker": "Agent",
+      "text": "Thank you. I'll send that over shortly. Take whatever time you need, and if you have any questions, you can ring us back on the number in the email. Is there anything else I can help with today?"
+    },
+    {
+      "timestamp": "05:26",
+      "speaker": "Customer",
+      "text": "No, that's it. Thanks for not giving me the hard sell."
+    },
+    {
+      "timestamp": "05:30",
+      "speaker": "Agent",
+      "text": "You're welcome, Emily. Good luck with the new house, and have a lovely afternoon."
+    }
+  ]
+}
