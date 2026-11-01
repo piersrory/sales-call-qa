@@ -1,0 +1,74 @@
+{
+  "call_id": "call-039",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3414,
+  "output_tokens": 2502,
+  "seconds": 10.3,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "I'll just let you know that this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording within the first few seconds of the call.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Can I get your full name as it would appear on a policy, and your date of birth?",
+      "timestamp": "00:21",
+      "reason": "The agent asked for the full name and date of birth before discussing the customer's details or quote, and confirmed them at 00:38 with 'That's all confirmed.'",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, what's got you thinking about life insurance at the moment?",
+      "timestamp": "00:38",
+      "reason": "The agent explored the customer's circumstances, dependants, mortgage and existing cover before recommending a term and amount at 02:28.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Coverage can be anywhere from fifty thousand up to seven hundred and fifty thousand dollars. You pick a term of either ten or twenty years, and your premium is fixed for the whole term, so it won't go up partway through.",
+      "timestamp": "02:05",
+      "reason": "The coverage range, term options, fixed premium, no cash value and 30-day full refund free-look all match the product facts. The agent's claim of no blood tests or nurse visits is not in the facts but does not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "But that's not a reason to rush. It's just there so you're not locked in.",
+      "timestamp": "04:01",
+      "reason": "The agent told the customer there was no deadline, offered a summary instead of pressing for a sale, and agreed not to call repeatedly.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "Would it help if I sent you a summary of what we talked about, the coverage range, the term options and so on, so you've both got it in front of you?",
+      "timestamp": "04:34",
+      "reason": "No sale was completed; the customer deferred the decision and asked only for a summary.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "Talking it through with <PERSON> is a good idea, especially since she's the one the coverage is for.",
+      "timestamp": "04:34",
+      "reason": "After the customer disclosed a recent diagnosis and said it rattled them, the agent acknowledged this, encouraged involving their wife, offered a summary and a call back with no deadline. The agent did not explicitly check the customer's understanding when the customer said it felt like a lot to decide.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

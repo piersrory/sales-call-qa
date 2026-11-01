@@ -1,0 +1,74 @@
+{
+  "call_id": "call-033",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3211,
+  "output_tokens": 2459,
+  "seconds": 10.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed within the first minute that the call is recorded.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go into any details or pricing, can I please confirm your full name and date of birth?",
+      "timestamp": "00:20",
+      "reason": "The agent asked for full name and date of birth before discussing the customer's details or pricing, and the customer provided both.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So can I ask what's got you thinking about life cover at the moment?",
+      "timestamp": "00:35",
+      "reason": "The agent asked about the customer's circumstances and reason for wanting cover before recommending an amount at 01:39.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "once the policy's in place you're covered from day one, whether it's an illness or an accident",
+      "timestamp": "03:29",
+      "reason": "Product facts state only accidental death is covered in the first 12 months. The agent wrongly said illness is covered from day one, which would also mislead the customer about the mortgage payout.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Totally understandable, there's no rush at all. The quote isn't going anywhere, so if you'd rather chat with him and call back, that's completely fine. It's your call.",
+      "timestamp": "03:48",
+      "reason": "The agent did not create false urgency and explicitly let the customer decide in their own time. Its firm steering toward $500,000 is noted but is not false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I'm happy to go ahead.",
+      "timestamp": "04:46",
+      "reason": "The agent summarised the cover, the $35 monthly premium and the stepped premiums, then asked if the customer was happy to proceed, and received a clear yes. The summary omitted the first-12-month accidental-only limit.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "We'd struggle on one income.",
+      "timestamp": "01:06",
+      "reason": "The customer did not clearly show confusion, bereavement, illness or money distress. The comment about struggling on one income is a hypothetical about the mortgage, so the item does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "fail",
+      "evidence": "Congratulations on the new place! That's a really common reason people look at cover.",
+      "timestamp": "00:58",
+      "reason": "No general advice warning was given. The agent instead gave a personalised recommendation, saying I'd go for $500,000 and that's what I'd do in your shoes, at 01:39, with no statement that the advice is general and does not consider personal circumstances.",
+      "evidence_verified": true
+    }
+  ]
+}

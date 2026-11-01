@@ -1,0 +1,74 @@
+{
+  "call_id": "call-010",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3028,
+  "output_tokens": 2404,
+  "seconds": 10.4,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for training and quality purposes. How can I help today?",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed within the first minute, before any personal discussion, that the call is recorded.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything personal or a quote, can I take your full name and date of birth, please?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for the customer's full name and date of birth before discussing their details or quote, and the customer provided them at 00:31.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, tell me a bit about your situation. You mentioned the mortgage. What's prompting you to look at cover now?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about circumstances and motivation, then asked about dependants and existing cover at 01:05 and 01:17, all before recommending a cover amount at 01:30.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "The main thing to be aware of is that in the first 12 months, only accidental death is covered.",
+      "timestamp": "03:08",
+      "reason": "The cover range, no medical exam, first-year accidental-death-only restriction, fixed premium and 30-day full-refund cooling-off all match the product facts. The £39 premium and the portability statement at 01:30 are not in the product facts, so they could not be checked and were not contradicted.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "If you'd like to think it over, or talk it through with her, that's absolutely fine. The quote's there whenever you're ready.",
+      "timestamp": "03:27",
+      "reason": "The agent explicitly let the customer take their time, offered to talk it over with their partner, and used no false urgency.",
+      "evidence_verified": false
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I'm happy to go ahead.",
+      "timestamp": "04:28",
+      "reason": "Before the sale, the agent summarised the cover, £39 monthly premium, fixed term, health-question acceptance, first-year restriction and cooling-off period at 04:01, then asked if the customer was happy to proceed and received a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Right, that's useful to know.",
+      "timestamp": "03:02",
+      "reason": "The customer showed no signs of vulnerability such as confusion, bereavement, illness or money worries. Mentioning a mortgage and a first home is a normal financial circumstance, not a vulnerability indicator.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

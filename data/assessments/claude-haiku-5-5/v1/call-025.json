@@ -1,0 +1,74 @@
+{
+  "call_id": "call-025",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3935,
+  "output_tokens": 2568,
+  "seconds": 10.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Good morning, you're through to Acme Life, my name's <PERSON>. Just so you know, this call is recorded for quality and training purposes. How can I help you today?",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed within the first minute that the call is recorded.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Thank you, <PERSON>, that's all confirmed.",
+      "timestamp": "00:36",
+      "reason": "Before discussing details or a quote, the agent asked for the customer's full name and date of birth at 00:19, and confirmed them at 00:36.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So tell me a bit about what's got you thinking about life cover at the moment?",
+      "timestamp": "00:36",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending the $100,000 amount at 02:04.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Our cover goes anywhere from fifty thousand up to one million dollars.",
+      "timestamp": "02:04",
+      "reason": "The cover range, no medical exam, accidental-death-only first 12 months, stepped premiums and 30-day full refund cooling-off all match the product facts. The $84 monthly premium is not in the product facts provided, so it could not be verified.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Honestly, there's no pressure to decide today.",
+      "timestamp": "04:52",
+      "reason": "The agent told the customer there was no pressure, offered a call back, and asked whether she would like to go ahead now or take more time, with no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I am. Yes, please go ahead.",
+      "timestamp": "06:47",
+      "reason": "After summarising the cover and the $84 monthly premium at 05:59 and checking understanding, the agent asked if the customer was happy to proceed and received a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "If you'd like, I can ring you back another day, or we could do a call with <PERSON> on the line so she can hear it all too. Would either of those help?",
+      "timestamp": "04:52",
+      "reason": "After the customer showed signs of vulnerability (recent bereavement, struggling with numbers), the agent slowed down, checked understanding with a recap, and offered a call back or a call including her daughter.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "fail",
+      "evidence": "Good morning, you're through to Acme Life, my name's <PERSON>. Just so you know, this call is recorded for quality and training purposes. How can I help you today?",
+      "timestamp": "00:00",
+      "reason": "No general advice warning was given at any point. The opening lines are quoted as where it should have happened, and the agent instead gave a personalised recommendation at 02:04 ('I'd recommend you go for a hundred thousand dollars of cover') without saying the advice was general and did not consider personal circumstances.",
+      "evidence_verified": true
+    }
+  ]
+}

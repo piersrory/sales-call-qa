@@ -1,0 +1,74 @@
+{
+  "call_id": "call-027",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3566,
+  "output_tokens": 2880,
+  "seconds": 12.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the recording in the opening turn, well within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "So it's <PERSON>, you're fifty-four, non-smoker, living in Mississauga, and you were looking at around a hundred and fifty thousand dollars of cover.",
+      "timestamp": "00:17",
+      "reason": "Before discussing the customer's details and quote, the agent did not confirm the customer's full name or date of birth. The agent only read back a partial name placeholder, age and location, and no date of birth was ever confirmed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before we get into that, can I ask what got you thinking about life insurance right now?",
+      "timestamp": "00:40",
+      "reason": "The agent asked about the customer's circumstances and reason for wanting cover before recommending the 150,000 over ten years at 01:55, and followed up with questions on dependants, mortgage and existing cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "We do offer anywhere from fifty thousand up to seven hundred and fifty thousand, and terms of either ten or twenty years",
+      "timestamp": "01:55",
+      "reason": "The coverage range, term options, fixed premium, no cash value, no medical exam and 30-day full refund free-look all match the product facts. The agent's statement that the health condition did not change the price is not addressed by the facts, but it does not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "If you'd like to think it over or compare, that's absolutely fine.",
+      "timestamp": "04:40",
+      "reason": "The agent told the customer they could take time to decide and said the quote was not going anywhere, with no false urgency. On term choice it said 'it's your call'.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I'd like to go ahead.",
+      "timestamp": "05:37",
+      "reason": "Before completing the sale, the agent summarised the 150,000 cover, the 33 dollar monthly premium fixed for ten years, no cash value and the 30-day refund, then asked whether to proceed. The customer gave a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "you're welcome to talk it over with your husband first.",
+      "timestamp": "04:40",
+      "reason": "The customer disclosed a new high blood pressure diagnosis and said it 'kind of shook me', which are signs of vulnerability. The agent did not slow down or check understanding, and moved straight through health questions to acceptance and sale. The only support offered was a passing mention that the customer could talk it over with her husband, with no offer of a call back.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

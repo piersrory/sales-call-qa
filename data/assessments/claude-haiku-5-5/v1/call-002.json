@@ -1,0 +1,74 @@
+{
+  "call_id": "call-002",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3473,
+  "output_tokens": 2137,
+  "seconds": 9.1,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for training and quality purposes. Is that okay?",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed within the first minute that the call is recorded.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "I've got your request here, Mr <PERSON>. You put in some details online. You're 61, a non-smoker, living in Leicester, and you were looking at around £60,000 of cover.",
+      "timestamp": "00:21",
+      "reason": "The agent discussed the customer's age, smoking status, location and cover amount without first confirming the customer's full name and date of birth. No date of birth check appears anywhere in the transcript.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I suggest anything, could you tell me a little about why you're looking at life cover, and who you'd want it to help?",
+      "timestamp": "01:09",
+      "reason": "The agent asked about the customer's reasons for cover and who it would protect before recommending any amount, then asked about employment and monthly budget.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "The premium is fixed, so it won't go up for the whole length of the policy.",
+      "timestamp": "03:39",
+      "reason": "The agent's statements on cover range, no medical exam, accidental-death-only first 12 months, fixed premium and 30-day full refund all match the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "and I'm very happy to do that, and there's no pressure to decide today.",
+      "timestamp": "03:59",
+      "reason": "The agent offered a call back, said there was no pressure to decide, and told the customer to take all the time needed without false urgency.",
+      "evidence_verified": false
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes. Yes, I'd like to go ahead.",
+      "timestamp": "06:30",
+      "reason": "Before the sale the agent summarised the £50,000 cover, the £28 monthly premium, fixed pricing and the 30-day cancellation right, then the customer gave a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "I'll go slowly, and please stop me any time you want something repeated. There's no rush at all on this call.",
+      "timestamp": "00:52",
+      "reason": "After the customer disclosed a stroke and needing things repeated, the agent slowed down, checked understanding by asking the customer to explain the first-year rule, and offered a call back with a family member present.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-021",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3487,
+  "output_tokens": 2956,
+  "seconds": 12.0,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording within the first minute of the call.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Thanks, <PERSON>, that all matches up.",
+      "timestamp": "00:38",
+      "reason": "The agent asked for full name and date of birth at 00:19, the customer gave them at 00:26, and the agent confirmed the match at 00:38 before discussing the quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I talk you through anything, can I ask a bit about your situation and what made you look into life cover?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending or quoting any cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "In the first twelve months only accidental death is covered, so if you passed away from an illness in that first year, it wouldn't pay out.",
+      "timestamp": "01:41",
+      "reason": "The cover range, no medical exam, first-year accidental-only cover, illness cover from month 13, stepped premiums and 30-day full refund cooling-off all match the product facts. The premium figures are not in the product facts, so they could not be verified.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's completely fine, there's no rush at all. You can take your time and decide whenever you're ready, or not at all.",
+      "timestamp": "04:57",
+      "reason": "When the customer stopped, the agent told her there was no rush and that she could decide later or not at all, with no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I don't want to decide anything today.",
+      "timestamp": "05:52",
+      "reason": "No sale was completed, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Would you like me to run through the health questions now, so we can see if you'd be accepted?",
+      "timestamp": "03:54",
+      "reason": "The customer showed signs of vulnerability (recent bereavement, forgetfulness, pension-only income, being unable to follow the figures). The agent did not check her understanding or offer a call back. It moved straight to the health questions, though at 04:57 it did pause and at 05:32 it referred to the customer or her daughter for questions.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "Just so you're aware, anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs, so you'll need to think about whether it's right for you.",
+      "timestamp": "01:41",
+      "reason": "The agent stated the advice was general and did not take the customer's personal circumstances into account.",
+      "evidence_verified": true
+    }
+  ]
+}

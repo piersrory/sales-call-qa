@@ -1,0 +1,74 @@
+{
+  "call_id": "call-024",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3285,
+  "output_tokens": 3382,
+  "seconds": 14.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I go into any of your details or a quote, can I just confirm your full name and date of birth please?",
+      "timestamp": "00:18",
+      "reason": "The agent asked for full name and date of birth before discussing details or a quote, and confirmed them at 00:41 before continuing.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So to make sure we look at the right thing for you, can you tell me a bit about your situation and why you're thinking about life cover?",
+      "timestamp": "00:41",
+      "reason": "The agent asked about the customer's circumstances and reasons before recommending any cover amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "the starting premium would be around one hundred and eighty-six dollars a month",
+      "timestamp": "02:19",
+      "reason": "The cover range, stepped premiums, terminal illness benefit, two-year pre-existing condition exclusion and 30-day free-look all match the product facts. However, the specific premium figures quoted ($186, $112 and $223 a month) are not in the product facts and cannot be verified, so the price information does not match the facts provided.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no rush on our side, the cover's available whenever you're ready.",
+      "timestamp": "04:33",
+      "reason": "The agent offered to take the customer through the application once, but when the customer hesitated the agent said there was no rush, accepted the customer's wish to decide later, and offered a written summary.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "Lovely, I'll send the quotes for one fifty, two fifty and three hundred thousand through today, along with the policy wording.",
+      "timestamp": "05:00",
+      "reason": "No sale was completed; the customer said they would not decide that day, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "That's fine. So the main things are the cover amount, the stepped premium, the two-year wait on the stroke, and the thirty-day free-look.",
+      "timestamp": "04:08",
+      "reason": "The customer disclosed a stroke, muddled words, fogginess and not keeping up, which are signs of vulnerability. The agent did offer a call back and suggested the customer go through the information with their wife, but did not slow down or check understanding. It moved straight on to a summary and an offer to start the application, and after the customer said they were not keeping up it only said that's fine.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

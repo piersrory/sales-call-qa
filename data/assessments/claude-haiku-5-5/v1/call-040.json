@@ -1,0 +1,74 @@
+{
+  "call_id": "call-040",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3510,
+  "output_tokens": 2341,
+  "seconds": 9.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Thanks, <PERSON>, that matches what we have.",
+      "timestamp": "00:46",
+      "reason": "The agent asked for full name and date of birth at 00:30 before discussing the quote, and confirmed the details at 00:46. The agent had mentioned the advert form at 00:13, which is a minor point and does not change the outcome.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Can I ask a bit about your situation and what got you thinking about life cover?",
+      "timestamp": "00:46",
+      "reason": "The agent asked about circumstances and motivation before recommending a cover amount, and followed up on mortgage, income and dependants.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "that seventy-two dollar rate is only something I can hold for you on this call",
+      "timestamp": "03:50",
+      "reason": "The two-year pre-existing condition wait, terminal illness benefit, stepped premiums, cover range and 30-day full refund were described correctly. However, the claim that the premium rate can only be held on this call and may not be available later is not supported by the product facts and is misleading.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "that seventy-two dollar rate is only something I can hold for you on this call",
+      "timestamp": "03:50",
+      "reason": "The agent created false urgency by saying the rate could not be held later, and said a lot of people find it easier to act now. At 04:15 the agent also said there was not much to think over and urged the customer to sign up now, despite the customer saying she did not like deciding quickly and got muddled.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "Thursday, at half past two. I'll put that in the email as well, so it's written down for you.",
+      "timestamp": "06:05",
+      "reason": "No sale was completed. The customer chose to defer the decision and arranged a follow-up call with her spouse instead of giving a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "Would it help if I called back when <PERSON>'s with you, or one of your kids, so someone you trust can hear it too?",
+      "timestamp": "05:10",
+      "reason": "The customer showed signs of vulnerability after her stroke, memory difficulty and feeling muddled. The agent slowed down, checked understanding by asking her to repeat the main points, and offered a call back with a trusted person. The earlier pressure at 03:50 and 04:15 is a separate failure.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-013",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3366,
+  "output_tokens": 2645,
+  "seconds": 11.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Sure. It's <PERSON>, <PERSON> is fine. Date of birth is <DATE_OF_BIRTH>.",
+      "timestamp": "00:30",
+      "reason": "The agent asked for full name and date of birth at 00:21 before discussing details or a quote, and the customer provided both.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, can you tell me a bit about yourself and what's got you thinking about life cover?",
+      "timestamp": "00:39",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending a cover amount at 03:01.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "With Acme Life Cover you can choose anywhere from fifty thousand up to a million dollars. There's no medical exam, it's just a few health questions, and acceptance depends on your answers.",
+      "timestamp": "01:59",
+      "reason": "The cover range, no medical exam, accidental-death-only first 12 months, stepped premiums and 30-day full refund cooling-off all match the product facts. The $112 monthly premium is not in the product facts, so it could not be verified, but it does not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That sounds really sensible. There's no rush at all.",
+      "timestamp": "04:52",
+      "reason": "After the customer said they wanted to talk it over, the agent said there was no rush and gave a call-back option without false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "No sale was completed; the customer said they wanted to talk it over before signing up.",
+      "evidence_verified": false
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "That's a fair concern. Based on what you've told me, I'd recommend going with the hundred thousand.",
+      "timestamp": "03:01",
+      "reason": "The customer signalled money worries at 02:55 ('I'm on a fixed income now'). The agent acknowledged it briefly, then immediately recommended a cover amount without slowing down or checking the customer understood the cost impact. A call-back or trusted-person option was only offered later, after the customer raised it themselves.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "fail",
+      "evidence": "Hi, thanks for calling Acme Life, you're speaking with <PERSON>. Just so you know, this call is recorded for quality and training purposes. How can I help today?",
+      "timestamp": "03:01",
+      "reason": "Missing. No statement was made that any advice is general and does not take personal circumstances into account. The agent instead gave a personalised recommendation at 03:01 ('I'd recommend going with the hundred thousand').",
+      "evidence_verified": false
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-022",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3254,
+  "output_tokens": 2367,
+  "seconds": 9.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I need to let you know this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the call recording within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Thank you, <PERSON>. So that's <PERSON>, born <DATE_OF_BIRTH>. Is that correct?",
+      "timestamp": "00:55",
+      "reason": "The agent asked for and then confirmed the customer's full name and date of birth before discussing their situation or any quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I talk about amounts, can I ask a bit about your situation? What's made you start looking at life cover?",
+      "timestamp": "01:03",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending any amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "A knee issue on its own usually isn't something that affects this.",
+      "timestamp": "03:47",
+      "reason": "The product facts say acceptance depends only on a few health questions, with no detail on how individual conditions are assessed, so this unsupported claim about acceptance is not confirmed. The indicative premium of £21.40 a month is also quoted without any matching product fact. The other statements about the 12-month accidental-death limit, fixed premiums, the £25,000 to £500,000 range, and the 30-day refund are accurate.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Take whatever time you need, and if you have any questions, you can ring us back on the number in the email.",
+      "timestamp": "05:15",
+      "reason": "The agent respected the customer's wish to decide later, with no false urgency, and said no pressure at the outset.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I'm not going to decide today. I want to talk it through with my partner first.",
+      "timestamp": "04:46",
+      "reason": "No sale was completed, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I just want some information, I'm not signing anything today.",
+      "timestamp": "00:11",
+      "reason": "The customer showed no signs of vulnerability such as confusion, bereavement, illness or money worries.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

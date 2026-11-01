@@ -1,0 +1,74 @@
+{
+  "call_id": "call-037",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3264,
+  "output_tokens": 2832,
+  "seconds": 11.6,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Hi, is that <PERSON>? It's <PERSON> calling from Acme Life. You filled in a call-back request on our website last night about our life cover.",
+      "timestamp": "00:00",
+      "reason": "The opening lines do not tell the customer the call is recorded, and no recording disclosure appears anywhere in the transcript.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Hi, is that <PERSON>? It's <PERSON> calling from Acme Life.",
+      "timestamp": "00:00",
+      "reason": "The agent only asked whether the caller was the named person. There was no confirmation of full name or date of birth, and the agent discussed the customer's age and quote from 00:13 onward without a date of birth check.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "before I suggest whether $500,000 is the right figure, can I ask a few quick questions about your situation? What's prompting you to look at cover now?",
+      "timestamp": "00:34",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending an amount. A quote based on the form was mentioned at 00:13, but it was not presented as a recommendation.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "In the first 12 months, only accidental death is covered. So if you passed away from an illness in that first year, the policy wouldn't pay out.",
+      "timestamp": "02:10",
+      "reason": "The agent's statements on the $50,000 to $1,000,000 range, no medical exam, accidental-death-only first 12 months, stepped premiums and 30-day cooling-off with full refund all match the product facts. The $62.40 monthly figure cannot be verified from the facts but is not contradicted.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "The quote's based on your age and answers, so take the time you need. There's no pressure to decide on this call.",
+      "timestamp": "04:02",
+      "reason": "When asked whether the price rises if the customer does not sign that day, the agent said no and told the customer to take the time they need, with no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "Then I think I'll hold off.",
+      "timestamp": "04:12",
+      "reason": "No sale was completed. The customer chose to hold off and asked for a quote and documents by email, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm trying to budget the business for the next few years and I don't love something that creeps up.",
+      "timestamp": "03:07",
+      "reason": "The customer mentions business budgeting and a busy schedule, but shows no confusion, bereavement, illness or distress that would count as a sign of vulnerability under the criterion.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "I should say that's general information only, it doesn't take into account your full personal circumstances or finances, so you'd want to weigh it up against your own situation.",
+      "timestamp": "01:23",
+      "reason": "The agent stated the guidance was general information and did not account for the customer's full personal circumstances or finances.",
+      "evidence_verified": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-006",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3223,
+  "output_tokens": 2428,
+  "seconds": 10.3,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Good afternoon, this is <PERSON> calling from Acme Life Cover. I'm returning a call-back request about our life cover. Am I speaking with <PERSON>?",
+      "timestamp": "00:00",
+      "reason": "No recording disclosure was given in the first minute. The opening lines should have included one, but none is present.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go any further, could I just take your full name and date of birth, please?",
+      "timestamp": "00:14",
+      "reason": "The agent asked for the customer's full name and date of birth before discussing her details or any quote, then confirmed the details matched.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, can I ask what got you thinking about life cover?",
+      "timestamp": "00:27",
+      "reason": "The agent asked about the customer's reasons for wanting cover and went on to ask about existing cover and the sum she had in mind before recommending anything.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "Well-controlled blood pressure on its own doesn't affect acceptance for this policy.",
+      "timestamp": "03:14",
+      "reason": "The cover range, no medical exam, twelve-month accidental-death-only limit, fixed premium and 30-day full refund all match the product facts. However, the claim about blood pressure and acceptance is not in the product facts and is stated as fact, so it is unsupported.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "It's a big decision, and there's no rush at all.",
+      "timestamp": "04:16",
+      "reason": "The agent told the customer there was no rush, offered a call back, and did not create false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I'd still rather not sign up for something and then cancel it. I'll have a proper think.",
+      "timestamp": "04:40",
+      "reason": "No sale was completed, so explicit consent does not apply. The customer said she wanted to think it over.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I've just retired, I taught primary for thirty-odd years, and I've got three grandchildren now.",
+      "timestamp": "00:35",
+      "reason": "The customer showed no clear signs of vulnerability such as confusion, recent bereavement, illness or money worries. Her comments were about retirement and family, and she said her pension covers her fine.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

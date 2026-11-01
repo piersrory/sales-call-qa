@@ -1,0 +1,74 @@
+{
+  "call_id": "call-011",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3518,
+  "output_tokens": 2340,
+  "seconds": 9.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "I should let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the call is recorded within the first minute, before asking for the customer's name.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Could you give me your full name and your date of birth, please?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for full name and date of birth before discussing any details or a quote, and confirmed them at 01:06 after the customer answered.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "fail",
+      "evidence": "For most people around your age, I'd recommend two hundred and fifty thousand dollars over twenty years.",
+      "timestamp": "02:59",
+      "reason": "Before recommending cover amount and term, the agent never asked about the customer's circumstances or why they wanted cover. The customer's mention of her daughter and pension was not explored, and the recommendation was based on what most people around her age get.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "You can pick coverage anywhere from fifty thousand to seven hundred and fifty thousand dollars.",
+      "timestamp": "01:45",
+      "reason": "The coverage range, no medical exam, 10 or 20 year terms, fixed premiums, no cash value, and 30-day free look with full refund all match the product facts. The $96 monthly price and the statement that the free-look starts on receipt of documents are not covered by the product facts, so they could not be verified.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no deadline on this quote from my side.",
+      "timestamp": "04:29",
+      "reason": "The agent told the customer there was no deadline, offered time to think, and said she did not need to decide that day. No false urgency was used.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Would you like to go ahead with that?",
+      "timestamp": "05:42",
+      "reason": "The agent summarised the cover amount, term, monthly premium, no cash value, and free-look before asking, and the customer gave a clear yes at 06:01.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "If at any point you'd rather have your daughter on the line, or have me call back when she's home, I'm happy to do that.",
+      "timestamp": "01:26",
+      "reason": "After the customer disclosed a stroke and slowness, the agent slowed down, invited repeats, checked understanding by asking her to explain the product back, and offered a call back and involving her daughter.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

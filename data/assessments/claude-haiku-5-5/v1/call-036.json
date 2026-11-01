@@ -1,0 +1,74 @@
+{
+  "call_id": "call-036",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3825,
+  "output_tokens": 2504,
+  "seconds": 10.3,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I just need to let you know this call is recorded for quality and training purposes. Is that all right with you?",
+      "timestamp": "00:12",
+      "reason": "The agent disclosed within the first minute that the call is recorded and asked for consent. The customer asked for a repeat and then confirmed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Thanks, <PERSON>. That matches what I have here, so that's all confirmed.",
+      "timestamp": "00:58",
+      "reason": "The agent asked for full name and date of birth at 00:39 before discussing details, and confirmed them at 00:58 before the needs discussion and quote. The customer's date of birth was given and matched.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Would you mind telling me a bit about your situation and what made you look into life cover?",
+      "timestamp": "00:58",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before any recommendation or product explanation.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "The first thing, and this one's really important for you, is that any medical conditions you already have when you take out the cover aren't covered for the first two years.",
+      "timestamp": "02:37",
+      "reason": "The cover range of 50,000 to 1,000,000, the two-year pre-existing condition exclusion, stepped premiums, the terminal illness benefit and the 30-day full refund were all described consistently with the product facts. No inaccurate claims were found.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no pressure at all to decide today, and nothing changes if you take your time.",
+      "timestamp": "05:55",
+      "reason": "The agent explicitly said there was no pressure to decide, offered a call back, and made no false urgency claims. The customer was allowed to defer the decision.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "There's no pressure at all to decide today, and nothing changes if you take your time.",
+      "timestamp": "05:55",
+      "reason": "No sale was completed. The customer said they did not want to decide today, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "Would you like me to call back at a time when <PERSON> can be with you, so he can hear it too and ask any questions?",
+      "timestamp": "05:55",
+      "reason": "The customer disclosed a recent stroke, word muddling, money worries and getting muddled. The agent slowed the pace, said there was no rush, checked how the customer was going, recapped the key points, and offered a call back with the customer's husband.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

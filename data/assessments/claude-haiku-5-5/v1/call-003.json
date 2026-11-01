@@ -1,0 +1,74 @@
+{
+  "call_id": "call-003",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 2902,
+  "output_tokens": 2253,
+  "seconds": 9.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording within the first minute, in the opening greeting.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I go into any details or a quote, can I confirm your full name and date of birth, please?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for full name and date of birth before discussing details or a quote, and confirmed them back at 00:37.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "fail",
+      "evidence": "Honestly, for someone your age, I'd go with five hundred thousand on a 20-year term.",
+      "timestamp": "01:27",
+      "reason": "Before recommending cover, the agent never asked about the customer's circumstances or why they wanted cover. The opening after the identity check should have included those questions, but they are missing. The customer objected: 'You don't even know what I do or what I owe.'",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "this rate is only available while we're on this call",
+      "timestamp": "03:03",
+      "reason": "The product facts say nothing about quotes expiring or re-pricing on hang-up. The claim that the rate would be re-quoted higher and 'People who wait usually end up paying more' is unsupported by the product facts. The agent also said 'Thinking it over doesn't really change much', which is not a product fact.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "this rate is only available while we're on this call",
+      "timestamp": "03:03",
+      "reason": "The agent created false urgency by saying the price would disappear once the call ended, and the customer said 'I don't love being rushed.' The agent also said 'So there's no downside to locking it in now.' at 03:40, pushing the sale instead of letting the customer decide in their own time.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I want to go ahead.",
+      "timestamp": "04:28",
+      "reason": "Before completing the sale, the agent summarised the cover (500,000 on a 20-year term), the monthly premium (92 dollars), and the free-look period, then asked 'Do you want to go ahead with this policy?' and received a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I don't love being rushed.",
+      "timestamp": "03:34",
+      "reason": "The transcript shows no signs of confusion, recent bereavement, illness or money worries. The customer's objections concern pressure and comparison shopping, which are not listed vulnerability signs.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

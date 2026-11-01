@@ -1,0 +1,74 @@
+{
+  "call_id": "call-028",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3117,
+  "output_tokens": 2676,
+  "seconds": 10.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just letting you know this call is recorded for quality and training purposes. How can I help today?",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we get into anything, can I grab your full name and date of birth, please?",
+      "timestamp": "00:19",
+      "reason": "The agent asked for full name and date of birth before discussing details. The customer gave them at 00:25, and the agent read them back for confirmation at 00:31 before any quote discussion.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So I can point you towards the right level of cover, can I ask a bit about your situation? What's got you thinking about life cover now?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending the $500,000 level at 01:36.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "the sixty dollars is a rate I can only hold on this call. If you ring back it gets requoted and it's very likely to come in higher.",
+      "timestamp": "03:09",
+      "reason": "The cover range, stepped premiums, two-year pre-existing condition exclusion, terminal illness benefit and 30-day free-look all match the product facts. However, the claim that the $60 rate can only be held on the call and will likely be requoted higher is not in the product facts and is unsupported. The agent also said the customer would receive new premiums before any change, which is not stated in the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "It's really a today thing.",
+      "timestamp": "03:24",
+      "reason": "The customer asked to talk it over with their partner and call back, and the agent refused, creating false urgency with the 'today' framing and 'Most people in your spot just lock it in now.' The customer then said they did not love being rushed, showing the decision was not made in their own time.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Are you happy to go ahead with that?",
+      "timestamp": "03:58",
+      "reason": "Before completing the sale, the agent summarised the cover amount, the monthly premium of sixty dollars to start, the stepped premiums, the exclusions, the terminal illness benefit and the free-look period. The customer then gave a clear yes at 04:29.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "I can, but honestly, the sixty dollars is a rate I can only hold on this call.",
+      "timestamp": "03:09",
+      "reason": "The customer showed signs of financial worry, saying the business income stopping is what keeps them up at night and that they had been putting the decision off. The agent did not slow down or check understanding and declined the customer's request for a call back. It also did not offer to involve the partner, instead pressing for an immediate decision.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-012",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3567,
+  "output_tokens": 2338,
+  "seconds": 9.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go any further, could I please confirm your full name and date of birth?",
+      "timestamp": "00:17",
+      "reason": "The agent asked for full name and date of birth before discussing details or the quote, and confirmed them at 00:32 with I've got you as <PERSON>, <DATE_OF_BIRTH>. That all matches.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So tell me a bit about yourself, what's got you thinking about life cover?",
+      "timestamp": "00:32",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending the amount at 02:11.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "that eighty-five dollar rate I've pulled up is a special rate that's only available on this call",
+      "timestamp": "03:49",
+      "reason": "The cover range, two-year pre-existing condition exclusion, stepped premiums, terminal illness benefit and 30-day full-refund free-look were described correctly. However, the agent's claim of a special rate only available on this call is not in the product facts, and the $85 premium cannot be verified against them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "If you ring back later in the week, I can't promise you'll get the same price.",
+      "timestamp": "03:49",
+      "reason": "The agent created false urgency by claiming the price was only available on this call, dismissed the customer's wish to talk to his wife with Honestly, there's not much to think over, and said I'd hate for you to miss out when we've got it sorted right here.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I'm happy to go ahead.",
+      "timestamp": "05:32",
+      "reason": "The agent summarised the cover amount, the starting monthly premium of eighty-five dollars, the stepped premiums, the exclusion, the terminal illness benefit and the free-look period at 04:56, then the customer gave a clear yes before the sale was completed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "I'm on a fixed income now, so I'd have to keep an eye on that.",
+      "timestamp": "03:08",
+      "reason": "The customer showed a money concern about a fixed income and said I don't usually like being rushed on these things. The agent did not slow down or check understanding, and did not offer a call back or involving someone the customer trusts. Instead it pushed the sale forward, responding only with Of course.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

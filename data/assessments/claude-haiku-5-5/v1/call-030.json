@@ -1,0 +1,74 @@
+{
+  "call_id": "call-030",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3455,
+  "output_tokens": 2521,
+  "seconds": 10.4,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I need to let you know this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the call recording in the opening turn, well within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we talk about any details or a quote, could I take your full name, please?",
+      "timestamp": "00:24",
+      "reason": "The agent asked for the customer's full name before discussing details or a quote, then asked for and received the date of birth at 00:36 to 00:48 before going into circumstances or cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, can I ask what's made you start looking into life cover at the moment?",
+      "timestamp": "00:54",
+      "reason": "The agent asked about the customer's circumstances and reason for wanting cover at 00:54, before recommending a cover amount at 02:15.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "Yes, you'd be fully covered from the day the policy starts, so Moira would receive the hundred and fifty thousand.",
+      "timestamp": "03:43",
+      "reason": "Product facts state only accidental death is covered in the first 12 months, but the agent said the customer would be fully covered from day one, including for a second stroke, which is not accidental death. The cover range, no medical exam and fixed premium statements were accurate.",
+      "evidence_verified": false
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no pressure to decide today.",
+      "timestamp": "04:13",
+      "reason": "The agent said there was no rush early on and again offered time and a call back, letting the customer decide in their own time without false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Are you happy for me to go ahead and set that up for you today?",
+      "timestamp": "05:17",
+      "reason": "The agent summarised the cover amount and fixed £50 monthly premium before asking, and the customer gave a clear yes at 05:31. The summary repeated the accuracy issue above, but this criterion covers the summary and consent.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "There's absolutely no rush on this call. I'll take things slowly, and if anything isn't clear, just stop me and I'll go over it again. Is that all right?",
+      "timestamp": "01:22",
+      "reason": "After the customer disclosed a stroke and losing her thread, the agent slowed down and invited questions at 01:22. It later offered a call back and involving his wife or daughter at 04:13, and checked understanding in the customer's own words at 04:40.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

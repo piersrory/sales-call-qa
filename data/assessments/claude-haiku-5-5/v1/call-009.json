@@ -1,0 +1,74 @@
+{
+  "call_id": "call-009",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3553,
+  "output_tokens": 2929,
+  "seconds": 12.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Good morning, you're through to Acme Life, my name's <PERSON>. Just so you know, this call is recorded for quality and training purposes. How can I help you today?",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed in the opening turn, within the first minute, that the call is recorded.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Lovely, thanks for calling back. Before we go into anything, can I please confirm your full name and date of birth?",
+      "timestamp": "00:17",
+      "reason": "The agent asked for full name and date of birth before discussing the customer's details or quote, and the customer provided them at 00:23.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So tell me a bit about yourself and what's got you thinking about life cover.",
+      "timestamp": "00:28",
+      "reason": "The agent asked about the customer's circumstances and reason for wanting cover before any recommendation or quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "Great, so based on those answers you'd be accepted.",
+      "timestamp": "03:06",
+      "reason": "Product facts say acceptance depends on health questions, but the agent stated acceptance as certain before any assessment. The agent also said the 30-day cooling-off starts when documents are received, which is not in the product facts, and quoted a $54 premium that cannot be checked against the facts. The cover, lump sum, accidental-only first 12 months, stepped premium and cooling-off details otherwise match.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "Would you like to go ahead with that?",
+      "timestamp": "04:27",
+      "reason": "The customer said the $54 premium was a fair bit and that she didn't know if she could afford it, yet the agent kept steering to a $250,000 cover amount and closed the sale on the same call. The agent did say there was no pressure to decide today, but the close came straight after the customer voiced affordability concerns.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Um... yes. Yes, I'll go ahead.",
+      "timestamp": "04:52",
+      "reason": "Before the sale the agent summarised the $250,000 cover and the $54 monthly stepped premium, and the customer gave a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Sure. So, let's run through the health questions and then I can give you a quote.",
+      "timestamp": "02:27",
+      "reason": "The customer showed signs of vulnerability: recent redundancy, money stress, poor sleep and confusion ('my head's all over the place'). The agent did not slow down, check understanding, or offer a call back or to involve someone the customer trusts, and went on to complete the sale.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "Before I go through the product, I do need to let you know that anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs, so you should think about whether it's right for you.",
+      "timestamp": "01:31",
+      "reason": "The agent stated the advice was general and did not take the customer's personal circumstances into account, before going through the product.",
+      "evidence_verified": true
+    }
+  ]
+}

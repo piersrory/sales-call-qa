@@ -1,0 +1,74 @@
+{
+  "call_id": "call-001",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3580,
+  "output_tokens": 2298,
+  "seconds": 9.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the recording within the first minute, before any other discussion.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything specific for you, can I just confirm your full name and date of birth?",
+      "timestamp": "00:24",
+      "reason": "The agent asked for the full name and date of birth before discussing the customer's details or quote, and the customer provided them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before we get into numbers, can I ask a bit about your situation and what's got you thinking about life cover?",
+      "timestamp": "00:42",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending an amount at 02:17.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "No, that's the price. Fifty-five a month, locked in, it won't move on you.",
+      "timestamp": "04:12",
+      "reason": "Premiums are stepped and rise each year as the customer ages, but the agent said the $55 premium is locked in and won't move. The agent also gave no mention of the stepped premium. The cover amounts, accidental-only first 12 months and cooling-off period were stated correctly.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Ha, no. There's no rush from my end. If you want to talk it over with your partner or check your super first, I'm happy to email the quote and the PDS and you can ring back whenever suits.",
+      "timestamp": "04:42",
+      "reason": "When the customer asked about an urgent offer, the agent denied any deadline and offered time to think it over, with no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yep. Yes, go ahead.",
+      "timestamp": "05:30",
+      "reason": "Before setting up the sale, the agent summarised the cover, the $55 monthly premium and the cooling-off period, then asked whether the customer was happy to proceed, and the customer gave a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Honestly no idea what's in my super.",
+      "timestamp": "01:43",
+      "reason": "The customer was engaged and understood the discussion. The bereavement mentioned concerned a friend's father, and there was no clear sign of confusion, illness or money distress requiring the agent to slow down or offer a call back.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs",
+      "timestamp": "01:53",
+      "reason": "The agent stated that the advice was general and did not take the customer's personal circumstances into account, before giving product information.",
+      "evidence_verified": true
+    }
+  ]
+}
