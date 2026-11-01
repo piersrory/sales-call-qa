@@ -5,9 +5,16 @@ import os
 import psycopg
 from psycopg.types.json import Jsonb
 
-from sales_call_qa.assess import format_transcript, redacted_turns
+import logging
+
+import anthropic
+
+from sales_call_qa.assess import assess, format_transcript, redacted_turns
 from sales_call_qa.schemas import Call, AssessmentRecord
 from sales_call_qa.vapi import call_from_vapi
+
+log = logging.getLogger(__name__)
+
 
 # The local Docker database by default; a deployed server sets DATABASE_URL instead
 DATABASE_URL = os.environ.get(
@@ -85,3 +92,36 @@ def store(payload: dict) -> Call | None:
             return None
         save_call(conn, call)
     return call
+
+
+def set_status(
+    conn: psycopg.Connection, call_id: str, status: str, error: str | None = None
+) -> None:
+    conn.execute(
+        "UPDATE raw_events SET status = %s, error = %s WHERE call_id = %s",
+        (status, error, call_id),
+    )
+
+
+async def process_call(payload: dict) -> None:
+    """Everything that happens to an arriving call. Runs after the webhook has replied,
+    so every outcome is recorded in raw_events.status: nobody is watching to see an error."""
+    call = store(payload)
+    if call is None:
+        log.info("Already received, skipping")
+        return
+    try:
+        async with anthropic.AsyncAnthropic(max_retries=5) as client:
+            record = await assess(client, call, MODEL)
+        if record is None:
+            raise RuntimeError("Claude didn't return a usable assessment")
+        with psycopg.connect(DATABASE_URL) as conn:
+            save_assessment(conn, record)
+            set_status(conn, call.call_id, "assessed")
+        log.info("%s: assessed", call.call_id)
+    except (
+        Exception
+    ) as e:  # any failure must be recorded, or the call looks stuck forever
+        log.exception("%s: assessment failed", call.call_id)
+        with psycopg.connect(DATABASE_URL) as conn:
+            set_status(conn, call.call_id, "failed", str(e))
