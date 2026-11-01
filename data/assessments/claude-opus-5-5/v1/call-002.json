@@ -1,0 +1,66 @@
+{
+  "call_id": "call-002",
+  "model": "claude-opus-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3418,
+  "output_tokens": 1457,
+  "seconds": 14.7,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "\"Before we go any further, I should let you know this call is recorded for training and quality purposes. Is that okay?\"",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the recording in the opening statement, well within the first minute, and confirmed it again at 00:21."
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "\"I've got your request here, Mr <PERSON>. You put in some details online. You're 61, a non-smoker, living in Leicester, and you were looking at around £60,000 of cover.\"",
+      "timestamp": "00:21",
+      "reason": "The agent went straight into the customer's details without confirming his full name and date of birth. Reading out his age from the online form is not a date of birth check, and no identity check happens anywhere else in the call."
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "\"Before I suggest anything, could you tell me a little about why you're looking at life cover, and who you'd want it to help?\"",
+      "timestamp": "01:09",
+      "reason": "Before recommending cover, the agent asked why the customer wanted cover and who it should help. They also asked about the remaining mortgage, his work and income (01:39-01:51) and his budget (02:01). The £50,000 recommendation was based on these answers."
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "\"you can choose cover anywhere from £25,000 up to £500,000. Second, there's no medical exam... In the first 12 months of the policy, only accidental death is covered... the premium is fixed, so it won't go up for the whole length of the policy. And you get 30 days to change your mind after it starts, with a full refund\"",
+      "timestamp": "02:16",
+      "reason": "Everything the agent said matches the product facts: the £25k-£500k cover range, no medical exam with acceptance based on health questions, accidental death only in the first 12 months, premiums fixed for the whole policy, and a 30-day cooling-off period with a full refund. The agent also correctly said acceptance could not be promised before the health questions."
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "\"I'm very happy to do that, and there's no pressure to decide today.\" / \"Take all the time you need.\"",
+      "timestamp": "03:59",
+      "reason": "The agent offered a call back, said there was no pressure to decide that day, and gave the customer time to think at 05:49. There was no false urgency at any point."
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "\"Acme Life Cover for £50,000. The premium is £28 a month, fixed for the whole length of the policy... Would you like to go ahead with that?\" Customer: \"Yes. Yes, I'd like to go ahead.\"",
+      "timestamp": "06:05",
+      "reason": "Before setting up the policy, the agent summarised the cover amount, the monthly premium and the key terms, and the customer clearly said yes (06:30)."
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "Customer: \"I had a stroke in the spring, you see, so I'm a bit slow with things now.\" Agent: \"I'll go slowly, and please stop me any time you want something repeated.\" ... \"would you like me to call back another day when your daughter or <PERSON> could be on the call with you?\"",
+      "timestamp": "00:38",
+      "reason": "The customer mentioned a recent stroke, slower processing and tighter finances. The agent slowed down and explained things in small pieces. They repeated information when asked and checked understanding, including asking him to explain the first-year rule in his own words (03:03). They also offered a call back with his daughter or wife present and promised written documents."
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market."
+    }
+  ]
+}
