@@ -1,0 +1,74 @@
+{
+  "call_id": "call-014",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3612,
+  "output_tokens": 2225,
+  "seconds": 8.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent states the call is recorded within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Hello, is that <PERSON>? It's <PERSON> calling from Acme Life Cover.",
+      "timestamp": "00:00",
+      "reason": "The agent only asks whether the customer is the named person and confirms no date of birth. The full name is not confirmed. The agent then discusses the customer's age, smoking status and quote at 00:24 ('It says you're 38, non-smoker') before any identity check.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "What made you start looking at life cover?",
+      "timestamp": "00:49",
+      "reason": "The agent asks about the customer's circumstances and reasons for wanting cover, including mortgage balance, term and family needs, before recommending the £250,000 amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Our cover goes from £25,000 up to £500,000, so you could go higher or lower",
+      "timestamp": "01:53",
+      "reason": "The cover range, no medical exam, first-12-month accidental-death-only restriction, fixed premium and 30-day full-refund cooling-off period all match the product facts. The £43 figure is a quote for this customer, not a contradiction.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "If you'd rather talk it over with <PERSON> or look elsewhere, that's completely fine.",
+      "timestamp": "03:45",
+      "reason": "When the customer asks whether they will get repeated calls if they do not act now, the agent says the quote is available, that the customer can talk it over or look elsewhere, and that they can ring back whenever suits. No false urgency is used.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I'm happy to go ahead.",
+      "timestamp": "05:16",
+      "reason": "Before setting up the policy, the agent summarised the £250,000 cover over 25 years at a fixed £43 a month and asked whether the customer was happy to go ahead, and the customer gave a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm self-employed, sparky. No death-in-service, nothing like that.",
+      "timestamp": "00:58",
+      "reason": "The customer shows no signs of vulnerability such as confusion, recent bereavement, illness or money worries. They are busy and cautious, and the financial concern is about family protection rather than hardship.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

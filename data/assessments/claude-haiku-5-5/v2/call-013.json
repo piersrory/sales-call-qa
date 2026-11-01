@@ -1,0 +1,74 @@
+{
+  "call_id": "call-013",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3458,
+  "output_tokens": 2327,
+  "seconds": 10.0,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Sure. It's <PERSON>, <PERSON> is fine. Date of birth is <DATE_OF_BIRTH>.",
+      "timestamp": "00:30",
+      "reason": "The agent asked for full name and date of birth at 00:21 before discussing details or a quote, and the customer gave both.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, can you tell me a bit about yourself and what's got you thinking about life cover?",
+      "timestamp": "00:39",
+      "reason": "The agent asked about circumstances and reasons for wanting cover before recommending any cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "There's no medical exam, it's just a few health questions, and acceptance depends on your answers.",
+      "timestamp": "01:59",
+      "reason": "The cover range, no medical exam, accidental-death-only first year, stepped premiums and 30-day cooling-off with full refund all match the product facts. The quoted $112 premium is not covered by the facts and is not a contradiction.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no rush at all.",
+      "timestamp": "04:52",
+      "reason": "The agent told the customer there was no rush, offered no false urgency, and let the customer decide to take time to talk to their partner and check their super.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I think I'd like to talk it over with <PERSON> before I sign up to anything.",
+      "timestamp": "04:42",
+      "reason": "No sale was completed on the call, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "That's the bit that worries me a bit. I'm on a fixed income now.",
+      "timestamp": "02:55",
+      "reason": "The customer showed money worries and the agent did not slow down or check understanding. It moved straight to recommending the $100,000 cover and quoting the premium, and when the customer said Gee and had not thought about how it adds up, the agent did not check understanding. A call back or trusted-person offer was not made in response to the vulnerability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "fail",
+      "evidence": "Good morning, thanks for calling Acme Life, you're speaking with <PERSON>.",
+      "timestamp": "00:00",
+      "reason": "The agent never said that any advice was general or that it did not take the customer's personal circumstances into account. Instead it gave a personal recommendation at 03:01, and the opening lines contain no such warning.",
+      "evidence_verified": true
+    }
+  ]
+}

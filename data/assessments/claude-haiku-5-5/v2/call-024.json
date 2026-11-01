@@ -1,0 +1,74 @@
+{
+  "call_id": "call-024",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3377,
+  "output_tokens": 2921,
+  "seconds": 12.1,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I go into any of your details or a quote, can I just confirm your full name and date of birth please?",
+      "timestamp": "00:18",
+      "reason": "The agent asked for full name and date of birth before discussing details or a quote, and confirmed them at 00:41.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So to make sure we look at the right thing for you, can you tell me a bit about your situation and why you're thinking about life cover?",
+      "timestamp": "00:41",
+      "reason": "The agent asked about the customer's circumstances and reasons before recommending any cover amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Acme Life Cover lets you choose a cover amount anywhere from fifty thousand up to one million dollars",
+      "timestamp": "01:38",
+      "reason": "The cover range, stepped premiums, terminal illness benefit, two-year pre-existing condition exclusion and 30-day free-look all match the product facts. The quoted monthly premiums are not in the facts and are not a contradiction.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no rush on our side, the cover's available whenever you're ready.",
+      "timestamp": "04:33",
+      "reason": "The agent told the customer the decision was theirs and used no false urgency, and offered a call back and an email summary.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "If you're happy with two fifty, I can take you through the application questions now, it takes about fifteen minutes.",
+      "timestamp": "04:08",
+      "reason": "No sale was completed; the customer said I won't decide today.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "If you wanted, we could also look at a lower cover amount, say one fifty thousand, which would bring the starting premium down to about one hundred and twelve a month.",
+      "timestamp": "03:23",
+      "reason": "The customer disclosed a recent stroke, muddled words, losing track and foggy thinking, and said it was a lot at once. The agent did not slow down or check understanding, and kept adding options and figures. It did offer an email and a call back and suggested going through it with his wife, but that was not enough.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

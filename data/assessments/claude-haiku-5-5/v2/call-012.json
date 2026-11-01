@@ -1,0 +1,74 @@
+{
+  "call_id": "call-012",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3659,
+  "output_tokens": 2336,
+  "seconds": 9.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just letting you know this call is recorded for quality and training purposes. How can I help you today?",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Thanks, <PERSON>. I've got you as <PERSON>, <DATE_OF_BIRTH>. That all matches.",
+      "timestamp": "00:32",
+      "reason": "The agent asked for full name and date of birth at 00:17 and confirmed both at 00:32, before discussing the customer's circumstances or quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So tell me a bit about yourself, what's got you thinking about life cover?",
+      "timestamp": "00:32",
+      "reason": "The agent asked about the customer's circumstances and reason for wanting cover before recommending any amount, then probed debts, existing cover and health.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Our cover goes anywhere from fifty thousand up to a million dollars",
+      "timestamp": "02:11",
+      "reason": "The stated cover range, stepped premiums, two-year pre-existing condition exclusion, terminal illness benefit and 30-day full-refund free look all match the product facts. The urgency claim is covered under no_pressure_selling, and the claim that the policy does exactly what he wanted is not in the facts but does not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "that eighty-five dollar rate I've pulled up is a special rate that's only available on this call",
+      "timestamp": "03:49",
+      "reason": "The agent used false urgency by saying the rate was only available on this call and could not be promised if the customer rang back. The agent also said I'd hate for you to miss out when we've got it sorted right here, and the customer said I don't usually like being rushed on these things.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I'm happy to go ahead.",
+      "timestamp": "05:32",
+      "reason": "Before completing the sale, the agent summarised the cover amount, the stepped monthly premium of eighty-five dollars, the exclusion, the terminal illness benefit and the free-look period at 04:56, then asked whether the customer was happy to go ahead, and got a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm on a fixed income now, so I'd have to keep an eye on that.",
+      "timestamp": "03:08",
+      "reason": "The customer mentioned retirement, a fixed income and blood pressure medication but described themselves as comfortable and showed no confusion, bereavement or money worry that required the agent to slow down or offer a call back.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-001",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3672,
+  "output_tokens": 2439,
+  "seconds": 10.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed the call recording within the first minute, in the opening lines.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything specific for you, can I just confirm your full name and date of birth?",
+      "timestamp": "00:24",
+      "reason": "The agent asked for the customer's full name and date of birth before discussing their situation or any quote, and the customer provided both.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before we get into numbers, can I ask a bit about your situation and what's got you thinking about life cover?",
+      "timestamp": "00:42",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending an amount at 02:17.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "No, that's the price. Fifty-five a month, locked in, it won't move on you.",
+      "timestamp": "04:12",
+      "reason": "The product facts state that premiums are stepped and rise each year as the customer ages, so telling the customer the $55 premium is locked in and won't move contradicts the product facts. The other statements about cover amounts, no medical exam and the first-12-month accidental-only cover match the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no rush from my end.",
+      "timestamp": "04:42",
+      "reason": "When the customer mentioned a possible offer deadline, the agent said there was no rush and offered to email the quote and PDS so the customer could ring back when suited.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Are you happy to go ahead on that basis?",
+      "timestamp": "05:04",
+      "reason": "Before setting up the policy, the agent summarised the cover, the $500,000 lump sum, the accidental-only first 12 months, the $55 monthly premium and the cooling-off period, and the customer then gave a clear yes at 05:30.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Honestly no idea what's in my super.",
+      "timestamp": "01:43",
+      "reason": "The customer showed no clear signs of vulnerability such as confusion about the product, bereavement, illness or money distress; the mention of a deceased friend's father and the self-employed income concern were not signs of the customer's own vulnerability requiring a slowdown or call back.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "Before I go any further, I should say that anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs",
+      "timestamp": "01:53",
+      "reason": "The agent stated the advice was general and did not take the customer's personal circumstances into account before discussing the product.",
+      "evidence_verified": true
+    }
+  ]
+}

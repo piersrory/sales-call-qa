@@ -1,0 +1,74 @@
+{
+  "call_id": "call-030",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3547,
+  "output_tokens": 2661,
+  "seconds": 10.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I need to let you know this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording within the first minute, before the customer's details were discussed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we talk about any details or a quote, could I take your full name, please?",
+      "timestamp": "00:24",
+      "reason": "The agent asked for the full name before discussing details or a quote, then asked for the date of birth at 00:36 before the quote. The customer gave the date of birth at 00:48 and the agent confirmed it matched the form at 00:54.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, can I ask what's made you start looking into life cover at the moment?",
+      "timestamp": "00:54",
+      "reason": "The agent asked about the customer's reason for wanting cover and went on to ask about the mortgage and dependants before recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "Yes, you'd be fully covered from the day the policy starts, so <PERSON> would receive the hundred and fifty thousand.",
+      "timestamp": "03:43",
+      "reason": "The product facts say only accidental death is covered in the first 12 months. The agent said full cover from day one applies to a death following a stroke, which contradicts those facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no pressure to decide today.",
+      "timestamp": "04:13",
+      "reason": "The agent said there was no rush, offered a call back and said there was no pressure to decide today. No false urgency was used.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "So to summarise: Acme Life Cover, one hundred and fifty thousand pounds of cover, a fixed premium of fifty pounds a month, with <PERSON> able to claim on it.",
+      "timestamp": "05:17",
+      "reason": "The agent summarised the cover and monthly premium before asking to proceed. The customer gave a clear yes at 05:31.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "I'll take things slowly, and if anything isn't clear, just stop me and I'll go over it again.",
+      "timestamp": "01:22",
+      "reason": "After the customer mentioned losing their thread, the agent slowed down and invited questions. It checked understanding at 04:40 and offered a call back and a chance to involve the customer's wife at 04:13.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

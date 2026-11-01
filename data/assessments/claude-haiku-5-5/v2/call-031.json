@@ -1,0 +1,74 @@
+{
+  "call_id": "call-031",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3433,
+  "output_tokens": 2549,
+  "seconds": 10.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Great, thanks, Mr. <PERSON>, that's all confirmed.",
+      "timestamp": "00:46",
+      "reason": "The agent asked for full name and date of birth at 00:21 before discussing details, and confirmed both at 00:46 before the needs discussion and quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So tell me a bit about your situation. What's got you looking at life insurance right now?",
+      "timestamp": "00:46",
+      "reason": "The agent asked about the customer's circumstances and reason for wanting cover before recommending a product amount or term.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Coverage goes anywhere from $50,000 up to $750,000, there's no medical exam, acceptance is based on a few health questions, you pick a 10- or 20-year term, premiums are fixed for the whole term, and there's no cash value",
+      "timestamp": "01:52",
+      "reason": "Statements about coverage range, no medical exam, health-question acceptance, term options, fixed premiums, no cash value, and the 30-day full refund all match the product facts. No price was quoted as a product fact contradiction.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's completely fine, there's no rush at all. Take whatever time you need.",
+      "timestamp": "05:05",
+      "reason": "When the customer said they did not want to decide that day, the agent accepted this with no false urgency and offered a summary or callback.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "No sale was completed; the customer deferred the decision and no purchase was made.",
+      "evidence_verified": false
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "You can cancel within 30 days and get all your money back. So, did you want to keep going with the rest of the questions now, or—",
+      "timestamp": "04:17",
+      "reason": "The customer disclosed a stroke, word-finding trouble, forgetfulness and said her head was getting full, but the agent kept pushing to continue the health questions and product detail rather than slowing down and checking understanding. The agent did offer an email summary and a callback, but did not check understanding or explicitly suggest involving a trusted person.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

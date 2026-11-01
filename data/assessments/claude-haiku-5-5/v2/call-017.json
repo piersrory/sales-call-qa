@@ -1,0 +1,74 @@
+{
+  "call_id": "call-017",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3676,
+  "output_tokens": 2723,
+  "seconds": 10.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "Recording was disclosed in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Yep, it's <PERSON>. Date of birth is <DATE_OF_BIRTH>.",
+      "timestamp": "00:26",
+      "reason": "The agent asked for full name and date of birth before discussing details or quotes, and the customer provided both. The agent then confirmed them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I tell you about the cover itself, do you mind if I ask a little about your situation and what's got you thinking about life insurance?",
+      "timestamp": "00:33",
+      "reason": "The agent asked about circumstances and motivation before recommending cover, and the customer explained their retirement and grandchildren reasons.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "First, in the first twelve months of the policy, only accidental death is covered.",
+      "timestamp": "02:10",
+      "reason": "The statements about the cover range, no medical exam, accidental-death-only first year, stepped premiums and 30-day cooling-off with full refund all match the product facts. The renewal notice and policy document details are not in the facts but do not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "It's entirely up to you whether you go ahead today or have a think first. Would you like me to set it up now?",
+      "timestamp": "04:30",
+      "reason": "The customer had said they wanted to talk to their partner who handles the budget and was unsure. The agent then pushed to set up the policy immediately and went on to take payment details after a hesitant reply, despite earlier saying there was no rush.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "fail",
+      "evidence": "Would you like me to set it up now?",
+      "timestamp": "04:30",
+      "reason": "Before completing the sale, the agent never summarised the cover amount and monthly premium together. The customer's reply was a hesitant 'Uh... I guess so', which is not a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "The house is paid off, the wife and I are comfortable enough",
+      "timestamp": "00:43",
+      "reason": "The customer showed no clear signs of vulnerability such as confusion, bereavement, illness or money worries, so this criterion does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "I should mention that anything I tell you today is general advice only, and it doesn't take into account your personal objectives, financial situation or needs",
+      "timestamp": "01:33",
+      "reason": "The agent stated that the advice was general and did not take the customer's personal circumstances into account.",
+      "evidence_verified": true
+    }
+  ]
+}

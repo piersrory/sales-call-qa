@@ -1,0 +1,74 @@
+{
+  "call_id": "call-037",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3356,
+  "output_tokens": 2458,
+  "seconds": 10.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Hi, is that <PERSON>? It's <PERSON> calling from Acme Life. You filled in a call-back request on our website last night about our life cover.",
+      "timestamp": "00:00",
+      "reason": "The agent never tells the customer the call is recorded in the first minute, and no recording disclosure appears anywhere in the opening lines.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Hi, is that <PERSON>? It's <PERSON> calling from Acme Life.",
+      "timestamp": "00:00",
+      "reason": "The agent only asks whether the customer is a first name and never confirms full name or date of birth. Straight after, at 00:13, the agent discusses the customer's age, smoking status, cover amount and a $62.40 quote before any identity check.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "What's prompting you to look at cover now?",
+      "timestamp": "00:34",
+      "reason": "Before recommending the $500,000 figure, the agent asks about the customer's reasons for wanting cover, then asks about debts and dependants.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "There's a 30-day cooling-off period. If you cancel within that time, you get a full refund of what you've paid.",
+      "timestamp": "03:27",
+      "reason": "The cover range, no medical exam, accidental-death-only first 12 months, stepped premiums and 30-day full refund all match the product facts. The $62.40 figure is a quote for this customer, not a contradiction.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no pressure to decide on this call.",
+      "timestamp": "04:02",
+      "reason": "When asked about urgency, the agent denies any price rise if the customer doesn't sign today, and the customer is left to decide in their own time with no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "Then I think I'll hold off.",
+      "timestamp": "04:12",
+      "reason": "The customer declines to proceed and no sale is completed, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'll be honest, my weeks are chaos.",
+      "timestamp": "04:58",
+      "reason": "The customer is busy and mentions budgeting concerns, but shows no clear confusion, bereavement, illness or money worries that would trigger vulnerability handling.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "I should say that's general information only, it doesn't take into account your full personal circumstances or finances, so you'd want to weigh it up against your own situation.",
+      "timestamp": "01:23",
+      "reason": "The agent states the cover-amount guidance is general information and does not account for the customer's full personal circumstances or finances.",
+      "evidence_verified": true
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-010",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3120,
+  "output_tokens": 1685,
+  "seconds": 6.7,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "I should let you know this call is recorded for training and quality purposes",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording within the first minute, before the customer's first substantive reply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything personal or a quote, can I take your full name and date of birth, please?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for full name and date of birth before discussing the customer's details or quote, and the customer provided them at 00:31.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, tell me a bit about your situation. You mentioned the mortgage. What's prompting you to look at cover now?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "No medical exam with this one.",
+      "timestamp": "01:57",
+      "reason": "Statements on cover range, no medical exam, fixed premium, the first-12-month accidental-death-only limit, and the 30-day full-refund cooling-off period all match the product facts. The £39 monthly figure is a personal quote, not a contradiction, and the job-move remark is a claim the facts don't mention.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "If you'd like to think it over, or talk it through with her, that's absolutely fine. The quote's there whenever you're ready.",
+      "timestamp": "03:27",
+      "reason": "The agent explicitly let the customer take time to decide and did not create false urgency.",
+      "evidence_verified": false
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Are you happy to go ahead on that basis?",
+      "timestamp": "04:01",
+      "reason": "The agent summarised the cover, the £39 monthly premium, the term and the key conditions, then asked for consent. The customer replied with a clear yes at 04:28.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "That's a bit more than I was expecting.",
+      "timestamp": "02:48",
+      "reason": "The customer showed no confusion, bereavement, illness or serious money worry. Only a mild reaction to the price, so the item does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-022",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3346,
+  "output_tokens": 831,
+  "seconds": 3.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I need to let you know this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed within the first minute that the call is recorded.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "So that's <PERSON>, born <DATE_OF_BIRTH>. Is that correct?",
+      "timestamp": "00:55",
+      "reason": "Before discussing quote details, the agent read back the customer's name and date of birth and the customer confirmed with Yes. The agent asked for these before discussing quote figures, though the customer questioned why the date of birth was needed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I talk about amounts, can I ask a bit about your situation? What's made you start looking at life cover?",
+      "timestamp": "01:03",
+      "reason": "The agent asked about the customer's circumstances and reason for wanting cover before recommending any amount, and followed up on dependants, mortgage and existing cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Anywhere from £25,000 up to £500,000.",
+      "timestamp": "03:04",
+      "reason": "The cover range matches the product facts. The 12-month accidental-death-only limit, fixed premiums, no medical exam and the 30-day full refund were all stated consistently with the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's absolutely fine, no pressure at all.",
+      "timestamp": "00:20",
+      "reason": "The agent let the customer take their time, did not create false urgency, and accepted the customer's decision to delay and compare quotes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I'm not going to decide today. I want to talk it through with my partner first.",
+      "timestamp": "04:46",
+      "reason": "No sale was completed, so explicit consent before completing a sale does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm self-employed, I'm an electrician. If something happened to me there's no death-in-service or anything like you'd get with an employer.",
+      "timestamp": "01:12",
+      "reason": "The customer expressed concern about financial protection but did not show confusion, bereavement, illness or money worries of the kind the criterion targets, so vulnerability handling does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

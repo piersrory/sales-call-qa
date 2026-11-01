@@ -1,0 +1,74 @@
+{
+  "call_id": "call-033",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3303,
+  "output_tokens": 2914,
+  "seconds": 11.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "Recording disclosed in the opening turn.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go into any details or pricing, can I please confirm your full name and date of birth?",
+      "timestamp": "00:20",
+      "reason": "Name and date of birth were confirmed before the mortgage details and quote were discussed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So can I ask what's got you thinking about life cover at the moment?",
+      "timestamp": "00:35",
+      "reason": "Agent asked about circumstances and motivation before recommending $500,000 cover at 01:39.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "Yes, once the policy's in place you're covered from day one, whether it's an illness or an accident.",
+      "timestamp": "03:29",
+      "reason": "Product facts state only accidental death is covered in the first 12 months, so illness cover from day one contradicts the facts. The $35 quote and stepped premium description are consistent with the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Totally understandable, there's no rush at all. The quote isn't going anywhere, so if you'd rather chat with him and call back, that's completely fine.",
+      "timestamp": "03:48",
+      "reason": "Agent explicitly removed urgency when the customer hesitated. Agent did firmly recommend $500,000, but no false urgency was used.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, I'm happy to go ahead.",
+      "timestamp": "04:46",
+      "reason": "Before the sale, the agent summarised the cover, the $35 monthly premium and its stepped nature, then asked whether the customer was happy to proceed, and received a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "I'm just a bit unsure whether I should talk to my partner first. It's a big thing to sign up to on the spot.",
+      "timestamp": "03:39",
+      "reason": "The customer showed uncertainty and money strain (we'd struggle on one income). The agent offered a call back and mentioned the partner, but did not slow down or check understanding before proceeding to the sale.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "fail",
+      "evidence": "Good morning, thanks for calling Acme Life, you're speaking with <PERSON>. Just so you know, this call is recorded for quality and training purposes. How can I help today?",
+      "timestamp": "00:00",
+      "reason": "No general advice warning was given. The agent gave a personal recommendation ('I'd go for $500,000... That's what I'd do in your shoes') without stating that advice is general and does not account for the customer's circumstances. Opening lines shown as where it should have occurred.",
+      "evidence_verified": true
+    }
+  ]
+}

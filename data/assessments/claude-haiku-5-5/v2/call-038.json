@@ -1,0 +1,74 @@
+{
+  "call_id": "call-038",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3151,
+  "output_tokens": 2046,
+  "seconds": 8.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything personal or give you a quote, can I take your full name and date of birth, please?",
+      "timestamp": "00:19",
+      "reason": "The agent asked for full name and date of birth before discussing personal details or a quote, and confirmed them at 00:33.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So before I suggest anything, can you tell me a bit about your situation and what's made you look at cover now?",
+      "timestamp": "00:40",
+      "reason": "The agent asked about circumstances and the reason for wanting cover before recommending any amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "After that first year, you're covered for death from any cause, subject to the policy terms.",
+      "timestamp": "01:45",
+      "reason": "The agent's statements on the no-medical process, the first-year accidental-only cover, the fixed premium, the 30-day refund and the £25,000 to £500,000 range all match the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "And honestly, there's no rush today either. If you'd rather talk it over with her first and ring back, that's absolutely fine.",
+      "timestamp": "03:13",
+      "reason": "The agent explicitly offered the customer time to decide and did not use false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "fail",
+      "evidence": "I guess so.",
+      "timestamp": "03:36",
+      "reason": "The agent asked whether the customer wanted to go ahead without first summarising the cover and monthly premium, and the customer's answer was hesitant rather than a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm not paying a fortune.",
+      "timestamp": "01:20",
+      "reason": "The customer showed price sensitivity but no clear signs of vulnerability such as confusion, bereavement, illness or money worries, so the criterion does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

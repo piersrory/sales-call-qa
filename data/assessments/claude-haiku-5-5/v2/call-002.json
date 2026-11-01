@@ -1,0 +1,74 @@
+{
+  "call_id": "call-002",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3565,
+  "output_tokens": 2227,
+  "seconds": 9.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for training and quality purposes. Is that okay?",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed within the first minute that the call is recorded.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "I've got your request here, Mr <PERSON>. You put in some details online. You're 61, a non-smoker, living in Leicester, and you were looking at around £60,000 of cover.",
+      "timestamp": "00:21",
+      "reason": "The agent only used the customer's surname and never confirmed his full name or date of birth. The agent discussed his age, location and cover amount before any identity check.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I suggest anything, could you tell me a little about why you're looking at life cover, and who you'd want it to help?",
+      "timestamp": "01:09",
+      "reason": "The agent asked about the customer's reasons for wanting cover and who it would protect before recommending anything. The agent also asked about his employment and monthly budget.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "The other things to know are that the premium is fixed, so it won't go up for the whole length of the policy.",
+      "timestamp": "03:39",
+      "reason": "The agent's statements on cover range, no medical exam, the accidental-death-only first 12 months, fixed premiums and the 30-day full refund all match the product facts. The £28 monthly figure is a quote for this customer, not a contradiction of the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Take all the time you need.",
+      "timestamp": "05:49",
+      "reason": "The agent offered a call back with no pressure to decide that day, told the customer he could change his mind at any point, and gave him time to think before asking for a decision. No false urgency was used.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Acme Life Cover for £50,000. The premium is £28 a month, fixed for the whole length of the policy.",
+      "timestamp": "06:05",
+      "reason": "The agent summarised the cover amount and monthly premium before setting up the policy and then asked whether to go ahead. The customer gave a clear yes at 06:30.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "Mr <PERSON>, as there's quite a lot here, would you like me to call back another day when your daughter or <PERSON> could be on the call with you?",
+      "timestamp": "03:59",
+      "reason": "The customer disclosed a stroke, slowed thinking and money worries. The agent slowed down, checked understanding, asked the customer to explain the first-year rule in his own words and offered a call back with a trusted family member.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

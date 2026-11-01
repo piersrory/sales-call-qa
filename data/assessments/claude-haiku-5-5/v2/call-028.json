@@ -1,0 +1,74 @@
+{
+  "call_id": "call-028",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3209,
+  "output_tokens": 2183,
+  "seconds": 8.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Thanks <PERSON>, so that's <PERSON>, born <DATE_OF_BIRTH>. Is that right?",
+      "timestamp": "00:31",
+      "reason": "The agent asked for full name and date of birth at 00:19 before discussing details, and confirmed both back to the customer at 00:31.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So I can point you towards the right level of cover, can I ask a bit about your situation? What's got you thinking about life cover now?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about circumstances and motivation before recommending the $500,000 cover at 01:36.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Our cover goes anywhere from fifty thousand up to a million",
+      "timestamp": "01:36",
+      "reason": "The cover range, stepped premiums, two-year pre-existing condition exclusion, terminal illness benefit and 30-day full-refund free-look all match the product facts. The quoted $60 price is specific to this customer and the renewal-process claim is not contradicted by the facts, so neither is a breach. The 'only hold on this call' claim is a pressure tactic and is assessed under no_pressure_selling.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "the sixty dollars is a rate I can only hold on this call",
+      "timestamp": "03:09",
+      "reason": "The agent used false urgency to discourage the customer from taking time to decide with their partner, then added 'It's really a today thing' at 03:24 and 'Most people in your spot just lock it in now'.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes, go ahead.",
+      "timestamp": "04:29",
+      "reason": "Before the sale, the agent summarised the cover amount, the $60 monthly premium to start, the stepped premiums and the key exclusions and benefits, then asked whether the customer was happy to proceed, and the customer gave a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I've got mild asthma, use an inhaler now and then. That's it.",
+      "timestamp": "01:31",
+      "reason": "The customer disclosed mild asthma and a financial concern but showed no confusion, distress, bereavement or money hardship that would trigger the vulnerability handling requirement.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

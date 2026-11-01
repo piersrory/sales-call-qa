@@ -1,0 +1,74 @@
+{
+  "call_id": "call-026",
+  "model": "claude-haiku-5-5",
+  "prompt_version": "v2",
+  "input_tokens": 3432,
+  "output_tokens": 3088,
+  "seconds": 12.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Hello, is that <PERSON>? It's <PERSON> calling from Acme Life Cover. You filled in a form on our website asking for a call back about life cover.",
+      "timestamp": "00:00",
+      "reason": "The call is not disclosed as recorded anywhere in the first minute. The opening lines contain no recording disclosure.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Hello, is that <PERSON>?",
+      "timestamp": "00:00",
+      "reason": "The agent only checked the customer's name. Their date of birth was never confirmed, and the agent discussed the customer's age, address and smoking status from the form at 00:14 before any full identity check.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I talk about any quotes, can I ask a bit about you and what's made you think about cover?",
+      "timestamp": "00:30",
+      "reason": "The agent asked about the customer's circumstances and reasons for wanting cover before recommending any cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "No medical exam at all. Instead there are a few health questions, and whether you're accepted depends on your answers to those.",
+      "timestamp": "02:21",
+      "reason": "The statements about no medical exam, fixed premium, accidental-death-only cover in the first twelve months, cover range and 30-day cooling-off period all match the product facts. The quoted price is a customer-specific figure, not a contradiction.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no rush at all.",
+      "timestamp": "03:36",
+      "reason": "The agent told the customer there was no rush and offered time to think it over and come back later. The remark about the price not disappearing tomorrow was reassuring rather than false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Yes. Yes, I'd like to go ahead.",
+      "timestamp": "05:14",
+      "reason": "Before the sale, the agent summarised the cover amount, monthly premium, fixed premium, twelve-month accidental-only restriction and cooling-off period, then asked if the customer was happy to proceed. The customer gave a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I don't want anything too much. Maybe fifteen, twenty pounds at the very most. I'm on a fixed income now.",
+      "timestamp": "01:41",
+      "reason": "The customer is widowed and on a fixed income, but the bereavement was a few years ago and she shows no confusion, illness or money distress. The customer is clear and capable, so the vulnerability criterion does not clearly apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}
