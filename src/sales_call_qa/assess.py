@@ -275,39 +275,6 @@ async def assess_and_save(
     return record
 
 
-# async def assess_and_save(
-#     client: anthropic.AsyncAnthropic, call: Call, model: str
-# ) -> AssessmentRecord | None:
-#     # Redact once: the prompt and the quote check must see the same text, and Presidio is slow
-#     turns = redacted_turns(call)
-#     start = time.perf_counter()
-#     response = await assess_call(client, call, turns, model)
-#     seconds = (
-#         time.perf_counter() - start
-#     )  # includes any retries, so it's what a caller waits
-#     if response is None:
-#         return None
-#     verdicts = verify_evidence(response.parsed_output, turns)
-#     unverified = [v.criterion for v in verdicts if not v.evidence_verified]
-#     if unverified:
-#         log.warning(
-#             "%s: evidence not found in the transcript for %s", call.call_id, unverified
-#         )
-#     record = AssessmentRecord(
-#         call_id=call.call_id,
-#         model=response.model,
-#         prompt_version=PROMPT_VERSION,
-#         input_tokens=response.usage.input_tokens,
-#         output_tokens=response.usage.output_tokens,
-#         seconds=round(seconds, 1),
-#         verdicts=with_market_rows(call, verdicts),
-#     )
-#     out_dir = ASSESSMENTS_DIR / model / PROMPT_VERSION
-#     out_dir.mkdir(parents=True, exist_ok=True)
-#     (out_dir / f"{call.call_id}.json").write_text(record.model_dump_json(indent=2))
-#     return record
-
-
 async def assess_all(call_ids: list[str], model: str, concurrency: int) -> None:
     out_dir = ASSESSMENTS_DIR / model / PROMPT_VERSION
     # Skip calls already assessed with this model and prompt, so rerunning after a crash or
