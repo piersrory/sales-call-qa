@@ -1,0 +1,74 @@
+{
+  "call_id": "call-007",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3503,
+  "output_tokens": 921,
+  "seconds": 5.4,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Hi, this is <PERSON> calling from Acme Life. I'm returning a call-back request about our term life coverage. Am I speaking with <PERSON>?",
+      "timestamp": "00:00",
+      "reason": "The agent never says the call is recorded in the opening lines or in the first minute. The disclosure is missing.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we get into any details, could you confirm your full name and date of birth for me?",
+      "timestamp": "00:16",
+      "reason": "The agent asked for full name and date of birth before discussing needs or a quote, and the customer provided both.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I suggest anything, can I ask what got you thinking about coverage?",
+      "timestamp": "00:28",
+      "reason": "The agent asked why the customer wants cover, then asked about debts, amount and duration before recommending $250,000 over 20 years.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "We offer coverage anywhere from fifty thousand up to seven hundred and fifty thousand dollars, on either a ten- or twenty-year term.",
+      "timestamp": "01:39",
+      "reason": "Range, terms, no medical exam, fixed premium, no cash value and the 30-day free look with full refund all match the product facts. The $22 quote is not contradicted by the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "But if you'd like to run it by your accountant first, that's completely fine. I can send you the quote and you can call back whenever suits you.",
+      "timestamp": "03:18",
+      "reason": "The agent offered time to think and used no false urgency. The customer chose to proceed, and the agent said 'It's your call, though.'",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "This is Acme Term Life, two hundred and fifty thousand dollars of coverage for a twenty-year term, at twenty-two dollars a month, fixed for the full term. There's no cash value, and you have thirty days to cancel for a full refund. Would you like to go ahead with that?",
+      "timestamp": "04:25",
+      "reason": "The agent summarised the cover and monthly premium before taking payment details and received a clear yes at 04:47.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I've got maybe ten minutes before I need to get back to the shop, so if we can keep it quick, that'd be great.",
+      "timestamp": "00:07",
+      "reason": "The customer shows time pressure but no confusion, bereavement, illness or money worries, so there are no signs of vulnerability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

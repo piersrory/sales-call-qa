@@ -1,0 +1,74 @@
+{
+  "call_id": "call-018",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3184,
+  "output_tokens": 1048,
+  "seconds": 8.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "So I can pull up your enquiry, could I just take your full name and date of birth, please?",
+      "timestamp": "00:21",
+      "reason": "The agent asked for full name and date of birth before discussing any quote or details, and confirmed the match at 00:35.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So before I start talking about quotes, I'd like to understand a bit about you and what's prompted you to look at cover. What's going on at the moment?",
+      "timestamp": "00:45",
+      "reason": "The agent asked about the customer's reasons, mortgage, dependants and existing cover before recommending £200,000 over 25 years.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "Once the policy's set up you're fully covered from day one, so if anything happened, illness or accident, your wife would get the two hundred thousand straight away.",
+      "timestamp": "00:30",
+      "reason": "Only accidental death is covered in the first 12 months, so claiming full cover for illness from day one is wrong. The agent never mentioned this exclusion. The other statements on cover range, no medical, fixed premium and cooling-off were accurate.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Completely understandable. You've got a thirty-day cooling-off period, so if you decide it's not for you within that time you can cancel and get a full refund. And there's no pressure today either. If you want to talk it over with your wife first, I'm happy to email the quote and you can ring back whenever suits.",
+      "timestamp": "03:49",
+      "reason": "The agent explicitly said there was no pressure, offered to email the quote and let the customer ring back, and gave time to think. No false urgency was used.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "This is Acme Life Cover for you, <PERSON>, with a cover amount of two hundred thousand pounds over a twenty-five-year term. The premium is eighteen pounds a month, fixed for the full term, and you've got thirty days to cancel for a full refund. Are you happy to go ahead on that basis?",
+      "timestamp": "04:29",
+      "reason": "The agent summarised cover amount, term and monthly premium before completing the sale, and the customer gave a clear yes at 04:52. The summary omitted the first-year accidental-death limitation, but the criterion only requires the cover and premium summary plus a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Money's a bit tight after the move.",
+      "timestamp": "03:41",
+      "reason": "The customer signalled money worries, but the agent only offered the cooling-off period and a call back. The agent did not check understanding or affordability, and did not slow down, particularly after giving inaccurate cover information.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-001",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3580,
+  "output_tokens": 1102,
+  "seconds": 7.0,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything specific for you, can I just confirm your full name and date of birth?",
+      "timestamp": "00:24",
+      "reason": "The agent asked for full name and DOB and confirmed them at 00:42 before discussing the quote or any details.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before we get into numbers, can I ask a bit about your situation and what's got you thinking about life cover?",
+      "timestamp": "00:42",
+      "reason": "The agent explored the customer's circumstances, dependants, mortgage, income and existing cover before recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "No, that's the price. Fifty-five a month, locked in, it won't move on you. So you know exactly what's coming out each month.",
+      "timestamp": "04:12",
+      "reason": "Product facts say premiums are stepped and rise each year with age, so claiming the price is locked in and won't move is false. Other details (amounts, no exam, 12-month accidental only, cooling-off) were accurate.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "Ha, no. There's no rush from my end. If you want to talk it over with your partner or check your super first, I'm happy to email the quote and the PDS and you can ring back whenever suits.",
+      "timestamp": "04:42",
+      "reason": "The agent explicitly removed time pressure and offered time to decide; no false urgency was used.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "fail",
+      "evidence": "It's Acme Life Cover for <PERSON>, $500,000 lump sum paid on death. For the first 12 months it covers accidental death only, then death from any cause after that. The premium is $55 a month, and you've got a 30-day cooling-off period with a full refund if you change your mind. Are you happy to go ahead on that basis?",
+      "timestamp": "05:04",
+      "reason": "The agent summarised the cover and premium and got a clear yes, but the summary presented $55 as the premium without disclosing that it is stepped and will rise, so consent was not properly informed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "My mate's dad passed last year with nothing in place and it made a right mess for the family. Got me thinking.",
+      "timestamp": "00:55",
+      "reason": "The bereavement was of an acquaintance's relative, not the customer's own, and the customer showed no confusion, distress or financial hardship, so no clear vulnerability signs.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "Before I go any further, I should say that anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs, so you'll want to think about whether it suits you, and have a read of the Product Disclosure Statement.",
+      "timestamp": "01:53",
+      "reason": "The agent gave a clear general advice warning before recommending a cover amount.",
+      "evidence_verified": true
+    }
+  ]
+}

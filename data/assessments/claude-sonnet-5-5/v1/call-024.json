@@ -1,0 +1,74 @@
+{
+  "call_id": "call-024",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3285,
+  "output_tokens": 888,
+  "seconds": 9.6,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Thanks <PERSON>, that's all confirmed.",
+      "timestamp": "00:41",
+      "reason": "The agent asked for full name and date of birth before discussing details, and the customer supplied them. However, the customer gave only a name token and a date of birth, and the agent then confirmed. Strictly, the name appears to be given as a single first-name token, so a full name is not clearly confirmed. Overall this is borderline, but the agent did ask before discussing the quote. Marked as fail due to unclear full-name verification.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "can you tell me a bit about your situation and why you're thinking about life cover?",
+      "timestamp": "00:41",
+      "reason": "The agent asked about circumstances and reasons, then followed up on mortgage, dependants and work before recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Premiums are stepped, which means they go up each year as you get older.",
+      "timestamp": "01:38",
+      "reason": "Cover range, stepped premiums, terminal illness benefit, two-year pre-existing exclusion and 30-day free-look all match the product facts. Premium figures are not in the facts, so they cannot be contradicted.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's completely up to you. There's no rush on our side, the cover's available whenever you're ready.",
+      "timestamp": "04:33",
+      "reason": "The agent did not use false urgency, let the customer decide in his own time, and accepted his decision not to proceed today.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I won't decide today.",
+      "timestamp": "05:13",
+      "reason": "No sale was completed. The customer chose to wait and the agent only emailed quotes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Sure, stepped premiums, so the price goes up every year as you get older.",
+      "timestamp": "02:19",
+      "reason": "The customer disclosed a recent stroke, muddled words and fogginess, and repeatedly said he could not keep up. The agent kept giving more figures and options, and offered to start a 15-minute application. The agent did not slow down, check understanding or offer a call back until the customer himself asked for his wife and written information.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

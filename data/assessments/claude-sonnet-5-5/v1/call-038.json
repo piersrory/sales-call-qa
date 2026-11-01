@@ -1,0 +1,74 @@
+{
+  "call_id": "call-038",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3059,
+  "output_tokens": 838,
+  "seconds": 5.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything personal or give you a quote, can I take your full name and date of birth, please?",
+      "timestamp": "00:19",
+      "reason": "The agent asked for full name and date of birth and confirmed them at 00:33 before discussing any details or quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So before I suggest anything, can you tell me a bit about your situation and what's made you look at cover now?",
+      "timestamp": "00:40",
+      "reason": "The agent asked about circumstances and motivation, then followed up on mortgage term and desired cover before recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "No, the premium's fixed for the whole length of the policy. So it stays at £18 a month for the full twenty years.",
+      "timestamp": "03:00",
+      "reason": "Cover range, no medical exam with health questions, accidental death only in first 12 months, fixed premiums and 30-day cooling-off with full refund all match the product facts. The £18 quote is not contradicted by the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "And honestly, there's no rush today either. If you'd rather talk it over with her first and ring back, that's absolutely fine.",
+      "timestamp": "03:13",
+      "reason": "The agent explicitly removed time pressure and offered the customer time to decide, with no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "fail",
+      "evidence": "Okay. So, do you want to go ahead with it?",
+      "timestamp": "03:32",
+      "reason": "The agent did not summarise the cover amount, term and monthly premium immediately before closing, and the customer's 'I guess so' is not a clear yes. The agent proceeded straight to taking bank details.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm a self-employed sparky. No sick pay, no death-in-service, nothing like that.",
+      "timestamp": "00:48",
+      "reason": "The customer described financial circumstances and a reason for cover but showed no confusion, bereavement, illness or distress, so there were no clear signs of vulnerability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

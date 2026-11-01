@@ -1,0 +1,74 @@
+{
+  "call_id": "call-020",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3378,
+  "output_tokens": 1043,
+  "seconds": 6.4,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know before we go any further, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything specific for you, can I just confirm your full name and date of birth?",
+      "timestamp": "00:20",
+      "reason": "The agent asked for full name and date of birth, the customer gave them, and the agent repeated them back before discussing any quote or details.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, what's got you thinking about life cover at the moment?",
+      "timestamp": "00:36",
+      "reason": "Before recommending cover, the agent asked why the customer wanted it and also asked about dependants, debts, existing cover, the payout purpose and health.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "No, you're fine there. Something like blood pressure that's already managed is covered from day one, so you don't need to worry about that.",
+      "timestamp": "02:31",
+      "reason": "This contradicts the product fact that pre-existing conditions are not covered for the first 2 years. The customer's blood pressure medication is a pre-existing condition, so the agent's statement is wrong and misleading.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "That fifty-eight dollar rate is one I can only hold on this call. If you ring back later in the week it'll go through as a fresh quote and it won't be the same number.",
+      "timestamp": "03:36",
+      "reason": "The customer asked to talk to his partner and sleep on it. The agent created false urgency with a rate that expires, and also discouraged discussing it with his partner, so the customer could not decide in his own time.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Before I finalise, let me run through it so we're both clear. It's Acme Life Cover for <PERSON>, five hundred thousand dollars of cover. It pays out on death, and early if you're diagnosed with a terminal illness with less than twelve months to live. The premium is fifty-eight dollars a month to start, and it's stepped, so it goes up each year with your age. You've got a thirty-day free-look period with a full refund. Are you happy to go ahead on that basis?",
+      "timestamp": "04:37",
+      "reason": "The agent summarised the cover amount, monthly premium and key terms, and the customer gave a clear yes. However, the consent was obtained after misleading statements, and the summary left out the 2-year pre-existing condition exclusion.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm on blood pressure tablets, have been for about three years. <PERSON> says it's under control.",
+      "timestamp": "01:53",
+      "reason": "The customer showed no signs of vulnerability such as confusion, bereavement, serious illness or money worries. Managed blood pressure and a wish not to overpay are not vulnerability indicators.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

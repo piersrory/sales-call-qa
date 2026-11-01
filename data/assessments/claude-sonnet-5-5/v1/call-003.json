@@ -1,0 +1,74 @@
+{
+  "call_id": "call-003",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 2902,
+  "output_tokens": 1040,
+  "seconds": 6.4,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I go into any details or a quote, can I confirm your full name and date of birth, please?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for full name and date of birth and confirmed them before discussing product details or a quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "fail",
+      "evidence": "Honestly, for someone your age, I'd go with five hundred thousand on a 20-year term. That's what most people in your bracket end up choosing, and it's a really solid amount.",
+      "timestamp": "01:27",
+      "reason": "The agent recommended a coverage amount and term without asking about the customer's circumstances or why they wanted cover. The customer pointed this out: 'You don't even know what I do or what I owe.'",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "this rate is only available while we're on this call. If you hang up and call back, it gets re-quoted and it probably won't be ninety-two.",
+      "timestamp": "03:03",
+      "reason": "The agent claimed the price would change if the customer called back, which is not in the product facts and appears invented. The agent also said 'So there's no downside to locking it in now.' The product facts are otherwise correct (term, fixed premium, no medical exam, no cash value, 30-day free look).",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "this rate is only available while we're on this call. If you hang up and call back, it gets re-quoted and it probably won't be ninety-two. People who wait usually end up paying more.",
+      "timestamp": "03:03",
+      "reason": "The agent created false urgency and discouraged the customer from taking time to think or compare. The customer said 'I don't love being rushed.'",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Before I complete this, let me summarise. This is Acme Term Life, five hundred thousand dollars of coverage on a 20-year term. Your premium is ninety-two dollars a month, fixed for the full term. There's no cash value, and you have a 30-day free-look period with a full refund. Do you want to go ahead with this policy?",
+      "timestamp": "04:08",
+      "reason": "The agent summarised the cover and monthly premium and asked directly for a decision. The customer gave a clear yes: 'Yes, I want to go ahead.' The consent was weakened by the earlier pressure, but the consent step itself was met.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm pretty healthy. I'm on my feet all day, I'm an electrician. Self-employed.",
+      "timestamp": "02:33",
+      "reason": "The customer showed no signs of vulnerability such as confusion, bereavement, illness or money worries. They were sceptical and assertive but not vulnerable.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

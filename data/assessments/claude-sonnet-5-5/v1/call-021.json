@@ -1,0 +1,74 @@
+{
+  "call_id": "call-021",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3487,
+  "output_tokens": 993,
+  "seconds": 9.6,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go any further, could I please confirm your full name and your date of birth?",
+      "timestamp": "00:19",
+      "reason": "The agent asked for full name and date of birth before discussing any details or quote, and confirmed they matched.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I talk you through anything, can I ask a bit about your situation and what made you look into life cover?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about the customer's circumstances and reasons, and followed up on existing cover and debts before discussing product options.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "In the first twelve months only accidental death is covered, so if you passed away from an illness in that first year, it wouldn't pay out.",
+      "timestamp": "01:41",
+      "reason": "Cover range, no medical exam, 12-month accidental death only, stepped premiums and 30-day cooling-off with full refund all match the product facts. Quoted premiums are not in the facts and are not contradicted.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's completely fine, there's no rush at all. You can take your time and decide whenever you're ready, or not at all.",
+      "timestamp": "04:57",
+      "reason": "The agent accepted the customer's wish to stop and used no false urgency. Continuing to the health questions at 03:54 and 04:28 was poor handling, but it was not pressure selling.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I think I should stop. I don't think I can take it all in today.",
+      "timestamp": "04:46",
+      "reason": "No sale was made. The customer declined to proceed and the agent only sent documents.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Would you like me to run through the health questions now, so we can see if you'd be accepted? There's only a handful.",
+      "timestamp": "03:54",
+      "reason": "The customer disclosed bereavement two months ago, confusion, memory problems and money worries, yet the agent kept going with quotes and health questions instead of slowing down. The agent did not offer a call back or involve the daughter until the customer asked to stop. The agent only slowed down after the customer said she couldn't take it in at 04:46.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "anything I tell you today is general advice only. It doesn't take into account your personal objectives, financial situation or needs, so you'll need to think about whether it's right for you.",
+      "timestamp": "01:41",
+      "reason": "The agent gave a clear general advice warning before discussing the product.",
+      "evidence_verified": true
+    }
+  ]
+}

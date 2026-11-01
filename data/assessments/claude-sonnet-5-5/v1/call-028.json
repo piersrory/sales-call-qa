@@ -1,0 +1,74 @@
+{
+  "call_id": "call-028",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3117,
+  "output_tokens": 832,
+  "seconds": 5.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we get into anything, can I grab your full name and date of birth, please?",
+      "timestamp": "00:19",
+      "reason": "The agent asked for and confirmed full name and date of birth before discussing any details or the quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "What's got you thinking about life cover now?",
+      "timestamp": "00:38",
+      "reason": "The agent asked why the customer wanted cover and explored mortgage, loans, existing cover and health before recommending $500,000.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Anything you already have, like the asthma, isn't covered for the first two years of the policy.",
+      "timestamp": "02:16",
+      "reason": "Cover range, stepped premiums, 2-year pre-existing exclusion, terminal illness benefit and 30-day free-look all match the product facts. The claim about the rate only being held on the call is a pressure issue and is not covered by the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "the sixty dollars is a rate I can only hold on this call. If you ring back it gets requoted and it's very likely to come in higher.",
+      "timestamp": "03:09",
+      "reason": "The customer asked to talk to their partner first. The agent created false urgency with the claim the rate would rise, saying 'It's really a today thing', and pushed the customer to lock it in now.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Are you happy to go ahead with that?",
+      "timestamp": "03:58",
+      "reason": "The agent summarised the cover, the $60 monthly premium, key exclusions and the free-look period, and the customer gave a clear yes at 04:29. However, the consent followed pressure.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I don't love being rushed, but I don't have time to do this again either.",
+      "timestamp": "03:33",
+      "reason": "The customer showed time pressure and discomfort with being rushed but no signs of vulnerability such as confusion, bereavement, illness or money worries. Mild asthma is not a vulnerability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

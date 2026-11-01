@@ -1,0 +1,74 @@
+{
+  "call_id": "call-037",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3264,
+  "output_tokens": 987,
+  "seconds": 6.4,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Hi, is that <PERSON>? It's <PERSON> calling from Acme Life. You filled in a call-back request on our website last night about our life cover.",
+      "timestamp": "00:00",
+      "reason": "No mention that the call is recorded in the opening lines or anywhere in the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Absolutely, I'll keep it tight. So I've got your form here. You've put down that you're 38, non-smoker, and you were after a quote for around $500,000 of cover.",
+      "timestamp": "00:13",
+      "reason": "The agent discussed the customer's details and quote without confirming full name and date of birth. Only a first-name check was done.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "before I suggest whether $500,000 is the right figure, can I ask a few quick questions about your situation? What's prompting you to look at cover now?",
+      "timestamp": "00:34",
+      "reason": "The agent asked why the customer wants cover and about mortgage, loan and dependants before recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "In the first 12 months, only accidental death is covered. So if you passed away from an illness in that first year, the policy wouldn't pay out.",
+      "timestamp": "02:10",
+      "reason": "Cover range, no medical exam, accidental death only in the first 12 months, stepped premiums and 30-day full refund cooling-off all match the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "No, nothing like that. The quote's based on your age and answers, so take the time you need. There's no pressure to decide on this call.",
+      "timestamp": "04:02",
+      "reason": "The agent denied any urgency, let the customer decide in their own time and encouraged checking super.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "Great. Then I think I'll hold off. I want to look at the super thing and talk to my partner about whether it should be more than five hundred.",
+      "timestamp": "04:12",
+      "reason": "No sale was made, so consent was not required.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Right. That's the bit that worries me. I'm trying to budget the business for the next few years and I don't love something that creeps up.",
+      "timestamp": "03:07",
+      "reason": "The customer showed budgeting concern about the premium increases but no real signs of vulnerability such as confusion, bereavement, illness or hardship.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "I should say that's general information only, it doesn't take into account your full personal circumstances or finances, so you'd want to weigh it up against your own situation.",
+      "timestamp": "01:23",
+      "reason": "The agent gave a clear general advice warning when discussing the cover amount.",
+      "evidence_verified": true
+    }
+  ]
+}

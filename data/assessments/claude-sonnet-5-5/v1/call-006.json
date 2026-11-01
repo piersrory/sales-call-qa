@@ -1,0 +1,74 @@
+{
+  "call_id": "call-006",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3223,
+  "output_tokens": 753,
+  "seconds": 4.7,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Good afternoon, this is <PERSON> calling from Acme Life Cover. I'm returning a call-back request about our life cover. Am I speaking with <PERSON>?",
+      "timestamp": "00:00",
+      "reason": "The agent never says the call is recorded in the opening minute or anywhere else in the call.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go any further, could I just take your full name and date of birth, please?",
+      "timestamp": "00:14",
+      "reason": "The agent asked for full name and date of birth and confirmed they matched before discussing any quote or details.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, can I ask what got you thinking about life cover?",
+      "timestamp": "00:27",
+      "reason": "The agent asked why the customer wanted cover, asked about existing insurance and the sum wanted, all before quoting a price.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "With ours, the premium is fixed for the whole length of the policy.",
+      "timestamp": "02:28",
+      "reason": "Cover range, no medical exam, 12-month accidental-death-only, fixed premium and 30-day full-refund cooling-off all match the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That makes complete sense. It's a big decision, and there's no rush at all.",
+      "timestamp": "04:16",
+      "reason": "The agent encouraged the customer to take time and discuss with her husband and used no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I'll have a proper think.",
+      "timestamp": "04:40",
+      "reason": "No sale was made; the customer decided to think it over, so no consent was required.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I've just retired, I taught primary for thirty-odd years, and I've got three grandchildren now. My pension covers me fine, but I'd like to leave them a little something.",
+      "timestamp": "00:35",
+      "reason": "The customer showed no signs of confusion, bereavement, illness or money worries, so this does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

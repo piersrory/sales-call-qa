@@ -1,0 +1,74 @@
+{
+  "call_id": "call-035",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3079,
+  "output_tokens": 956,
+  "seconds": 6.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we get into any details or a quote, can I get your full name and date of birth, please?",
+      "timestamp": "00:18",
+      "reason": "The agent asked for full name and date of birth before discussing any details or quote, then read them back and the customer confirmed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So I can point you to the right amount of cover, could you tell me a bit about your situation and what's prompting you to look at life insurance?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about the customer's circumstances and reasons, then followed up on mortgage balance, existing cover and term before recommending.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "You can choose cover anywhere from $50,000 up to $750,000. Terms are either 10 or 20 years, and your premium stays fixed for the whole term.",
+      "timestamp": "01:31",
+      "reason": "The agent's statements on coverage range, terms, no medical exam, no cash value and the 30-day free-look refund all match the product facts. The $80 quote is not contradicted by the facts, and no waiting periods or exclusions were invented.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "No rush at all on my end. If you'd prefer to talk it over with your partner first, I can email you the quote and you can come back to it whenever suits you.",
+      "timestamp": "03:51",
+      "reason": "The agent offered time to decide and used no false urgency. The customer chose to proceed because of their own time constraints.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "This is Acme Term Life, $500,000 of coverage over a 20-year term, at $80 a month, and that premium is fixed for the full 20 years. There's no cash value, so if you outlive the term nothing is paid out. You have a 30-day free-look period with a full refund if you change your month. Do you want to go ahead with this policy?",
+      "timestamp": "04:06",
+      "reason": "The agent summarised the cover, term and monthly premium before taking payment details and asked for confirmation, and the customer clearly said yes.",
+      "evidence_verified": false
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I've got maybe ten minutes between meetings, so if we can keep this quick, that'd be great.",
+      "timestamp": "00:09",
+      "reason": "The customer showed no signs of vulnerability such as confusion, bereavement, illness or money worries. Time pressure and a wish for a lower price are not vulnerability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

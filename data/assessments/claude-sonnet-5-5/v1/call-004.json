@@ -1,0 +1,74 @@
+{
+  "call_id": "call-004",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3229,
+  "output_tokens": 909,
+  "seconds": 6.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go any further, could I please confirm your full name and date of birth?",
+      "timestamp": "00:21",
+      "reason": "The agent asked for full name and DOB before discussing any details or quote, and the customer provided them and the agent confirmed the match.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Can I ask roughly how much the mortgage is, and whether you've got any kids or anyone else relying on your income?",
+      "timestamp": "01:03",
+      "reason": "The agent asked why the customer wanted cover, about the mortgage, dependants, existing cover and health before recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "Yes, the benefit is paid out early in that situation, so the money is there when it's needed.",
+      "timestamp": "03:51",
+      "reason": "The agent confirmed the terminal illness benefit pays early but the product facts do not say it is the full amount; this was vague and unverified. Also, the agent's claim that increases in your thirties tend to be fairly gradual is not supported by the product facts, and the quoted $35 premium is not in the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "There's no rush at all from my end. If you'd like to talk it over with her first, I can send you the details and you can call back whenever suits. It's entirely up to you.",
+      "timestamp": "04:06",
+      "reason": "The agent offered time to decide and used no false urgency, although they later asked to go ahead today once the customer declined to wait.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "fail",
+      "evidence": "Great, I'll get that set up for you now. Can I just grab your bank account details for the direct debit?",
+      "timestamp": "04:33",
+      "reason": "The agent did not summarise the cover and monthly premium before completing the sale, and the only consent was a hesitant 'Um... I guess so' in response to 'would you like to go ahead with it today?'.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Totally understandable. There's no rush at all from my end.",
+      "timestamp": "04:06",
+      "reason": "The customer said money is tight and showed hesitancy, wanting to talk to their partner. The agent offered a call back once, but then accepted a hesitant answer and proceeded to take bank details without checking understanding of the stepped premiums or affordability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-013",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3366,
+  "output_tokens": 901,
+  "seconds": 5.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we get into any of your details or a quote, can I please confirm your full name and date of birth?",
+      "timestamp": "00:21",
+      "reason": "The agent asked for full name and date of birth before discussing details or a quote, and confirmed them at 00:39.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, can you tell me a bit about yourself and what's got you thinking about life cover?",
+      "timestamp": "00:39",
+      "reason": "The agent asked about the customer's circumstances and reasons, dependants, existing cover and desired amount before recommending cover at 03:01.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "In the first twelve months, only accidental death is covered.",
+      "timestamp": "02:21",
+      "reason": "The cover range, no medical exam, accidental death only in the first 12 months, stepped premiums and 30-day cooling-off with full refund all match the product facts. The $112 premium is not in the facts but does not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That sounds really sensible. There's no rush at all.",
+      "timestamp": "04:52",
+      "reason": "The agent let the customer take time to discuss with his wife and check his super, with no false urgency, and the customer thanked the agent for not giving a hard sell.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I'll email you the product information along with today's quote.",
+      "timestamp": "05:09",
+      "reason": "No sale was completed. The customer chose to think it over, so explicit consent does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Hmm. That's the bit that worries me a bit. I'm on a fixed income now.",
+      "timestamp": "02:55",
+      "reason": "The customer mentioned a fixed income and some affordability concern, but showed no clear signs of vulnerability such as confusion, bereavement, illness or distress. He was clear and engaged throughout.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "fail",
+      "evidence": "Based on what you've told me, I'd recommend going with the hundred thousand.",
+      "timestamp": "03:01",
+      "reason": "The agent gave a personal recommendation based on the customer's circumstances and never said any advice is general or doesn't take personal circumstances into account.",
+      "evidence_verified": true
+    }
+  ]
+}

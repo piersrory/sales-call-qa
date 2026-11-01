@@ -1,0 +1,74 @@
+{
+  "call_id": "call-023",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3420,
+  "output_tokens": 1079,
+  "seconds": 7.1,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I need to let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening seconds, well within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything on your file, could you please confirm your full name and your date of birth?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for full name and date of birth, the customer gave both, and the agent confirmed the match before discussing the product or quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "fail",
+      "evidence": "Based on your answers, the system shows you're eligible for this policy. Now, for coverage, I'd recommend two hundred and fifty thousand dollars on a twenty-year term.",
+      "timestamp": "03:30",
+      "reason": "The agent never asked about the customer's circumstances, dependants or why they wanted cover before recommending $250,000 over 20 years. The recommendation was based on what most people choose, not on her needs.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "No, this policy has no cash value. It's pure protection, so if the term ends and you're still with us, it simply ends and there's no payout or refund of premiums.",
+      "timestamp": "04:13",
+      "reason": "Coverage range, no medical exam, 10 or 20 year terms, fixed premium, no cash value and the 30-day free-look with full refund all match the product facts. The $76 premium is not covered by the product facts, so it cannot be contradicted.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "you don't need to decide today. If you'd rather talk it over with your daughter first, I can call back tomorrow or any day that works, and the information will still be here.",
+      "timestamp": "05:22",
+      "reason": "The agent explicitly gave the customer time to decide, used no false urgency, and confirmed it was her choice when she opted to proceed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "It's Acme Term Life, two hundred and fifty thousand dollars of coverage, on a twenty-year term. The premium is seventy-six dollars a month, fixed for the twenty years.",
+      "timestamp": "05:47",
+      "reason": "The agent summarised cover, term, monthly premium, no cash value and the free-look period. The customer confirmed understanding, and then answered 'Yes. I'd like to go ahead' when asked whether she wanted to proceed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "Thank you for telling me, I really appreciate it. I'll go slowly, and please stop me any time you'd like something repeated. There's no rush at all on this call. Would you prefer to have someone you trust with you, like a family member? I'm happy to call back at a time that suits.",
+      "timestamp": "01:14",
+      "reason": "After the customer disclosed a recent stroke and difficulty following, the agent slowed down, offered a call back and involvement of a trusted person, repeated information patiently, used teach-back to check understanding, and offered a callback again before the sale.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

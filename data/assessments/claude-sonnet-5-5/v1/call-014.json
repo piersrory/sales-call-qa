@@ -1,0 +1,74 @@
+{
+  "call_id": "call-014",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3520,
+  "output_tokens": 902,
+  "seconds": 6.8,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Hello, is that <PERSON>? It's <PERSON> calling from Acme Life Cover. You filled in a callback request on our website yesterday.",
+      "timestamp": "00:00",
+      "reason": "The agent never confirmed full name and date of birth, yet discussed the customer's details and quote (age, cover amount, £43 a month) from 00:24.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "What made you start looking at life cover?",
+      "timestamp": "00:49",
+      "reason": "Before recommending cover at 01:53, the agent asked why the customer wanted it, then asked about the mortgage, family and existing cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "No, the premium is fixed for the whole length of the policy. If you take it at £43 a month, it stays £43 a month for the full 25 years.",
+      "timestamp": "03:15",
+      "reason": "All statements on cover range, no medical exam, accidental death only in the first 12 months, fixed premiums and the 30-day cooling-off with full refund match the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "No. The quote's there if you want it. If you'd rather talk it over with <PERSON> or look elsewhere, that's completely fine. You can ring back whenever suits you.",
+      "timestamp": "03:45",
+      "reason": "The agent gave no false urgency and invited the customer to decide in their own time. The customer chose to proceed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "It's Acme Life Cover for £250,000 over 25 years, at a fixed £43 a month for the whole term. No medical exam. Only accidental death is covered in the first 12 months, then full cover after that.",
+      "timestamp": "04:49",
+      "reason": "The agent summarised the cover and monthly premium, asked whether the customer was happy to go ahead, and received a clear yes at 05:16.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm on a job at half four so I haven't got all day, and I'm not keen on being sold to.",
+      "timestamp": "00:14",
+      "reason": "The customer showed no confusion, bereavement, illness or money worries, only time pressure and sales reluctance, so there were no signs of vulnerability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

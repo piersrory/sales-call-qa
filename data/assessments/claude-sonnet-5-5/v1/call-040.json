@@ -1,0 +1,74 @@
+{
+  "call_id": "call-040",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3510,
+  "output_tokens": 966,
+  "seconds": 6.4,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just letting you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Am I speaking with <PERSON>?",
+      "timestamp": "00:00",
+      "reason": "The agent confirmed the name, and the customer replied at 00:09 and the agent explained the callback reason at 00:13 (the form and the advert) before asking for full name and date of birth at 00:30. Details of the enquiry were discussed before the full name and DOB check, though no quote was given. This is a minor breach, but the check was not completed before discussing the customer's details.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Can I ask a bit about your situation and what got you thinking about life cover?",
+      "timestamp": "00:46",
+      "reason": "The agent asked about the customer's circumstances and reasons, then asked about the mortgage, work and dependants before recommending $200,000.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Anything related to a pre-existing condition isn't covered for the first two years of the policy.",
+      "timestamp": "02:13",
+      "reason": "Cover range, two-year pre-existing wait, terminal illness benefit, stepped premiums and 30-day free look with full refund all match the product facts. The $72 premium is not contradicted by the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "The thing is, <PERSON>, that seventy-two dollar rate is only something I can hold for you on this call. If we leave it and start again later, I can't promise you'll get the same price.",
+      "timestamp": "03:50",
+      "reason": "The agent created false urgency by saying the rate was only held on the call, then said there was not much to think over, despite the customer saying he wanted to talk to his wife first. The later offer of a callback does not undo the pressure.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I'll call this Thursday at half past two.",
+      "timestamp": "05:42",
+      "reason": "No sale was completed. The customer agreed to a callback with his wife present, so there was nothing to consent to.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "I can hear it's a lot to take in, though. Would it help if I called back when <PERSON>'s with you, or one of your kids, so someone you trust can hear it too?",
+      "timestamp": "05:10",
+      "reason": "The customer showed memory problems, confusion, illness and money worries. The agent slowed down, repeated information, checked understanding with teach-back, and offered a callback with a trusted person. The pressure earlier in the call was a lapse, but the agent corrected course.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

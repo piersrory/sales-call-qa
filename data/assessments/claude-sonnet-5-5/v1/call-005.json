@@ -1,0 +1,74 @@
+{
+  "call_id": "call-005",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3504,
+  "output_tokens": 1073,
+  "seconds": 6.7,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we start, just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:14",
+      "reason": "The agent disclosed recording at 00:14, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we get into any details or a quote, I need to confirm who I'm speaking with. Can I get your full name and date of birth, please?",
+      "timestamp": "00:24",
+      "reason": "The agent asked for full name and date of birth and confirmed a match before discussing details or a quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So tell me a bit about what's going on for you and why you're looking at life cover.",
+      "timestamp": "00:37",
+      "reason": "The agent asked about circumstances and reasons, then asked about the spouse's work, existing cover and debts before recommending cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "In the first 12 months, only accidental death is covered. So if you passed away from an illness in that first year, it wouldn't pay out.",
+      "timestamp": "03:45",
+      "reason": "Statements on cover range, no medical exam, stepped premiums, 12-month accidental-only cover and 30-day cooling-off with full refund all match the product facts. The $78 premium is not contradicted by the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "I'd still recommend getting it started rather than waiting, because that 12-month period only starts once the policy's in place.",
+      "timestamp": "04:08",
+      "reason": "The agent nudged the customer to start now rather than wait, which is mild urgency, although they then said there was no pressure and offered to let him talk to his wife.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "It's Acme Life Cover for $750,000. Your premium is $78 a month to start, and it's stepped, so it'll go up each year as you get older. For the first 12 months only accidental death is covered, and after that it's death from any cause. And you've got a 30-day cooling-off period with a full refund. Are you happy to go ahead on that basis?",
+      "timestamp": "04:46",
+      "reason": "The agent summarised the cover, premium, key limits and cooling-off period, and the customer gave a clear yes at 05:12.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Yeah, that's me. Look, I've only got about ten minutes before I'm back on the tools, so if we can keep it quick, that'd be great.",
+      "timestamp": "00:07",
+      "reason": "The customer showed no signs of vulnerability. He was time-poor but clear and engaged throughout.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "fail",
+      "evidence": "Hi, this is <PERSON> calling from Acme Life. I'm returning a call-back request that came through our website. Is this <PERSON>?",
+      "timestamp": "00:00",
+      "reason": "The agent never said that any advice is general and does not take personal circumstances into account. They gave a personal recommendation of $750,000 at 01:31 with no warning.",
+      "evidence_verified": true
+    }
+  ]
+}

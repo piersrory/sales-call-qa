@@ -1,0 +1,74 @@
+{
+  "call_id": "call-008",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3306,
+  "output_tokens": 854,
+  "seconds": 5.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just before we get going, I need to let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we talk about you or any quotes, can I please confirm your full name and date of birth?",
+      "timestamp": "00:21",
+      "reason": "The agent asked for full name and DOB before discussing details or a quote, and confirmed them after the customer replied.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So tell me a bit about yourself and what's got you thinking about life cover now?",
+      "timestamp": "00:37",
+      "reason": "The agent explored circumstances, mortgage, dependants, existing cover and goals before recommending an amount at 02:01.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Pre-existing medical conditions aren't covered for the first two years of the policy.",
+      "timestamp": "02:51",
+      "reason": "Cover range, stepped premiums, 2-year pre-existing exclusion, terminal illness benefit and 30-day free-look all match the product facts. The $35 premium is not contradicted by the facts given.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's completely up to you, <PERSON>. There's no rush on my end. I can email you the quote and you can have a kōrero with her and call back whenever suits.",
+      "timestamp": "04:08",
+      "reason": "The agent offered time to decide and used no false urgency. The customer chose to proceed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Are you happy to go ahead on that basis?",
+      "timestamp": "04:45",
+      "reason": "The agent summarised cover amount, monthly premium, stepped increases, exclusion, terminal illness benefit and free-look, and the customer clearly said yes at 05:18.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "Fair enough. Do you have any other life cover, maybe through work or KiwiSaver?",
+      "timestamp": "01:47",
+      "reason": "The customer showed signs of vulnerability (a recent health diagnosis and tight money). The agent slowed down, explained the exclusion clearly and checked understanding, and offered time and a call back so the customer could talk to his wife. The customer said they had already discussed it with her.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

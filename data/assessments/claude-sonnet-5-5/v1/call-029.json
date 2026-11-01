@@ -1,0 +1,74 @@
+{
+  "call_id": "call-029",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3310,
+  "output_tokens": 1017,
+  "seconds": 7.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just before we get started, I need to let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything specific for you, can I please confirm your full name and date of birth?",
+      "timestamp": "00:24",
+      "reason": "The agent asked for full name and date of birth, and the customer provided them before any quote or personal details were discussed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Can I ask what's got you thinking about life cover, and a bit about your situation? Do you have a family or anyone relying on your income?",
+      "timestamp": "01:02",
+      "reason": "The agent asked about the customer's reasons and circumstances, and about existing cover, before quoting or recommending an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "The main thing to know is that for the first 12 months, only accidental death is covered.",
+      "timestamp": "02:05",
+      "reason": "The cover range, no medical exam, 12-month accidental-death-only limit, stepped premiums and 30-day cooling-off with full refund all match the product facts. The agent did not invent figures for future premium increases.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "So would you like to go ahead with it today?",
+      "timestamp": "04:48",
+      "reason": "The agent had said there was no pressure, but then prompted the hesitant customer to buy on the spot. The customer had said \"I dunno\" and had not yet discussed it with his partner, so the agent should have let him decide in his own time.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "fail",
+      "evidence": "Great, I'll get that set up for you now. Can I grab the bank account or card you'd like the payments to come from?",
+      "timestamp": "04:55",
+      "reason": "The agent never summarised the cover amount and monthly premium before completing the sale. The only consent was a hesitant \"Yeah... I guess so\", which is not a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm a sparky, self-employed. Partner and two little ones, three and one. We've got a mortgage, about four-fifty left on it.",
+      "timestamp": "01:10",
+      "reason": "The customer showed no clear signs of vulnerability such as confusion, bereavement, illness or money worries. His financial concern was about protecting his family, not distress, so this item does not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "Just so you know, anything I tell you today is general advice only. It doesn't take your personal objectives, financial situation or needs into account, so you'll want to weigh up whether it suits you.",
+      "timestamp": "00:41",
+      "reason": "The agent clearly gave the general advice warning early in the call, before discussing any cover.",
+      "evidence_verified": true
+    }
+  ]
+}

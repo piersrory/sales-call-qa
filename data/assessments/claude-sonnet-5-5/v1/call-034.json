@@ -1,0 +1,74 @@
+{
+  "call_id": "call-034",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3626,
+  "output_tokens": 848,
+  "seconds": 5.3,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, well within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "So I can look at anything specific to you, could I take your full name and date of birth, please?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for full name and date of birth and confirmed them at 00:40 before discussing the product or any quote.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I tell you anything about the product, could you tell me a bit about what made you think about life cover?",
+      "timestamp": "00:40",
+      "reason": "The agent asked why the customer wanted cover, then asked about funeral costs, mortgage and debts, and budget, all before explaining the product.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "There's no medical exam, you'd just answer a few health questions and acceptance depends on those. And the monthly premium is fixed, so it stays the same for the whole length of the policy.",
+      "timestamp": "03:00",
+      "reason": "Cover range, no medical exam, accidental-death-only for the first 12 months, fixed premiums and the 30-day cooling-off with full refund all match the product facts. No price was quoted.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "But please don't feel you need to decide anything today.",
+      "timestamp": "05:20",
+      "reason": "The agent repeatedly said there was no rush, offered a call back and written information, and created no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "n/a",
+      "evidence": "I think I'll leave it for now and talk to <PERSON> first.",
+      "timestamp": "05:50",
+      "reason": "No sale was made, as the customer chose to wait, so consent to complete a sale did not apply.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "pass",
+      "evidence": "That's absolutely fine. It's a lot to take in, especially with everything you're going through. Would it help to have <PERSON> with you when we talk about it? I'd be very happy to call back at a time when she can be there too.",
+      "timestamp": "04:46",
+      "reason": "The customer showed recent bereavement, confusion and money worries. The agent slowed down, checked understanding with teach-back, and offered a call back with his daughter present and information by post.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

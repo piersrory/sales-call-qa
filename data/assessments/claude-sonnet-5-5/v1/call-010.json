@@ -1,0 +1,74 @@
+{
+  "call_id": "call-010",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3028,
+  "output_tokens": 848,
+  "seconds": 5.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for training and quality purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed call recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I look at anything personal or a quote, can I take your full name and date of birth, please?",
+      "timestamp": "00:22",
+      "reason": "The agent asked for full name and date of birth before discussing details or a quote, and the customer provided both.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "So, tell me a bit about your situation. You mentioned the mortgage. What's prompting you to look at cover now?",
+      "timestamp": "00:38",
+      "reason": "The agent asked about circumstances, reasons, dependants and existing cover before suggesting an amount.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "No, the premium is fixed for the whole length of the policy, so it'd be £39 a month for the full 25 years.",
+      "timestamp": "02:54",
+      "reason": "Statements on cover range, no medical exam, accidental death only in the first 12 months, fixed premiums and the 30-day full-refund cooling-off all match the product facts. The £39 price is not covered by the facts and does not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "If you'd like to think it over, or talk it through with <PERSON>, that's absolutely fine. The quote's there whenever you're ready.",
+      "timestamp": "03:27",
+      "reason": "The agent invited the customer to take their time and used no false urgency. The customer chose to proceed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Are you happy to go ahead on that basis?",
+      "timestamp": "04:01",
+      "reason": "The agent summarised the cover amount, term, monthly premium, exclusion and cooling-off before asking for agreement, and the customer clearly said yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Hi, yeah, I saw your advert online for life cover and thought I'd give you a ring. We've just got the keys to our first place, so it's been on my list.",
+      "timestamp": "00:12",
+      "reason": "The customer showed no signs of vulnerability such as confusion, bereavement, illness or money worries. Mild surprise at the price is not vulnerability.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

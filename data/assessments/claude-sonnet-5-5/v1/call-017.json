@@ -1,0 +1,74 @@
+{
+  "call_id": "call-017",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3584,
+  "output_tokens": 946,
+  "seconds": 6.5,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we get into your details or any quotes, could I please confirm your full name and date of birth?",
+      "timestamp": "00:19",
+      "reason": "The agent asked for full name and DOB before discussing details or quotes, and the customer provided both.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "do you mind if I ask a little about your situation and what's got you thinking about life insurance?",
+      "timestamp": "00:33",
+      "reason": "The agent asked about circumstances and motivation, plus existing cover and desired amount, before quoting.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "in the first twelve months of the policy, only accidental death is covered.",
+      "timestamp": "02:10",
+      "reason": "Cover range, no medical exam, accidental-death-only first 12 months, stepped premiums and 30-day cooling-off with full refund all match the product facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "fail",
+      "evidence": "It's entirely up to you whether you go ahead today or have a think first. Would you like me to set it up now?",
+      "timestamp": "04:30",
+      "reason": "The agent said there was no rush earlier, but after the customer wanted to talk to his wife the agent pushed to set up the policy immediately, and the customer gave only a hesitant 'I guess so'. This undermines the customer's ability to decide in his own time.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "fail",
+      "evidence": "Lovely. I'll just need your payment details. Will that be a bank account or a card?",
+      "timestamp": "04:40",
+      "reason": "The agent never summarised the cover and monthly premium before completing the sale, and accepted a hesitant 'Uh... I guess so' as consent rather than a clear yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Lovely. I'll just need your payment details. Will that be a bank account or a card?",
+      "timestamp": "04:40",
+      "reason": "The customer showed signs of uncertainty and financial concern (on a pension, wanting to consult his wife who handles the budget, hesitant agreement). The agent did not check understanding or offer a call back at that point, and proceeded with the sale.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "pass",
+      "evidence": "anything I tell you today is general advice only, and it doesn't take into account your personal objectives, financial situation or needs",
+      "timestamp": "01:33",
+      "reason": "The agent clearly gave the general advice warning.",
+      "evidence_verified": true
+    }
+  ]
+}

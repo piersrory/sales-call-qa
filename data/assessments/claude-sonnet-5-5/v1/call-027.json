@@ -1,0 +1,74 @@
+{
+  "call_id": "call-027",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3566,
+  "output_tokens": 991,
+  "seconds": 7.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "Perfect. I've got it up here. So it's <PERSON>, you're fifty-four, non-smoker, living in Mississauga, and you were looking at around a hundred and fifty thousand dollars of cover.",
+      "timestamp": "00:17",
+      "reason": "The agent never asked for the customer's full name and date of birth. They went straight into the customer's details and quote, reading them out instead of having the customer confirm identity.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before we get into that, can I ask what got you thinking about life insurance right now?",
+      "timestamp": "00:40",
+      "reason": "The agent asked why the customer wanted cover, then asked about dependents, the mortgage balance and existing coverage before recommending the ten-year term.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Whichever term you pick, the premium is fixed for the whole term, so it won't go up partway through.",
+      "timestamp": "02:25",
+      "reason": "Cover range, terms, no medical exam with health questions, fixed premiums, no cash value and the 30-day free look with full refund all match the product facts. The $33 price is consistent with the online estimate.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "If you'd like to think it over or compare, that's absolutely fine. The quote isn't going anywhere today, and you're welcome to talk it over with your husband first.",
+      "timestamp": "04:40",
+      "reason": "The agent offered time to think and to consult the husband, and created no false urgency. The customer chose to proceed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Great. Before I finalize it, let me summarize. This is Acme Term Life, a hundred and fifty thousand dollars of coverage for a ten-year term, at thirty-three dollars a month, fixed for the full ten years. There's no cash value, and you have thirty days to cancel for a full refund. Would you like to go ahead with that?",
+      "timestamp": "05:17",
+      "reason": "The agent summarised the cover, term and monthly premium before completing the sale and asked for confirmation. The customer clearly said yes.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "Well, honestly, I went to my doctor last month and found out I have high blood pressure. It kind of shook me.",
+      "timestamp": "00:52",
+      "reason": "The customer mentioned a recent diagnosis and worry, but showed no real vulnerability such as confusion or distress. They were clear, engaged and decisive, so this does not apply. The agent still offered time to think.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}

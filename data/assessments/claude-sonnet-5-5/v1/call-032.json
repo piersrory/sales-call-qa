@@ -1,0 +1,74 @@
+{
+  "call_id": "call-032",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3257,
+  "output_tokens": 942,
+  "seconds": 5.9,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Just so you know, this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before we go into any details or a quote, can I please get your full name and date of birth?",
+      "timestamp": "00:21",
+      "reason": "The agent asked for full name and DOB before any product or quote discussion and the customer provided them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "fail",
+      "evidence": "For most people your age, I'd recommend around three hundred thousand. That's a solid amount and it's where most of our customers land.",
+      "timestamp": "00:47",
+      "reason": "The agent recommended a cover amount without asking about the customer's circumstances or why they wanted cover; the moko motivation only emerged later from the customer.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "Cover goes from fifty thousand to a million, and I'd suggest three hundred thousand dollars. Now, the premiums are stepped, which means they go up each year as you get older.",
+      "timestamp": "01:17",
+      "reason": "Cover range, stepped premiums, terminal illness benefit, two-year pre-existing exclusion and 30-day free look all match the product facts; the $113 premium is not contradicted by the facts.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's completely fine. There's no pressure from me, the quote isn't going anywhere. You're welcome to have a think, talk to whānau, and call us back whenever suits.",
+      "timestamp": "03:35",
+      "reason": "When the customer hesitated, the agent invited them to take their time and offered a call back, with no false urgency.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "You're taking out Acme Life Cover for three hundred thousand dollars. The premium is one hundred and thirteen dollars a month to start, and it's stepped, so it'll increase each year as you get older.",
+      "timestamp": "04:16",
+      "reason": "The agent summarised cover, monthly premium and key terms, then asked if the customer was happy to go ahead and received a clear yes at 05:00.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "Three hundred is a good middle ground, it's what I'd go with.",
+      "timestamp": "03:06",
+      "reason": "The customer disclosed a stroke and memory difficulty and repeatedly needed things repeated, but the agent did not slow down, check understanding, or offer a call back or to involve a trusted person until the customer had already decided. The agent also pushed a recommendation when the customer said they did not know what they needed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the NZ market.",
+      "evidence_verified": null
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "call_id": "call-026",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3340,
+  "output_tokens": 1110,
+  "seconds": 9.2,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "fail",
+      "evidence": "Hello, is that <PERSON>? It's <PERSON> calling from Acme Life Cover. You filled in a form on our website asking for a call back about life cover.",
+      "timestamp": "00:00",
+      "reason": "The agent never says the call is recorded, in the first minute or anywhere else in the call. The opening lines go straight to the web form.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "fail",
+      "evidence": "I've got your form in front of me. It says you're sixty-six, living in Leicester, non-smoker, and you were interested in somewhere around twenty-five to thirty thousand pounds of cover.",
+      "timestamp": "00:14",
+      "reason": "The agent discusses the customer's details and later gives a quote without confirming her full name and date of birth. The agent only asks 'is that <PERSON>?' and reads out details from the form.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "Before I talk about any quotes, can I ask a bit about you and what's made you think about cover? It helps me work out whether this is even the right thing for you.",
+      "timestamp": "00:30",
+      "reason": "Before recommending cover, the agent asks why she wants it. The agent also asks about existing cover, debts and budget.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "pass",
+      "evidence": "No, the premium is fixed for the whole length of the policy. If it starts at fifteen pounds a month, it stays at fifteen pounds a month.",
+      "timestamp": "02:42",
+      "reason": "Everything the agent says matches the product facts: the £25,000 to £500,000 range, no medical exam, accidental death only in the first 12 months, fixed premiums and the 30-day full-refund cooling-off period. The £15 a month quote is not covered by the product facts, so it does not contradict them.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "That's completely fair. There's no rush at all. If you'd rather think it over, talk to your family, I can send you the details and you can come back to us whenever you're ready. The price won't disappear tomorrow.",
+      "timestamp": "03:36",
+      "reason": "The agent invites the customer to take her time and creates no false urgency. She chooses to continue herself.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "So before we go any further, let me just summarise. It's Acme Life Cover, twenty-five thousand pounds of cover, at fifteen pounds a month, and that premium is fixed for the whole policy.",
+      "timestamp": "04:47",
+      "reason": "The agent summarises the cover, the monthly premium and the key terms, then asks 'Are you happy to go ahead with that?' The customer replies 'Yes, I'd like to go ahead.'",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "fail",
+      "evidence": "I'm on a fixed income now.",
+      "timestamp": "01:41",
+      "reason": "The customer shows possible vulnerability: she is retired on a fixed income, widowed, and 'a bit wary, I've never bought anything like this over the phone.' The agent does respond by saying there is no rush and offering to send details so she can talk to family. However, the agent does not check her understanding or offer a call back, and carries on with the sale in the same call.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the UK market.",
+      "evidence_verified": null
+    }
+  ]
+}

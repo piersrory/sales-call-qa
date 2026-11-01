@@ -1,0 +1,74 @@
+{
+  "call_id": "call-015",
+  "model": "claude-sonnet-5-5",
+  "prompt_version": "v1",
+  "input_tokens": 3691,
+  "output_tokens": 881,
+  "seconds": 6.0,
+  "verdicts": [
+    {
+      "criterion": "recording_disclosure",
+      "verdict": "pass",
+      "evidence": "Before we go any further, I should let you know this call is recorded for quality and training purposes.",
+      "timestamp": "00:00",
+      "reason": "The agent disclosed recording in the opening turn, within the first minute.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "identity_check",
+      "verdict": "pass",
+      "evidence": "Before I pull up anything about your request, can I just confirm your full name and date of birth, please?",
+      "timestamp": "00:25",
+      "reason": "The agent asked for full name and date of birth, and the customer provided both before any details or quote were discussed.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "needs_assessment",
+      "verdict": "pass",
+      "evidence": "can you tell me a bit about your situation and what got you thinking about life insurance?",
+      "timestamp": "00:40",
+      "reason": "The agent asked about circumstances and motivation, then explored the mortgage and dependants before recommending cover.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "accurate_product_info",
+      "verdict": "fail",
+      "evidence": "the thirty-day free-look starts from when you receive them.",
+      "timestamp": "06:20",
+      "reason": "The product facts state only a 30-day free-look period with a full refund, with no start date given. The agent's claim that it starts on receipt of the documents is not supported by the product facts. The other statements on coverage range, terms, fixed premiums, no exam, no cash value and refund match.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "no_pressure_selling",
+      "verdict": "pass",
+      "evidence": "And there's no rush today either. If you'd like to talk it over with your partner or your accountant first, I'm happy to send the details and you can call back whenever suits you.",
+      "timestamp": "04:48",
+      "reason": "The agent offered time to decide, with no false urgency, and the customer decided independently.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "explicit_consent",
+      "verdict": "pass",
+      "evidence": "Acme Term Life, five hundred thousand dollars of coverage, twenty-year term, sixty-five dollars a month, fixed for the term. No cash value, so nothing is paid out if you outlive the term. And you have thirty days to cancel for a full refund. Do you want to go ahead with this policy?",
+      "timestamp": "05:13",
+      "reason": "The agent summarised cover, term and monthly premium and asked directly. The customer replied with a clear yes at 05:36.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "vulnerability_handling",
+      "verdict": "n/a",
+      "evidence": "I'm a self-employed electrician, so there's no group benefits, nothing through an employer.",
+      "timestamp": "00:52",
+      "reason": "The customer showed no signs of confusion, bereavement, illness or financial distress. The mortgage concern is ordinary financial planning.",
+      "evidence_verified": true
+    },
+    {
+      "criterion": "general_advice_warning",
+      "verdict": "n/a",
+      "evidence": "",
+      "timestamp": "",
+      "reason": "Doesn't apply in the CA market.",
+      "evidence_verified": null
+    }
+  ]
+}
