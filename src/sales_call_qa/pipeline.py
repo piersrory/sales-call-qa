@@ -8,10 +8,12 @@ from psycopg.types.json import Jsonb
 import logging
 
 import anthropic
+import httpx
 
 from sales_call_qa.assess import assess, format_transcript, redacted_turns
 from sales_call_qa.schemas import Call, AssessmentRecord
 from sales_call_qa.vapi import call_from_vapi
+from sales_call_qa.alerts import alert
 
 log = logging.getLogger(__name__)
 
@@ -125,3 +127,16 @@ async def process_call(payload: dict) -> None:
         log.exception("%s: assessment failed", call.call_id)
         with psycopg.connect(DATABASE_URL) as conn:
             set_status(conn, call.call_id, "failed", str(e))
+    except (
+        Exception
+    ) as e:  # any failure must be recorded, or the call looks stuck forever
+        log.exception("%s: assessment failed", call.call_id)
+        with psycopg.connect(DATABASE_URL) as conn:
+            set_status(conn, call.call_id, "failed", str(e))
+        return
+    # Outside the try above: the assessment is already saved, so a Slack outage
+    # must not mark it failed
+    try:
+        await alert(record)
+    except httpx.HTTPError:
+        log.exception("%s: Slack alert failed", call.call_id)
