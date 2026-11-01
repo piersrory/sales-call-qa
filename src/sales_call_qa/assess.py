@@ -1,22 +1,21 @@
-from sales_call_qa.schemas import Call, Assessment
-from sales_call_qa.generate_calls import REPO_ROOT
-from sales_call_qa.redact import redact
-from sales_call_qa.rubric import RUBRIC, Criterion
-from sales_call_qa.markets import Market, PRODUCTS
 import asyncio
 import logging
+import time
+
 import anthropic
 import pydantic
-
-from sales_call_qa.generate_calls import (
-    DEFAULT_MODEL,
-    MAX_ATTEMPTS,
-    REPO_ROOT,
-    fallback_options,
-)
 from dotenv import load_dotenv
 
+from sales_call_qa.generate_calls import DEFAULT_MODEL, MAX_ATTEMPTS, REPO_ROOT, fallback_options
+from sales_call_qa.markets import PRODUCTS, Market
+from sales_call_qa.redact import redact
+from sales_call_qa.rubric import RUBRIC, Criterion
+from sales_call_qa.schemas import Assessment, AssessmentRecord, Call, ItemVerdict, Verdict
+
 log = logging.getLogger(__name__)
+
+PROMPT_VERSION = "v1"  # bump whenever SYSTEM_PROMPT or build_prompt changes
+ASSESSMENTS_DIR = REPO_ROOT / "data" / "assessments"
 
 
 SYSTEM_PROMPT = """
@@ -121,12 +120,56 @@ async def assess_call(client: anthropic.AsyncAnthropic, call: Call, model: str):
     return None
 
 
+def with_market_rows(call: Call, assessment: Assessment) -> list[ItemVerdict]:
+    """Add an n/a row for each criterion that doesn't apply in this call's market, so every
+    call ends up with one row per rubric criterion, in rubric order."""
+    applicable = {c.id for c in applicable_criteria(call.market)}
+    verdicts = list(assessment.verdicts) + [
+        ItemVerdict(
+            criterion=c.id,
+            verdict=Verdict.NOT_APPLICABLE,
+            evidence="",
+            timestamp="",
+            reason=f"Doesn't apply in the {call.market} market.",
+        )
+        for c in RUBRIC
+        if c.id not in applicable
+    ]
+    order = [c.id for c in RUBRIC]
+    return sorted(verdicts, key=lambda v: order.index(v.criterion) if v.criterion in order else len(order))
+
+
+async def assess_and_save(client: anthropic.AsyncAnthropic, call: Call, model: str) -> AssessmentRecord | None:
+    start = time.perf_counter()
+    response = await assess_call(client, call, model)
+    seconds = time.perf_counter() - start  # includes any retries, so it's what a caller waits
+    if response is None:
+        return None
+    record = AssessmentRecord(
+        call_id=call.call_id,
+        model=response.model,
+        prompt_version=PROMPT_VERSION,
+        input_tokens=response.usage.input_tokens,
+        output_tokens=response.usage.output_tokens,
+        seconds=round(seconds, 1),
+        verdicts=with_market_rows(call, response.parsed_output),
+    )
+    out_dir = ASSESSMENTS_DIR / model / PROMPT_VERSION
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / f"{call.call_id}.json").write_text(record.model_dump_json(indent=2))
+    return record
+
+
 async def main():
     load_dotenv(REPO_ROOT / ".env")
+    logging.basicConfig(level=logging.WARNING, format="%(message)s")
+    log.setLevel(logging.INFO)
     async with anthropic.AsyncAnthropic(max_retries=5) as client:
-        response = await assess_call(client, load_call("call-001"), DEFAULT_MODEL)
-        for v in response.parsed_output.verdicts:
+        record = await assess_and_save(client, load_call("call-002"), DEFAULT_MODEL)
+    if record:
+        for v in record.verdicts:
             print(v.verdict, v.criterion, v.timestamp, v.evidence[:60])
+        print(f"{record.input_tokens} in, {record.output_tokens} out, {record.seconds}s")
 
 
 if __name__ == "__main__":

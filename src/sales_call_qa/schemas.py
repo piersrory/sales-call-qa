@@ -57,3 +57,16 @@ class ItemVerdict(BaseModel):
 
 class Assessment(BaseModel):
     verdicts: list[ItemVerdict]
+
+
+class AssessmentRecord(BaseModel):
+    """What gets saved for each assessed call: the verdicts plus how they were produced,
+    so runs with different models or prompt versions can be compared on accuracy and cost."""
+
+    call_id: str
+    model: str  # the model that answered, which can differ from the one asked if it fell back
+    prompt_version: str
+    input_tokens: int
+    output_tokens: int
+    seconds: float
+    verdicts: list[ItemVerdict]  # one per rubric criterion, in rubric order
