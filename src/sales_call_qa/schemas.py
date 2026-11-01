@@ -59,6 +59,13 @@ class Assessment(BaseModel):
     verdicts: list[ItemVerdict]
 
 
+class CheckedVerdict(ItemVerdict):
+    """A verdict as saved: what Claude said, plus whether code found its evidence in the
+    transcript. Kept separate from ItemVerdict so Claude is never asked to mark its own work."""
+
+    evidence_verified: bool | None  # None when there's no evidence to check (market n/a rows)
+
+
 class AssessmentRecord(BaseModel):
     """What gets saved for each assessed call: the verdicts plus how they were produced,
     so runs with different models or prompt versions can be compared on accuracy and cost."""
@@ -69,4 +76,4 @@ class AssessmentRecord(BaseModel):
     input_tokens: int
     output_tokens: int
     seconds: float
-    verdicts: list[ItemVerdict]  # one per rubric criterion, in rubric order
+    verdicts: list[CheckedVerdict]  # one per rubric criterion, in rubric order

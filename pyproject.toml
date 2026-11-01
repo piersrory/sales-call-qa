@@ -20,6 +20,7 @@ dependencies = [
 
 [project.scripts]
 generate-calls = "sales_call_qa.generate_calls:main"
+assess-calls = "sales_call_qa.assess:main"
 
 [build-system]
 requires = ["uv_build>=0.11.26,<0.12.0"]
