@@ -2,6 +2,8 @@
 
 Automated QA for life insurance sales calls: Claude checks every call against a compliance rubric, quotes the evidence, and flags breaches for a person to review.
 
+**[▶ 5-minute walkthrough on Loom](https://www.loom.com/share/d12948276d1e4fd08b4ffb1d61ef9dd1)**: a breach caught and sent to Slack, the pipeline behind it, and how it was measured.
+
 | Set-up | Breaches caught (recall) | Flags that were real (precision) | Quotes verified | Cost per call | Seconds per call |
 |---|---|---|---|---|---|
 | **Claude Haiku 5.5, prompt v2 (chosen)** | **100%** (38/38) | **83%** (38/46) | 98% | $0.0015 | 9.8 |
@@ -108,7 +110,7 @@ Run `uv run evaluate` (or `--version v2`) to regenerate these tables and list ev
 
 ## What I'd do next with real data
 
-- Replace the fake test set with calls a compliance reviewer has labelled, and re-measure recall and precision per item.
+- Replace the made-up rubric with the criteria the compliance team already uses, have reviewers label a sample of real calls against them, and re-measure recall and precision per item.
 - Agree with compliance whether money worries alone count as vulnerability; it's where most remaining false alarms are, and it's a rubric question before it's a model question.
 - Add a review step where reviewers agree with or overturn each flag, and feed overturned verdicts back as new labels.
 - Strengthen redaction with names mentioned during the call and a test set of names from every market, and switch the webhook to HMAC signatures.
@@ -116,11 +118,19 @@ Run `uv run evaluate` (or `--version v2`) to regenerate these tables and list ev
 
 ## What I learned
 
-<!-- In your own words: VAPI from scratch, and what surprised you. For example, that the first thing the evaluation showed was false alarms, not misses; that a live call arrived with an empty secret header until the credential was attached, found by logging header names; or that redaction and the identity check pull against each other. -->
+- **The evaluation surprised me.** I expected the problem to be missed breaches. It was false alarms: Haiku caught every breach but flagged 26 that weren't there. Reading the disagreements, rather than just the score, is what showed me the cause and the one-line fix.
+- **A bigger model isn't automatically better.** Sonnet was more precise but missed a breach Haiku caught, at ten times the cost.
+- **"Exact quotes" from a model need checking.** Claude rewrote a redacted name back into a "verbatim" quote. Without the check in code, I'd never have known.
+- **Redaction is a trade-off, and it's uneven.** It blanked "12 months" and "30-day" until I narrowed it, missed casual names like "g'day Jack", and recognised a Māori name less reliably than English ones. In a market like New Zealand, that's a fairness problem as well as a technical one.
+- **VAPI from scratch.** Setting up the voice agent, the webhook and a tunnel took an afternoon. The tricky part wasn't the code but the plumbing: another service on my laptop was already using the port, and a live call arrived with an empty secret header until I attached a credential in VAPI. Logging the header names, never the values, showed me what was actually arriving.
+- **The rules belong to compliance, not the engineer.** My rubric is made up. With real data, the first step is their criteria and their reviewers' labels; the rubric is just data, so swapping it in doesn't change the pipeline.
 
 ## How I built it
 
-<!-- In your own words: how you used Claude Code, and at least one place you overruled it or caught something it got wrong. -->
+I built it over a weekend with Claude Code as a pair programmer, working from a written plan with a "done when" check for each step.
+- **I wrote much of the core myself,** with Claude explaining concepts and reviewing my code: loading calls, building the prompt from the rubric and product facts, adapting the API call and its error handling from the generator, and typing out and debugging the SQL. For other parts, such as the evaluation script and the quote check, Claude wrote the code and walked me through it step by step until I could explain each decision.
+- **I tested each step before moving on,** with a checkpoint I could run, and every change is in a small commit, with secret scanning on each one.
+- **Where I pushed back: **I spotted the "g'day Jack" name the redaction missed, which led to always redacting the known names on a call. And when claude suggested having compliance label real calls, it also assumed the rubric I used was real, when it had been faked based on assumptions in insurance sells. The rubric also needs to be validate by real QA. That changed how I describe the next step.
 
 ## How to run it
 
