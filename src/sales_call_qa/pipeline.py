@@ -127,12 +127,6 @@ async def process_call(payload: dict) -> None:
         log.exception("%s: assessment failed", call.call_id)
         with psycopg.connect(DATABASE_URL) as conn:
             set_status(conn, call.call_id, "failed", str(e))
-    except (
-        Exception
-    ) as e:  # any failure must be recorded, or the call looks stuck forever
-        log.exception("%s: assessment failed", call.call_id)
-        with psycopg.connect(DATABASE_URL) as conn:
-            set_status(conn, call.call_id, "failed", str(e))
         return
     # Outside the try above: the assessment is already saved, so a Slack outage
     # must not mark it failed
