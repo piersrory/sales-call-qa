@@ -19,7 +19,7 @@ from sales_call_qa.generate_calls import REPO_ROOT
 from sales_call_qa.rubric import RUBRIC
 from sales_call_qa.schemas import AssessmentRecord, Verdict
 
-# Dollars per million tokens (input, output), from the guide's section 13.2, October 2026.
+# Dollars per million tokens (input, output), from Anthropic's pricing page, October 2026.
 # Check current prices before quoting costs.
 PRICES = {
     "claude-haiku-5-5": (0.10, 0.50),
